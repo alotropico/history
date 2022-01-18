@@ -1,0 +1,103 @@
+{
+  "info": {
+    "name": "Other Greek states"
+  },
+  "items": [
+    {
+      "tax": "source",
+      "name": "Hesiod",
+      "desc": "Hesiod was an ancient Greek poet generally thought to have been active between 750 and 650 BC, around the same time as Homer. He is generally regarded as the first written poet in the Western tradition to regard himself as an individual persona with an active role to play in his subject. Ancient authors credited Hesiod and Homer with establishing Greek religious customs. Modern scholars refer to him as a major source on Greek mythology, farming techniques, early economic thought, archaic Greek astronomy and ancient time-keeping.",
+      "place": "Cyme",
+      "events": [{ "name": "Theogony", "start": -750 }]
+    },
+    {
+      "tax": "source",
+      "name": "Homer",
+      "desc": "Homer was an ancient Greek author and epic poet. He is the reputed author of the Iliad and the Odyssey, the two epic poems that are the foundational works of ancient Greek literature. He is regarded as one of the greatest and most influential authors of all time.",
+      "events": [
+        { "name": "Iliad", "start": -750 },
+        { "name": "Odyssey", "start": -700 }
+      ]
+    },
+    {
+      "tax": "source",
+      "name": "Herodotus",
+      "desc": "Greek writer, geographer, and historian born in the Greek city of Halicarnassus, part of the Persian Empire (now Bodrum, Turkey). He is known for having written the Histories – a detailed account of the Greco-Persian Wars. Herodotus was the first writer to do systematic investigation of historical events. He is referred to as \"The Father of History\", a title conferred on him by the ancient Roman orator Cicero.",
+      "start": -484,
+      "end": -425,
+      "place": "Halicarnassus"
+    },
+    {
+      "tax": "source",
+      "name": "Ephorus",
+      "desc": "Ephorus of Cyme was an ancient Greek historian known for his universal history.",
+      "start": -400,
+      "end": -330,
+      "place": "Cyme"
+    },
+    {
+      "name": "Pelopidas",
+      "desc": "Pelopidas (/pəˈlɒpɪdəs/; Greek: Πελοπίδας; died 364 BC) was an important Theban statesman and general in Greece, instrumental in establishing the mid-fourth century Theban hegemony.",
+      "end": -364,
+      "place": "Thebes"
+    },
+    {
+      "name": "Epaminondas",
+      "desc": "Epaminondas (/ɪˌpæmɪˈnɒndəs/; Greek: Ἐπαμεινώνδας; 419/411–362 BC) was a Greek general of Thebes and statesman of the 4th century BC who transformed the Ancient Greek city-state of Thebes, leading it out of Spartan subjugation into a pre-eminent position in Greek politics called the Theban Hegemony. In the process, he broke Spartan military power with his victory at Leuctra and liberated the Messenian helots, a group of Peloponnesian Greeks who had been enslaved under Spartan rule for some 230 years after being defeated in the Messenian War ending in 600 BC. Epaminondas reshaped the political map of Greece, fragmented old alliances, created new ones, and supervised the construction of entire cities. He was also militarily influential and invented and implemented several major battlefield tactics.",
+      "start": -419,
+      "end": -362,
+      "place": "Thebes"
+    },
+    {
+      "tax": "source",
+      "name": "Aristotle",
+      "desc": "Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the Aristotelian tradition. His writings cover many subjects including physics, biology, zoology, metaphysics, logic, ethics, aesthetics, poetry, theatre, music, rhetoric, psychology, linguistics, economics, politics, meteorology, geology and government. Aristotle provided a complex synthesis of the various philosophies existing prior to him. It was above all from his teachings that the West inherited its intellectual lexicon, as well as problems and methods of inquiry. As a result, his philosophy has exerted a unique influence on almost every form of knowledge in the West and it continues to be a subject of contemporary philosophical discussion.",
+      "start": -384,
+      "end": -322,
+      "place": "Stagira"
+    },
+    {
+      "tax": "source",
+      "name": "Callisthenes",
+      "desc": "Callisthenes of Olynthus was a well-connected Greek historian in Macedon, who accompanied Alexander the Great during the Asiatic expedition. The philosopher Aristotle was Callisthenes' great uncle.",
+      "start": -360,
+      "end": -327,
+      "place": "Olynthus"
+    },
+    {
+      "tax": "source",
+      "name": "Polybius",
+      "desc": "Polybius was a Greek historian of the Hellenistic period. He is noted for his work The Histories, which covered the period of 264–146 BC and the Punic Wars in detail.",
+      "start": -200,
+      "end": -118,
+      "place": "Megalopolis"
+    },
+    {
+      "tax": "source",
+      "name": "Posidonius",
+      "fullName": "Posidonius of Rhodes",
+      "desc": "Posidonius \"of Apameia\" or \"of Rhodes\" (c. 135 – c. 51 BC), was a Greek politician, astronomer, astrologer, geographer, historian, mathematician, and teacher native to Apamea, Syria. He was considered the most learned man of his time and, possibly, of the entire Stoic school. After a period learning Stoic philosophy from Panaetius in Athens, he spent many years in travel and scientific researches in Spain, Africa, Italy, Gaul, Liguria, Sicily and on the eastern shores of the Adriatic. He settled as a teacher at Rhodes where his fame attracted numerous scholars. Next to Panaetius he did most, by writings and personal lectures, to spread Stoicism to the Roman world, and he became well known to many leading men, including Pompey and Cicero.",
+      "start": -135,
+      "end": -51,
+      "place": "Apamea"
+    },
+    {
+      "tax": "source",
+      "name": "Diodorus",
+      "fullName": "Diodorus Siculus of Sicily",
+      "desc": "Diodorus Siculus, or Diodorus of Sicily (Greek: Διόδωρος Diodoros; fl. 1st century BC), was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BC. The history is arranged in three parts. The first covers mythic history up to the destruction of Troy, arranged geographically, describing regions around the world from Egypt, India and Arabia to Europe. The second covers the time from the Trojan War to the death of Alexander the Great. The third covers the period to about 60 BC. Bibliotheca, meaning 'library', acknowledges that he was drawing on the work of many other authors.",
+      "start": -90,
+      "end": -30,
+      "place": "Sicily"
+    },
+    {
+      "tax": "source",
+      "name": "Dionysius",
+      "fullName": "Dionysius of Halicarnassus",
+      "desc": "Dionysius of Halicarnassus of Halikarnassos''; c.  60 BC – after 7 BC) was a Greek historian and teacher of rhetoric, who flourished during the reign of Augustus Caesar. His literary style was atticistic – imitating Classical Attic Greek in its prime.",
+      "start": -60,
+      "end": -7,
+      "place": "Halicarnassus"
+    }
+  ]
+}

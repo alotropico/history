@@ -1,0 +1,25 @@
+{
+  "info": {
+    "name": "Sparta"
+  },
+  "items": [
+    {
+      "name": "Cleomenes I",
+      "desc": "Cleomenes I was King of Sparta between c. 524 to c. 490 BC. One of the most important Spartan kings, Cleomenes was instrumental in organising the Greek resistance against the Persian Empire of Darius, as well as shaping the geopolitical balance of Classical Greece.",
+      "end": -490,
+      "events": [{ "name": "King of Sparta", "start": -519, "end": "end" }]
+    },
+    {
+      "name": "Leonidas I",
+      "desc": "Leonidas I was a king of the Greek city-state of Sparta, and the 17th of the Agiad line, a dynasty which claimed descent from the mythological demigod Heracles and Cadmus. Leonidas I was son of King Anaxandridas II. He succeeded his half-brother King Cleomenes I to the throne in c. 489 BC. His co-ruler was King Leotychidas. He was succeeded by his son, King Pleistarchus.",
+      "start": -540,
+      "end": -480,
+      "events": [{ "name": "King of Sparta", "start": -489, "end": "end" }]
+    },
+    {
+      "name": "Brasidas",
+      "desc": "Brasidas was the most distinguished Spartan officer during the first decade of the Peloponnesian War.[1] He died during the Second Battle of Amphipolis while winning one of his most spectacular victories.",
+      "end": -422
+    }
+  ]
+}
