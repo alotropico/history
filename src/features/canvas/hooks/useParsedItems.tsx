@@ -1,26 +1,34 @@
 import { IItems, SpatialItems } from '../types'
 
-export default function useParsedItems(items: IItems, start, end): SpatialItems {
-  return insertSpatialData(getItemsByScope(items, start, end))
+export default function useParsedItems(items: IItems, start, end): [SpatialItems, number] {
+  const scopedItems = getItemsByScope(items, start, end)
+  return insertSpatialData(scopedItems, start, end)
 }
 
+// Get only items between 'start' and 'end' dates
 function getItemsByScope(items, start, end): IItems {
   return items.filter((item) => item.e > start && item.s < end)
 }
 
-function insertSpatialData(items) {
-  let s = 0
-  let b = 0
-  return items.map((item) => {
-    const [spatial, sn, bn] = getSpatialData(item, s, b)
-    s = sn
-    b = bn
+// Insert spatial data into each item
+function insertSpatialData(items, start, end): [SpatialItems, number] {
+  const layers: any = []
+  const lapse = end - start
+
+  const spatialItems = items.map((item) => {
+    const layer = layers.findIndex((l) => item.s >= l)
+    const spatial = {
+      b: layer >= 0 ? layer : layers.length,
+      l: round((item.s - start) / lapse),
+      w: round((item.s - start + (item.e - item.s)) / lapse),
+    }
+    layers[spatial.b] = item.e
     return { ...item, spatial }
   })
+
+  return [spatialItems, layers.length]
 }
 
-function getSpatialData(item, s, b) {
-  s = s + (item.e - item.s)
-  b++
-  return [{ s, b }, s, b]
+function round(n) {
+  return Math.round(n * 1000) / 1000
 }

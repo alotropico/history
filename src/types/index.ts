@@ -29,5 +29,9 @@ export type IItem = DbItem &
     dates: string
   }
 export type SpatialItem = IItem & {
-  spatial: any
+  spatial: {
+    b: number
+    l: number
+    w: number
+  }
 }
