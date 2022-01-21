@@ -1,5 +1,5 @@
 import { RowProps } from '../types'
-import style from '../style/Row.module.scss'
+import style from '../style/DataTable.module.scss'
 
 export default function Row(props: RowProps) {
   const { type, set, name, fullName, tax, place, s, e, sd, ed, dates } = props

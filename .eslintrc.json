@@ -23,7 +23,6 @@
         "react/react-in-jsx-scope": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "react/prop-types": "off",
-        "spaced-comment": ["error", "always"],
-        "semicolon": false
+        "spaced-comment": ["warn", "always"]
     }
 }

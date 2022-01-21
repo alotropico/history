@@ -4,6 +4,6 @@
   "tabWidth": 2,
   "jsxSingleQuote": true,
   "bracketSameLine": true,
-  "printWidth": 150,
+  "printWidth": 120,
   "endOfLine": "auto"
 }
