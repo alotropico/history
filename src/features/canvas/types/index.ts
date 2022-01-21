@@ -1,10 +1,10 @@
-import { IItem } from '../../../types'
+import { DataItem } from '../../../types'
 import { SpatialItem } from '../../../types'
 
-export type IItems = IItem[]
+export type DataItems = DataItem[]
 
-export type ICanvas = {
-  items: IItems
+export type CanvasProps = {
+  items: DataItems
 }
 
 export type SpatialItems = SpatialItem[]

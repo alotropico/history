@@ -1,5 +1,5 @@
 type ItemTypes = 'person' | 'battle' | 'period' | 'event' | string
-export type IEvent = {
+export type ItemEvent = {
   name: string
   start?: number | 'end' | string
   end?: number | 'end' | string
@@ -11,7 +11,7 @@ export type DbItem = {
   fullName?: string
   start?: number
   end?: number
-  events?: IEvent[]
+  events?: ItemEvent[]
   desc?: string
   place?: string
   set: string
@@ -22,13 +22,13 @@ export type RenderItem = {
   sd?: boolean
   ed?: boolean
 }
-export type IItem = DbItem &
+export type DataItem = DbItem &
   RenderItem & {
     id: number
     type: ItemTypes
     dates: string
   }
-export type SpatialItem = IItem & {
+export type SpatialItem = DataItem & {
   spatial: {
     b: number
     l: number

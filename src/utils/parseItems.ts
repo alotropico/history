@@ -1,13 +1,13 @@
-import { DbItem, IItem } from '../types'
+import { DbItem, DataItem } from '../types'
 
-export default function parseItems(items: DbItem[]): IItem[] {
+export default function parseItems(items: DbItem[]): DataItem[] {
   return items
     .map((item, i) => parseItem(item, i))
     .sort((a, b) => sortByNumericValue('e', a, b))
     .sort((a, b) => sortByNumericValue('s', a, b))
 }
 
-function parseItem(item: DbItem, i): IItem {
+function parseItem(item: DbItem, i): DataItem {
   const type = item?.type || 'person'
   const { s, e, sd, ed } = getDatePoints(item?.start, item?.end, item?.events || [], type)
   return {

@@ -1,7 +1,7 @@
-import { IItem } from '../../../types'
+import { DataItem } from '../../../types'
 
-export type IDataTable = {
-  items: IItem[]
+export type DataTableProps = {
+  items: DataItem[]
 }
 
-export type IRow = IItem
+export type RowProps = DataItem

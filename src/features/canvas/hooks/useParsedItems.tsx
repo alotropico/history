@@ -1,12 +1,12 @@
-import { IItems, SpatialItems } from '../types'
+import { DataItems, SpatialItems } from '../types'
 
-export default function useParsedItems(items: IItems, start, end): [SpatialItems, number] {
+export default function useParsedItems(items: DataItems, start, end): [SpatialItems, number] {
   const scopedItems = getItemsByScope(items, start, end)
   return insertSpatialData(scopedItems, start, end)
 }
 
 // Get only items between 'start' and 'end' dates
-function getItemsByScope(items, start, end): IItems {
+function getItemsByScope(items, start, end): DataItems {
   return items.filter((item) => item.e > start && item.s < end)
 }
 
