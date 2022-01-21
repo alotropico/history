@@ -1,7 +1,8 @@
-import { IItem } from '../../../types'
+import { IRow } from '../types'
 import style from '../style/Row.module.scss'
 
-export default function Row({ type, set, name, fullName, tax, place, s, e, sd, ed, dates }: IItem) {
+export default function Row(props: IRow) {
+  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates } = props
   const datePoints = [s, e].filter((a) => a).join(' | ')
   const datePointsBlur = [sd, ed].join(' | ')
   return (
