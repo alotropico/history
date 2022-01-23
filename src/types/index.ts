@@ -30,8 +30,14 @@ export type DataItem = DbItem &
   }
 export type SpatialItem = DataItem & {
   spatial: {
+    i: number
     b: number
     l: number
     w: number
+    h: number
   }
 }
+
+export type DataItems = DataItem[]
+
+export type SpatialItems = SpatialItem[]

@@ -1,17 +1,12 @@
 import useItems from './api/useItems'
 import parseItems from './utils/parseItems'
-import Canvas from './features/canvas'
+import Board from './features/board'
 
-function App() {
+export default function App() {
   const items = parseItems(useItems())
   return (
-    <div className='App'>
-      <header>
-        <h2>Items: {items.length}</h2>
-      </header>
-      <Canvas items={items} />
-    </div>
+    <>
+      <Board items={items} />
+    </>
   )
 }
-
-export default App

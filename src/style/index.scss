@@ -1,3 +1,7 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -25,4 +29,19 @@ table {
 
 h2 {
   padding: 0 .8rem;
+}
+
+html, body {
+  height: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &:before {
+    content: '';
+    display: block;
+    clear: both;
+  }
 }

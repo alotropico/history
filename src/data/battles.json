@@ -1,0 +1,52 @@
+{
+  "info": {
+    "name": "Battles"
+  },
+  "items": [
+    {
+      "type": "battle",
+      "name": "Chaeronea",
+      "fullName": "Battle of Chaeronea",
+      "desc": "The Battle of Chaeronea was fought in 338 BC, near the city of Chaeronea in Boeotia, between an alliance of Greek city-states led by Macedonia under Philip II and an alliance of some of the other Greek city-states led by Athens and Thebes. The battle was the culmination of Philip's final campaigns in 339–338 BC and resulted in a decisive victory for the Macedonians and their allies.",
+      "start": -338
+    },
+    {
+      "type": "battle",
+      "name": "Gaugamela",
+      "fullName": "Battle of Gaugamela",
+      "desc": "The Battle of Gaugamela (/ˌɡɔːɡəˈmiːlə/; Greek: Γαυγάμηλα), also called the Battle of Arbela (Greek: Ἄρβηλα), was a battle that took place in 331 BC between the forces of the Army of Macedon under Alexander the Great and the Persian Army under King Darius III. It was the second and final battle between the two kings, and is considered to be the final blow to the Achaemenid Empire, resulting in its complete conquest by Alexander.\nThe fighting took place in Gaugamela, which literally meant \"The Camel's House\", a village on the banks of the river Bumodus. The area today would be considered modern-day northern Iraq. Alexander's army was heavily outnumbered and modern historians say that \"the odds were enough to give the most experienced veteran pause\". Despite the overwhelming odds, Alexander's army emerged victorious due to the employment of superior tactics and the clever usage of light infantry forces. It was a decisive victory for the League of Corinth, and it led to the fall of Achaemenid Empire and of Darius III.",
+      "start": -331
+    },
+    {
+      "type": "battle",
+      "name": "Ipsus",
+      "fullName": "Battle of Ipsus",
+      "desc": "The Battle of Ipsus was fought between some of the Diadochi in 301 BC near the town of Ipsus in Phrygia. Antigonus I Monophthalmus, ruler of Phrygia, and his son Demetrius I of Macedon were pitted against the coalition of three other successors of Alexander: Cassander, ruler of Macedon; Lysimachus, ruler of Thrace; and Seleucus I Nicator, ruler of Babylonia and Persia. Only one of these leaders, Lysimachus, had actually been one of Alexander's somatophylakes, that is \"body guards.\"",
+      "start": -301
+    },
+    {
+      "type": "battle",
+      "name": "Corupedium",
+      "fullName": "Battle of Corupedium",
+      "desc": "The Battle of Corupedium, also called Koroupedion, Corupedion or Curupedion was the last battle between the Diadochi, the rival successors to Alexander the Great. It was fought in 281 BC between the armies of Lysimachus and Seleucus I Nicator.",
+      "start": -281
+    },
+    {
+      "type": "battle",
+      "name": "Pydna",
+      "fullName": "Battle of Pydna",
+      "desc": "The Battle of Pydna took place in 168 BC between Rome and Macedon during the Third Macedonian War. The battle saw the further ascendancy of Rome in the Hellenistic world and the end of the Antigonid line of kings, whose power traced back to Alexander the Great. The battle is also considered to be a victory of the Roman legion's manipular system's flexibility over the Macedonian phalanx's rigidity.\nThis was not the final conflict between the two rivals, but it broke the back of Macedonian power. The Battle of Pydna and its political aftermath mark the effective end of Macedonian independence, although formal annexation was still some years away.\nThe political consequences of the lost battle were severe. Perseus later surrendered to Paullus, and was paraded in triumph in Rome in chains. He was then imprisoned. The Senate's settlement included the deportation to Italy of many of the king's friends[13] and the imprisonment of Perseus at Alba Fucens.\nThe Macedonian kingdom was dissolved, its government replaced with four republics which were heavily restricted from intercourse or trade with one another. In time, these were also dissolved, and Macedonia became a Roman province. In 167 BC, Paullus received orders to attack Epirus, resulting in the enslavement of 150,000 Epirotes and the sacking of 70 cities.[15] This took place because the Molossians, one tribe of the Epirote League, had sent aid to Perseus, but all the Epirotes suffered alike in the Roman attack.",
+      "start": -168
+    },
+    {
+      "type": "battle",
+      "name": "Cleopatra VII",
+      "fullName": "Cleopatra VII Philopator",
+      "desc": "Queen of the Ptolemaic Kingdom of Egypt and its last active ruler. A member of the Ptolemaic dynasty, she was a descendant of its founder Ptolemy I Soter, a Macedonian Greek general and companion of Alexander the Great. After the death of Cleopatra, Egypt became a province of the Roman Empire, marking the end of the second to last Hellenistic state and the age that had lasted since the reign of Alexander. Her native language was Koine Greek, and she was the only Ptolemaic ruler to learn the Egyptian language.",
+      "start": -69,
+      "end": -30,
+      "set": "Egypt",
+      "events": [{ "name": "Queen of Egypt", "start": -51, "end": "end" }]
+    }
+  ]
+}

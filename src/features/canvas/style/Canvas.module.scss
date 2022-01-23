@@ -1,17 +1,9 @@
 .canvas {
-  padding: .4rem;
-}
-.item {
-  display: flex;
-  gap: .4rem;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: .4rem;
-
-  & > * {
-    flex: 1 1 100%;
-    align-items: center;
-    padding: .2rem .4rem;
-    background-color: #efefef;
-  }
+  position: relative;
+  flex-grow: 1;
+  margin: 1rem 1rem .75rem;
+  overflow: hidden;
+  overflow-x: auto;
+  font-size: 14px;
+  font-family: monospace;
 }

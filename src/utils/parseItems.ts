@@ -5,6 +5,7 @@ export default function parseItems(items: DbItem[]): DataItem[] {
     .map((item, i) => parseItem(item, i))
     .sort((a, b) => sortByNumericValue('e', a, b))
     .sort((a, b) => sortByNumericValue('s', a, b))
+  // .sort((a, b) => sortByValue('set', a, b))
 }
 
 function parseItem(item: DbItem, i): DataItem {
@@ -57,6 +58,10 @@ function datesToString(start, end): string {
   start ? dates.push(start) : dates.push('unknown')
   end && dates.push(end)
   return dates.every((d) => d === 'unknown') ? 'unknown dates' : dates.map((y) => parseYear(y)).join(' - ')
+}
+
+function sortByValue(value, a, b): number {
+  return a?.[value] == b?.[value] ? 0 : a?.[value] > b?.[value] ? 1 : -1
 }
 
 function sortByNumericValue(value, a, b): number {
