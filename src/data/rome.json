@@ -1,0 +1,106 @@
+{
+  "info": {
+    "name": "Rome",
+    "color": "ab9740",
+    "lightColor": "ebac91"
+  },
+  "items": [
+    {
+      "name": "Romulus",
+      "end": -716,
+      "events": [
+        {
+          "name": "King of Rome",
+          "start": -753,
+          "end": "end"
+        }
+      ]
+    },
+    {
+      "name": "Scipio",
+      "fullName": "Publius Cornelius Scipio Africanus",
+      "start": -236,
+      "end": -183
+    },
+
+    {
+      "name": "Saturninus",
+      "fullName": "Lucius Appuleius Saturninus",
+      "end": -100
+    },
+    {
+      "name": "Marius",
+      "fullName": "Gaius Marius",
+      "start": -157,
+      "end": -86,
+      "events": [
+        {
+          "name": "Military career",
+          "start": -134,
+          "end": -87
+        }
+      ]
+    },
+    {
+      "name": "Numidicus",
+      "fullName": "Quintus Caecilius Metellus Numidicus",
+      "start": -155,
+      "end": -91
+    },
+    {
+      "name": "Sulla",
+      "fullName": "Lucius Cornelius Sulla Felix",
+      "start": -138,
+      "end": -78,
+      "events": [
+        {
+          "name": "Dictator of Rome",
+          "start": -82,
+          "end": -79
+        }
+      ]
+    },
+
+    {
+      "name": "Pompey",
+      "fullName": "Gnaeus Pompeius Magnus",
+      "start": -106,
+      "end": -48,
+      "events": [
+        {
+          "name": "Military career",
+          "start": -89,
+          "end": -48
+        }
+      ]
+    },
+
+    {
+      "name": "Julius Caesar",
+      "fullName": "Gaius Julius Caesar",
+      "start": -100,
+      "end": -44,
+      "events": [
+        {
+          "name": "Military career",
+          "start": -81,
+          "end": "end"
+        }
+      ]
+    },
+
+    {
+      "name": "Augustus",
+      "fullName": "Caesar Augustus (Gaius Octavius, Gaius Julius Caesar Octavianus)",
+      "start": -63,
+      "end": 14,
+      "events": [
+        {
+          "name": "Roman emperor",
+          "start": -27,
+          "end": "end"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,19 @@
 type ItemTypes = 'person' | 'battle' | 'period' | 'event' | string
+export type DbSet = {
+  info: {
+    name: string
+    color?: string
+    lightColor?: string
+    children?: {
+      name: string
+      color?: string
+      lightColor?: string
+    }[]
+  }
+  items: DbItem[]
+}
 export type ItemEvent = {
-  name: string
+  name?: string
   start?: number | 'end' | string
   end?: number | 'end' | string
 }
@@ -14,7 +27,8 @@ export type DbItem = {
   events?: ItemEvent[]
   desc?: string
   place?: string
-  set: string
+  set?: string
+  theme?: any
 }
 export type RenderItem = {
   s?: number
@@ -24,11 +38,13 @@ export type RenderItem = {
 }
 export type DataItem = DbItem &
   RenderItem & {
-    id: number
+    id: string
     type: ItemTypes
     dates: string
+    theme?: any
   }
 export type SpatialItem = DataItem & {
+  set: string
   spatial: {
     i: number
     b: number

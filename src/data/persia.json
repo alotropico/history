@@ -1,0 +1,62 @@
+{
+  "info": {
+    "name": "Darius",
+    "color": "b95e75",
+    "lightColor": "e7a3b4"
+  },
+  "items": [
+    {
+      "name": "Cyrus I",
+      "fullName": "Cyrus I of Anshan",
+      "end": -580,
+      "event": {
+        "name": "King of Kings of the Achaemenid Empire",
+        "start": -600,
+        "end": "end"
+      }
+    },
+    {
+      "name": "Cyrus the Great",
+      "fullName": "Cyrus II the Great of Persia",
+      "start": -600,
+      "end": -530,
+      "event": {
+        "name": "King of Kings of the Achaemenid Empire",
+        "start": -559,
+        "end": "end"
+      }
+    },
+    {
+      "name": "Darius I",
+      "fullName": "Darius I the Great",
+      "start": -550,
+      "end": -486,
+      "event": {
+        "name": "King of Kings of the Achaemenid Empire",
+        "start": -522,
+        "end": "end"
+      }
+    },
+    {
+      "name": "Xerxes I",
+      "fullName": "Xerxes the Great",
+      "start": -518,
+      "end": -465,
+      "event": {
+        "name": "King of Kings of the Achaemenid Empire",
+        "start": -486,
+        "end": "end"
+      }
+    },
+    {
+      "name": "Darius III",
+      "start": -380,
+      "end": -330,
+      "event": {
+        "name": "King of Kings of the Achaemenid Empire",
+        "start": -336,
+        "end": "end"
+      }
+    }
+  ]
+}

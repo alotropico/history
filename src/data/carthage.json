@@ -1,0 +1,36 @@
+{
+  "info": {
+    "name": "Carthage",
+    "color": "b55052",
+    "lightColor": "e7a3b4"
+  },
+  "items": [
+    {
+      "name": "Mago I",
+      "fullName": "Mago I of Carthage",
+      "events": [
+        {
+          "name": "King of Carthage",
+          "start": -550,
+          "end": -530
+        }
+      ]
+    },
+    {
+      "name": "Hamilcar I",
+      "fullName": "Hamilcar I of Carthage",
+      "events": [
+        {
+          "name": "King of Carthage",
+          "start": -510,
+          "end": -480
+        }
+      ]
+    },
+    {
+      "name": "Hannibal",
+      "start": -247,
+      "end": -181
+    }
+  ]
+}

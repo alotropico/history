@@ -1,8 +1,21 @@
 {
   "info": {
-    "name": "Sparta"
+    "name": "Sparta",
+    "color": "8373d3",
+    "lightColor": "c4bceb"
   },
   "items": [
+    {
+      "tax": "source",
+      "name": "Alcman",
+      "desc": "Back then Sparta had poets, like Alcman.",
+      "place": "Sardis",
+      "events": [
+        {
+          "start": -600
+        }
+      ]
+    },
     {
       "name": "Cleomenes I",
       "desc": "Cleomenes I was King of Sparta between c. 524 to c. 490 BC. One of the most important Spartan kings, Cleomenes was instrumental in organising the Greek resistance against the Persian Empire of Darius, as well as shaping the geopolitical balance of Classical Greece.",

@@ -1,23 +1,65 @@
-.set- {
-  &macedon > * {
-    background-color: beige;
+.item {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  cursor: pointer;
+
+  &:hover, &:focus {
+    z-index: 2;
+
+    .item_wrapper {
+      &::after {
+        opacity: 1;
+      }
+    }
   }
-  &athens > * {
-    background-color: skyblue;
+
+  &_wrapper {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background-color: #333;
+    border-radius: 3px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: rgba(black, .2);
+      border-radius: 3px;
+      opacity: 0;
+      transition: opacity .3s ease-out;
+    }
   }
-  &other-greek-states > * {
-    background-color: green;
+
+  &_name {
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    flex: 1 0 auto;
+    padding: 0 .25rem;
+    user-select: none;
   }
-  &rome > * {
-    background-color: orange;
-  }
-  &seleucus > * {
-    background-color: red;
-  }
-  &egypt > * {
-    background-color: violet;
-  }
-  &sparta > * {
-    background-color: blue;
+
+  &_set-- {
+    &macedon > * {
+    }
+    &athens > * {
+    }
+    &other-greek-states > * {
+    }
+    &rome > * {
+    }
+    &seleucus > * {
+    }
+    &egypt > * {
+    }
+    &sparta > * {
+    }
   }
 }
+

@@ -1,9 +1,12 @@
 import { DataItems, SpatialItems } from '../../../types'
+import { useRenderItemsRet } from '../types'
 
-export default function useRenderItems(items: DataItems, start, end): SpatialItems {
+export default function useRenderItems(items: DataItems, forcedStart = null, forcedEnd = null): useRenderItemsRet {
+  const start = forcedStart || items.reduce((a: any, item) => (!a || (item?.s && a > item.s) ? item.s : a), null)
+  const end = forcedEnd || items.reduce((a: any, item) => (!a || (item?.e && a < item.e) ? item.e : a), null)
   const scopedItems = getItemsByScope(items, start, end)
   const [parsedItems, layers] = insertSpatialData(scopedItems, start, end)
-  return parsedItems
+  return [parsedItems, start, end]
 }
 
 // Get only items between 'start' and 'end' dates
@@ -17,13 +20,18 @@ function insertSpatialData(items, start, end): [SpatialItems, number] {
   const lapse = end - start
 
   const spatialItems = items.map((item) => {
-    const layer = layers.findIndex((l) => item.s >= l)
+    const layer = layers.findIndex((l) => !l.length || l.every((chunk) => item.s >= chunk[1] || item.e <= chunk[0]))
+
     const spatial = {
       i: layer >= 0 ? layer : layers.length,
       l: toPercentage((item.s - start) / lapse),
       w: toPercentage((item.e - item.s) / lapse),
     }
-    layers[spatial.i] = item.e
+
+    // Push this item into the corresponding layers cache
+    if (!layers?.[spatial.i]) layers[spatial.i] = []
+    layers[spatial.i].push([item.s, item.e])
+
     return { ...item, spatial }
   })
 

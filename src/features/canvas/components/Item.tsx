@@ -1,12 +1,11 @@
 import { SpatialItem } from '../../../types'
-import style from '../style/Item.module.scss'
 
-export default function Item(props: SpatialItem) {
-  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial } = props
+export default function Item(props: SpatialItem & { i: number }) {
+  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i } = props
 
   const title = `${fullName || name} ${dates && `(${dates})`}`
 
-  const setClass = `set-${set.toLowerCase().replaceAll(' ', '-')}`
+  const setClass = `item_set--${set.toLowerCase().replaceAll(' ', '-')}`
 
   const itemStyle = {
     left: spatial.l + '%',
@@ -15,10 +14,19 @@ export default function Item(props: SpatialItem) {
     bottom: spatial.b + '%',
   }
 
+  const wrapperStyle = {
+    background: theme.background,
+  }
+
   return (
-    <div className={[style.item, setClass].join(' ')} style={itemStyle} title={title}>
-      <div className={style.wrapper}>
-        <div className={style.name}>{name}</div>
+    <div
+      className={['item', setClass].join(' ')}
+      style={itemStyle}
+      title={title}
+      tabIndex={i}
+      onFocus={() => console.log(title)}>
+      <div style={wrapperStyle} className={'item_wrapper'}>
+        <div className={'item_name'}>{name}</div>
       </div>
     </div>
   )

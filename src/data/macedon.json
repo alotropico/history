@@ -1,6 +1,20 @@
 {
   "info": {
-    "name": "Macedon"
+    "name": "Macedon",
+    "color": "57a165",
+    "lightColor": "b9d9bf",
+    "children": [
+      {
+        "name": "Seleucus",
+        "color": "96cb97",
+        "lightColor": "377038"
+      },
+      {
+        "name": "Egypt",
+        "color": "ccefb8",
+        "lightColor": "789567"
+      }
+    ]
   },
   "items": [
     {
@@ -349,7 +363,7 @@
     {
       "name": "Olympias",
       "desc": "Olympias was the eldest daughter of king Neoptolemus I of Epirus, the sister of Alexander I of Epirus, the fourth wife of Philip II, the king of Macedonia and the mother of Alexander the Great. She was extremely influential in Alexander's life and was recognized as de facto leader of Macedon during Alexander's conquests. After her son's death, she fought on behalf of Alexander's son Alexander IV, successfully defeating Adea Eurydice. After she was finally defeated by Cassander, his armies refused to execute her, and he finally had to summon family members of those Olympias had previously killed to end her life. According to the 1st century AD biographer, Plutarch, she was a devout member of the orgiastic snake-worshiping cult of Dionysus, and he suggests that she slept with snakes in her bed.",
-      "start": -357,
+      "start": -375,
       "end": -316,
       "events": [{ "name": "Queen of Macedon", "start": -375, "end": "end" }]
     },
@@ -378,6 +392,20 @@
       "start": -343,
       "end": -263,
       "events": [{ "name": "King of Pergamon", "start": -282, "end": "end" }]
+    },
+    {
+      "name": "Cleopatra",
+      "fullName": "Cleopatra VII Philopator",
+      "start": -69,
+      "end": -29,
+      "set": "Egypt",
+      "events": [
+        {
+          "name": "Queen of Egypt",
+          "start": -51,
+          "end": -30
+        }
+      ]
     }
   ]
 }

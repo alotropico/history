@@ -1,11 +1,13 @@
 {
   "info": {
-    "name": "Athens"
+    "name": "Athens",
+    "color": "4098bb",
+    "lightColor": "a9def3"
   },
   "items": [
     {
       "name": "Draco",
-      "desc": "Solon was an Athenian statesman, lawmaker and poet. He is remembered particularly for his efforts to legislate against political, economic and moral decline in archaic Athens. His reforms failed in the short term, yet he is often credited with having laid the foundations for Athenian democracy. He wrote poetry for pleasure, as patriotic propaganda, and in defence of his constitutional reform.",
+      "desc": "The first recorded legislator of Athens in Ancient Greece. He replaced the prevailing system of oral law and blood feud by a written code to be enforced only by a court of law.",
       "end": -600,
       "events": [{ "name": "Draconian constitution", "start": -622 }]
     },

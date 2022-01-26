@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Other peoples"
+  },
+  "items": [
+    {
+      "name": "Vercingetorix",
+      "desc": "Was a king and chieftain of the Arverni tribe who united the Gauls in a failed revolt against Roman forces during the last phase of Julius Caesar's Gallic Wars. Despite having willingly surrendered to Caesar, he was executed in Rome.",
+      "start": -82,
+      "end": -46
+    },
+    {
+      "name": "Jesus",
+      "start": -4,
+      "end": -30
+    }
+  ]
+}
