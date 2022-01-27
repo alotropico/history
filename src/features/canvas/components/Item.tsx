@@ -1,4 +1,6 @@
+import { useContext } from 'react'
 import { SpatialItem } from '../../../types'
+import { BoardContext } from '../../board'
 
 export default function Item(props: SpatialItem & { i: number }) {
   const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i } = props
@@ -6,6 +8,8 @@ export default function Item(props: SpatialItem & { i: number }) {
   const title = `${fullName || name} ${dates && `(${dates})`}`
 
   const setClass = `item_set--${set.toLowerCase().replaceAll(' ', '-')}`
+
+  const setSelected = useContext(BoardContext)
 
   const itemStyle = {
     left: spatial.l + '%',
@@ -24,7 +28,7 @@ export default function Item(props: SpatialItem & { i: number }) {
       style={itemStyle}
       title={title}
       tabIndex={i}
-      onFocus={() => console.log(title)}>
+      onClick={() => setSelected(props)}>
       <div style={wrapperStyle} className={'item_wrapper'}>
         <div className={'item_name'}>{name}</div>
       </div>

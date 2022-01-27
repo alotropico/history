@@ -8,6 +8,7 @@
     {
       "name": "Romulus",
       "end": -716,
+      "desc": "Legendary founder and first king of Rome, believe it or not. The birth of Romulus and his brother Remus is the result of the rape of their mother, a priestess, by Mars. They were raised by a she-wolf, as you may expect. Things ended badly for Remus.",
       "events": [
         {
           "name": "King of Rome",
@@ -17,8 +18,9 @@
       ]
     },
     {
-      "name": "Scipio",
+      "name": "Africanus",
       "fullName": "Publius Cornelius Scipio Africanus",
+      "desc": "The guy who gets the credit for Rome's victory in the Punic Wars. Some say he is the best general in history. Eventually, Publius Cornelius Scipio Africanus got tired of being treated poorly by the senate and went to a villa.",
       "start": -236,
       "end": -183
     },
@@ -26,11 +28,13 @@
     {
       "name": "Saturninus",
       "fullName": "Lucius Appuleius Saturninus",
+      "desc": "Dirty guy. Two times tribune of the pleb. He played on Marius side, until Marius dropped him. After his goons alegedly killed Gaius Memmius, Saturninus ended up stoned to death by other members of the political aristocracy.",
       "end": -100
     },
     {
       "name": "Marius",
       "fullName": "Gaius Marius",
+      "desc": "Beast. Held the office of consul 7 times.",
       "start": -157,
       "end": -86,
       "events": [
@@ -44,6 +48,7 @@
     {
       "name": "Numidicus",
       "fullName": "Quintus Caecilius Metellus Numidicus",
+      "desc": "Personally, I like him. Having gone through all the honors, he was voluntarily exiled to the lands of poetry, by none other than Saturninus.",
       "start": -155,
       "end": -91
     },
@@ -52,6 +57,7 @@
       "fullName": "Lucius Cornelius Sulla Felix",
       "start": -138,
       "end": -78,
+      "desc": "The person that a corrupt and negligent system was asking for. His reforms failed.",
       "events": [
         {
           "name": "Dictator of Rome",
@@ -64,6 +70,7 @@
     {
       "name": "Pompey",
       "fullName": "Gnaeus Pompeius Magnus",
+      "desc": "He was a hero and a villain, until the teenage king of the declining kingdom of Egypt had his head cut off, literally.",
       "start": -106,
       "end": -48,
       "events": [
@@ -74,10 +81,18 @@
         }
       ]
     },
+    {
+      "name": "Cato",
+      "fullName": "Marcus Porcius Cato, \"Cato the Younger\"",
+      "desc": "Praetor popular among is fellow conservative senators. He took his own life to avoid the humiliation of being pardoned by Julius Caesar. Pretty crazy, but also pretty cool.",
+      "start": -95,
+      "end": -46
+    },
 
     {
       "name": "Julius Caesar",
       "fullName": "Gaius Julius Caesar",
+      "desc": "The second most famous person in the Western world, for whatever reason.",
       "start": -100,
       "end": -44,
       "events": [
@@ -91,7 +106,8 @@
 
     {
       "name": "Augustus",
-      "fullName": "Caesar Augustus (Gaius Octavius, Gaius Julius Caesar Octavianus)",
+      "fullName": "\"Augustus\", Gaius Julius Caesar Octavianus",
+      "desc": "One of the most skillful autocrats in history, that I know of.",
       "start": -63,
       "end": 14,
       "events": [
