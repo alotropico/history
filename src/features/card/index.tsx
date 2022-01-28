@@ -1,7 +1,7 @@
 import style from './style/Card.module.scss'
 
 export default function Card(props) {
-  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i, desc } = props
+  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i, desc, handleClose } = props
 
   const info = { i, type, set, tax, place }
 
@@ -15,6 +15,11 @@ export default function Card(props) {
 
   return (
     <div className={style.card}>
+      <div className={style.top}>
+        <span onClick={handleClose}>
+          <span />
+        </span>
+      </div>
       <h2>{title}</h2>
       {dates && (
         <p className={style.date} style={cardColor}>

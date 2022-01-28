@@ -29,8 +29,7 @@ export default function Board({ items }: BoardProps) {
         </div>
         <Canvas items={renderItems} />
       </div>
-
-      {selected && <Card {...selected} />}
+      {selected && <Card {...selected} handleClose={() => setSelected(null)} />}
     </BoardContext.Provider>
   )
 }
