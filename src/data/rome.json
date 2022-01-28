@@ -8,7 +8,9 @@
     {
       "name": "Romulus",
       "end": -716,
-      "desc": "Legendary founder and first king of Rome, believe it or not. The birth of Romulus and his brother Remus is the result of the rape of their mother, a priestess, by Mars. They were raised by a she-wolf, as you may expect. Things ended badly for Remus.",
+      "desc": "Throughout-whether we consider the courage he showed in recovering his ancestral throne, or the wisdom he displayed in founding the City and adding to its strength through war and peace alike-we find nothing incompatible with the belief in his divine origin and his admission to divine immortality after death. It was, in fact, through the strength given by him that the City was powerful enough to enjoy an assured peace for forty years after his departure. He was, however, more acceptable to the populace than to the patricians but most of all was he the idol of his soldiers. He kept a bodyguard of three hundred men round him in peace as well as in war. These he called the “Celeres”.",
+      "source": "Livy, The History of Rome, Book 1",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0026%3Abook%3D1%3Achapter%3D15",
       "events": [
         {
           "name": "King of Rome",
@@ -20,7 +22,7 @@
     {
       "name": "Africanus",
       "fullName": "Publius Cornelius Scipio Africanus",
-      "desc": "The guy who gets the credit for Rome's victory in the Punic Wars. Some say he is the best general in history. Eventually, Publius Cornelius Scipio Africanus got tired of being treated poorly by the senate and went to a villa.",
+      "desc": "The man who gets the credit for Rome's victory in the Punic Wars. Some say he is the best general in history. Eventually, Scipio Africanus got tired of being treated poorly by the senate and went to live in a villa.",
       "start": -236,
       "end": -183
     },
@@ -28,13 +30,13 @@
     {
       "name": "Saturninus",
       "fullName": "Lucius Appuleius Saturninus",
-      "desc": "Dirty guy. Two times tribune of the pleb. He played on Marius side, until Marius dropped him. After his goons alegedly killed Gaius Memmius, Saturninus ended up stoned to death by other members of the political aristocracy.",
+      "desc": "Two times tribune of the pleb. He was on Marius side, until Marius abandoned him. After his goons alegedly killed Gaius Memmius, Saturninus ended up stoned to death by other members of the political aristocracy.",
       "end": -100
     },
     {
       "name": "Marius",
       "fullName": "Gaius Marius",
-      "desc": "Beast. Held the office of consul 7 times.",
+      "desc": "Held the office of consul 7 times.",
       "start": -157,
       "end": -86,
       "events": [
@@ -48,7 +50,7 @@
     {
       "name": "Numidicus",
       "fullName": "Quintus Caecilius Metellus Numidicus",
-      "desc": "Personally, I like him. Having gone through all the honors, he was voluntarily exiled to the lands of poetry, by none other than Saturninus.",
+      "desc": "Having gone through all the honors, he was voluntarily exiled (by none other than Saturninus) to a life of appreciation of poetry and art.",
       "start": -155,
       "end": -91
     },
@@ -57,7 +59,7 @@
       "fullName": "Lucius Cornelius Sulla Felix",
       "start": -138,
       "end": -78,
-      "desc": "The person that a corrupt and negligent system was asking for. His reforms failed.",
+      "desc": "The failed hero a corrupt and negligent system was asking for.",
       "events": [
         {
           "name": "Dictator of Rome",
@@ -70,7 +72,7 @@
     {
       "name": "Pompey",
       "fullName": "Gnaeus Pompeius Magnus",
-      "desc": "He was a hero and a villain, until the teenage king of the declining kingdom of Egypt had his head cut off, literally.",
+      "desc": "Fun fact: after being one of the greatest statemen in history, Pompey had his head severed by the teenage king of a declining kingdom of Egypt. The head wa delivered to his then enemy, Julius Caesar, but he didn't like it. Why would he?",
       "start": -106,
       "end": -48,
       "events": [

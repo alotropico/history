@@ -29,6 +29,8 @@ export type DbItem = {
   place?: string
   set?: string
   theme?: any
+  source?: string
+  sourceLink?: string
 }
 export type RenderItem = {
   s?: number

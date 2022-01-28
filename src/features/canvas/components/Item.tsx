@@ -28,7 +28,8 @@ export default function Item(props: SpatialItem & { i: number }) {
       style={itemStyle}
       title={title}
       tabIndex={i}
-      onClick={() => setSelected(props)}>
+      onClick={() => setSelected(props)}
+      onFocus={() => setSelected(props)}>
       <div style={wrapperStyle} className={'item_wrapper'}>
         <div className={'item_name'}>{name}</div>
       </div>

@@ -7,7 +7,9 @@
   "items": [
     {
       "name": "Draco",
-      "desc": "The first recorded legislator of Athens in Ancient Greece. He replaced the prevailing system of oral law and blood feud by a written code to be enforced only by a court of law.",
+      "desc": "Now Draco, in this group of laws, marked the terrible wickedness of homicide by banning the offender from the lustral water, the libations, the loving-cup, the sacrifices and the market-place; he enumerated everything that he thought likely to deter the offender; but he never robbed him of his claim to justice; he defined the circumstances that make homicide justifiable and proclaimed the accused in such case free from taint. If, then, your laws can justify homicide, is this fellow's law to forbid any claim, even a just one, to recompense? Not so, men of Athens!",
+      "source": "Demosthenes, Against Leptines",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0072:speech=20:section=158&highlight=draco",
       "end": -600,
       "events": [{ "name": "Draconian constitution", "start": -622 }]
     },

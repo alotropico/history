@@ -1,27 +1,36 @@
 $padding: calc(.5vw + 2rem);
+$bg: #555562f2;
 
 .card {
+  font-family: Georgia, Times, serif;
   font-size: 16px;
   position: absolute;
   z-index: 2;
   top: 6vw;
   left: 6vw;
   padding: 0;
-  width: 460px;
+  width: 500px;
   max-width: calc(100vw - 6vw * 2);
   max-height: calc(100vh - 6vw);
   overflow-x: hidden;
   overflow-y: auto;
-  color: #43434c;
-  background-color: rgba(#f7fbffd9, .95);
+  background-color: rgba($bg, .95);
   border-radius: 2px;
-  box-shadow: 0 30px 30px rgba(black, .3);
+  box-shadow: 0 0 60px rgba(black, .3);
+
+  a {
+    color: white;
+  }
 
   .top {
     display: flex;
+    position: sticky;
+    z-index: 11;
     justify-content: flex-end;
+    top: 0;
     margin: 0;
     padding: 0 1rem;
+    background-color: rgba($bg, 1);
     box-shadow: 0 15px 30px rgba(black, .05);
 
     & > span {
@@ -39,7 +48,7 @@ $padding: calc(.5vw + 2rem);
           content: '';
           position: absolute;
           inset: 0;
-          background-color: #43434c;
+          background-color: white;
         }
         &::before {
           transform: rotate(45deg);
@@ -73,16 +82,26 @@ $padding: calc(.5vw + 2rem);
   }
 
   .body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
     line-height: 1.3;
-    margin: 0 $padding;
-    padding: 1rem 0;
-    border-bottom: 1px dotted rgba(#43434c, 0.2);
+    margin: 0;
+    padding: 1rem $padding;
+    box-shadow: 0 15px 30px rgba(black, .1);
 
     p {
       margin: .5rem 0;
+    }
+
+    .source {
+      display: flex;
+      margin: 2rem 0;
+      gap: 1rem;
+      
+      &:before {
+        content: '--';
+        white-space: nowrap;
+        flex-shrink: 0;
+        opacity: .5;
+      }
     }
   }
 

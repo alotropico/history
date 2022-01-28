@@ -1,7 +1,28 @@
+import { useRef } from 'react'
+import useClickOutside from '../../hooks/useClickOutside'
 import style from './style/Card.module.scss'
 
 export default function Card(props) {
-  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i, desc, handleClose } = props
+  const {
+    type,
+    set,
+    name,
+    fullName,
+    tax,
+    place,
+    s,
+    e,
+    sd,
+    ed,
+    dates,
+    spatial,
+    theme,
+    i,
+    desc,
+    handleClose,
+    source,
+    sourceLink,
+  } = props
 
   const info = { i, type, set, tax, place }
 
@@ -13,8 +34,11 @@ export default function Card(props) {
     background: theme.background,
   }
 
+  const ref = useRef(null)
+  useClickOutside(ref, () => handleClose())
+
   return (
-    <div className={style.card}>
+    <div className={style.card} ref={ref}>
       <div className={style.top}>
         <span onClick={handleClose}>
           <span />
@@ -35,6 +59,18 @@ export default function Card(props) {
             .map((p, j) => (
               <p key={j}>{p}</p>
             ))}
+
+          {(sourceLink || source) && (
+            <div className={style.source}>
+              {sourceLink ? (
+                <a href={sourceLink} target='_blank' rel='noreferrer'>
+                  {source || 'Source'}
+                </a>
+              ) : (
+                source
+              )}
+            </div>
+          )}
         </div>
       )}
       <ul>

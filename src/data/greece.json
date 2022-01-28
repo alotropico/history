@@ -8,14 +8,18 @@
     {
       "tax": "source",
       "name": "Hesiod",
-      "desc": "Hesiod was an ancient Greek poet generally thought to have been active between 750 and 650 BC, around the same time as Homer. He is generally regarded as the first written poet in the Western tradition to regard himself as an individual persona with an active role to play in his subject. Ancient authors credited Hesiod and Homer with establishing Greek religious customs. Modern scholars refer to him as a major source on Greek mythology, farming techniques, early economic thought, archaic Greek astronomy and ancient time-keeping.",
+      "desc": "From the Heliconian Muses let us begin to sing, who hold the great and holy mount of Helicon, and dance on soft feet about the deep-blue spring and the altar of the almighty son of Cronos, and, when they have washed their tender bodies in Permessus or in the Horse's Spring or Olmeius, make their fair, lovely dances upon highest Helicon and move with vigorous feet. Thence they arise and go abroad by night, veiled in thick mist, and utter their song with lovely voice, praising Zeus the aegis-holder and queenly Hera of Argos who walks on golden sandals and the daughter of Zeus the aegis-holder bright-eyed Athene, and Phoebus Apollo, and Artemis who delights in arrows, and Poseidon the earth-holder who shakes the earth, and reverend Themis and quick-glancing1 Aphrodite, and Hebe with the crown of gold, and fair Dione, Leto, Iapetus, and Cronos the crafty counsellor, Eos and great Helius and bright Selene, Earth too, and great Oceanus, and dark Night, and the holy race of all the other deathless ones that are for ever. And one day they taught Hesiod glorious song while he was shepherding his lambs under holy Helicon, and this word first the goddesses said to me – the Muses of Olympus, daughters of Zeus who holds the aegis: “Shepherds of the wilderness, wretched things of shame, mere bellies, we know how to speak many false things as though they were true; but we know, when we will, to utter true things.”",
+      "source": "Hesiod, Theogony",
+      "sourceLink": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:abo:tlg,0020,001:17",
       "place": "Cyme",
       "events": [{ "name": "Theogony", "start": -750 }]
     },
     {
       "tax": "source",
       "name": "Homer",
-      "desc": "Screenwriter of the movie “Troy”.",
+      "desc": "But the son of Peleus [Achilles] again addressed with violent words the son of Atreus [Agamemnon], and in no way ceased from his wrath: “Heavy with wine, with the face of a dog but the heart of a deer, never have you had courage to arm for battle along with your people, or go forth to an ambush with the chiefs of the Achaeans. That seems to you even as death. Indeed it is far better throughout the wide camp of the Achaeans to deprive of his prize whoever speaks contrary to you. People-devouring king, since you rule over nobodies; else, son of Atreus, this would be your last piece of insolence. But I will speak out to you, and will swear thereto a mighty oath: by this staff, that shall never more put forth leaves or shoots since first it left its stump among the mountains, nor shall it again grow green, for the bronze has stripped it on all sides of leaves and bark, and now the sons of the Achaeans carry it in their hands when they act as judges, those who guard the ordinances that come from Zeus; and this shall be for you a mighty oath. Surely some day a longing for Achilles will come upon the sons of the Achaeans one and all, and on that day you will not be able to help them at all, for all your grief, when many shall fall dying before man-slaying Hector. But you will gnaw the heart within you, in anger that you did no honour to the best of the Achaeans.”",
+      "source": "Homer, Iliad",
+      "sourceLink": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0134%3Abook%3D1%3Acard%3D206",
       "place": "Ionia",
       "events": [
         { "name": "Iliad", "start": -750 },
@@ -25,14 +29,27 @@
     {
       "tax": "source",
       "name": "Thaletas",
-      "desc": "Introduced from Crete into Sparta certain principles or elements of music and rhythm, which did not exist in Terpander's system, and thereby founded the second of the musical schools which flourished at Sparta.",
+      "desc": "Music then received its first constitution from Terpander at Sparta. Of the second constitution, Thaletas the Gortinean, Xenodamus the Cytherean, Xenocritus the Locrian, Polymnestus the Colophonian, and Sacadas the Argive were deservedly acknowledged to be the authors. For these, having introduced the Gymnopaediae into Lacedaemon, settled the so-called Apodeixeis (or Exhibitions) among the Arcadians, and the Endymatia in Argos. Now Thaletas, Xenodamus, and Xenocritus, and their scholars, were poets that addicted themselves altogether to making of paeans; Polymnestus was all for the Orthian or military strain, and Sacadas for elegies. Others, and among the rest Pratinas, affirm Xenodamus to have been a maker of songs for dances (Hyporchemes), and not of paeans; and a tune of Xenodamus is preserved, which plainly appears to have been composed for a dance. Now that a paean differs from a song made for a dance is manifest from the poems of Pindar, who made both.",
+      "source": "Pseudo-Plutarch, De musica",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0402%3Asection%3D9",
       "place": "Crete",
       "events": [{ "start": -700 }]
     },
     {
       "tax": "source",
+      "name": "Epimenides",
+      "desc": "[It is said that] Epimenides proposed two first principles, Ether and Night, ... from which Tartarus was born, which I consider the third principle as a mixture by union of the other two; from these the two Titans were born ... and from their union, an egg ... from which, in turn, comes another generation.",
+      "source": "Eudemus of Rhodes",
+      "sourceLink": "https://www.scribd.com/document/526065348/Colli-Giorgio-La-Sabiduria-Griega-II-Trotta-Madrid-2008",
+      "place": "Cnossos",
+      "events": [{ "start": -650 }]
+    },
+    {
+      "tax": "source",
       "name": "Sappho",
-      "desc": "Sappho was a prolific poet, probably composing around 10,000 lines. Her poetry was well-known and greatly admired through much of antiquity, and she was among the canon of Nine Lyric Poets most highly esteemed by scholars of Hellenistic Alexandria.",
+      "desc": "Come to me now once again and release me\nfrom grueling anxiety.\nAll that my heart longs for, fulfill. And be yourself my ally in love’s battle. Some say an army of horsemen,\nsome of footsoldiers, some of ships,\nis the fairest thing on the black earth,\nbut I say it is what one loves. It’s very easy to make this clear\nto everyone, for Helen,\nby far surpassing mortals in beauty,\nleft the best of all husbands\n \n\n\nand sailed to Troy,\nmindful of neither her child\nnor her dear parents, but\nwith one glimpse she was seduced by Aphrodite. For easily bent... and nimbly...[missing text]... has reminded me now\nof Anactoria who is not here; \nI would much prefer to see the lovely\nway she walks and the radiant glance of her face\nthan the war-chariots of the Lydians or\ntheir footsoldiers in arms.",
+      "source": "Sappho",
+      "sourceLink": "https://www.uh.edu/~cldue/texts/sappho.html",
       "start": -630,
       "end": -570,
       "place": "Lesbos"
@@ -40,7 +57,9 @@
     {
       "tax": "source",
       "name": "Thales",
-      "desc": "Many, most notably Aristotle, regarded him as the first philosopher in the Greek tradition, and he is otherwise historically recognized as the first individual known to have entertained and engaged in scientific philosophy.",
+      "desc": "Thales, the founder of this school of philosophy, says the permanent entity is water (which is why he also propounded that the earth floats on water). Presumably he derived this assumption from seeing that the nutriment of everything is moist, and that heat itself is generated from moisture and depends upon it for its existence (and that from which a thing is generated is always its first principle). He derived his assumption, then, from this; and also from the fact that the seeds of everything have a moist nature, whereas water is the first principle of the nature of moist things.",
+      "source": "Aristotle, Metaphysics",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0052:book=1:section=983b&highlight=thales",
       "start": -626,
       "end": -548,
       "place": "Miletus"
@@ -48,7 +67,9 @@
     {
       "tax": "source",
       "name": "Aesop",
-      "desc": "Fabulist and storyteller credited with a number of fables now collectively known as Aesop's Fables.",
+      "desc": "Aesop, when defending at Samos a demagogue who was being tried for his life, related the following anecdote. “A fox, while crossing a river, was driven into a ravine. Being unable to get out, she was for a long time in sore distress, and a number of dog-fleas clung to her skin. A hedgehog, wandering about, saw her and, moved with compassion, asked her if he should remove the fleas. The fox refused and when the hedgehog asked the reason, she answered: ‘They are already full of me and draw little blood; but if you take them away, others will come that are hungry and will drain what remains to me.’ You in like manner, O Samians, will suffer no more harm from this man, for he is wealthy; but if you put him to death, others will come who are poor, who will steal and squander your public funds.”",
+      "source": "Aristotle, Rhetoric",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0060:book=2:chapter=20&highlight=aesop",
       "place": "Samos",
       "start": -620,
       "end": -546
@@ -56,15 +77,29 @@
     {
       "tax": "source",
       "name": "Anaximander",
-      "desc": "Early proponent of science and tried to observe and explain different aspects of the universe, with a particular interest in its origins, claiming that nature is ruled by laws, just like human societies, and anything that disturbs the balance of nature does not last long.",
+      "desc": "Anaximander, who himself was a Milesian, assigns the principle of all things to the Infinite, from whence all things flow, and into the same are corrupted; hence it is that infinite worlds are framed, and those vanish again into that whence they have their original. And thus he farther proceeds, For what other reason is there of an Infinite but this, that there may be nothing deficient as to the generation or subsistence of what is in nature?",
+      "source": "Pseudo-Plutarch, Placita Philosophorum",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0404:book=1:chapter=3&highlight=anaximander",
       "start": -610,
       "end": -546,
       "place": "Miletus"
     },
     {
       "tax": "source",
+      "name": "Anaximenes",
+      "desc": "“Even you, O most excellent of men, were you no better born and famed than Pythagoras, would have risen and departed from Miletus. But now your ancestral glory has detained you as it had detained me were I Anaximenes' peer. But if you, the best men, abandon your cities, then will their good order perish, and the peril from the Medes will increase. 50 For always to scan the heavens is not well, but more seemly is it to be provident for one's mother country. For I too am not altogether in my discourses but am found no less in the wars which the Italians wage with one another.”",
+      "source": "Letter from Pythagoras, quoted in Diogenes Laërtius, Lives of the Eminent Philosophers, Book VIII",
+      "sourceLink": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diogenes_Laertius/Lives_of_the_Eminent_Philosophers/8/Pythagoras*.html",
+      "start": -590,
+      "end": -525,
+      "place": "Miletus"
+    },
+    {
+      "tax": "source",
       "name": "Pythagoras",
-      "desc": "The teaching most securely identified with Pythagoras is metempsychosis, or the \"transmigration of souls\", which holds that every soul is immortal and, upon death, enters into a new body. He may have also devised the doctrine of musica universalis, which holds that the planets move according to mathematical equations and thus resonate to produce an inaudible symphony of music.",
+      "desc": "“Let not the stealing god of sleep surprise,\nNor creep in slumbers on thy weary eyes,\nEre every action of the former day\nStrictly thou dost, and righteously survey.\nWhat have I done? In what have I transgressed?\nWhat good, or ill, has this day's life expressed?\nWhere have I failed in what I ought to do?\nIf evil were thy deeds, repent and mourn;\nIf good, rejoice.”",
+      "source": "Pythagoras' Golden Verses, quoted in Epictetus, Discourses",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0237:text=disc:book=3:chapter=10&highlight=pythagoras#note1",
       "start": -570,
       "end": -495,
       "place": "Samos"
@@ -72,7 +107,9 @@
     {
       "tax": "source",
       "name": "Herodotus",
-      "desc": "Greek writer, geographer, and historian born in the Greek city of Halicarnassus, part of the Persian Empire (now Bodrum, Turkey). He is known for having written the Histories – a detailed account of the Greco-Persian Wars. Herodotus was the first writer to do systematic investigation of historical events. He is referred to as \"The Father of History\", a title conferred on him by the ancient Roman orator Cicero.",
+      "desc": "[Herodotus] is the born chronicler, and his interest is in the past: Thucydides is the scientific historian, and his eye is on the future",
+      "source": "W. W. How, J. Wells, A Commentary on Herodotus",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0028",
       "start": -484,
       "end": -425,
       "place": "Halicarnassus"
@@ -80,7 +117,9 @@
     {
       "tax": "source",
       "name": "Ephorus",
-      "desc": "Ephorus of Cyme was an ancient Greek historian known for his universal history.",
+      "desc": "I am aware [...] that a similar profession has been made by many other historians of an intention to write a universal history, and of undertaking a work on a larger scale than their predecessors. About these writers, putting out of the question Ephorus, the first and only man who has really attempted a universal history, I will not mention any name or say more about them than this,—that several of my contemporaries, while professing to write a universal history have imagined that they could tell the story of the war of Rome and Carthage in three or four pages.",
+      "source": "Polybius, Histories",
+      "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D5%3Achapter%3D33",
       "start": -400,
       "end": -330,
       "place": "Cyme"
@@ -105,6 +144,14 @@
       "start": -384,
       "end": -322,
       "place": "Stagira"
+    },
+    {
+      "tax": "source",
+      "name": "Eudemus of Rhodes",
+      "fullName": "Eudemus of Rhodes",
+      "start": -370,
+      "end": -300,
+      "place": "Rhodes"
     },
     {
       "tax": "source",
@@ -148,6 +195,13 @@
       "start": -60,
       "end": -7,
       "place": "Halicarnassus"
+    },
+    {
+      "tax": "source",
+      "name": "Strabo",
+      "start": -63,
+      "end": 23,
+      "place": "Pontus"
     }
   ]
 }
