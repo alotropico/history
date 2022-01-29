@@ -6,6 +6,14 @@
   },
   "items": [
     {
+      "name": "Achaemenes",
+      "events": [
+        {
+          "start": -700
+        }
+      ]
+    },
+    {
       "name": "Cyrus I",
       "fullName": "Cyrus I of Anshan",
       "end": -580,
@@ -17,12 +25,30 @@
     },
     {
       "name": "Cyrus the Great",
-      "fullName": "Cyrus II the Great of Persia",
+      "fullName": "Cyrus II the Great",
       "start": -600,
       "end": -530,
       "event": {
         "name": "King of Kings of the Achaemenid Empire",
         "start": -559,
+        "end": "end"
+      }
+    },
+    {
+      "name": "Cambyses II",
+      "end": -522,
+      "event": {
+        "name": "King of Kings of the Achaemenid Empire",
+        "start": -530,
+        "end": "end"
+      }
+    },
+    {
+      "name": "Bardiya",
+      "end": -522,
+      "event": {
+        "name": "King of Kings of the Achaemenid Empire",
+        "start": "end",
         "end": "end"
       }
     },

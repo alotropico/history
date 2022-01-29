@@ -7,10 +7,10 @@
   "items": [
     {
       "name": "Romulus",
-      "end": -716,
       "desc": "Throughout-whether we consider the courage he showed in recovering his ancestral throne, or the wisdom he displayed in founding the City and adding to its strength through war and peace alike-we find nothing incompatible with the belief in his divine origin and his admission to divine immortality after death. It was, in fact, through the strength given by him that the City was powerful enough to enjoy an assured peace for forty years after his departure. He was, however, more acceptable to the populace than to the patricians but most of all was he the idol of his soldiers. He kept a bodyguard of three hundred men round him in peace as well as in war. These he called the “Celeres”.",
       "source": "Livy, The History of Rome, Book 1",
       "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0026%3Abook%3D1%3Achapter%3D15",
+      "end": -716,
       "events": [
         {
           "name": "King of Rome",
@@ -18,6 +18,74 @@
           "end": "end"
         }
       ]
+    },
+    {
+      "name": "Vecellinus",
+      "fullName": "Spurius Cassius Vecellinus",
+      "desc": "One of the most distinguished men of the early Roman Republic. He was three times consul, and celebrated two triumphs. He was the first magister equitum, and the author of the first agrarian law. The year following his last consulship, he was accused of aiming at regal power, and was put to death by the patricians.",
+      "end": -485
+    },
+    {
+      "name": "Lucretia",
+      "desc": "According to Roman tradition, Lucretia was a noblewoman in ancient Rome, whose rape by the king Sextus Tarquinius and subsequent suicide precipitated a rebellion that overthrew the Roman monarchy and led to the transition of Roman government from a kingdom to a republic.",
+      "end": -510
+    },
+    {
+      "name": "Brutus",
+      "fullName": "Lucius Junius Brutus",
+      "desc": "Semi-legendary founder of the Roman Republic, and traditionally one of its first consuls in 509 BC. He was reputedly responsible for the expulsion of his uncle the Roman king Tarquinius Superbus after the suicide of Lucretia, which led to the overthrow of the Roman monarchy. He was involved in the abdication of fellow consul Tarquinius Collatinus, and executed two of his sons for plotting the restoration of the Tarquins.",
+      "end": -509
+    },
+    {
+      "name": "Tarquinius",
+      "fullName": "Lucius Tarquinius Superbus",
+      "desc": "Legendary seventh and final king of Rome, reigning from 535 BC until the popular uprising in 509 BC that led to the establishment of the Roman Republic.",
+      "end": -495,
+      "events": [
+        {
+          "name": "King of Rome",
+          "start": -535,
+          "end": -509
+        }
+      ]
+    },
+    {
+      "name": "Aquilinus",
+      "fullName": "Titus Herminius Aquilinus",
+      "desc": "One of the heroes of the Roman Republic. He participated in two of the most famous conflicts that attended the birth of the Republic, and was elected consul in 506 BC. However, his greatest fame was won as one of the defenders of the Sublician bridge against the army of Lars Porsena, the King of Clusium.",
+      "end": -498
+    },
+    {
+      "name": "Corvus",
+      "fullName": "Marcus Valerius Corvus",
+      "desc": "Military commander and politician from the early-to-middle period of the Roman Republic. During his career he was elected consul six times, first at the unusual age of 23. He was appointed dictator two times and led the armies of the Republic in the First Samnite War. He occupied the curule chair a total of twenty-one times throughout his career. According to tradition, he lived to the age of one hundred.",
+      "start": -370,
+      "end": -270
+    },
+    {
+      "name": "Rullianus",
+      "fullName": "Quintus Fabius Maximus Rullianus",
+      "desc": "Quintus Fabius Maximus Rullianus (or Rullus), son of Marcus Fabius Ambustus, of the patrician Fabii of ancient Rome, was five times consul and a hero of the Samnite Wars.",
+      "events": [
+        {
+          "start": -325,
+          "end": -292
+        }
+      ]
+    },
+    {
+      "name": "Barbatus",
+      "fullName": "Lucius Cornelius Scipio Barbatus",
+      "desc": "One of the two elected Roman consuls in 298 BC. He led the Roman army to victory against the Etruscans near Volterra. A member of the noble Roman family of Scipiones, he was the father of Lucius Cornelius Scipio and Gnaeus Cornelius Scipio Asina and great-grandfather of Scipio Africanus.",
+      "start": -337,
+      "end": -270
+    },
+    {
+      "name": "Caecus",
+      "fullName": "Appius Claudius Caecus",
+      "desc": "Statesman and writer from the Roman Republic. The first Roman public figure whose life can be traced with some historical certainty, Caecus was responsible for the building of Rome's first road (the Appian Way) and first aqueduct (the Aqua Appia), as well as instigating controversial popular-minded reforms. He is also credited with the authorship of a juristic treatise, a collection of moral essays, and several poems, making him one of Rome's earliest literary figures.",
+      "start": -312,
+      "end": -279
     },
     {
       "name": "Africanus",
@@ -72,7 +140,7 @@
     {
       "name": "Pompey",
       "fullName": "Gnaeus Pompeius Magnus",
-      "desc": "Fun fact: after being one of the greatest statemen in history, Pompey had his head severed by the teenage king of a declining kingdom of Egypt. The head wa delivered to his then enemy, Julius Caesar, but he didn't like it. Why would he?",
+      "desc": "Fun fact: after being one of the greatest statemen in history, Pompey had his head severed by the teenage king of a declining kingdom of Egypt. The head was delivered to his then enemy, Julius Caesar, but he didn't like it. Why would he?",
       "start": -106,
       "end": -48,
       "events": [
@@ -108,8 +176,8 @@
 
     {
       "name": "Augustus",
-      "fullName": "\"Augustus\", Gaius Julius Caesar Octavianus",
-      "desc": "One of the most skillful autocrats in history, that I know of.",
+      "fullName": "Caesar Augustus",
+      "desc": "His status as the founder of the Roman Principate has consolidated a legacy as one of the most effective leaders in human history. The reign of Augustus initiated an era of relative peace known as the Pax Romana. Augustus dramatically enlarged the Empire, annexing Egypt, Dalmatia, Pannonia, Noricum and Raetia, expanding possessions in Africa, and completing the conquest of Hispania, but suffered a major setback in Germania. Beyond the frontiers, he secured the Empire with a buffer region of client states and made peace with the Parthian Empire through diplomacy. He reformed the Roman system of taxation, developed networks of roads with an official courier system, established a standing army, established the Praetorian Guard, official police and fire-fighting services for Rome, and rebuilt much of the city during his reign.",
       "start": -63,
       "end": 14,
       "events": [

@@ -5,6 +5,7 @@ import macedon from '../data/macedon.json'
 import rome from '../data/rome.json'
 import carthage from '../data/carthage.json'
 import persia from '../data/persia.json'
+import hebrews from '../data/hebrews.json'
 import other from '../data/other.json'
 
 import parseItems from '../utils/parseItems'
@@ -12,7 +13,7 @@ import parseItems from '../utils/parseItems'
 import { DbItem, DataItem, DbSet } from '../types'
 
 export default function useItems(): DataItem[] {
-  return [persia, greece, sparta, athens, macedon, carthage, rome, other]
+  return [greece, athens, sparta, macedon, persia, rome, carthage, hebrews, other]
     .map((set) => parseItems(parseItemsBySet(set)))
     .reduce((acc, set) => [...acc, ...set], [])
 }

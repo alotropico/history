@@ -1,18 +1,56 @@
 {
   "info": {
-    "name": "Other peoples"
+    "name": "Other peoples",
+    "skipOnSearch": true
   },
   "items": [
+    {
+      "name": "Tefnakht",
+      "events": [
+        {
+          "name": "Pharaoh",
+          "start": -732,
+          "end": -725
+        }
+      ],
+      "place": "Egypt"
+    },
+    {
+      "name": "Piye",
+      "desc": "Piye was an ancient Kushite king and founder of the Twenty-fifth Dynasty of Egypt, who ruled Egypt. He ruled from the city of Napata, located deep in Nubia, modern-day Sudan.",
+      "end": -714,
+      "events": [{ "name": "Pharao", "start": -744, "end": "end" }],
+      "place": "Kush"
+    },
+    {
+      "name": "Psamtik III",
+      "desc": "Last Pharaoh of the last native dynasty of Egypt.",
+      "events": [{ "name": "Pharao", "start": -526, "end": -525 }],
+      "place": "Egypt"
+    },
+    {
+      "name": "Confucius",
+      "start": -551,
+      "end": -479
+    },
+    {
+      "name": "Laozi",
+      "events": [{ "start": -500 }]
+    },
+    {
+      "name": "Buddha",
+      "events": [{ "start": -490 }]
+    },
+    {
+      "name": "Brennus",
+      "desc": "Chieftain of the Senones. He defeated the Romans at the Battle of the Allia (ca 390 BC). Later that year, he led an army of Cisalpine Gauls in their attack on Rome and captured most of the city, holding it for several months. Brennus's sack of Rome was the only time in 800 years the city was occupied by a non-Roman army before the fall of the city to the Visigoths in 410 AD.",
+      "events": [{ "name": "Battle of the Allia", "start": -390 }]
+    },
     {
       "name": "Vercingetorix",
       "desc": "Was a king and chieftain of the Arverni tribe who united the Gauls in a failed revolt against Roman forces during the last phase of Julius Caesar's Gallic Wars. Despite having willingly surrendered to Caesar, he was executed in Rome.",
       "start": -82,
       "end": -46
-    },
-    {
-      "name": "Jesus",
-      "start": -4,
-      "end": -30
     }
   ]
 }

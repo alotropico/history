@@ -106,6 +106,33 @@
     },
     {
       "tax": "source",
+      "name": "Heraclitus",
+      "start": -535,
+      "end": -475,
+      "place": "Ephesus"
+    },
+    {
+      "tax": "source",
+      "name": "Zeno",
+      "start": -495,
+      "end": -430,
+      "place": "Elea"
+    },
+    {
+      "tax": "source",
+      "name": "Empedocles",
+      "start": -494,
+      "end": -434,
+      "place": "Akragas"
+    },
+    {
+      "tax": "source",
+      "name": "Parmenides",
+      "events": [{ "start": -475 }],
+      "place": "Elea"
+    },
+    {
+      "tax": "source",
       "name": "Herodotus",
       "desc": "[Herodotus] is the born chronicler, and his interest is in the past: Thucydides is the scientific historian, and his eye is on the future",
       "source": "W. W. How, J. Wells, A Commentary on Herodotus",

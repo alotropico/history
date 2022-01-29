@@ -1,0 +1,50 @@
+{
+  "info": {
+    "name": "Hebrews",
+    "skipOnSearch": true
+  },
+  "items": [
+    {
+      "name": "Hoshea",
+      "events": [
+        {
+          "name": "King of Israel",
+          "start": -732,
+          "end": -731
+        }
+      ]
+    },
+    {
+      "name": "Isaiah",
+      "events": [{ "start": -700 }]
+    },
+    {
+      "name": "Jeremiah",
+      "start": -650,
+      "end": -570
+    },
+    {
+      "name": "Ezekiel",
+      "start": -622,
+      "end": -570
+    },
+    {
+      "name": "Joseph",
+      "fullName": "Saint Joseph",
+      "start": -100,
+      "end": 1
+    },
+    {
+      "name": "Mary",
+      "fullName": "Mary, mother of Jesus",
+      "start": -18,
+      "end": 30
+    },
+    {
+      "name": "Jesus",
+      "fullName": "Jesus of Nazareth",
+      "start": -4,
+      "end": 30
+    }
+  ]
+}

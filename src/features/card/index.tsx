@@ -75,6 +75,11 @@ export default function Card(props) {
       )}
       <ul>
         <li>
+          <a href={`https://en.wikipedia.org/w/index.php?search=${title}`} target='_blank' rel='noreferrer'>
+            Search on Wikipedia
+          </a>
+        </li>
+        <li>
           <a href={`https://www.google.com/search?q=${searchId}`} target='_blank' rel='noreferrer'>
             Search on Google
           </a>

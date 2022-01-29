@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Egypt"
+  },
+  "items": [
+    {
+      "name": "Shoshenq V",
+      "desc": "Despite having enjoyed one of the longest reigns of the entire dynasty – 38 years – and having left a fair amount of attestations, little is known about Shoshenq's life. His realm underwent an unstoppable shrinking due to the progressive increase of independence of various tribal chiefs, princes and concurrent kings, above all the pharaoh–to–be Tefnakht.",
+      "end": -730,
+      "events": [
+        {
+          "name": "Pharaoh",
+          "start": -767,
+          "end": "end"
+        }
+      ]
+    }
+  ]
+}

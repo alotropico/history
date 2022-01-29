@@ -1,7 +1,12 @@
+// Converts parsed data into data ready for rendering
 import { DataItems, SpatialItems } from '../../../types'
 import { useRenderItemsRet } from '../types'
 
-export default function useRenderItems(items: DataItems, forcedStart = null, forcedEnd = null): useRenderItemsRet {
+export default function useRenderItems(
+  items: DataItems,
+  forcedStart: number | null = null,
+  forcedEnd: number | null = null
+): useRenderItemsRet {
   const start = forcedStart || items.reduce((a: any, item) => (!a || (item?.s && a > item.s) ? item.s : a), null)
   const end = forcedEnd || items.reduce((a: any, item) => (!a || (item?.e && a < item.e) ? item.e : a), null)
   const scopedItems = getItemsByScope(items, start, end)

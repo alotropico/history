@@ -51,8 +51,8 @@ const getDatePoints = (start, end, events, type) => {
   const strictEnd = end || getEventsDatePoints(events, true, 'end')
   const dif = strictEnd - strictStart
 
-  const [s, sd] = start ? [start, false] : pushDatePoints(strictStart || strictEnd, false, type, end && dif < 20)
-  const [e, ed] = end ? [end, false] : pushDatePoints(strictEnd || strictStart, true, type, start && dif < 20)
+  const [s, sd] = start ? [start, false] : pushDatePoints(strictStart || strictEnd, false, type, dif || 0, end)
+  const [e, ed] = end ? [end, false] : pushDatePoints(strictEnd || strictStart, true, type, dif || 0, start)
 
   return { s, e, sd, ed }
 }
@@ -66,8 +66,9 @@ const getEventsDatePoints = (events, forward, key): number | undefined => {
 }
 
 // Move beginning and finishing datePoints according to item type
-const pushDatePoints = (point, forward, type, double): [number, boolean] => {
-  const gap = double ? 50 : 25
+const pushDatePoints = (point, forward, type, dif, double): [number, boolean] => {
+  const fullGap = double ? 60 - dif : 30 - dif / 2
+  const gap = fullGap > 0 ? fullGap : 0
   switch (type) {
     case 'person':
       return [forward ? point + gap : point - gap, true]
