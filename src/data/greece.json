@@ -6,7 +6,7 @@
   },
   "items": [
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Hesiod",
       "desc": "From the Heliconian Muses let us begin to sing, who hold the great and holy mount of Helicon, and dance on soft feet about the deep-blue spring and the altar of the almighty son of Cronos, and, when they have washed their tender bodies in Permessus or in the Horse's Spring or Olmeius, make their fair, lovely dances upon highest Helicon and move with vigorous feet. Thence they arise and go abroad by night, veiled in thick mist, and utter their song with lovely voice, praising Zeus the aegis-holder and queenly Hera of Argos who walks on golden sandals and the daughter of Zeus the aegis-holder bright-eyed Athene, and Phoebus Apollo, and Artemis who delights in arrows, and Poseidon the earth-holder who shakes the earth, and reverend Themis and quick-glancing1 Aphrodite, and Hebe with the crown of gold, and fair Dione, Leto, Iapetus, and Cronos the crafty counsellor, Eos and great Helius and bright Selene, Earth too, and great Oceanus, and dark Night, and the holy race of all the other deathless ones that are for ever. And one day they taught Hesiod glorious song while he was shepherding his lambs under holy Helicon, and this word first the goddesses said to me – the Muses of Olympus, daughters of Zeus who holds the aegis: “Shepherds of the wilderness, wretched things of shame, mere bellies, we know how to speak many false things as though they were true; but we know, when we will, to utter true things.”",
       "source": "Hesiod, Theogony",
@@ -15,7 +15,7 @@
       "events": [{ "name": "Theogony", "start": -750 }]
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Homer",
       "desc": "But the son of Peleus [Achilles] again addressed with violent words the son of Atreus [Agamemnon], and in no way ceased from his wrath: “Heavy with wine, with the face of a dog but the heart of a deer, never have you had courage to arm for battle along with your people, or go forth to an ambush with the chiefs of the Achaeans. That seems to you even as death. Indeed it is far better throughout the wide camp of the Achaeans to deprive of his prize whoever speaks contrary to you. People-devouring king, since you rule over nobodies; else, son of Atreus, this would be your last piece of insolence. But I will speak out to you, and will swear thereto a mighty oath: by this staff, that shall never more put forth leaves or shoots since first it left its stump among the mountains, nor shall it again grow green, for the bronze has stripped it on all sides of leaves and bark, and now the sons of the Achaeans carry it in their hands when they act as judges, those who guard the ordinances that come from Zeus; and this shall be for you a mighty oath. Surely some day a longing for Achilles will come upon the sons of the Achaeans one and all, and on that day you will not be able to help them at all, for all your grief, when many shall fall dying before man-slaying Hector. But you will gnaw the heart within you, in anger that you did no honour to the best of the Achaeans.”",
       "source": "Homer, Iliad",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Thaletas",
       "desc": "Music then received its first constitution from Terpander at Sparta. Of the second constitution, Thaletas the Gortinean, Xenodamus the Cytherean, Xenocritus the Locrian, Polymnestus the Colophonian, and Sacadas the Argive were deservedly acknowledged to be the authors. For these, having introduced the Gymnopaediae into Lacedaemon, settled the so-called Apodeixeis (or Exhibitions) among the Arcadians, and the Endymatia in Argos. Now Thaletas, Xenodamus, and Xenocritus, and their scholars, were poets that addicted themselves altogether to making of paeans; Polymnestus was all for the Orthian or military strain, and Sacadas for elegies. Others, and among the rest Pratinas, affirm Xenodamus to have been a maker of songs for dances (Hyporchemes), and not of paeans; and a tune of Xenodamus is preserved, which plainly appears to have been composed for a dance. Now that a paean differs from a song made for a dance is manifest from the poems of Pindar, who made both.",
       "source": "Pseudo-Plutarch, De musica",
@@ -36,7 +36,15 @@
       "events": [{ "start": -700 }]
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
+      "name": "Hippocrates",
+      "desc": "He is traditionally referred to as the \"Father of Medicine\" in recognition of his lasting contributions to the field, such as the use of prognosis and clinical observation, the systematic categorization of diseases, or the formulation of humoural theory.",
+      "start": -460,
+      "end": -370,
+      "place": "Kos"
+    },
+    {
+      "tax": "knowledge",
       "name": "Epimenides",
       "desc": "[It is said that] Epimenides proposed two first principles, Ether and Night, ... from which Tartarus was born, which I consider the third principle as a mixture by union of the other two; from these the two Titans were born ... and from their union, an egg ... from which, in turn, comes another generation.",
       "source": "Eudemus of Rhodes",
@@ -45,7 +53,7 @@
       "events": [{ "start": -650 }]
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Sappho",
       "desc": "Come to me now once again and release me\nfrom grueling anxiety.\nAll that my heart longs for, fulfill. And be yourself my ally in love’s battle. Some say an army of horsemen,\nsome of footsoldiers, some of ships,\nis the fairest thing on the black earth,\nbut I say it is what one loves. It’s very easy to make this clear\nto everyone, for Helen,\nby far surpassing mortals in beauty,\nleft the best of all husbands\n \n\n\nand sailed to Troy,\nmindful of neither her child\nnor her dear parents, but\nwith one glimpse she was seduced by Aphrodite. For easily bent... and nimbly...[missing text]... has reminded me now\nof Anactoria who is not here; \nI would much prefer to see the lovely\nway she walks and the radiant glance of her face\nthan the war-chariots of the Lydians or\ntheir footsoldiers in arms.",
       "source": "Sappho",
@@ -55,7 +63,7 @@
       "place": "Lesbos"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Thales",
       "desc": "Thales, the founder of this school of philosophy, says the permanent entity is water (which is why he also propounded that the earth floats on water). Presumably he derived this assumption from seeing that the nutriment of everything is moist, and that heat itself is generated from moisture and depends upon it for its existence (and that from which a thing is generated is always its first principle). He derived his assumption, then, from this; and also from the fact that the seeds of everything have a moist nature, whereas water is the first principle of the nature of moist things.",
       "source": "Aristotle, Metaphysics",
@@ -65,7 +73,7 @@
       "place": "Miletus"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Aesop",
       "desc": "Aesop, when defending at Samos a demagogue who was being tried for his life, related the following anecdote. “A fox, while crossing a river, was driven into a ravine. Being unable to get out, she was for a long time in sore distress, and a number of dog-fleas clung to her skin. A hedgehog, wandering about, saw her and, moved with compassion, asked her if he should remove the fleas. The fox refused and when the hedgehog asked the reason, she answered: ‘They are already full of me and draw little blood; but if you take them away, others will come that are hungry and will drain what remains to me.’ You in like manner, O Samians, will suffer no more harm from this man, for he is wealthy; but if you put him to death, others will come who are poor, who will steal and squander your public funds.”",
       "source": "Aristotle, Rhetoric",
@@ -75,7 +83,7 @@
       "end": -546
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Anaximander",
       "desc": "Anaximander, who himself was a Milesian, assigns the principle of all things to the Infinite, from whence all things flow, and into the same are corrupted; hence it is that infinite worlds are framed, and those vanish again into that whence they have their original. And thus he farther proceeds, For what other reason is there of an Infinite but this, that there may be nothing deficient as to the generation or subsistence of what is in nature?",
       "source": "Pseudo-Plutarch, Placita Philosophorum",
@@ -85,7 +93,7 @@
       "place": "Miletus"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Anaximenes",
       "desc": "“Even you, O most excellent of men, were you no better born and famed than Pythagoras, would have risen and departed from Miletus. But now your ancestral glory has detained you as it had detained me were I Anaximenes' peer. But if you, the best men, abandon your cities, then will their good order perish, and the peril from the Medes will increase. 50 For always to scan the heavens is not well, but more seemly is it to be provident for one's mother country. For I too am not altogether in my discourses but am found no less in the wars which the Italians wage with one another.”",
       "source": "Letter from Pythagoras, quoted in Diogenes Laërtius, Lives of the Eminent Philosophers, Book VIII",
@@ -95,7 +103,7 @@
       "place": "Miletus"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Pythagoras",
       "desc": "“Let not the stealing god of sleep surprise,\nNor creep in slumbers on thy weary eyes,\nEre every action of the former day\nStrictly thou dost, and righteously survey.\nWhat have I done? In what have I transgressed?\nWhat good, or ill, has this day's life expressed?\nWhere have I failed in what I ought to do?\nIf evil were thy deeds, repent and mourn;\nIf good, rejoice.”",
       "source": "Pythagoras' Golden Verses, quoted in Epictetus, Discourses",
@@ -105,34 +113,34 @@
       "place": "Samos"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Heraclitus",
       "start": -535,
       "end": -475,
       "place": "Ephesus"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Zeno",
       "start": -495,
       "end": -430,
       "place": "Elea"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Empedocles",
       "start": -494,
       "end": -434,
       "place": "Akragas"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Parmenides",
       "events": [{ "start": -475 }],
       "place": "Elea"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Herodotus",
       "desc": "[Herodotus] is the born chronicler, and his interest is in the past: Thucydides is the scientific historian, and his eye is on the future",
       "source": "W. W. How, J. Wells, A Commentary on Herodotus",
@@ -142,7 +150,14 @@
       "place": "Halicarnassus"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
+      "name": "Diogenes",
+      "start": -412,
+      "end": -323,
+      "place": "Sinope"
+    },
+    {
+      "tax": "knowledge",
       "name": "Ephorus",
       "desc": "I am aware [...] that a similar profession has been made by many other historians of an intention to write a universal history, and of undertaking a work on a larger scale than their predecessors. About these writers, putting out of the question Ephorus, the first and only man who has really attempted a universal history, I will not mention any name or say more about them than this,—that several of my contemporaries, while professing to write a universal history have imagined that they could tell the story of the war of Rome and Carthage in three or four pages.",
       "source": "Polybius, Histories",
@@ -165,7 +180,7 @@
       "place": "Thebes"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Aristotle",
       "desc": "Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the Aristotelian tradition. His writings cover many subjects including physics, biology, zoology, metaphysics, logic, ethics, aesthetics, poetry, theatre, music, rhetoric, psychology, linguistics, economics, politics, meteorology, geology and government. Aristotle provided a complex synthesis of the various philosophies existing prior to him. It was above all from his teachings that the West inherited its intellectual lexicon, as well as problems and methods of inquiry. As a result, his philosophy has exerted a unique influence on almost every form of knowledge in the West and it continues to be a subject of contemporary philosophical discussion.",
       "start": -384,
@@ -173,7 +188,14 @@
       "place": "Stagira"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
+      "name": "Zeno of Citium",
+      "start": -334,
+      "end": -262,
+      "place": "Cyprus"
+    },
+    {
+      "tax": "knowledge",
       "name": "Eudemus of Rhodes",
       "fullName": "Eudemus of Rhodes",
       "start": -370,
@@ -181,7 +203,7 @@
       "place": "Rhodes"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Callisthenes",
       "desc": "Callisthenes of Olynthus was a well-connected Greek historian in Macedon, who accompanied Alexander the Great during the Asiatic expedition. The philosopher Aristotle was Callisthenes' great uncle.",
       "start": -360,
@@ -189,7 +211,14 @@
       "place": "Olynthus"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
+      "name": "Archimedes",
+      "start": -287,
+      "end": -212,
+      "place": "Syracuse"
+    },
+    {
+      "tax": "knowledge",
       "name": "Polybius",
       "desc": "Polybius was a Greek historian of the Hellenistic period. He is noted for his work The Histories, which covered the period of 264–146 BC and the Punic Wars in detail.",
       "start": -200,
@@ -197,7 +226,7 @@
       "place": "Megalopolis"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Posidonius",
       "fullName": "Posidonius of Rhodes",
       "desc": "Posidonius \"of Apameia\" or \"of Rhodes\" (c. 135 – c. 51 BC), was a Greek politician, astronomer, astrologer, geographer, historian, mathematician, and teacher native to Apamea, Syria. He was considered the most learned man of his time and, possibly, of the entire Stoic school. After a period learning Stoic philosophy from Panaetius in Athens, he spent many years in travel and scientific researches in Spain, Africa, Italy, Gaul, Liguria, Sicily and on the eastern shores of the Adriatic. He settled as a teacher at Rhodes where his fame attracted numerous scholars. Next to Panaetius he did most, by writings and personal lectures, to spread Stoicism to the Roman world, and he became well known to many leading men, including Pompey and Cicero.",
@@ -206,7 +235,7 @@
       "place": "Apamea"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Diodorus",
       "fullName": "Diodorus Siculus of Sicily",
       "desc": "Diodorus Siculus, or Diodorus of Sicily (Greek: Διόδωρος Diodoros; fl. 1st century BC), was an ancient Greek historian. He is known for writing the monumental universal history Bibliotheca historica, in forty books, fifteen of which survive intact, between 60 and 30 BC. The history is arranged in three parts. The first covers mythic history up to the destruction of Troy, arranged geographically, describing regions around the world from Egypt, India and Arabia to Europe. The second covers the time from the Trojan War to the death of Alexander the Great. The third covers the period to about 60 BC. Bibliotheca, meaning 'library', acknowledges that he was drawing on the work of many other authors.",
@@ -215,7 +244,7 @@
       "place": "Sicily"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Dionysius",
       "fullName": "Dionysius of Halicarnassus",
       "desc": "Dionysius of Halicarnassus of Halikarnassos''; c.  60 BC – after 7 BC) was a Greek historian and teacher of rhetoric, who flourished during the reign of Augustus Caesar. His literary style was atticistic – imitating Classical Attic Greek in its prime.",
@@ -224,7 +253,7 @@
       "place": "Halicarnassus"
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Strabo",
       "start": -63,
       "end": 23,

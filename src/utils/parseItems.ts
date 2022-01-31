@@ -2,10 +2,9 @@ import parseYear from './parseYear'
 import { DbItem, DataItem } from '../types'
 
 export default function parseItems(items: DbItem[]): DataItem[] {
-  return items
-    .map((item, i) => parseItem(item, i))
-    .sort((a, b) => sortByNumericValue('e', a, b))
-    .sort((a, b) => sortByNumericValue('s', a, b))
+  return items.map((item, i) => parseItem(item, i))
+  // .sort((a, b) => sortByNumericValue('e', a, b))
+  // .sort((a, b) => sortByNumericValue('s', a, b))
   // .sort((a, b) => sortByValue('set', a, b))
 }
 

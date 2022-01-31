@@ -28,6 +28,37 @@
       ]
     },
     {
+      "tax": "knowledge",
+      "name": "Himilco",
+      "desc": "Navigator and explorer who lived during the late 6th or early 5th century BC, a period of time where Carthage held significant sway over its neighboring regions. Himilco is the first known explorer from the Mediterranean Sea to reach the northwestern shores of Europe. His lost account of his adventures is quoted by Roman writers.",
+      "events": [
+        {
+          "start": -500
+        }
+      ]
+    },
+    {
+      "tax": "knowledge",
+      "name": "Hanno",
+      "fullName": "Hanno the Navigator",
+      "desc": "Explorer of the fifth century BC, best known for his naval exploration of the western coast of Africa.",
+      "events": [
+        {
+          "start": -550
+        }
+      ]
+    },
+    {
+      "name": "Maharbal",
+      "desc": "Numidian army commander in charge of the cavalry under Hannibal and his second-in-command during the Second Punic War. Maharbal was a very close friend to Hannibal and admired him greatly. He was often critical to the battlefield success of Carthage over Rome. Throughout his Italian campaign Hannibal maintained numerical superiority in cavalry, and thus relied upon them and Maharbal to give his army an advantage.",
+      "events": [
+        {
+          "start": -200
+        }
+      ],
+      "place": "Numidia"
+    },
+    {
       "name": "Hannibal",
       "start": -247,
       "end": -181

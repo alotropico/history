@@ -88,13 +88,46 @@
       "end": -279
     },
     {
-      "name": "Africanus",
+      "name": "Dentatus",
+      "fullName": "Manius Curius Dentatus",
+      "desc": "Roman general and statesman noted for ending the Samnite War and for his military exploits during the Pyrrhic War. According to Pliny, he was born with teeth, thus earning the surname Dentatus, \"toothed\". Dentatus was a tribune of the plebs sometime between 298 and 291 BC. As tribune, he foiled efforts by the interrex Appius Claudius Caecus to keep plebeian candidates out of the consular elections.",
+      "end": -270
+    },
+    {
+      "name": "Cunctator",
+      "fullName": "Quintus Fabius Maximus Verrucosus",
+      "desc": "Roman statesman and general of the third century BC. He was consul five times (233, 228, 215, 214, and 209 BC) and was appointed dictator in 221 and 217 BC. He was censor in 230 BC. His agnomen, Cunctator, usually translated as \"the delayer\", refers to the strategy that he employed against Hannibal's forces during the Second Punic War. Facing an outstanding commander with superior numbers, he pursued a then-novel strategy of targeting the enemy's supply lines, and accepting only smaller engagements on favourable ground, rather than risking his entire army on direct confrontation with Hannibal himself. As a result, he is regarded as the originator of many tactics used in guerrilla warfare.",
+      "start": -280,
+      "end": -203
+    },
+    {
+      "name": "Laevinus",
+      "fullName": "Marcus Valerius Laevinus",
+      "desc": "Roman consul and commander who rose to prominence during the Second Punic War and corresponding First Macedonian War. A member of the gens Valeria, an old patrician family believed to have migrated to Rome under the Sabine king T. Tatius, Laevinus played an integral role in the containment of the Macedonian threat.",
+      "start": -260,
+      "end": -200
+    },
+    {
+      "name": "Scipio Africanus",
       "fullName": "Publius Cornelius Scipio Africanus",
       "desc": "The man who gets the credit for Rome's victory in the Punic Wars. Some say he is the best general in history. Eventually, Scipio Africanus got tired of being treated poorly by the senate and went to live in a villa.",
       "start": -236,
       "end": -183
     },
-
+    {
+      "name": "Aemilianus",
+      "fullName": "Publius Cornelius Scipio Africanus Aemilianus",
+      "desc": "Roman general and statesman noted for his military exploits in the Third Punic War against Carthage and during the Numantine War in Spain. He oversaw the final defeat and destruction of the city of Carthage.",
+      "start": -185,
+      "end": -129
+    },
+    {
+      "name": "Gracchus",
+      "fullName": "Tiberius Sempronius Gracchus",
+      "desc": "Populist Roman politician best known for his agrarian reform law entailing the transfer of land from the Roman state and wealthy landowners to poorer citizens. Against stiff opposition in the aristocratic Senate, this legislation was carried through during his term as tribune of the plebs in 133 BC. Fears of Tiberius's populist programme, as well as his uncompromising behavior, led to his being killed, along with many supporters, in a riot instigated by his senatorial enemies. A decade later his younger brother Gaius attempted similar legislation and suffered a similar fate.",
+      "start": -163,
+      "end": -133
+    },
     {
       "name": "Saturninus",
       "fullName": "Lucius Appuleius Saturninus",
@@ -151,14 +184,20 @@
         }
       ]
     },
-    {
-      "name": "Cato",
-      "fullName": "Marcus Porcius Cato, \"Cato the Younger\"",
-      "desc": "Praetor popular among is fellow conservative senators. He took his own life to avoid the humiliation of being pardoned by Julius Caesar. Pretty crazy, but also pretty cool.",
-      "start": -95,
-      "end": -46
-    },
 
+    {
+      "name": "Servilia",
+      "desc": "Roman matron from a distinguished family, the Servilii Caepiones. She was the daughter of Quintus Servilius Caepio and Livia, thus the half-sister of Cato the Younger. She married Marcus Junius Brutus, they had a son, the Brutus who would assassinate Caesar. After her first husband's death in 77, she married Decimus Junius Silanus, and with him had a son and three daughters. She gained fame as the mistress of Julius Caesar, whom her son Brutus and son-in-law Gaius Cassius Longinus, would assassinate in 44 BC.",
+      "start": -106,
+      "end": -43
+    },
+    {
+      "name": "Cicero",
+      "fullName": "Marcus Tullius Cicero",
+      "desc": "Roman statesman, lawyer, scholar, philosopher and Academic Skeptic, who tried to uphold optimate principles during the political crises that led to the establishment of the Roman Empire. His extensive writings include treatises on rhetoric, philosophy and politics, and he is considered one of Rome's greatest orators and prose stylists. He came from a wealthy municipal family of the Roman equestrian order, and served as consul in 63 BC.",
+      "start": -101,
+      "end": -42
+    },
     {
       "name": "Julius Caesar",
       "fullName": "Gaius Julius Caesar",
@@ -173,7 +212,30 @@
         }
       ]
     },
-
+    {
+      "name": "Cato",
+      "fullName": "Marcus Porcius Cato, \"Cato the Younger\"",
+      "desc": "Praetor popular among is fellow conservative senators. He took his own life to avoid the humiliation of being pardoned by Julius Caesar. Pretty crazy, but also pretty cool.",
+      "start": -95,
+      "end": -46
+    },
+    {
+      "name": "Lepidus",
+      "fullName": "Marcus Aemilius Lepidus",
+      "start": -89,
+      "end": -12
+    },
+    {
+      "name": "Brutus",
+      "fullName": "Marcus Junius Brutus",
+      "start": -85,
+      "end": -42
+    },
+    {
+      "name": "Marcus Antonius",
+      "start": -83,
+      "end": -30
+    },
     {
       "name": "Augustus",
       "fullName": "Caesar Augustus",

@@ -6,6 +6,12 @@
   },
   "items": [
     {
+      "name": "Cylon",
+      "fullName": "Cylon of Athens",
+      "desc": "One of the Athenian nobles and a previous victor of the Olympic Games, attempted a coup in 632 BC with support from Megara, where his father-in-law, Theagenes, was tyrant.",
+      "events": [{ "name": "Attempted coup", "start": -632 }]
+    },
+    {
       "name": "Draco",
       "desc": "Now Draco, in this group of laws, marked the terrible wickedness of homicide by banning the offender from the lustral water, the libations, the loving-cup, the sacrifices and the market-place; he enumerated everything that he thought likely to deter the offender; but he never robbed him of his claim to justice; he defined the circumstances that make homicide justifiable and proclaimed the accused in such case free from taint. If, then, your laws can justify homicide, is this fellow's law to forbid any claim, even a just one, to recompense? Not so, men of Athens!",
       "source": "Demosthenes, Against Leptines",
@@ -62,6 +68,25 @@
       "end": -450
     },
     {
+      "tax": "knowledge",
+      "name": "Aeschylus",
+      "start": -525,
+      "end": -456
+    },
+    {
+      "tax": "knowledge",
+      "name": "Sophocles",
+      "start": -497,
+      "end": -406
+    },
+    {
+      "tax": "knowledge",
+      "name": "Euripides",
+      "start": -480,
+      "end": -406,
+      "place": "Salamis"
+    },
+    {
       "name": "Pericles",
       "desc": "Pericles was a Greek statesman and general during the Golden Age of Athens. He turned the Delian League into an Athenian empire and led his countrymen during the first two years of the Peloponnesian War. Pericles promoted the arts and literature, and it is principally through his efforts that Athens acquired the reputation of being the educational and cultural center of the ancient Greek world. He started an ambitious project that generated most of the surviving structures on the Acropolis, including the Parthenon. This project beautified and protected the city, exhibited its glory and gave work to its people. Pericles also fostered Athenian democracy to such an extent that critics called him a populist.",
       "start": -495,
@@ -98,6 +123,18 @@
       "end": -404
     },
     {
+      "tax": "knowledge",
+      "name": "Antisthenes",
+      "start": -446,
+      "end": -366
+    },
+    {
+      "name": "Thrasybulus",
+      "desc": "Athenian general and democratic leader. In 411 BC, in the wake of an oligarchic coup at Athens, the pro-democracy sailors at Samos elected him as a general, making him a primary leader of the ultimately successful democratic resistance to the coup. As general, he was responsible for recalling the controversial nobleman Alcibiades from exile, and the two worked together extensively over the next several years. In 411 and 410, Thrasybulus was in command along with Alcibiades and others at several critical Athenian naval victories.",
+      "start": -440,
+      "end": -388
+    },
+    {
       "name": "Hagnon",
       "desc": "Hagnon, son of Nikias appointed to draw up a new constitution.",
       "events": [{ "start": -437 }]
@@ -108,7 +145,7 @@
       "end": -404
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Xenophon",
       "desc": "Xenophon of Athens was an Athenian military leader, philosopher, and historian. At the age of 30, Xenophon was elected commander of one of the biggest Greek mercenary armies of the Achaemenid Empire, the Ten Thousand, that marched on and came close to capturing Babylon in 401 BC. As the military historian Theodore Ayrault Dodge wrote, \"the centuries since have devised nothing to surpass the genius of this warrior\". Xenophon established precedents for many logistical operations, and was among the first to describe flanking maneuvers and feints. Xenophon's Anabasis recounts his adventures with the Ten Thousand while in the service of Cyrus the Younger, Cyrus's failed campaign to claim the Persian throne from Artaxerxes II of Persia, and the return of Greek mercenaries after Cyrus's death in the Battle of Cunaxa. Anabasis is a unique first-hand, humble, and self-reflective account of military leader's experience in antiquity. On the topic of campaigns in Asia Minor and in Babylon, Xenophon wrote Cyropaedia outlining both military and political methods used by Cyrus the Great to conquer the Neo-Babylonian Empire in 539 BC. Anabasis and Cyropaedia inspired Alexander the Great and other Greeks to conquer Babylon and the Achaemenid Empire in 331 BC.",
       "start": -430,
@@ -116,14 +153,14 @@
     },
 
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Plato",
       "desc": "Plato was an Athenian philosopher during the Classical period in Ancient Greece, founder of the Platonist school of thought and the Academy, the first institution of higher learning in the Western world.",
       "start": -428,
       "end": -348
     },
     {
-      "tax": "source",
+      "tax": "knowledge",
       "name": "Thucydides",
       "desc": "Thucydides was an Athenian historian and general. His History of the Peloponnesian War recounts the fifth-century BC war between Sparta and Athens until the year 411 BC. Thucydides has been dubbed the father of \"scientific history\" by those who accept his claims to have applied strict standards of impartiality and evidence-gathering and analysis of cause and effect, without reference to intervention by the deities, as outlined in his introduction to his work.",
       "start": -460,
@@ -142,9 +179,8 @@
       "end": -322
     },
     {
-      "tax": "source",
       "name": "Demosthenes",
-      "desc": "Demosthenes and a lawyer, writing speeches for use in private legal suits.",
+      "desc": "statesman and orator of ancient Athens. His orations constitute a significant expression of contemporary Athenian intellectual prowess and provide an insight into the politics and culture of ancient Greece during the 4th century BC.",
       "start": -384,
       "end": -322
     },

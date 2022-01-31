@@ -29,15 +29,18 @@
       "place": "Egypt"
     },
     {
+      "tax": "knowledge",
       "name": "Confucius",
       "start": -551,
       "end": -479
     },
     {
+      "tax": "knowledge",
       "name": "Laozi",
       "events": [{ "start": -500 }]
     },
     {
+      "tax": "knowledge",
       "name": "Buddha",
       "events": [{ "start": -490 }]
     },
@@ -45,6 +48,29 @@
       "name": "Brennus",
       "desc": "Chieftain of the Senones. He defeated the Romans at the Battle of the Allia (ca 390 BC). Later that year, he led an army of Cisalpine Gauls in their attack on Rome and captured most of the city, holding it for several months. Brennus's sack of Rome was the only time in 800 years the city was occupied by a non-Roman army before the fall of the city to the Visigoths in 410 AD.",
       "events": [{ "name": "Battle of the Allia", "start": -390 }]
+    },
+    {
+      "name": "Qin Shi Huang",
+      "desc": "Founder of the Qin dynasty, and first emperor of a unified China.",
+      "start": -259,
+      "end": -210,
+      "events": [{ "name": "Emperor of the Qin dynasty", "start": -221, "end": "end" }],
+      "place": "China"
+    },
+    {
+      "name": "Wu of Han",
+      "fullName": "Emperor Wu of Han",
+      "desc": "His reign resulted in a vast expansion of geopolitical influence for the Chinese civilization, and the development of a strong centralized state via governmental policies, economical reorganization and promotion of a hybrid Legalist-Confucian doctrine. In the field of historical social and cultural studies, Emperor Wu is known for his religious innovations and patronage of the poetic and musical arts, including development of the Imperial Music Bureau into a prestigious entity. It was also during his reign that cultural contact with western Eurasia was greatly increased, directly and indirectly.",
+      "start": -156,
+      "end": -87,
+      "events": [{ "name": "Emperor of the Han dynasty", "start": -141, "end": "end" }],
+      "place": "China"
+    },
+    {
+      "name": "Spartacus",
+      "start": -111,
+      "end": -71,
+      "place": "Thracia"
     },
     {
       "name": "Vercingetorix",
