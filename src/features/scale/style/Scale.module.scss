@@ -1,0 +1,28 @@
+.scale {
+    position: absolute;
+    inset: 0;
+
+    & > * {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        transform: translate(-50%, 0);
+
+        &::before {
+            content: '';
+            flex-grow: 1;
+            width: 1px;
+            background-color: rgba(white, 0.1);
+        }
+
+        span {
+            font-family: monospace;
+            line-height: 1.5rem;
+            flex: 0 0 1.5rem;
+            width: 100%;
+            opacity: .7;
+        }
+    }
+}

@@ -29,7 +29,7 @@ const parseItem = (item: DbItem, i): DataItem => {
 }
 
 const bgColor = (color, sd, ed) => {
-  const solid = hex2rgba(color, 0.8)
+  const solid = hex2rgba(color, 0.9)
   const alpha = hex2rgba(color, 0)
   return sd && ed
     ? `linear-gradient(90deg, ${alpha} 0%, ${solid} 30%, ${solid} 50%, ${solid} 70%, ${alpha} 100%)`

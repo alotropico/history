@@ -1,15 +1,17 @@
 type ItemTypes = 'person' | 'battle' | 'period' | 'event' | string
-export type DbSet = {
-  info: {
+
+export type DbSetInfo = {
+  name: string
+  color?: string
+  lightColor?: string
+  children?: {
     name: string
     color?: string
     lightColor?: string
-    children?: {
-      name: string
-      color?: string
-      lightColor?: string
-    }[]
-  }
+  }[]
+}
+export type DbSet = {
+  info: DbSetInfo
   items: DbItem[]
 }
 export type ItemEvent = {

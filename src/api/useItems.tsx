@@ -10,12 +10,14 @@ import other from '../data/other.json'
 
 import parseItems from '../utils/parseItems'
 
-import { DbItem, DataItem, DbSet } from '../types'
+import { DbItem, DataItem, DbSet, DbSetInfo } from '../types'
 
-export default function useItems(): DataItem[] {
-  return [greece, athens, sparta, macedon, persia, rome, carthage, hebrews, other]
-    .map((set) => parseItems(parseItemsBySet(set)))
-    .reduce((acc, set) => [...acc, ...set], [])
+export default function useItems(): [DataItem[], DbSetInfo[]] {
+  const dataSets = [greece, athens, sparta, macedon, persia, rome, carthage, hebrews, other]
+  return [
+    dataSets.map((set) => parseItems(parseItemsBySet(set))).reduce((acc, set) => [...acc, ...set], []),
+    dataSets.map((set) => set.info),
+  ]
 }
 
 function parseItemsBySet(set: DbSet): DbItem[] {

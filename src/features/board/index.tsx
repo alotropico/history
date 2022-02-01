@@ -1,5 +1,6 @@
 import { BoardProps } from './types'
 import Canvas from '../canvas'
+import Scale from '../scale'
 import Card from '../card'
 import style from './style/Board.module.scss'
 import useRenderItems from './hooks/useRenderItems'
@@ -8,22 +9,33 @@ import { createContext, useState } from 'react'
 
 export const BoardContext = createContext<Function>(() => null)
 
-export default function Board({ items }: BoardProps) {
+export default function Board({ items, sets }: BoardProps) {
   const [renderItems, start, end] = useRenderItems(items)
 
-  const dates = `(${parseYear(start)} to ${parseYear(end)})`
+  const dates = `(${end - start} years: ${parseYear(start)} to ${parseYear(end)})`
 
   const [selected, setSelected] = useState(null)
 
   return (
     <BoardContext.Provider value={setSelected}>
       <div className={style.board}>
-        <div className={style.top}>
-          <span className={style.status}>{renderItems.length} items</span>
+        <header>
           <h1 className={style.title}>Chronology of Renowned People from the Early Classical Antiquity</h1>
-          <p className={style.status}>{dates}</p>
-        </div>
-        <Canvas items={renderItems} />
+          <p className={style.status}>
+            {renderItems.length} items {dates}
+          </p>
+        </header>
+        <main>
+          <Scale start={start} end={end} />
+          <Canvas items={renderItems} />
+        </main>
+        <footer>
+          {sets.map((set) => (
+            <div key={set.name} style={{ color: '#' + set.color }}>
+              {set.name}
+            </div>
+          ))}
+        </footer>
       </div>
       {selected && <Card {...selected} handleClose={() => setSelected(null)} />}
     </BoardContext.Provider>

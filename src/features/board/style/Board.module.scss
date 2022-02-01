@@ -1,28 +1,45 @@
 .board {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-.top {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
+  header {
     display: flex;
     justify-content: space-between;
     margin: 0 1rem;
-    padding: .6rem 0;
-    border-bottom: 1px solid rgba(white, .1);
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(white, 0.1);
 
     .title {
-        font-size: inherit;
-        font-weight: inherit;
-        margin: 0;
-        padding: 0;
+      font-size: inherit;
+      font-weight: inherit;
+      margin: 0;
+      padding: 0;
 
-        span {
-            opacity: .5;
-        }
+      span {
+        opacity: 0.5;
+      }
     }
 
     .status {
-        opacity: .5;
-        margin: 0;
+      margin: 0;
+      opacity: 0.5;
     }
+  }
+
+  main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 0 1rem;
+  }
+
+  footer {
+    line-height: 3em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: rgba(black, 0.1);
+  }
 }
