@@ -1,34 +1,13 @@
 import { useRef } from 'react'
+import Desc from './components/Desc'
+import Links from './components/Links'
 import useClickOutside from '../../hooks/useClickOutside'
 import style from './style/Card.module.scss'
 
 export default function Card(props) {
-  const {
-    type,
-    set,
-    name,
-    fullName,
-    tax,
-    place,
-    s,
-    e,
-    sd,
-    ed,
-    dates,
-    spatial,
-    theme,
-    i,
-    desc,
-    handleClose,
-    source,
-    sourceLink,
-  } = props
-
-  const info = { i, type, set, tax, place }
+  const { set, name, fullName, place, dates, theme, desc, handleClose, source, sourceLink } = props
 
   const title = fullName || name
-
-  const searchId = `${title} ${place || set}`
 
   const cardColor = {
     background: theme.background,
@@ -44,52 +23,18 @@ export default function Card(props) {
           <span />
         </span>
       </div>
+
       <h2>{title}</h2>
+
       {dates && (
         <p className={style.date} style={cardColor}>
           {dates}
         </p>
       )}
-      {desc && (
-        <div className={style.body}>
-          {desc
-            // .replace(/\.+ /gi, '. ')
-            .replaceAll('. ', '. \n')
-            .split(/(\r?\n+)/gi)
-            .map((p, j) => (
-              <p key={j}>{p}</p>
-            ))}
 
-          {(sourceLink || source) && (
-            <div className={style.source}>
-              {sourceLink ? (
-                <a href={sourceLink} target='_blank' rel='noreferrer'>
-                  {source || 'Source'}
-                </a>
-              ) : (
-                source
-              )}
-            </div>
-          )}
-        </div>
-      )}
-      <ul>
-        <li>
-          <a href={`https://en.wikipedia.org/w/index.php?search=${title}`} target='_blank' rel='noreferrer'>
-            Search on Wikipedia
-          </a>
-        </li>
-        <li>
-          <a href={`https://www.google.com/search?q=${searchId}`} target='_blank' rel='noreferrer'>
-            Search on Google
-          </a>
-        </li>
-        <li>
-          <a href={`https://www.youtube.com/results?search_query=${searchId}`} target='_blank' rel='noreferrer'>
-            Search on Youtube
-          </a>
-        </li>
-      </ul>
+      <Desc desc={desc} source={source} sourceLink={sourceLink} />
+
+      <Links fullName={fullName} name={name} place={place} set={set} />
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { BoardProps } from './types'
 import Canvas from '../canvas'
 import Scale from '../scale'
 import Card from '../card'
+import Categories from '../categories'
 import style from './style/Board.module.scss'
 import useRenderItems from './hooks/useRenderItems'
 import parseYear from '../../utils/parseYear'
@@ -30,11 +31,7 @@ export default function Board({ items, sets }: BoardProps) {
           <Canvas items={renderItems} />
         </main>
         <footer>
-          {sets.map((set) => (
-            <div key={set.name} style={{ color: '#' + set.color }}>
-              {set.name}
-            </div>
-          ))}
+          <Categories sets={sets} />
         </footer>
       </div>
       {selected && <Card {...selected} handleClose={() => setSelected(null)} />}

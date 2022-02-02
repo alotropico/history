@@ -1,8 +1,11 @@
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -18,11 +21,25 @@ body {
 }
 
 h2 {
-  padding: 0 .8rem;
+  padding: 0 0.8rem;
 }
 
 #root {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+a {
+  color: #3776cde6;
+
+  &:active {
+    color: black;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: #666;
+  }
 }
