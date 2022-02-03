@@ -49,6 +49,7 @@ export type DataItem = DbItem &
   }
 export type SpatialItem = DataItem & {
   set: string
+  highlight?: boolean
   spatial: {
     i: number
     b: number

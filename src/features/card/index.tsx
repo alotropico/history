@@ -1,6 +1,8 @@
 import { useRef } from 'react'
+
 import Desc from './components/Desc'
 import Links from './components/Links'
+import Cross from '../../components/cross'
 import useClickOutside from '../../hooks/useClickOutside'
 import style from './style/Card.module.scss'
 
@@ -19,9 +21,7 @@ export default function Card(props) {
   return (
     <div className={style.card} ref={ref}>
       <div className={style.top}>
-        <span onClick={handleClose}>
-          <span />
-        </span>
+        <Cross onClick={handleClose} />
       </div>
 
       <h2>{title}</h2>

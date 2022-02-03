@@ -1,6 +1,6 @@
 {
   "info": {
-    "name": "Other Greek states",
+    "name": "Other Greeks",
     "color": "3776cd",
     "lightColor": "8eb5eb"
   },
@@ -210,6 +210,20 @@
       "start": -360,
       "end": -327,
       "place": "Olynthus"
+    },
+    {
+      "name": "Hiero II",
+      "desc": "Tyrant of Syracuse from 270 to 215 BC, and the illegitimate son of a Syracusan noble, Hierocles, who claimed descent from Gelon. He was a former general of Pyrrhus of Epirus and an important figure of the First Punic War.",
+      "start": -308,
+      "end": -215,
+      "place": "Syracuse",
+      "events": [
+        {
+          "name": "Tyrant of Syracuse",
+          "start": -270,
+          "end": "end"
+        }
+      ]
     },
     {
       "tax": "knowledge",

@@ -88,6 +88,22 @@
       "end": -279
     },
     {
+      "name": "Valerius",
+      "fullName": "Manius Valerius Maximus Corvinus Messalla",
+      "desc": "As a consul, Valerius gained a brilliant victory over the Carthaginians and Syracusans, along with his colleague, Manius Otacilius Crassus. The consuls concluded a peace treaty with Hiero II, which will proof crucial during the Punic Wars.",
+      "events": [
+        {
+          "name": "Consul of Rome",
+          "start": -263
+        },
+        {
+          "name": "Censor of Rome",
+          "start": -252
+        }
+      ]
+    },
+
+    {
       "name": "Dentatus",
       "fullName": "Manius Curius Dentatus",
       "desc": "Roman general and statesman noted for ending the Samnite War and for his military exploits during the Pyrrhic War. According to Pliny, he was born with teeth, thus earning the surname Dentatus, \"toothed\". Dentatus was a tribune of the plebs sometime between 298 and 291 BC. As tribune, he foiled efforts by the interrex Appius Claudius Caecus to keep plebeian candidates out of the consular elections.",
@@ -99,6 +115,25 @@
       "desc": "Roman statesman and general of the third century BC. He was consul five times (233, 228, 215, 214, and 209 BC) and was appointed dictator in 221 and 217 BC. He was censor in 230 BC. His agnomen, Cunctator, usually translated as \"the delayer\", refers to the strategy that he employed against Hannibal's forces during the Second Punic War. Facing an outstanding commander with superior numbers, he pursued a then-novel strategy of targeting the enemy's supply lines, and accepting only smaller engagements on favourable ground, rather than risking his entire army on direct confrontation with Hannibal himself. As a result, he is regarded as the originator of many tactics used in guerrilla warfare.",
       "start": -280,
       "end": -203
+    },
+    {
+      "name": "Duilius",
+      "fullName": "Gaius Duilius",
+      "desc": "Roman Hero of the first Punic War who was born into a plebeian family.",
+      "events": [
+        {
+          "name": "Consul of Rome",
+          "start": -260
+        },
+        {
+          "name": "Censor of Rome",
+          "start": -258
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -231
+        }
+      ]
     },
     {
       "name": "Laevinus",

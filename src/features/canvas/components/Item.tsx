@@ -3,13 +3,13 @@ import { SpatialItem } from '../../../types'
 import { BoardContext } from '../../board'
 
 export default function Item(props: SpatialItem & { i: number }) {
-  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i } = props
+  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i, highlight } = props
 
   const title = `${fullName || name} ${dates && `(${dates})`}`
 
-  const setClass = `item_set--${set.toLowerCase().replaceAll(' ', '-')}`
+  const setClass = [`item_set--${set.toLowerCase().replaceAll(' ', '-')}`, highlight ? 'highlight' : '']
 
-  const setSelected = useContext(BoardContext)
+  const { setSelected } = useContext(BoardContext)
 
   const itemStyle = {
     left: spatial.l + '%',
@@ -24,7 +24,7 @@ export default function Item(props: SpatialItem & { i: number }) {
 
   return (
     <div
-      className={['item', setClass].join(' ')}
+      className={[...setClass, 'item'].join(' ')}
       style={itemStyle}
       title={title}
       tabIndex={i}

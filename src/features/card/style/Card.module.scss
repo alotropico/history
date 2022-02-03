@@ -34,35 +34,6 @@ $bg: #555562f2;
 
     & > span {
       padding: 1rem;
-      cursor: pointer;
-
-      & > span {
-        display: block;
-        position: relative;
-        width: 0.25rem;
-        height: 1.25rem;
-        transition: transform 0.2s ease-out;
-
-        &::before,
-        &::after {
-          content: '';
-          position: absolute;
-          inset: 0;
-          background-color: black;
-        }
-        &::before {
-          transform: rotate(45deg);
-        }
-        &::after {
-          transform: rotate(-45deg);
-        }
-      }
-
-      &:hover {
-        & > span {
-          transform: scale(1.2, 1.2);
-        }
-      }
     }
   }
 
