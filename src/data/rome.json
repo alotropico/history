@@ -56,11 +56,110 @@
       "end": -498
     },
     {
+      "name": "Cossus",
+      "fullName": "Aulus Cornelius Cossus",
+      "desc": "He is most famous for being the second Roman, after Romulus, to be awarded the spolia opima, Rome's highest military honor, for killing the commander of an enemy army in single combat. Only three Romans ever achieved this feat.",
+      "events": [
+        {
+          "start": -437
+        }
+      ]
+    },
+    {
+      "name": "Cincinnatus",
+      "fullName": "Lucius Quinctius Cincinnatus",
+      "desc": "A conservative opponent in support of the rights of the plebeians (the common citizens) who fell into poverty because of his son's violent opposition to their desire for a written code of equally enforced laws. Despite his old age, he worked his own small farm until an invasion prompted his fellow citizens to call for his leadership. He came from his plough to assume complete control over the state but, upon achieving a swift victory, relinquished his power and its perquisites and returned to his farm. His success and immediate resignation of his near-absolute authority with the end of this crisis (traditionally dated to 458 BC) has often been cited as an example of outstanding leadership, service to the greater good, civic virtue, humility, and modesty.",
+      "start": -519,
+      "end": -430,
+      "events": [
+        {
+          "name": "Consul of Rome",
+          "start": -460
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -458
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -439
+        }
+      ]
+    },
+    {
+      "name": "Camillus",
+      "fullName": "Marcus Furius Camillus",
+      "desc": "Soldier and statesman of the patrician class. According to Livy and Plutarch, Camillus triumphed four times, was five times dictator, and was honoured with the title of Second Founder of Rome.",
+      "start": -446,
+      "end": -365,
+      "events": [
+        {
+          "name": "Dictator of Rome",
+          "start": -396
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -390
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -389
+        },
+        {
+          "name": "Consular tribune of Rome",
+          "start": -384
+        },
+        {
+          "name": "Consular tribune of Rome",
+          "start": -381
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -368
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -367
+        }
+      ]
+    },
+    {
       "name": "Corvus",
       "fullName": "Marcus Valerius Corvus",
       "desc": "Military commander and politician from the early-to-middle period of the Roman Republic. During his career he was elected consul six times, first at the unusual age of 23. He was appointed dictator two times and led the armies of the Republic in the First Samnite War. He occupied the curule chair a total of twenty-one times throughout his career. According to tradition, he lived to the age of one hundred.",
       "start": -370,
       "end": -270
+    },
+    {
+      "name": "Imperiosus",
+      "fullName": "Titus Manlius Imperiosus Torquatus",
+      "desc": "He was one of the early heroes of the Republic. He defeated a giant Gaul in single combat in one of the most famous duels of the Republic, which earned him the cognomen Torquatus after the torc he took from the Gaul's body. He was also known for his moral virtues, especially his severity as he had his own son executed after he had disobeyed his orders in a battle. His life was seen as a model for his descendants, who tried to emulate his heroic deeds, even centuries after his death.",
+      "events": [
+        {
+          "name": "Consul of Rome",
+          "start": -347
+        },
+        {
+          "name": "Consul of Rome",
+          "start": -344
+        },
+        {
+          "name": "Consul of Rome",
+          "start": -340
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -353
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -349
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -320
+        }
+      ]
     },
     {
       "name": "Rullianus",
@@ -132,6 +231,81 @@
         {
           "name": "Dictator of Rome",
           "start": -231
+        }
+      ]
+    },
+    {
+      "name": "Regulus",
+      "fullName": "Marcus Atilius Regulus",
+      "desc": "After being defeated and captured at Tunis in 255 BC, he was released on parole to negotiate a peace. He urged the Roman Senate to refuse the proposals and then, over the protests of his own people, he fulfilled the terms of his parole, rather than break his word, by returning to Carthage, where, according to Roman tradition and Livy, he was tortured to death.",
+      "start": -307,
+      "end": -250,
+      "events": [
+        {
+          "name": "Consul of Rome",
+          "start": -267
+        },
+        {
+          "name": "Consul of Rome",
+          "start": -256
+        }
+      ]
+    },
+    {
+      "name": "Lucius",
+      "fullName": "Lucius Manlius Vulso Longus",
+      "desc": "His military achievements significantly contributed to the victory of the Romans in the First Punic War.",
+      "events": [
+        {
+          "name": "Consul of Rome",
+          "start": -256
+        },
+        {
+          "name": "Consul of Rome",
+          "start": -250
+        }
+      ]
+    },
+    {
+      "name": "Torquatus",
+      "fullName": "Titus Manlius Torquatus",
+      "desc": "As his most famous deed, Torquatus, as a senior senator, successfully opposed the ransoming of the Romans taken prisoner at the Battle of Cannae, on the grounds that they had made no effort to break out of the Carthaginian lines.",
+      "start": -279,
+      "end": -202,
+      "events": [
+        {
+          "name": "Consul of Rome",
+          "start": -235
+        },
+        {
+          "name": "Consul of Rome",
+          "start": -224
+        },
+        {
+          "name": "Censor of Rome",
+          "start": -231
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -208
+        }
+      ]
+    },
+    {
+      "name": "Pera",
+      "fullName": "Marcus Junius Pera",
+      "events": [
+        {
+          "name": "Consul of Rome",
+          "start": -230
+        },
+        {
+          "name": "Censor of Rome",
+          "start": -225
+        },
+        {
+          "name": "Dictator of Rome",
+          "start": -216
         }
       ]
     },
@@ -272,6 +446,7 @@
       "end": -30
     },
     {
+      "type": "source",
       "name": "Augustus",
       "fullName": "Caesar Augustus",
       "desc": "His status as the founder of the Roman Principate has consolidated a legacy as one of the most effective leaders in human history. The reign of Augustus initiated an era of relative peace known as the Pax Romana. Augustus dramatically enlarged the Empire, annexing Egypt, Dalmatia, Pannonia, Noricum and Raetia, expanding possessions in Africa, and completing the conquest of Hispania, but suffered a major setback in Germania. Beyond the frontiers, he secured the Empire with a buffer region of client states and made peace with the Parthian Empire through diplomacy. He reformed the Roman system of taxation, developed networks of roads with an official courier system, established a standing army, established the Praetorian Guard, official police and fire-fighting services for Rome, and rebuilt much of the city during his reign.",
@@ -284,6 +459,18 @@
           "end": "end"
         }
       ]
+    },
+    {
+      "name": "Virgil",
+      "fullName": "Publius Vergilius Maro",
+      "start": -70,
+      "end": -19
+    },
+    {
+      "name": "Livy",
+      "fullName": "Titus Livius",
+      "start": -59,
+      "end": 17
     }
   ]
 }

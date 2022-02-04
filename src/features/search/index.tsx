@@ -14,6 +14,7 @@ export default function Search() {
       onChange={handleChange}
       className={style.input}
       placeholder='Search. ie: Scipio, Alexander'
+      onFocus={(event) => event.target.select()}
     />
   )
 }

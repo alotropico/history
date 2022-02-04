@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from 'react'
+import { createContext, useState } from 'react'
 
 import Canvas from '../canvas'
 import Scale from '../scale'
@@ -18,10 +18,6 @@ export const BoardContext = createContext<any>(() => null)
 
 export default function Board({ items, sets }: BoardProps) {
   const [filters, setFilters] = useState([])
-
-  useEffect(() => {
-    console.log(filters)
-  }, [filters])
 
   const [highlights, setHighlights] = useState('')
 

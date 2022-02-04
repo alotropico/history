@@ -1,11 +1,13 @@
 import parseYear from './parseYear'
+import hex2rgba from './hex2Rgba'
 import { DbItem, DataItem } from '../types'
 
 export default function parseItems(items: DbItem[]): DataItem[] {
-  return items.map((item, i) => parseItem(item, i))
-  // .sort((a, b) => sortByNumericValue('e', a, b))
-  // .sort((a, b) => sortByNumericValue('s', a, b))
-  // .sort((a, b) => sortByValue('set', a, b))
+  return items
+    .map((item, i) => parseItem(item, i))
+    .sort((a, b) => sortByNumericValue('e', a, b))
+    .sort((a, b) => sortByNumericValue('s', a, b))
+    .sort((a, b) => sortByValue('set', a, b))
 }
 
 // Parse individual item
@@ -17,6 +19,7 @@ const parseItem = (item: DbItem, i): DataItem => {
     theme: {
       ...item.theme,
       background: bgColor(item.theme.color, sd, ed),
+      icon: getIcon(item.tax || '', item.events || []),
     },
     id: item.set + '-' + i,
     dates: datesToString(item?.start, item?.end),
@@ -28,6 +31,15 @@ const parseItem = (item: DbItem, i): DataItem => {
   }
 }
 
+const getIcon = (tax, events) => {
+  if (tax === 'knowledge') return 'knowledge'
+  if (arrayHasWords(events, 'name', ['king', 'queen', 'pharaoh', 'emperor', 'basileus'])) return 'king'
+  if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos'])) return 'consul'
+}
+
+const arrayHasWords = (ar, prop, words) =>
+  ar.some((a) => words.some((word) => a?.[prop]?.toLowerCase().indexOf(word) > -1))
+
 const bgColor = (color, sd, ed) => {
   const solid = hex2rgba(color, 0.9)
   const alpha = hex2rgba(color, 0)
@@ -38,10 +50,6 @@ const bgColor = (color, sd, ed) => {
     : ed
     ? `linear-gradient(90deg, ${solid} 0%, ${solid} 70%, ${alpha} 100%)`
     : solid
-}
-const hex2rgba = (hex, alpha = 1) => {
-  const [r, g, b] = hex.match(/\w\w/g).map((x) => parseInt(x, 16))
-  return `rgba(${r},${g},${b}, ${alpha})`
 }
 
 // From 'start' & 'end' dates, get the actual visual points I want the item to be displayed
