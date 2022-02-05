@@ -6,51 +6,58 @@
   "items": [
     {
       "name": "Tefnakht",
-      "events": [
-        {
-          "name": "Pharaoh",
-          "start": -732,
-          "end": -725
-        }
-      ],
+      "desc": "Prince of Sais and founder of the relatively short Twenty-fourth Dynasty of Egypt; he rose to become a Chief of the Ma in his home city.",
+      "events": [{ "name": "Pharaoh", "start": -732, "end": -725 }],
       "place": "Egypt"
     },
     {
+      "tax": "pharao",
       "name": "Piye",
-      "desc": "Piye was an ancient Kushite king and founder of the Twenty-fifth Dynasty of Egypt, who ruled Egypt. He ruled from the city of Napata, located deep in Nubia, modern-day Sudan.",
+      "desc": "Founder of the Twenty-fifth Dynasty of Egypt, who ruled Egypt. He ruled from the city of Napata, located deep in Nubia, modern-day Sudan.",
       "end": -714,
       "events": [{ "name": "Pharao", "start": -744, "end": "end" }],
       "place": "Kush"
     },
     {
+      "tax": "pharao",
       "name": "Psamtik III",
       "desc": "Last Pharaoh of the last native dynasty of Egypt.",
       "events": [{ "name": "Pharao", "start": -526, "end": -525 }],
       "place": "Egypt"
     },
     {
-      "tax": "knowledge",
+      "tax": "religion",
       "name": "Confucius",
+      "desc": "Philosopher, poet and politician of the Spring and Autumn period who was traditionally considered the paragon of Chinese sages. Confucius's teachings and philosophy formed the basis of East Asian culture and society, and continues to remain influential across China and East Asia as of today.",
       "start": -551,
-      "end": -479
+      "end": -479,
+      "place": "China"
     },
     {
-      "tax": "knowledge",
+      "tax": "religion",
       "name": "Laozi",
-      "events": [{ "start": -500 }]
+      "fullName": "Lao Tzu",
+      "desc": "Philosopher and writer. He is the reputed author of the Tao Te Ching, the founder of philosophical Taoism, and a deity in religious Taoism and traditional Chinese religions.",
+      "events": [{ "start": -500 }],
+      "place": "China"
     },
     {
-      "tax": "knowledge",
+      "tax": "religion",
       "name": "Buddha",
-      "events": [{ "start": -490 }]
+      "fullName": "Gautama Buddha",
+      "desc": "Was an ascetic, a religious leader and teacher who lived in ancient India. He is regarded as the founder of the world religion of Buddhism, and revered by Buddhists as an enlightened being, who rediscovered an ancient path to freedom from ignorance, craving and the cycle of rebirth and suffering. He taught for around 45 years and built a large following, both monastic and lay. His teaching is based on his insight into the arising of suffering or dissatisfaction and its ending—the state called Nirvana.",
+      "events": [{ "start": -490 }],
+      "place": "India"
     },
     {
       "name": "Brennus",
       "desc": "Chieftain of the Senones. He defeated the Romans at the Battle of the Allia (ca 390 BC). Later that year, he led an army of Cisalpine Gauls in their attack on Rome and captured most of the city, holding it for several months. Brennus's sack of Rome was the only time in 800 years the city was occupied by a non-Roman army before the fall of the city to the Visigoths in 410 AD.",
-      "events": [{ "name": "Battle of the Allia", "start": -390 }]
+      "events": [{ "start": -390 }],
+      "place": "Seine basin"
     },
     {
-      "name": "Qin Shi Huang",
+      "name": "Qin",
+      "fullName": "Qin Shi Huang",
       "desc": "Founder of the Qin dynasty, and first emperor of a unified China.",
       "start": -259,
       "end": -210,
@@ -58,8 +65,8 @@
       "place": "China"
     },
     {
-      "name": "Wu of Han",
-      "fullName": "Emperor Wu of Han",
+      "name": "Wu",
+      "fullName": "Wu of Han",
       "desc": "His reign resulted in a vast expansion of geopolitical influence for the Chinese civilization, and the development of a strong centralized state via governmental policies, economical reorganization and promotion of a hybrid Legalist-Confucian doctrine. In the field of historical social and cultural studies, Emperor Wu is known for his religious innovations and patronage of the poetic and musical arts, including development of the Imperial Music Bureau into a prestigious entity. It was also during his reign that cultural contact with western Eurasia was greatly increased, directly and indirectly.",
       "start": -156,
       "end": -87,
@@ -68,6 +75,7 @@
     },
     {
       "name": "Spartacus",
+      "desc": "Thracian gladiator who, along with others, was one of the escaped slave leaders in the Third Servile War, a major slave uprising against the Roman Republic.",
       "start": -111,
       "end": -71,
       "place": "Thracia"
@@ -76,7 +84,8 @@
       "name": "Vercingetorix",
       "desc": "Was a king and chieftain of the Arverni tribe who united the Gauls in a failed revolt against Roman forces during the last phase of Julius Caesar's Gallic Wars. Despite having willingly surrendered to Caesar, he was executed in Rome.",
       "start": -82,
-      "end": -46
+      "end": -46,
+      "place": "West Europe"
     }
   ]
 }

@@ -268,13 +268,5 @@
       "page-break-before",
       "page-break-inside"
     ]
-  },
-  "cSpell.customDictionaries": {
-    "custom-dictionary-folder": {
-      "name": "custom-dictionary-folder",
-      "path": "${workspaceFolder:history}/.cspell/custom-dictionary-folder.txt",
-      "addWords": true,
-      "scope": "folder"
-    }
   }
 }

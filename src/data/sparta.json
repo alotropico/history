@@ -8,93 +8,46 @@
     {
       "tax": "Agiad dynasty",
       "name": "Alcmenes",
-      "desc": "King of Sparta. Commander in the night-expedition against Ampheia, which began the First Messenian War.",
+      "desc": "Commander in the night-expedition against Ampheia, which began the First Messenian War.",
       "end": -700,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -740,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -740, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Polydorus",
       "desc": "Polydorus and his co-king Theopompus changed the constitution of Sparta so that the Kings and the Gerousia (28 chosen men above the age of 60) could veto decisions made by the Spartan Apella (the male citizen body).",
       "end": -665,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -700,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -700, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Eurycrates",
-      "desc": "King of Sparta.",
       "end": -640,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -665,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -665, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Anaxander",
-      "desc": "King of Sparta.",
       "end": -615,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -640,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -640, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Eurycratides",
-      "desc": "King of Sparta.",
       "end": -590,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -615,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -615, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Leon",
-      "desc": "King of Sparta.",
       "end": -560,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -590,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -590, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Anaxandridas II",
-      "desc": "King of Sparta.",
       "end": -520,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -560,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -560, "end": "end" }]
     },
     {
       "name": "Cleomenes I",
@@ -104,7 +57,7 @@
     },
     {
       "name": "Leonidas I",
-      "desc": "King of Sparta, Leonidas had a notable participation in the Second Persian War, where he led the allied Greek forces to a last stand at the Battle of Thermopylae (480 BC) while attempting to defend the pass from the invading Persian army; he died at the battle and entered myth as the leader of the 300 Spartans. While the Greeks lost this battle, they were able to expel the Persian invaders in the following year.",
+      "desc": "Leonidas had a notable participation in the Second Persian War, where he led the allied Greek forces to a last stand at the Battle of Thermopylae (480 BC) while attempting to defend the pass from the invading Persian army; he died at the battle and entered myth as the leader of the 300 Spartans. While the Greeks lost this battle, they were able to expel the Persian invaders in the following year.",
       "start": -540,
       "end": -480,
       "events": [{ "name": "King of Sparta", "start": -489, "end": "end" }]
@@ -112,37 +65,21 @@
     {
       "tax": "Agiad dynasty",
       "name": "Pleistoanax",
-      "desc": "King of Sparta, Pleistoanax was exiled sometime between 446 BC and 444 BC, charged by the Spartans with taking a bribe, probably from Pericles. In 428 BC, Pleistoanax was recalled and restored in obedience to the Delphic oracle's advice, though some suspected he had tampered with the Pythia.",
+      "desc": "He was exiled sometime between 446 BC and 444 BC, charged by the Spartans with taking a bribe, probably from Pericles. In 428 BC, Pleistoanax was recalled and restored in obedience to the Delphic oracle's advice, though some suspected he had tampered with the Pythia.",
       "end": -409,
       "events": [
-        {
-          "name": "King of Sparta",
-          "start": -458,
-          "end": -445
-        },
-        {
-          "name": "King of Sparta",
-          "start": -426,
-          "end": "end"
-        }
+        { "name": "King of Sparta", "start": -458, "end": -445 },
+        { "name": "King of Sparta", "start": -426, "end": "end" }
       ]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Pausanias",
       "fullName": "Pausanias of Sparta",
-      "desc": "King of Sparta. Because of his poor leadership at the Battle of Haliartus, during the Corinthian War, Pausanias was condemned to death by the Spartans and replaced as king by his young son Agesipolis I. Pausanias is believed to have outlived his son.",
+      "desc": "Because of his poor leadership at the Battle of Haliartus, during the Corinthian War, Pausanias was condemned to death by the Spartans and replaced as king by his young son Agesipolis I. Pausanias is believed to have outlived his son.",
       "events": [
-        {
-          "name": "King of Sparta",
-          "start": -445,
-          "end": -426
-        },
-        {
-          "name": "King of Sparta",
-          "start": -409,
-          "end": -395
-        },
+        { "name": "King of Sparta", "start": -445, "end": -426 },
+        { "name": "King of Sparta", "start": -409, "end": -395 },
         { "start": -380 }
       ]
     },
@@ -151,52 +88,27 @@
       "name": "Agesipolis I",
       "desc": "Though Agesipolis did not share the ambitious views of foreign conquest cherished by Agesilaus (his more powerful co-king), his loss was deeply regretted by Agesilaus, who seems to have had a sincere regard for him. He was succeeded as king by his brother Cleombrotus I. Paul Cartledge, however, suggests that Agesilaus' grief was partly due to the loss of a malleable \"partner in crime\".",
       "end": -380,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -394,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -394, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Cleombrotus I",
       "desc": "As king, he led the allied Spartan-Peloponnesian army against the Thebans under Epaminondas in the Battle of Leuctra. His death and the utter defeat of his army led to the end of Spartan dominance in ancient Greece.",
       "end": -371,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -380,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -380, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Agesipolis II",
-      "desc": "King of Sparta.",
       "end": -369,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -371,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -371, "end": "end" }]
     },
     {
       "tax": "Agiad dynasty",
       "name": "Cleomenes II",
       "desc": "Although he reigned for more than 60 years, his life is completely unknown, apart from a victory at the Pythian Games in 336 BC.",
       "end": -309,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -369,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -369, "end": "end" }]
     },
 
     {
@@ -205,19 +117,13 @@
       "desc": "Generally considered the most important king in the history of Sparta, Agesilaus was the main actor during the period of Spartan hegemony that followed the Peloponnesian War. Although brave in combat, Agesilaus lacked the diplomatic skills to preserve Sparta's position, especially against the rising power of Thebes, which reduced Sparta to a secondary power after its victory at Leuctra in 371 BC.",
       "start": -442,
       "end": -358,
-      "events": [
-        {
-          "name": "King of Sparta",
-          "start": -399,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Sparta", "start": -399, "end": "end" }]
     },
 
     {
       "tax": "knowledge",
       "name": "Alcman",
-      "desc": "Back then Sparta had poets, like Alcman.",
+      "desc": "Choral lyric poet. He is the earliest representative of the Alexandrian canon of the Nine Lyric Poets.",
       "place": "Sardis",
       "events": [
         {
@@ -227,7 +133,7 @@
     },
     {
       "name": "Brasidas",
-      "desc": "Brasidas was the most distinguished Spartan officer during the first decade of the Peloponnesian War.[1] He died during the Second Battle of Amphipolis while winning one of his most spectacular victories.",
+      "desc": "The most distinguished Spartan officer during the first decade of the Peloponnesian War. He died during the Second Battle of Amphipolis while winning one of his most spectacular victories.",
       "end": -422
     }
   ]

@@ -2,19 +2,7 @@
   "info": {
     "name": "Macedon",
     "color": "57a165",
-    "lightColor": "b9d9bf",
-    "children": [
-      {
-        "name": "Seleucus",
-        "color": "96cb97",
-        "lightColor": "377038"
-      },
-      {
-        "name": "Egypt",
-        "color": "ccefb8",
-        "lightColor": "789567"
-      }
-    ]
+    "lightColor": "b9d9bf"
   },
   "items": [
     {
@@ -70,14 +58,14 @@
     {
       "name": "Aeropus II",
       "fullName": "Aeropus II of Macedon",
-      "desc": "Aeropus II of Macedon (Ancient Greek: Ἀέροπος, romanized: Aéropos), king of Macedonia, son of Perdiccas II, was guardian during the minority of his king and kinsman, Orestes, with whom he reigned for some years after 399 BC.",
+      "desc": "Guardian during the minority of his king and kinsman, Orestes, with whom he reigned for some years after 399 BC.",
       "end": -394,
       "events": [{ "name": "King of Macedon", "start": -399, "end": "end" }]
     },
     {
       "name": "Pausanias",
       "fullName": "Pausanias of Macedon",
-      "desc": "Pausanias of Macedon was the son and successor of Aeropus II of Macedon in the Argead dynasty of Macedon. He was assassinated in 394 BCE, the year of his accession, by Amyntas III (also called Amyntas II), who then succeeded him as King of Macedonia.",
+      "desc": "He was assassinated in 394 BCE, the year of his accession, by Amyntas III (also called Amyntas II), who then succeeded him as King of Macedonia.",
       "end": -394,
       "events": [{ "name": "King of Macedon", "start": -394, "end": "end" }]
     },
@@ -103,7 +91,6 @@
     {
       "name": "Alexander II",
       "fullName": "Alexander II of Macedon",
-      "desc": "Alexander II of Macedon was an Argead king of the ancient kingdom of Macedon in 369-367 BC, following the death of his father Amyntas III.",
       "end": -367,
       "events": [{ "name": "King of Macedon", "start": -369, "end": "end" }]
     },
@@ -117,7 +104,7 @@
     {
       "name": "Amyntas IV",
       "fullName": "Amyntas IV of Macedon",
-      "desc": "Amyntas IV was a titular king of the Greek kingdom of Macedonia in 359 BC and member of the Argead dynasty.\nAfter his father's death in 359 BC he became king, but he was only an infant. Philip II of Macedon, Perdiccas’ brother, became his tutor and regent. In that same year Philip declared himself king of Macedonia, expropriating his young nephew.\nAmyntas was not judged dangerous enough to be a menace to Philip, who even gave him his daughter Cynane in marriage. The succession of Amyntas’ cousin Alexander in 336 BC changed things — Alexander immediately had Amyntas executed.",
+      "desc": "After his father's death in 359 BC he became king, but he was only an infant. Philip II of Macedon, Perdiccas’ brother, became his tutor and regent. In that same year Philip declared himself king of Macedonia, expropriating his young nephew.\nAmyntas was not judged dangerous enough to be a menace to Philip, who even gave him his daughter Cynane in marriage. The succession of Amyntas’ cousin Alexander in 336 BC changed things — Alexander immediately had Amyntas executed.",
       "start": -365,
       "end": -335,
       "events": [{ "name": "King of Macedon", "start": -359, "end": -359 }]
@@ -125,7 +112,7 @@
     {
       "name": "Philip II",
       "fullName": "Philip II of Macedon",
-      "desc": "Philip II of Macedon was the king of the kingdom of Macedon from 359 BC until his assassination in 336 BC. He was a member of the Argead dynasty of Macedonian kings, the third son of King Amyntas III of Macedon, and father of Alexander the Great and Philip III. The rise of Macedon, its conquest and political consolidation of most of Classical Greece during the reign of Philip II was achieved in part by his reformation of the Macedonian army, establishing the Macedonian phalanx that proved critical in securing victories on the battlefield. After defeating the Greek city-states of Athens and Thebes at the Battle of Chaeronea in 338 BC, Philip II led the effort to establish a federation of Greek states known as the League of Corinth, with him as the elected hegemon and commander-in-chief of Greece for a planned invasion of the Achaemenid Empire of Persia. However, his assassination by a royal bodyguard, Pausanias of Orestis, led to the immediate succession of his son Alexander, who would go on to invade the Achaemenid Empire in his father's stead.",
+      "desc": "The rise of Macedon, its conquest and political consolidation of most of Classical Greece during the reign of Philip II was achieved in part by his reformation of the Macedonian army, establishing the Macedonian phalanx that proved critical in securing victories on the battlefield. After defeating the Greek city-states of Athens and Thebes at the Battle of Chaeronea in 338 BC, Philip II led the effort to establish a federation of Greek states known as the League of Corinth, with him as the elected hegemon and commander-in-chief of Greece for a planned invasion of the Achaemenid Empire of Persia. However, his assassination by a royal bodyguard, Pausanias of Orestis, led to the immediate succession of his son Alexander, who would go on to invade the Achaemenid Empire in his father's stead.",
       "start": -382,
       "end": -336,
       "events": [
@@ -136,9 +123,7 @@
     {
       "name": "Alexander the Great",
       "fullName": "Alexander the Great",
-      "desc": "I met a traveller from an antique land,\nWho said—“Two vast and trunkless legs of stone\nStand in the desert... Near them, on the sand,\nHalf sunk a shattered visage lies, whose frown,\nAnd wrinkled lip, and sneer of cold command,\nTell that its sculptor well those passions read\nWhich yet survive, stamped on these lifeless things,\nThe hand that mocked them, and the heart that fed;\nAnd on the pedestal, these words appear:\nMy name is Ozymandias, King of Kings;\nLook on my Works, ye Mighty, and despair!\nNothing beside remains. Round the decay\nOf that colossal Wreck, boundless and bare\nThe lone and level sands stretch far away.”",
-      "source": "Shelley’s Poetry and Prose (1977)",
-      "sourceLink": "https://www.poetryfoundation.org/poems/46565/ozymandias",
+      "desc": "By the age of thirty, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle and is widely considered to be one of history's greatest and most successful military commanders.",
       "start": -356,
       "end": -323,
       "events": [
@@ -162,7 +147,7 @@
     {
       "name": "Alexander IV",
       "fullName": "Alexander IV of Macedon",
-      "desc": "Alexander IV and Princess Roxana of Bactria.",
+      "desc": "Son of Alexander the Great and Princess Roxana of Bactria.",
       "start": -323,
       "end": -309,
       "events": [{ "name": "King of Macedon", "start": -317, "end": -305 }]
@@ -190,7 +175,7 @@
     {
       "name": "Demetrius I",
       "fullName": "Demetrius \"The Besieger\" of Macedon",
-      "desc": "Demetrius I (/dɪˈmiːtriəs/; Ancient Greek: Δημήτριος; 337–283 BC), also called Poliorcetes (/ˌpɒliɔːrˈsiːtiːz/; Greek: Πολιορκητής, \"The Besieger\"), was a Greek Macedonian nobleman, military leader, and finally king of Macedon (294–288 BC). He belonged to the Antigonid dynasty and was its first member to rule Macedonia. He was the son of Antigonus I Monophthalmus and Stratonice.",
+      "desc": "Also called Poliorcetes, he was a Greek Macedonian nobleman, military leader, and finally king of Macedon. He belonged to the Antigonid dynasty and was its first member to rule Macedonia. He was the son of Antigonus I Monophthalmus and Stratonice.",
       "start": -337,
       "end": -283,
       "events": [{ "name": "King of Macedon", "start": -294, "end": -288 }]
@@ -224,20 +209,20 @@
     {
       "name": "Antipater Etesias",
       "fullName": "Antipater Etesias",
-      "desc": "Antipater Etesias was a king of Macedon. He was the son of Cassander's brother Phillip. He became king after the death of Ptolemy Keraunos and the ousting of Meleager. His reign lasted only a period of 45 days. The Macedonians gave Antipater the name Etesias, because the etesian winds blew during the short time that he was king. He failed as the leader of the army and was deposed by Sosthenes, possibly an officer in the army of Lysimachus in the 280's or 279 BC. Despite this he still had a following in some parts of Macedon and was defeated by Antigonus II Gonatas. After this he fled to Egypt where he is mentioned 20 years later, encouraged by the king Ptolemy III Euergetes as a potential rival claimant to the Macedonian throne.",
+      "desc": "Son of Cassander's brother Phillip. He became king after the death of Ptolemy Keraunos and the ousting of Meleager. His reign lasted only a period of 45 days. The Macedonians gave Antipater the name Etesias, because the etesian winds blew during the short time that he was king. He failed as the leader of the army and was deposed by Sosthenes, possibly an officer in the army of Lysimachus in the 280's or 279 BC. Despite this he still had a following in some parts of Macedon and was defeated by Antigonus II Gonatas. After this he fled to Egypt where he is mentioned 20 years later, encouraged by the king Ptolemy III Euergetes as a potential rival claimant to the Macedonian throne.",
       "events": [{ "name": "King of Macedon", "start": -279, "end": -279 }]
     },
     {
       "name": "Sosthenes",
       "fullName": "Sosthenes of Macedon",
-      "desc": "Sosthenes was a Macedonian general who may have been a king of the Antipatrid dynasty. During the reign of Lysimachus he was his governor in Asia Minor. Sosthenes was elected King by the Macedonian army, but he may or not have reigned as king. Appointed as strategos he may have declined the title of king as he had no royal connections. During his reign he faced invading Galatians, Antigonus II Gonatas and other rivals. He defeated Bolgius, one of the earliest invading Galatian leaders but was soon faced with the invasion of Brennus in the summer of 279 BC. Antigonus II Gonatas tried to invade Macedonia from Asia in 278 but was beaten by Sosthenes.",
+      "desc": "Macedonian general who may have been a king of the Antipatrid dynasty. During the reign of Lysimachus he was his governor in Asia Minor. Sosthenes was elected King by the Macedonian army, but he may or not have reigned as king. Appointed as strategos he may have declined the title of king as he had no royal connections. During his reign he faced invading Galatians, Antigonus II Gonatas and other rivals. He defeated Bolgius, one of the earliest invading Galatian leaders but was soon faced with the invasion of Brennus in the summer of 279 BC. Antigonus II Gonatas tried to invade Macedonia from Asia in 278 but was beaten by Sosthenes.",
       "end": -277,
       "events": [{ "name": "King of Macedon", "start": -279, "end": "end" }]
     },
     {
       "name": "Pyrrhus",
       "fullName": "Pyrrhus of Epirus",
-      "desc": "Pyrrhus was a Greek king and statesman of the Hellenistic period. He was king of the Greek tribe of Molossians, of the royal Aeacid house, and later he became king of Epirus. He was one of the strongest opponents of early Rome, and regarded as one of the greatest generals of antiquity. Several of his victorious battles caused him unacceptably heavy losses, from which the term \"Pyrrhic victory\" was coined.",
+      "desc": "One of the strongest opponents of early Rome, and regarded as one of the greatest generals of antiquity. Several of his victorious battles caused him unacceptably heavy losses, from which the term \"Pyrrhic victory\" was coined.",
       "start": -319,
       "end": -272,
       "events": [
@@ -249,7 +234,7 @@
     {
       "name": "Antigonus II",
       "fullName": "Antigonus II Gonatas",
-      "desc": "Antigonus II Gonatas was a Greek Macedonian ruler who solidified the position of the Antigonid dynasty in Macedon after a long period defined by anarchy and chaos and acquired fame for his victory over the Gauls who had invaded the Balkans.",
+      "desc": "Macedonian ruler who solidified the position of the Antigonid dynasty in Macedon after a long period defined by anarchy and chaos. He acquired fame for his victory over the Gauls who had invaded the Balkans.",
       "start": -320,
       "end": -239,
       "events": [
@@ -314,13 +299,13 @@
       "desc": "Founder of the Ptolemaic dynasty, which ruled Egypt until the death of Cleopatra in 30 BC, turning the country into a Hellenistic kingdom and Alexandria into a center of Greek culture.",
       "start": -367,
       "end": -282,
-      "set": "Egypt",
+      "place": "Egypt",
       "events": [{ "name": "Pharaoh of Egypt", "start": -305, "end": "end" }]
     },
     {
       "name": "Peucestas",
       "desc": "Founder of the Ptolemaic dynasty, which ruled Egypt until the death of Cleopatra in 30 BC, turning the country into a Hellenistic kingdom and Alexandria into a center of Greek culture.",
-      "set": "Egypt"
+      "place": "Egypt"
     },
     {
       "name": "Peithon",
@@ -337,7 +322,7 @@
     {
       "name": "Antigonus I",
       "fullName": "Antigonus I Monophthalmus",
-      "desc": "Antigonus I Monophthalmus (Ancient Greek: Ἀντίγονος ὁ Μονόφθαλμος, romanized: Antigonos ho Monophthalmos, Antigonus the One-Eyed, 382 – 301 BC), son of Philip from Elimeia, was a Macedonian Greek nobleman, general, satrap, and king. During the first half of his life he served under Philip II; after Philip's death in 336 BC, he served Philip's son Alexander. He was a major figure in the Wars of the Diadochi after Alexander's death, declaring himself king in 306 BC and establishing the Antigonid dynasty.",
+      "desc": "Macedonian Greek nobleman, general, satrap, and king. During the first half of his life he served under Philip II; after Philip's death in 336 BC, he served Philip's son Alexander. He was a major figure in the Wars of the Diadochi after Alexander's death, declaring himself king in 306 BC and establishing the Antigonid dynasty.",
       "start": -382,
       "end": -301,
       "events": [{ "name": "Basileus of the Antigonid Empire", "start": -306, "end": "end" }]
@@ -353,7 +338,7 @@
       "desc": "Seleucus I Nicator was a Macedonian Greek general, a Diadochi of Alexander the Great and ultimately king who fought for control over his empire after his death. Having previously served as an infantry general under Alexander the Great, he eventually assumed the title of basileus and established the Seleucid Empire, one of the major powers of the Hellenistic world, which controlled most of Asia Minor, Syria, Mesopotamia, and the Iranian Plateau until overcome by the Roman Republic and Parthian Empire in the late second and early first centuries BC.",
       "start": -358,
       "end": -281,
-      "set": "Seleucus",
+      "place": "Seleucus",
       "events": [{ "name": "King of the Seleucid empire", "start": -305, "end": "end" }]
     },
     {
@@ -364,7 +349,7 @@
     },
     {
       "name": "Olympias",
-      "desc": "Olympias was the eldest daughter of king Neoptolemus I of Epirus, the sister of Alexander I of Epirus, the fourth wife of Philip II, the king of Macedonia and the mother of Alexander the Great. She was extremely influential in Alexander's life and was recognized as de facto leader of Macedon during Alexander's conquests. After her son's death, she fought on behalf of Alexander's son Alexander IV, successfully defeating Adea Eurydice. After she was finally defeated by Cassander, his armies refused to execute her, and he finally had to summon family members of those Olympias had previously killed to end her life. According to the 1st century AD biographer, Plutarch, she was a devout member of the orgiastic snake-worshiping cult of Dionysus, and he suggests that she slept with snakes in her bed.",
+      "desc": "Eldest daughter of king Neoptolemus I of Epirus, the sister of Alexander I of Epirus, the fourth wife of Philip II, the king of Macedonia and the mother of Alexander the Great. She was extremely influential in Alexander's life and was recognized as de facto leader of Macedon during Alexander's conquests. After her son's death, she fought on behalf of Alexander's son Alexander IV, successfully defeating Adea Eurydice. After she was finally defeated by Cassander, his armies refused to execute her, and he finally had to summon family members of those Olympias had previously killed to end her life. According to the 1st century AD biographer, Plutarch, she was a devout member of the orgiastic snake-worshiping cult of Dionysus, and he suggests that she slept with snakes in her bed.",
       "start": -375,
       "end": -316,
       "events": [{ "name": "Queen of Macedon", "start": -375, "end": "end" }]
@@ -400,7 +385,7 @@
       "fullName": "Antiochus IV Epiphanes",
       "start": -215,
       "end": -164,
-      "set": "Seleucus",
+      "place": "Seleucus",
       "events": [{ "name": "King of the Seleucid empire", "start": -175, "end": "end" }]
     },
     {
@@ -416,7 +401,7 @@
       "fullName": "Cleopatra VII Philopator",
       "start": -69,
       "end": -29,
-      "set": "Egypt",
+      "place": "Egypt",
       "events": [
         {
           "name": "Queen of Egypt",

@@ -13,7 +13,8 @@ import parseItems from '../utils/parseItems'
 import { DbItem, DataItem, DbSet, DbSetInfo } from '../types'
 
 export default function useItems(): [DataItem[], DbSetInfo[]] {
-  const dataSets = [greece, athens, sparta, rome, macedon, persia, carthage, hebrews, other]
+  //const dataSets = [greece, hebrews, athens, sparta, rome, macedon, persia, carthage, other]
+  const dataSets = [other, hebrews, persia, rome, carthage, sparta, greece, athens, macedon]
   return [
     dataSets.map((set) => parseItems(parseItemsBySet(set))).reduce((acc, set) => [...acc, ...set], []),
     dataSets.map((set) => set.info),

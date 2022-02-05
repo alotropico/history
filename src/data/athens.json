@@ -13,7 +13,7 @@
     },
     {
       "name": "Draco",
-      "desc": "Now Draco, in this group of laws, marked the terrible wickedness of homicide by banning the offender from the lustral water, the libations, the loving-cup, the sacrifices and the market-place; he enumerated everything that he thought likely to deter the offender; but he never robbed him of his claim to justice; he defined the circumstances that make homicide justifiable and proclaimed the accused in such case free from taint. If, then, your laws can justify homicide, is this fellow's law to forbid any claim, even a just one, to recompense? Not so, men of Athens!",
+      "desc": "Draco, in this group of laws, marked the terrible wickedness of homicide by banning the offender from the lustral water, the libations, the loving-cup, the sacrifices and the market-place; he enumerated everything that he thought likely to deter the offender; but he never robbed him of his claim to justice; he defined the circumstances that make homicide justifiable and proclaimed the accused in such case free from taint. If, then, your laws can justify homicide, is this fellow's law to forbid any claim, even a just one, to recompense? Not so, men of Athens!",
       "source": "Demosthenes, Against Leptines",
       "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0072:speech=20:section=158&highlight=draco",
       "end": -600,
@@ -21,13 +21,13 @@
     },
     {
       "name": "Solon",
-      "desc": "Solon was an Athenian statesman, lawmaker and poet. He is remembered particularly for his efforts to legislate against political, economic and moral decline in archaic Athens. His reforms failed in the short term, yet he is often credited with having laid the foundations for Athenian democracy. He wrote poetry for pleasure, as patriotic propaganda, and in defence of his constitutional reform.",
+      "desc": "Athenian statesman, lawmaker and poet. He is remembered particularly for his efforts to legislate against political, economic and moral decline in archaic Athens. His reforms failed in the short term, yet he is often credited with having laid the foundations for Athenian democracy. He wrote poetry for pleasure, as patriotic propaganda, and in defence of his constitutional reform.",
       "start": -630,
       "end": -560
     },
     {
       "name": "Pisistratus",
-      "desc": "Pisistratus or Peisistratus was a ruler of ancient Athens during most of the period between 561 and 527 BC. His unification of Attica, the triangular peninsula of Greece containing Athens, along with economic and cultural improvements laid the groundwork for the later preeminence of Athens in ancient Greece.",
+      "desc": "Ruler of ancient Athens during most of the period between 561 and 527 BC. His unification of Attica, the triangular peninsula of Greece containing Athens, along with economic and cultural improvements laid the groundwork for the later preeminence of Athens in ancient Greece.",
       "start": -600,
       "end": -527,
       "events": [
@@ -38,20 +38,21 @@
     },
     {
       "name": "Cleisthenes",
-      "desc": "Cleisthenes or Clisthenes was an ancient Athenian lawgiver credited with reforming the constitution of ancient Athens and setting it on a democratic footing in 508 BC. For these accomplishments, historians refer to him as \"the father of Athenian democracy.\" He was a member of the aristocratic Alcmaeonid clan. He was the younger son of Megacles and Agariste making him the maternal grandson of the tyrant Cleisthenes of Sicyon. He was also credited with increasing the power of the Athenian citizens' assembly and for reducing the power of the nobility over Athenian politics.",
+      "desc": "Athenian lawgiver credited with reforming the constitution of ancient Athens and setting it on a democratic footing in 508 BC. For these accomplishments, historians refer to him as \"the father of Athenian democracy.\" He was a member of the aristocratic Alcmaeonid clan. He was the younger son of Megacles and Agariste making him the maternal grandson of the tyrant Cleisthenes of Sicyon. He was also credited with increasing the power of the Athenian citizens' assembly and for reducing the power of the nobility over Athenian politics.",
       "start": -570,
       "end": -508,
       "events": [{ "name": "Chief Archon of Athens", "start": -525, "end": -524 }]
     },
     {
       "name": "Aristides",
-      "desc": "Aristides was an ancient Athenian statesman. Nicknamed \"the Just\", he flourished in the early quarter of Athens' Classical period and is remembered for his generalship in the Persian War. The ancient historian Herodotus cited him as \"the best and most honourable man in Athens\",  and he received similarly reverent treatment in Plato's Socratic dialogues.",
+      "desc": "Athenian statesman. Nicknamed \"the Just\", he flourished in the early quarter of Athens' Classical period and is remembered for his generalship in the Persian War. The ancient historian Herodotus cited him as \"the best and most honourable man in Athens\",  and he received similarly reverent treatment in Plato's Socratic dialogues.",
       "start": -530,
       "end": -468
     },
     {
       "name": "Miltiades",
-      "desc": "Miltiades, also known as Miltiades the Younger, was a Greek Athenian citizen known mostly for his role in the Battle of Marathon, as well as for his downfall afterwards. He was the son of Cimon Coalemos, a renowned Olympic chariot-racer, and the father of Cimon, the noted Athenian statesman.",
+      "fullName": "Miltiades the Younger",
+      "desc": "Also known as Miltiades the Younger, was a Greek Athenian citizen known mostly for his role in the Battle of Marathon, as well as for his downfall afterwards. He was the son of Cimon Coalemos, a renowned Olympic chariot-racer, and the father of Cimon, the noted Athenian statesman.",
       "start": -550,
       "end": -489
     },
@@ -63,9 +64,10 @@
     },
     {
       "name": "Cimon",
-      "desc": "Cimon or Kimon was an Athenian statesman and general in mid-5th century BC Greece. He was the son of Miltiades, the victor of the Battle of Marathon. Cimon played a key role in creating the powerful Athenian maritime empire following the failure of the Persian invasion of Greece by Xerxes I in 480–479 BC. Cimon became a celebrated military hero and was elected to the rank of strategos after fighting in the Battle of Salamis.",
+      "desc": "Athenian statesman and general in mid-5th century BC Greece. He was the son of Miltiades, the victor of the Battle of Marathon. Cimon played a key role in creating the powerful Athenian maritime empire following the failure of the Persian invasion of Greece by Xerxes I in 480–479 BC. Cimon became a celebrated military hero and was elected to the rank of strategos after fighting in the Battle of Salamis.",
       "start": -510,
-      "end": -450
+      "end": -450,
+      "place": "Kimon"
     },
     {
       "tax": "knowledge",
@@ -88,37 +90,38 @@
     },
     {
       "name": "Pericles",
-      "desc": "Pericles was a Greek statesman and general during the Golden Age of Athens. He turned the Delian League into an Athenian empire and led his countrymen during the first two years of the Peloponnesian War. Pericles promoted the arts and literature, and it is principally through his efforts that Athens acquired the reputation of being the educational and cultural center of the ancient Greek world. He started an ambitious project that generated most of the surviving structures on the Acropolis, including the Parthenon. This project beautified and protected the city, exhibited its glory and gave work to its people. Pericles also fostered Athenian democracy to such an extent that critics called him a populist.",
+      "desc": "Greek statesman and general during the Golden Age of Athens. He turned the Delian League into an Athenian empire and led his countrymen during the first two years of the Peloponnesian War. Pericles promoted the arts and literature, and it is principally through his efforts that Athens acquired the reputation of being the educational and cultural center of the ancient Greek world. He started an ambitious project that generated most of the surviving structures on the Acropolis, including the Parthenon. This project beautified and protected the city, exhibited its glory and gave work to its people. Pericles also fostered Athenian democracy to such an extent that critics called him a populist.",
       "start": -495,
       "end": -429
     },
     {
       "name": "Nicias",
-      "desc": "Nicias was an Athenian politician and general during the period of the Peloponnesian War. Nicias was a member of the Athenian aristocracy and had inherited a large fortune from his father, which was invested in the silver mines around Attica's Mt. Laurium. Following the death of Pericles in 429 BC, he became the principal rival of Cleon and the democrats in the struggle for the political leadership of the Athenian state. He was a moderate in his political views and opposed the aggressive imperialism of the democrats. His principal aim was to conclude a peace with Sparta as soon as it could be obtained on terms favourable to Athens.",
+      "desc": "Athenian politician and general during the period of the Peloponnesian War. Nicias was a member of the Athenian aristocracy and had inherited a large fortune from his father, which was invested in the silver mines around Attica's Mt. Laurium. Following the death of Pericles in 429 BC, he became the principal rival of Cleon and the democrats in the struggle for the political leadership of the Athenian state. He was a moderate in his political views and opposed the aggressive imperialism of the democrats. His principal aim was to conclude a peace with Sparta as soon as it could be obtained on terms favourable to Athens.",
       "start": -470,
       "end": -413,
       "events": [{ "name": "Peace of Nicias", "start": -421 }]
     },
     {
       "name": "Cleon",
-      "desc": "Cleon was an Athenian general during the Peloponnesian War. He was the first prominent representative of the commercial class in Athenian politics, although he was an aristocrat himself. He strongly advocated for an offensive war strategy and is remembered for being ruthless in carrying out his policies. He is often depicted in a negative way, predominantly by Thucydides and the comedic playwright Aristophanes, who both represent him as an unscrupulous, warmongering demagogue.",
+      "desc": "Athenian general during the Peloponnesian War. He was the first prominent representative of the commercial class in Athenian politics, although he was an aristocrat himself. He strongly advocated for an offensive war strategy and is remembered for being ruthless in carrying out his policies. He is often depicted in a negative way, predominantly by Thucydides and the comedic playwright Aristophanes, who both represent him as an unscrupulous, warmongering demagogue.",
       "end": -422
     },
     {
+      "tax": "knowledge",
       "name": "Socrates",
-      "desc": "Socrates was a Greek philosopher from Athens who is credited as a founder of Western philosophy and the first moral philosopher of the ethical tradition of thought.",
+      "desc": "Greek philosopher from Athens who is credited as a founder of Western philosophy and the first moral philosopher of the ethical tradition of thought.",
       "start": -470,
       "end": -399
     },
     {
       "name": "Critias",
-      "desc": "Critias was an ancient Athenian political figure and author. Born in Athens, Critias was the son of Callaeschrus and a first cousin of Plato's mother Perictione. He became a leading and violent member of the Thirty Tyrants. He also was an associate of Socrates, a fact that did not endear Socrates to the Athenian public.",
+      "desc": "Athenian political figure and author. Born in Athens, Critias was the son of Callaeschrus and a first cousin of Plato's mother Perictione. He became a leading and violent member of the Thirty Tyrants. He also was an associate of Socrates, a fact that did not endear Socrates to the Athenian public.",
       "start": -460,
       "end": -403
     },
     {
       "name": "Alcibiades",
-      "desc": "Alcibiades was a prominent Athenian statesman, orator, and general. He was the last famous member of his mother's aristocratic family, the Alcmaeonidae, which fell from prominence after the Peloponnesian War. He played a major role in the second half of that conflict as a strategic advisor, military commander, and politician.",
+      "desc": "Prominent Athenian statesman, orator, and general. He was the last famous member of his mother's aristocratic family, the Alcmaeonidae, which fell from prominence after the Peloponnesian War. He played a major role in the second half of that conflict as a strategic advisor, military commander, and politician.",
       "start": -450,
       "end": -404
     },
@@ -136,18 +139,18 @@
     },
     {
       "name": "Hagnon",
-      "desc": "Hagnon, son of Nikias appointed to draw up a new constitution.",
+      "desc": "Was appointed to draw up a new constitution.",
       "events": [{ "start": -437 }]
     },
     {
       "name": "Theramenes",
-      "desc": "Theramenes was an Athenian statesman, prominent in the final decade of the Peloponnesian War. He was particularly active during the two periods of oligarchic government at Athens, as well as in the trial of the generals who had commanded at Arginusae in 406 BC. A moderate oligarch, he often found himself caught between the democrats on the one hand and the extremist oligarchs on the other. Successful in replacing a narrow oligarchy with a broader one in 411 BC, he failed to achieve the same end in 404 BC, and was executed by the extremists whose policies he had opposed.",
+      "desc": "Athenian statesman, prominent in the final decade of the Peloponnesian War. He was particularly active during the two periods of oligarchic government at Athens, as well as in the trial of the generals who had commanded at Arginusae in 406 BC. A moderate oligarch, he often found himself caught between the democrats on the one hand and the extremist oligarchs on the other. Successful in replacing a narrow oligarchy with a broader one in 411 BC, he failed to achieve the same end in 404 BC, and was executed by the extremists whose policies he had opposed.",
       "end": -404
     },
     {
       "tax": "knowledge",
       "name": "Xenophon",
-      "desc": "Xenophon of Athens was an Athenian military leader, philosopher, and historian. At the age of 30, Xenophon was elected commander of one of the biggest Greek mercenary armies of the Achaemenid Empire, the Ten Thousand, that marched on and came close to capturing Babylon in 401 BC. As the military historian Theodore Ayrault Dodge wrote, \"the centuries since have devised nothing to surpass the genius of this warrior\". Xenophon established precedents for many logistical operations, and was among the first to describe flanking maneuvers and feints. Xenophon's Anabasis recounts his adventures with the Ten Thousand while in the service of Cyrus the Younger, Cyrus's failed campaign to claim the Persian throne from Artaxerxes II of Persia, and the return of Greek mercenaries after Cyrus's death in the Battle of Cunaxa. Anabasis is a unique first-hand, humble, and self-reflective account of military leader's experience in antiquity. On the topic of campaigns in Asia Minor and in Babylon, Xenophon wrote Cyropaedia outlining both military and political methods used by Cyrus the Great to conquer the Neo-Babylonian Empire in 539 BC. Anabasis and Cyropaedia inspired Alexander the Great and other Greeks to conquer Babylon and the Achaemenid Empire in 331 BC.",
+      "desc": "Athenian military leader, philosopher, and historian. At the age of 30, Xenophon was elected commander of one of the biggest Greek mercenary armies of the Achaemenid Empire, the Ten Thousand, that marched on and came close to capturing Babylon in 401 BC. As the military historian Theodore Ayrault Dodge wrote, \"the centuries since have devised nothing to surpass the genius of this warrior\". Xenophon established precedents for many logistical operations, and was among the first to describe flanking maneuvers and feints. Xenophon's Anabasis recounts his adventures with the Ten Thousand while in the service of Cyrus the Younger, Cyrus's failed campaign to claim the Persian throne from Artaxerxes II of Persia, and the return of Greek mercenaries after Cyrus's death in the Battle of Cunaxa. Anabasis is a unique first-hand, humble, and self-reflective account of military leader's experience in antiquity. On the topic of campaigns in Asia Minor and in Babylon, Xenophon wrote Cyropaedia outlining both military and political methods used by Cyrus the Great to conquer the Neo-Babylonian Empire in 539 BC. Anabasis and Cyropaedia inspired Alexander the Great and other Greeks to conquer Babylon and the Achaemenid Empire in 331 BC.",
       "start": -430,
       "end": -355
     },
@@ -155,26 +158,26 @@
     {
       "tax": "knowledge",
       "name": "Plato",
-      "desc": "Plato was an Athenian philosopher during the Classical period in Ancient Greece, founder of the Platonist school of thought and the Academy, the first institution of higher learning in the Western world.",
+      "desc": "Athenian philosopher during the Classical period in Ancient Greece, founder of the Platonist school of thought and the Academy, the first institution of higher learning in the Western world.",
       "start": -428,
       "end": -348
     },
     {
       "tax": "knowledge",
       "name": "Thucydides",
-      "desc": "Thucydides was an Athenian historian and general. His History of the Peloponnesian War recounts the fifth-century BC war between Sparta and Athens until the year 411 BC. Thucydides has been dubbed the father of \"scientific history\" by those who accept his claims to have applied strict standards of impartiality and evidence-gathering and analysis of cause and effect, without reference to intervention by the deities, as outlined in his introduction to his work.",
+      "desc": "Athenian historian and general. His History of the Peloponnesian War recounts the fifth-century BC war between Sparta and Athens until the year 411 BC. Thucydides has been dubbed the father of \"scientific history\" by those who accept his claims to have applied strict standards of impartiality and evidence-gathering and analysis of cause and effect, without reference to intervention by the deities, as outlined in his introduction to his work.",
       "start": -460,
       "end": -400
     },
     {
       "name": "Phocion",
-      "desc": "Phocion was an Athenian statesman and strategos, and the subject of one of Plutarch's Parallel Lives. Phocion was a successful politician of Athens. He believed that extreme frugality was the condition for virtue and lived in accord with this; consequently, he was popularly known as \"The Good.\" Further, people thought that Phocion was the most honest member of the Athenian Assembly. However, within this chamber, Phocion's tendency to strong opposition relegated him to a solitary stand against the entire political class. Nonetheless, by both his individual prestige and his military expertise, which was acquired by the side of Chabrias, Phocion was elected strategos numerous times, with a record 45 terms in office. Thus, during most of his 84 years of life, Phocion occupied the most important Athenian offices.",
+      "desc": "Athenian statesman and strategos, and the subject of one of Plutarch's Parallel Lives. Phocion was a successful politician of Athens. He believed that extreme frugality was the condition for virtue and lived in accord with this; consequently, he was popularly known as \"The Good.\" Further, people thought that Phocion was the most honest member of the Athenian Assembly. However, within this chamber, Phocion's tendency to strong opposition relegated him to a solitary stand against the entire political class. Nonetheless, by both his individual prestige and his military expertise, which was acquired by the side of Chabrias, Phocion was elected strategos numerous times, with a record 45 terms in office. Thus, during most of his 84 years of life, Phocion occupied the most important Athenian offices.",
       "start": -402,
       "end": -318
     },
     {
       "name": "Hypereides",
-      "desc": "Hypereides or Hyperides was an Athenian logographer (speech writer). He was one of the ten Attic orators included in the \"Alexandrian canon\" compiled by Aristophanes of Byzantium and Aristarchus of Samothrace in the third century BC. He was a leader of the Athenian resistance to King Philip II of Macedon and Alexander the Great. He was associated with Lycurgus and Demosthenes in exposing pro-Macedonian sympathies. He is known for prosecuting Philippides of Paiania for his pro-Macedonian measures and his decree in honoring Alexander the Great.",
+      "desc": "Athenian logographer (speech writer). He was one of the ten Attic orators included in the \"Alexandrian canon\" compiled by Aristophanes of Byzantium and Aristarchus of Samothrace in the third century BC. He was a leader of the Athenian resistance to King Philip II of Macedon and Alexander the Great. He was associated with Lycurgus and Demosthenes in exposing pro-Macedonian sympathies. He is known for prosecuting Philippides of Paiania for his pro-Macedonian measures and his decree in honoring Alexander the Great.",
       "start": -390,
       "end": -322
     },
@@ -186,7 +189,7 @@
     },
     {
       "name": "Epicurus",
-      "desc": "Epicurus  was an ancient Greek philosopher and sage who founded Epicureanism, a highly influential school of philosophy. He was born on the Greek island of Samos to Athenian parents. Influenced by Democritus, Aristippus, Pyrrho,  and possibly the Cynics, he turned against the Platonism of his day and established his own school, known as \"the Garden\", in Athens. Epicurus and his followers were known for eating simple meals and discussing a wide range of philosophical subjects. He openly allowed women and slaves  to join the school as a matter of policy. Epicurus is said to have originally written over 300 works on various subjects, but the vast majority of these writings have been lost. Only three letters written by him—the letters to Menoeceus, Pythocles, and Herodotus—and two collections of quotes—the Principal Doctrines and the Vatican Sayings—have survived intact, along with a few fragments of his other writings. Most knowledge of his teachings comes from later authors, particularly the biographer Diogenes Laërtius, the Epicurean Roman poet Lucretius and the Epicurean philosopher Philodemus, and with hostile but largely accurate accounts by the Pyrrhonist philosopher Sextus Empiricus, and the Academic Skeptic and statesman Cicero.",
+      "desc": "Greek philosopher and sage who founded Epicureanism, a highly influential school of philosophy. He was born on the Greek island of Samos to Athenian parents. Influenced by Democritus, Aristippus, Pyrrho,  and possibly the Cynics, he turned against the Platonism of his day and established his own school, known as \"the Garden\", in Athens. Epicurus and his followers were known for eating simple meals and discussing a wide range of philosophical subjects. He openly allowed women and slaves  to join the school as a matter of policy. Epicurus is said to have originally written over 300 works on various subjects, but the vast majority of these writings have been lost. Only three letters written by him—the letters to Menoeceus, Pythocles, and Herodotus—and two collections of quotes—the Principal Doctrines and the Vatican Sayings—have survived intact, along with a few fragments of his other writings. Most knowledge of his teachings comes from later authors, particularly the biographer Diogenes Laërtius, the Epicurean Roman poet Lucretius and the Epicurean philosopher Philodemus, and with hostile but largely accurate accounts by the Pyrrhonist philosopher Sextus Empiricus, and the Academic Skeptic and statesman Cicero.",
       "start": -341,
       "end": -270
     }

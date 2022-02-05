@@ -13,7 +13,7 @@ export default function parseItems(items: DbItem[]): DataItem[] {
 // Parse individual item
 const parseItem = (item: DbItem, i): DataItem => {
   const type = item?.type || 'person'
-  const { s, e, sd, ed } = getDatePoints(item?.start, item?.end, item?.events || [], type)
+  const { s, e, sd, ed } = getDatePoints(item.name, item?.start, item?.end, item?.events || [], type)
   return {
     ...item,
     theme: {
@@ -32,9 +32,11 @@ const parseItem = (item: DbItem, i): DataItem => {
 }
 
 const getIcon = (tax, events) => {
-  if (tax === 'knowledge') return 'knowledge'
+  if (arrayHasWords([{ tax: tax }], 'tax', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'pharao', 'dynasty']))
+    return 'king'
+  if (tax) return tax
   if (arrayHasWords(events, 'name', ['king', 'queen', 'pharaoh', 'emperor', 'basileus'])) return 'king'
-  if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos'])) return 'consul'
+  // if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos'])) return 'consul'
 }
 
 const arrayHasWords = (ar, prop, words) =>
@@ -53,13 +55,19 @@ const bgColor = (color, sd, ed) => {
 }
 
 // From 'start' & 'end' dates, get the actual visual points I want the item to be displayed
-const getDatePoints = (start, end, events, type) => {
+const getDatePoints = (name, start, end, events, type) => {
   const strictStart = start || getEventsDatePoints(events, false, 'start')
   const strictEnd = end || getEventsDatePoints(events, true, 'end')
   const dif = strictEnd - strictStart
 
   const [s, sd] = start ? [start, false] : pushDatePoints(strictStart || strictEnd, false, type, dif || 0, end)
   const [e, ed] = end ? [end, false] : pushDatePoints(strictEnd || strictStart, true, type, dif || 0, start)
+
+  const df = e - s
+
+  // const fac = 20 + (name.length - 0) * 4
+
+  // const finalE = df < fac ? e + fac - df : e
 
   return { s, e, sd, ed }
 }

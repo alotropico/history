@@ -28,7 +28,7 @@
       ]
     },
     {
-      "tax": "knowledge",
+      "tax": "explorer",
       "name": "Himilco",
       "desc": "Navigator and explorer who lived during the late 6th or early 5th century BC, a period of time where Carthage held significant sway over its neighboring regions. Himilco is the first known explorer from the Mediterranean Sea to reach the northwestern shores of Europe. His lost account of his adventures is quoted by Roman writers.",
       "events": [
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "tax": "knowledge",
+      "tax": "explorer",
       "name": "Hanno",
       "fullName": "Hanno the Navigator",
       "desc": "Explorer of the fifth century BC, best known for his naval exploration of the western coast of Africa.",

@@ -11,13 +11,7 @@
       "source": "Livy, The History of Rome, Book 1",
       "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0026%3Abook%3D1%3Achapter%3D15",
       "end": -716,
-      "events": [
-        {
-          "name": "King of Rome",
-          "start": -753,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "King of Rome", "start": -753, "end": "end" }]
     },
     {
       "name": "Vecellinus",
@@ -41,13 +35,7 @@
       "fullName": "Lucius Tarquinius Superbus",
       "desc": "Legendary seventh and final king of Rome, reigning from 535 BC until the popular uprising in 509 BC that led to the establishment of the Roman Republic.",
       "end": -495,
-      "events": [
-        {
-          "name": "King of Rome",
-          "start": -535,
-          "end": -509
-        }
-      ]
+      "events": [{ "name": "King of Rome", "start": -535, "end": -509 }]
     },
     {
       "name": "Aquilinus",
@@ -72,18 +60,9 @@
       "start": -519,
       "end": -430,
       "events": [
-        {
-          "name": "Consul of Rome",
-          "start": -460
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -458
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -439
-        }
+        { "name": "Consul", "start": -460 },
+        { "name": "Dictator of Rome", "start": -458 },
+        { "name": "Dictator of Rome", "start": -439 }
       ]
     },
     {
@@ -93,34 +72,13 @@
       "start": -446,
       "end": -365,
       "events": [
-        {
-          "name": "Dictator of Rome",
-          "start": -396
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -390
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -389
-        },
-        {
-          "name": "Consular tribune of Rome",
-          "start": -384
-        },
-        {
-          "name": "Consular tribune of Rome",
-          "start": -381
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -368
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -367
-        }
+        { "name": "Dictator of Rome", "start": -396 },
+        { "name": "Dictator of Rome", "start": -390 },
+        { "name": "Dictator of Rome", "start": -389 },
+        { "name": "Consular tribune of Rome", "start": -384 },
+        { "name": "Consular tribune of Rome", "start": -381 },
+        { "name": "Dictator of Rome", "start": -368 },
+        { "name": "Dictator of Rome", "start": -367 }
       ]
     },
     {
@@ -135,30 +93,12 @@
       "fullName": "Titus Manlius Imperiosus Torquatus",
       "desc": "He was one of the early heroes of the Republic. He defeated a giant Gaul in single combat in one of the most famous duels of the Republic, which earned him the cognomen Torquatus after the torc he took from the Gaul's body. He was also known for his moral virtues, especially his severity as he had his own son executed after he had disobeyed his orders in a battle. His life was seen as a model for his descendants, who tried to emulate his heroic deeds, even centuries after his death.",
       "events": [
-        {
-          "name": "Consul of Rome",
-          "start": -347
-        },
-        {
-          "name": "Consul of Rome",
-          "start": -344
-        },
-        {
-          "name": "Consul of Rome",
-          "start": -340
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -353
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -349
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -320
-        }
+        { "name": "Consul", "start": -347 },
+        { "name": "Consul", "start": -344 },
+        { "name": "Consul", "start": -340 },
+        { "name": "Dictator of Rome", "start": -353 },
+        { "name": "Dictator of Rome", "start": -349 },
+        { "name": "Dictator of Rome", "start": -320 }
       ]
     },
     {
@@ -191,14 +131,8 @@
       "fullName": "Manius Valerius Maximus Corvinus Messalla",
       "desc": "As a consul, Valerius gained a brilliant victory over the Carthaginians and Syracusans, along with his colleague, Manius Otacilius Crassus. The consuls concluded a peace treaty with Hiero II, which will proof crucial during the Punic Wars.",
       "events": [
-        {
-          "name": "Consul of Rome",
-          "start": -263
-        },
-        {
-          "name": "Censor of Rome",
-          "start": -252
-        }
+        { "name": "Consul", "start": -263 },
+        { "name": "Censor", "start": -252 }
       ]
     },
 
@@ -220,18 +154,9 @@
       "fullName": "Gaius Duilius",
       "desc": "Roman Hero of the first Punic War who was born into a plebeian family.",
       "events": [
-        {
-          "name": "Consul of Rome",
-          "start": -260
-        },
-        {
-          "name": "Censor of Rome",
-          "start": -258
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -231
-        }
+        { "name": "Consul", "start": -260 },
+        { "name": "Censor", "start": -258 },
+        { "name": "Dictator of Rome", "start": -231 }
       ]
     },
     {
@@ -241,14 +166,8 @@
       "start": -307,
       "end": -250,
       "events": [
-        {
-          "name": "Consul of Rome",
-          "start": -267
-        },
-        {
-          "name": "Consul of Rome",
-          "start": -256
-        }
+        { "name": "Consul", "start": -267 },
+        { "name": "Consul", "start": -256 }
       ]
     },
     {
@@ -256,14 +175,8 @@
       "fullName": "Lucius Manlius Vulso Longus",
       "desc": "His military achievements significantly contributed to the victory of the Romans in the First Punic War.",
       "events": [
-        {
-          "name": "Consul of Rome",
-          "start": -256
-        },
-        {
-          "name": "Consul of Rome",
-          "start": -250
-        }
+        { "name": "Consul", "start": -256 },
+        { "name": "Consul", "start": -250 }
       ]
     },
     {
@@ -273,21 +186,26 @@
       "start": -279,
       "end": -202,
       "events": [
+        { "name": "Consul", "start": -235 },
+        { "name": "Consul", "start": -224 },
+        { "name": "Censor", "start": -231 },
+        { "name": "Dictator of Rome", "start": -208 }
+      ]
+    },
+    {
+      "name": "Cato the Elder",
+      "fullName": "Marcus Porcius Cato",
+      "desc": "Roman soldier, senator, and historian known for his conservatism and opposition to Hellenization. He was the first to write history in Latin with his Origines, a now lost work on the History of Rome.",
+      "start": -234,
+      "end": -149,
+      "events": [
         {
-          "name": "Consul of Rome",
-          "start": -235
+          "name": "Consul",
+          "start": -195
         },
         {
-          "name": "Consul of Rome",
-          "start": -224
-        },
-        {
-          "name": "Censor of Rome",
-          "start": -231
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -208
+          "name": "Censor",
+          "start": -184
         }
       ]
     },
@@ -295,18 +213,9 @@
       "name": "Pera",
       "fullName": "Marcus Junius Pera",
       "events": [
-        {
-          "name": "Consul of Rome",
-          "start": -230
-        },
-        {
-          "name": "Censor of Rome",
-          "start": -225
-        },
-        {
-          "name": "Dictator of Rome",
-          "start": -216
-        }
+        { "name": "Consul", "start": -230 },
+        { "name": "Censor", "start": -225 },
+        { "name": "Dictator of Rome", "start": -216 }
       ]
     },
     {
@@ -319,9 +228,13 @@
     {
       "name": "Scipio Africanus",
       "fullName": "Publius Cornelius Scipio Africanus",
-      "desc": "The man who gets the credit for Rome's victory in the Punic Wars. Some say he is the best general in history. Eventually, Scipio Africanus got tired of being treated poorly by the senate and went to live in a villa.",
+      "desc": "Roman general and statesman, most notable as one of the main architects of Rome's victory against Carthage in the Second Punic War. Often regarded as one of the best military commanders and strategists of all time, his greatest military achievement was the defeat of Hannibal at the Battle of Zama in 202 BC. This victory in Africa earned him the surname Africanus.",
       "start": -236,
-      "end": -183
+      "end": -183,
+      "events": [
+        { "name": "Consul", "start": -205 },
+        { "name": "Consul", "start": -194 }
+      ]
     },
     {
       "name": "Aemilianus",
@@ -340,21 +253,20 @@
     {
       "name": "Saturninus",
       "fullName": "Lucius Appuleius Saturninus",
-      "desc": "Two times tribune of the pleb. He was on Marius side, until Marius abandoned him. After his goons alegedly killed Gaius Memmius, Saturninus ended up stoned to death by other members of the political aristocracy.",
+      "desc": "Roman populist and tribune. He is most notable for introducing a series of legislative reforms, alongside his associate Gaius Servilius Glaucia and with the consent of Gaius Marius, during the last years of the second century BC. Senatorial opposition to these laws eventually led to an internal crisis, the declaration of the senatus consultum ultimum, and the deaths of Saturninus, Glaucia, and their followers in 100 BC.",
       "end": -100
     },
     {
       "name": "Marius",
       "fullName": "Gaius Marius",
-      "desc": "Held the office of consul 7 times.",
+      "desc": "Roman general and statesman. Victor of the Cimbric and Jugurthine wars, he held the office of consul an unprecedented seven times during his career. He was also noted for his important reforms of Roman armies. He set the precedent for the shift from the militia levies of the middle Republic to the professional soldiery of the late Republic; he also improved the pilum, a javelin, and made large-scale changes to the logistical structure of the Roman army.",
       "start": -157,
       "end": -86,
       "events": [
-        {
-          "name": "Military career",
-          "start": -134,
-          "end": -87
-        }
+        { "name": "Tribune of the plebs", "start": -119 },
+        { "name": "Consul", "start": -107 },
+        { "name": "Consul", "start": -104, "end": -100 },
+        { "name": "Consul", "start": -86 }
       ]
     },
     {
@@ -370,27 +282,19 @@
       "start": -138,
       "end": -78,
       "desc": "The failed hero a corrupt and negligent system was asking for.",
-      "events": [
-        {
-          "name": "Dictator of Rome",
-          "start": -82,
-          "end": -79
-        }
-      ]
+      "events": [{ "name": "Dictator of Rome", "start": -82, "end": -79 }]
     },
 
     {
       "name": "Pompey",
       "fullName": "Gnaeus Pompeius Magnus",
-      "desc": "Fun fact: after being one of the greatest statemen in history, Pompey had his head severed by the teenage king of a declining kingdom of Egypt. The head was delivered to his then enemy, Julius Caesar, but he didn't like it. Why would he?",
+      "desc": "He played a significant role in the transformation of Rome from republic to empire. He was (for a time) a student of Roman general Sulla as well as the political ally (and later enemy) of Julius Caesar.",
       "start": -106,
       "end": -48,
       "events": [
-        {
-          "name": "Military career",
-          "start": -89,
-          "end": -48
-        }
+        { "name": "Consul", "start": -70 },
+        { "name": "Consul", "start": -55 },
+        { "name": "Consul", "start": -52 }
       ]
     },
 
@@ -410,21 +314,28 @@
     {
       "name": "Julius Caesar",
       "fullName": "Gaius Julius Caesar",
-      "desc": "The second most famous person in the Western world, for whatever reason.",
+      "desc": "A member of the First Triumvirate, Caesar led the Roman armies in the Gallic Wars before defeating his political rival Pompey in a civil war, and subsequently became dictator of Rome from 49 BC until his assassination in 44 BC. He played a critical role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire.",
       "start": -100,
       "end": -44,
       "events": [
-        {
-          "name": "Military career",
-          "start": -81,
-          "end": "end"
-        }
+        { "name": "Pontifex maximus", "start": -63, "end": "end" },
+        { "name": "Consul", "start": -59 },
+        { "name": "Dictator", "start": -49, "end": "end" },
+        { "name": "Consul", "start": -48 },
+        { "name": "Consul", "start": -46, "end": -44 }
       ]
     },
     {
+      "tax": "knowledge",
+      "name": "Lucretius",
+      "desc": "Roman poet and philosopher. His only known work is the philosophical poem De rerum natura, a didactic work about the tenets and philosophy of Epicureanism, and which usually is translated into English as On the Nature of Things. Lucretius has been credited with originating the concept of the three-age system.",
+      "start": -99,
+      "end": -55
+    },
+    {
       "name": "Cato",
-      "fullName": "Marcus Porcius Cato, \"Cato the Younger\"",
-      "desc": "Praetor popular among is fellow conservative senators. He took his own life to avoid the humiliation of being pardoned by Julius Caesar. Pretty crazy, but also pretty cool.",
+      "fullName": "Marcus Porcius Cato",
+      "desc": "Also known as \"Cato the Younger\", he was a conservative Roman senator in the period of the late republic. A noted orator and a follower of the Stoic philosophy, he is remembered for his stubbornness and tenacity, as well as his immunity to bribes, his moral integrity, and his famous distaste for the ubiquitous corruption of the period. He took his own life to avoid the humiliation of being pardoned by Julius Caesar.",
       "start": -95,
       "end": -46
     },
@@ -442,25 +353,32 @@
     },
     {
       "name": "Marcus Antonius",
+      "desc": "Antony was a relative and supporter of Julius Caesar, and served as one of his generals during the conquest of Gaul and the Civil War. Antony was appointed administrator of Italy while Caesar eliminated political opponents in Greece, North Africa, and Spain. After Caesar's assassination in 44 BC, Antony joined forces with Marcus Aemilius Lepidus, another of Caesar's generals, and Octavian, Caesar's great-nephew and adopted son, forming a three-man dictatorship known to historians as the Second Triumvirate. The Triumvirs defeated Caesar's killers, the Liberatores, at the Battle of Philippi in 42 BC, and divided the government of the Republic between themselves. Antony was assigned Rome's eastern provinces, including the client kingdom of Egypt, then ruled by Cleopatra VII Philopator, and was given the command in Rome's war against Parthia. Relations among the triumvirs were strained as the various members sought greater political power. Civil war between Antony and Octavian was averted in 40 BC, when Antony married Octavian's sister, Octavia. Despite this marriage, Antony carried on a love affair with Cleopatra, who bore him three children, further straining Antony's relations with Octavian. Lepidus was expelled from the association in 36 BC, and in 33 BC disagreements between Antony and Octavian caused a split between the remaining Triumvirs. Their ongoing hostility erupted into civil war in 31 BC, as the Roman Senate, at Octavian's direction, declared war on Cleopatra and proclaimed Antony a traitor. Later that year, Antony was defeated by Octavian's forces at the Battle of Actium. Antony and Cleopatra fled to Egypt where, having again been defeated at the Battle of Alexandria, they committed suicide.",
       "start": -83,
-      "end": -30
+      "end": -30,
+      "events": [
+        { "name": "Consul", "start": -44 },
+        { "name": "Consul", "start": -34 },
+        { "name": "Triumvir", "start": -43, "end": -33 }
+      ]
     },
     {
-      "type": "source",
+      "tax": "knowledge",
+      "name": "Vitruvius",
+      "desc": "Roman architect and engineer during the 1st century BC, known for his multi-volume work entitled De architectura. He originated the idea that all buildings should have three attributes: firmitas, utilitas, and venustas (\"strength\", \"utility\", and \"beauty\"). These principles were later widely adopted in Roman architecture. His discussion of perfect proportion in architecture and the human body led to the famous Renaissance drawing of the Vitruvian Man by Leonardo da Vinci.",
+      "start": -80,
+      "end": -15
+    },
+    {
       "name": "Augustus",
       "fullName": "Caesar Augustus",
       "desc": "His status as the founder of the Roman Principate has consolidated a legacy as one of the most effective leaders in human history. The reign of Augustus initiated an era of relative peace known as the Pax Romana. Augustus dramatically enlarged the Empire, annexing Egypt, Dalmatia, Pannonia, Noricum and Raetia, expanding possessions in Africa, and completing the conquest of Hispania, but suffered a major setback in Germania. Beyond the frontiers, he secured the Empire with a buffer region of client states and made peace with the Parthian Empire through diplomacy. He reformed the Roman system of taxation, developed networks of roads with an official courier system, established a standing army, established the Praetorian Guard, official police and fire-fighting services for Rome, and rebuilt much of the city during his reign.",
       "start": -63,
       "end": 14,
-      "events": [
-        {
-          "name": "Roman emperor",
-          "start": -27,
-          "end": "end"
-        }
-      ]
+      "events": [{ "name": "Roman emperor", "start": -27, "end": "end" }]
     },
     {
+      "tax": "knowledge",
       "name": "Virgil",
       "fullName": "Publius Vergilius Maro",
       "start": -70,

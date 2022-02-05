@@ -1,9 +1,11 @@
 import { useContext } from 'react'
+
 import { SpatialItem } from '../../../types'
 import { BoardContext } from '../../board'
+import Icon from '../../../components/icons'
 
 export default function Item(props: SpatialItem & { i: number }) {
-  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i, highlight } = props
+  const { type, set, name, fullName, tax, place, s, e, sd, ed, dates, spatial, theme, i, highlight, events } = props
 
   const title = `${fullName || name} ${dates && `(${dates})`}`
 
@@ -31,7 +33,10 @@ export default function Item(props: SpatialItem & { i: number }) {
       onClick={() => setSelected(props)}
       onFocus={() => setSelected(props)}>
       <div style={wrapperStyle} className={'item_wrapper'}>
-        <div className={'item_name'}>{name}</div>
+        <div className={'item_name'}>
+          {theme?.icon && <Icon name={theme.icon} />}
+          <span>{name}</span>
+        </div>
       </div>
     </div>
   )

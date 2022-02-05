@@ -5,9 +5,10 @@ import Links from './components/Links'
 import Cross from '../../components/cross'
 import useClickOutside from '../../hooks/useClickOutside'
 import style from './style/Card.module.scss'
+import parseYear from '../../utils/parseYear'
 
 export default function Card(props) {
-  const { set, name, fullName, place, dates, theme, desc, handleClose, source, sourceLink } = props
+  const { set, name, fullName, place, dates, theme, desc, handleClose, source, sourceLink, events, e: end } = props
 
   const title = fullName || name
 
@@ -17,6 +18,8 @@ export default function Card(props) {
 
   const ref = useRef(null)
   useClickOutside(ref, () => handleClose())
+
+  const filledEvents = events ? events.filter((e) => e?.name) : []
 
   return (
     <div className={style.card} ref={ref}>
@@ -30,6 +33,22 @@ export default function Card(props) {
         <p className={style.date} style={cardColor}>
           {dates}
         </p>
+      )}
+
+      {Boolean(filledEvents.length) && (
+        <div className={[style.events, desc ? style.withDesc : ''].join(' ')}>
+          {filledEvents.map((e, i) => {
+            const dates = [parseYear(e?.start), e?.end === 'end' ? parseYear(end) : parseYear(e?.end)]
+              .filter((d) => d)
+              .join(' - ')
+            return (
+              <span key={i}>
+                {e.name}
+                {dates && ` (${dates})`}
+              </span>
+            )
+          })}
+        </div>
       )}
 
       <Desc desc={desc} source={source} sourceLink={sourceLink} />

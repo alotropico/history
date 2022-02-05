@@ -7,6 +7,7 @@
   "items": [
     {
       "name": "Hoshea",
+      "desc": "Nineteenth and last king of the Israelite Kingdom of Israel.",
       "events": [
         {
           "name": "King of Israel",
@@ -16,34 +17,46 @@
       ]
     },
     {
+      "tax": "knowledge",
       "name": "Isaiah",
+      "desc": "Israelite prophet after whom the Book of Isaiah is named. The traditional view is that all 66 chapters of the book of Isaiah were written by Isaiah, and that the book includes dramatic prophetic declarations of Cyrus the Great in the Bible, acting to restore the nation of Israel from Babylonian captivity.",
       "events": [{ "start": -700 }]
     },
     {
+      "tax": "knowledge",
       "name": "Jeremiah",
+      "desc": "Also called the \"weeping prophet\", Jeremiah was one of the major prophets of the Hebrew Bible. According to Jewish tradition, Jeremiah authored the Book of Jeremiah, the Books of Kings and the Book of Lamentations, with the assistance and under the editorship of Baruch ben Neriah, his scribe and disciple.",
       "start": -650,
       "end": -570
     },
     {
+      "tax": "knowledge",
       "name": "Ezekiel",
+      "desc": "In Judaism, Christianity, and Islam, Ezekiel is acknowledged as a Hebrew prophet. In Judaism and Christianity, he is also viewed as the 6th-century BCE author of the Book of Ezekiel, which reveals prophecies regarding the destruction of Jerusalem, and the restoration to the land of Israel.",
       "start": -622,
       "end": -570
     },
     {
+      "tax": "religion",
       "name": "Joseph",
       "fullName": "Saint Joseph",
+      "desc": "Was a 1st-century Jewish man of Nazareth who, according to the canonical Gospels, was married to Mary, the mother of Jesus, and was the legal father of Jesus",
       "start": -100,
       "end": 1
     },
     {
+      "tax": "religion",
       "name": "Mary",
       "fullName": "Mary, mother of Jesus",
+      "desc": "According to the gospels of Matthew and Luke in the New Testament, Mary was a first-century Jewish woman of Nazareth, the wife of Joseph, and the mother of Jesus. Both the New Testament and the Quran describe Mary as a virgin. According to Christian theology, Mary conceived Jesus through the Holy Spirit while still a virgin, and accompanied Joseph to Bethlehem, where Jesus was born. Mary has been venerated since early Christianity, and is considered by millions to be the holiest and greatest saint because of her extraordinary virtues as seen at the Annunciation by the archangel Gabriel.",
       "start": -18,
       "end": 30
     },
     {
+      "tax": "religion",
       "name": "Jesus",
       "fullName": "Jesus of Nazareth",
+      "desc": "Also referred to as Jesus of Nazareth or Jesus Christ, was a first-century Jewish preacher and religious leader. He is the central figure of Christianity, the world's largest religion. Most Christians believe he is the incarnation of God the Son and the awaited messiah (the Christ), prophesied in the Hebrew Bible.",
       "start": -4,
       "end": 30
     }

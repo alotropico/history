@@ -59,22 +59,16 @@
     flex: 1 0 auto;
     padding: 0 0.25rem;
     user-select: none;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  &_set-- {
-    &macedon > * {
-    }
-    &athens > * {
-    }
-    &other-greek-states > * {
-    }
-    &rome > * {
-    }
-    &seleucus > * {
-    }
-    &egypt > * {
-    }
-    &sparta > * {
+    svg {
+      margin-right: 0.4rem;
+      width: 14px;
+      height: 14px;
+      opacity: 0.6;
+      fill: white;
     }
   }
 }
