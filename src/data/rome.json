@@ -61,8 +61,8 @@
       "end": -430,
       "events": [
         { "name": "Consul", "start": -460 },
-        { "name": "Dictator of Rome", "start": -458 },
-        { "name": "Dictator of Rome", "start": -439 }
+        { "name": "Dictator", "start": -458 },
+        { "name": "Dictator", "start": -439 }
       ]
     },
     {
@@ -72,13 +72,13 @@
       "start": -446,
       "end": -365,
       "events": [
-        { "name": "Dictator of Rome", "start": -396 },
-        { "name": "Dictator of Rome", "start": -390 },
-        { "name": "Dictator of Rome", "start": -389 },
+        { "name": "Dictator", "start": -396 },
+        { "name": "Dictator", "start": -390 },
+        { "name": "Dictator", "start": -389 },
         { "name": "Consular tribune of Rome", "start": -384 },
         { "name": "Consular tribune of Rome", "start": -381 },
-        { "name": "Dictator of Rome", "start": -368 },
-        { "name": "Dictator of Rome", "start": -367 }
+        { "name": "Dictator", "start": -368 },
+        { "name": "Dictator", "start": -367 }
       ]
     },
     {
@@ -96,9 +96,9 @@
         { "name": "Consul", "start": -347 },
         { "name": "Consul", "start": -344 },
         { "name": "Consul", "start": -340 },
-        { "name": "Dictator of Rome", "start": -353 },
-        { "name": "Dictator of Rome", "start": -349 },
-        { "name": "Dictator of Rome", "start": -320 }
+        { "name": "Dictator", "start": -353 },
+        { "name": "Dictator", "start": -349 },
+        { "name": "Dictator", "start": -320 }
       ]
     },
     {
@@ -156,7 +156,7 @@
       "events": [
         { "name": "Consul", "start": -260 },
         { "name": "Censor", "start": -258 },
-        { "name": "Dictator of Rome", "start": -231 }
+        { "name": "Dictator", "start": -231 }
       ]
     },
     {
@@ -189,7 +189,7 @@
         { "name": "Consul", "start": -235 },
         { "name": "Consul", "start": -224 },
         { "name": "Censor", "start": -231 },
-        { "name": "Dictator of Rome", "start": -208 }
+        { "name": "Dictator", "start": -208 }
       ]
     },
     {
@@ -215,7 +215,7 @@
       "events": [
         { "name": "Consul", "start": -230 },
         { "name": "Censor", "start": -225 },
-        { "name": "Dictator of Rome", "start": -216 }
+        { "name": "Dictator", "start": -216 }
       ]
     },
     {
@@ -226,7 +226,7 @@
       "end": -200
     },
     {
-      "name": "Scipio Africanus",
+      "name": "Scipio",
       "fullName": "Publius Cornelius Scipio Africanus",
       "desc": "Roman general and statesman, most notable as one of the main architects of Rome's victory against Carthage in the Second Punic War. Often regarded as one of the best military commanders and strategists of all time, his greatest military achievement was the defeat of Hannibal at the Battle of Zama in 202 BC. This victory in Africa earned him the surname Africanus.",
       "start": -236,
@@ -235,6 +235,12 @@
         { "name": "Consul", "start": -205 },
         { "name": "Consul", "start": -194 }
       ]
+    },
+    {
+      "name": "Mummius",
+      "fullName": "Lucius Mummius Achaicus",
+      "start": -200,
+      "events": [{ "name": "Consul", "start": -146 }]
     },
     {
       "name": "Aemilianus",
@@ -282,7 +288,7 @@
       "start": -138,
       "end": -78,
       "desc": "The failed hero a corrupt and negligent system was asking for.",
-      "events": [{ "name": "Dictator of Rome", "start": -82, "end": -79 }]
+      "events": [{ "name": "Dictator", "start": -82, "end": -79 }]
     },
 
     {
@@ -314,7 +320,7 @@
     {
       "name": "Julius Caesar",
       "fullName": "Gaius Julius Caesar",
-      "desc": "A member of the First Triumvirate, Caesar led the Roman armies in the Gallic Wars before defeating his political rival Pompey in a civil war, and subsequently became dictator of Rome from 49 BC until his assassination in 44 BC. He played a critical role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire.",
+      "desc": "A member of the First Triumvirate, Caesar led the Roman armies in the Gallic Wars before defeating his political rival Pompey in a civil war, and subsequently became Dictator from 49 BC until his assassination in 44 BC. He played a critical role in the events that led to the demise of the Roman Republic and the rise of the Roman Empire.",
       "start": -100,
       "end": -44,
       "events": [
@@ -385,6 +391,7 @@
       "end": -19
     },
     {
+      "tax": "knowledge",
       "name": "Livy",
       "fullName": "Titus Livius",
       "start": -59,

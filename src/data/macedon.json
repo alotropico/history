@@ -305,7 +305,8 @@
     {
       "name": "Peucestas",
       "desc": "Founder of the Ptolemaic dynasty, which ruled Egypt until the death of Cleopatra in 30 BC, turning the country into a Hellenistic kingdom and Alexandria into a center of Greek culture.",
-      "place": "Egypt"
+      "place": "Egypt",
+      "events": [{ "start": -325 }]
     },
     {
       "name": "Peithon",
@@ -361,9 +362,9 @@
       "end": -317
     },
     {
-      "name": "Cleopatra of Macedon",
+      "name": "Cleopatra",
       "fullName": "Cleopatra of Macedon",
-      "desc": "Cleopatra of Macedonia c. 355/354 BC – 308 BC), or Cleopatra of Epirus was an ancient Macedonian princess and later queen regent of Epirus. The daughter of Philip II of Macedon and Olympias of Epirus, she was the only full sibling of Alexander the Great. Her other siblings include half sisters Thessalonike and Cynane, and half-brother Philip III of Macedon.",
+      "desc": "The only full sibling of Alexander the Great.",
       "start": -355,
       "end": -308
     },

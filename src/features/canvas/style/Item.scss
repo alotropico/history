@@ -3,12 +3,12 @@
   position: absolute;
   flex-direction: column;
   max-height: 50px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.7s ease-in-out;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    z-index: 2;
+    z-index: 3;
 
     .item_wrapper {
       &::after {
@@ -23,11 +23,18 @@
   }
 
   &.highlight {
-    z-index: 1;
+    z-index: 2;
 
     .item_wrapper {
       outline: 2px solid white;
     }
+  }
+
+  &.hide {
+    z-index: 1;
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
   }
 
   &_wrapper {

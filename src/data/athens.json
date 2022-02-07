@@ -89,6 +89,7 @@
       "place": "Salamis"
     },
     {
+      "tax": "strategos",
       "name": "Pericles",
       "desc": "Greek statesman and general during the Golden Age of Athens. He turned the Delian League into an Athenian empire and led his countrymen during the first two years of the Peloponnesian War. Pericles promoted the arts and literature, and it is principally through his efforts that Athens acquired the reputation of being the educational and cultural center of the ancient Greek world. He started an ambitious project that generated most of the surviving structures on the Acropolis, including the Parthenon. This project beautified and protected the city, exhibited its glory and gave work to its people. Pericles also fostered Athenian democracy to such an extent that critics called him a populist.",
       "start": -495,
@@ -183,15 +184,30 @@
     },
     {
       "name": "Demosthenes",
-      "desc": "statesman and orator of ancient Athens. His orations constitute a significant expression of contemporary Athenian intellectual prowess and provide an insight into the politics and culture of ancient Greece during the 4th century BC.",
+      "desc": "Statesman and orator of ancient Athens. His orations constitute a significant expression of contemporary Athenian intellectual prowess and provide an insight into the politics and culture of ancient Greece during the 4th century BC.",
       "start": -384,
       "end": -322
     },
     {
+      "tax": "knowledge",
+      "name": "Menander",
+      "desc": "Dramatist and the best-known representative of Athenian New Comedy. He wrote 108 comedies and took the prize at the Lenaia festival eight times. His record at the City Dionysia is unknown but may well have been similarly spectacular. He was one of the most popular writers in antiquity, but his work was lost during the Middle Ages and is now known in highly fragmentary form, much of which was discovered in the 20th century. Only one play, Dyskolos, has survived almost complete.",
+      "start": -342,
+      "end": -290
+    },
+    {
+      "tax": "knowledge",
       "name": "Epicurus",
       "desc": "Greek philosopher and sage who founded Epicureanism, a highly influential school of philosophy. He was born on the Greek island of Samos to Athenian parents. Influenced by Democritus, Aristippus, Pyrrho,  and possibly the Cynics, he turned against the Platonism of his day and established his own school, known as \"the Garden\", in Athens. Epicurus and his followers were known for eating simple meals and discussing a wide range of philosophical subjects. He openly allowed women and slaves  to join the school as a matter of policy. Epicurus is said to have originally written over 300 works on various subjects, but the vast majority of these writings have been lost. Only three letters written by him—the letters to Menoeceus, Pythocles, and Herodotus—and two collections of quotes—the Principal Doctrines and the Vatican Sayings—have survived intact, along with a few fragments of his other writings. Most knowledge of his teachings comes from later authors, particularly the biographer Diogenes Laërtius, the Epicurean Roman poet Lucretius and the Epicurean philosopher Philodemus, and with hostile but largely accurate accounts by the Pyrrhonist philosopher Sextus Empiricus, and the Academic Skeptic and statesman Cicero.",
       "start": -341,
       "end": -270
+    },
+    {
+      "tax": "knowledge",
+      "name": "Zeno of Citium",
+      "start": -334,
+      "end": -262,
+      "place": "Cyprus"
     }
   ]
 }

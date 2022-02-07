@@ -51,7 +51,7 @@ export default function Board({ items, sets }: BoardProps) {
           <Canvas items={renderItems} />
         </main>
         <footer>
-          <Categories sets={sets} filters={filters} />
+          <Categories sets={sets.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))} filters={filters} />
           <Search />
         </footer>
       </div>

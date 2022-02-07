@@ -12,6 +12,8 @@
     
     <symbol id="icon-explorer" viewBox="0 0 24 24"><path d="m14 9-2-9-2 9-2 1-8 2 8 2 2 1 2 9 2-9 2-1 8-2-8-2-2-1zm-2 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm7 5-3-2 1-1 2 3zM15 7l4-2-2 4-2-2zM9 17l-4 2 2-4 2 2zM7 8 5 5l3 2-1 1z"/></symbol>
 
+    <symbol id="icon-authority" viewBox="0 0 24 24"><path d="M19 21a2 2 0 0 1 0 3H5a2 2 0 0 1 0-3h14zm-1-1H5c-2-6 7-8 4-10-1-2-3 1-5 1-1-1-2-3 0-4l3-4h3L9 0c6 1 9 4 10 7h-2v1h2v2h-2a1 1 0 0 0 0 1h2l-1 2h-1v1h1c-1 2-2 4 0 6zM8 4l1 1H7l1-1z"/></symbol>
+
     <!-- UI -->
 
 </svg>

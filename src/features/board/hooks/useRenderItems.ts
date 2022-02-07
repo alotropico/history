@@ -7,16 +7,24 @@ export default function useRenderItems(
   forcedStart: number | null = null,
   forcedEnd: number | null = null
 ): useRenderItemsRet {
-  const start = forcedStart || items.reduce((a: any, item) => (!a || (item?.s && a > item.s) ? item.s : a), null)
-  const end = forcedEnd || items.reduce((a: any, item) => (!a || (item?.e && a < item.e) ? item.e : a), null)
-  const scopedItems = getItemsByScope(items, start, end)
+  const start =
+    forcedStart || items.reduce((a: any, item) => (!a || (item.display && item?.s && a > item.s) ? item.s : a), null)
+  const end =
+    forcedEnd || items.reduce((a: any, item) => (!a || (item.display && item?.e && a < item.e) ? item.e : a), null)
+  //const scopedItems = getSortedItems(items, start, end)
+  const scopedItems = items //getSortedItems(items)
   const [parsedItems, layers] = insertSpatialData(scopedItems, start, end)
   return [parsedItems, start, end]
 }
 
 // Get only items between 'start' and 'end' dates
 function getItemsByScope(items, start, end): DataItems {
-  return items.filter((item) => item.e > start && item.s < end)
+  return items // items.filter((item) => item.e > start && item.s < end)
+}
+
+//
+function getSortedItems(items): DataItems {
+  return items.sort((a, b) => (a.display && !b.display ? 1 : !a.display && b.display ? -1 : 0))
 }
 
 // Insert spatial data into each item
@@ -30,12 +38,14 @@ function insertSpatialData(items, start, end): [SpatialItems, number] {
     const spatial = {
       i: layer >= 0 ? layer : layers.length,
       l: toPercentage((item.s - start) / lapse),
-      w: toPercentage((item.e - item.s) / lapse),
+      w: toPercentage((item.ev - item.s) / lapse),
     }
 
     // Push this item into the corresponding layers cache
-    if (!layers?.[spatial.i]) layers[spatial.i] = []
-    layers[spatial.i].push([item.s, item.e])
+    if (item.display) {
+      if (!layers?.[spatial.i]) layers[spatial.i] = []
+      layers[spatial.i].push([item.s, item.e])
+    }
 
     return { ...item, spatial }
   })

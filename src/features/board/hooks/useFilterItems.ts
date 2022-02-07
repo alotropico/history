@@ -12,7 +12,9 @@ export default function useFilterItems(items: DataItems, filters: any): DataItem
 }
 
 const getFilteredItems = (items: DataItems, filters: any): DataItems => {
-  if (!filters.length) return items
+  if (!filters.length) return items.map((item) => ({ ...item, display: true }))
 
-  return items.filter((item) => filters.includes(item.set))
+  return items.map((item) => (filters.includes(item.set) ? { ...item, display: true } : { ...item, display: false }))
+
+  // return items.filter((item) => filters.includes(item.set))
 }

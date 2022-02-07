@@ -13,7 +13,7 @@ export default function parseItems(items: DbItem[]): DataItem[] {
 // Parse individual item
 const parseItem = (item: DbItem, i): DataItem => {
   const type = item?.type || 'person'
-  const { s, e, sd, ed } = getDatePoints(item.name, item?.start, item?.end, item?.events || [], type)
+  const { s, e, ev, sd, ed } = getDatePoints(item.name, item?.start, item?.end, item?.events || [], type)
   return {
     ...item,
     theme: {
@@ -26,6 +26,7 @@ const parseItem = (item: DbItem, i): DataItem => {
     type,
     s,
     e,
+    ev,
     sd,
     ed,
   }
@@ -34,9 +35,10 @@ const parseItem = (item: DbItem, i): DataItem => {
 const getIcon = (tax, events) => {
   if (arrayHasWords([{ tax: tax }], 'tax', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'pharao', 'dynasty']))
     return 'king'
+  if (arrayHasWords([{ tax: tax }], 'tax', ['consul', 'censor', 'dictator', 'strategos'])) return 'authority'
   if (tax) return tax
   if (arrayHasWords(events, 'name', ['king', 'queen', 'pharaoh', 'emperor', 'basileus'])) return 'king'
-  // if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos'])) return 'consul'
+  if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos'])) return 'authority'
 }
 
 const arrayHasWords = (ar, prop, words) =>
@@ -56,20 +58,21 @@ const bgColor = (color, sd, ed) => {
 
 // From 'start' & 'end' dates, get the actual visual points I want the item to be displayed
 const getDatePoints = (name, start, end, events, type) => {
+  // Dates that can actually be known
   const strictStart = start || getEventsDatePoints(events, false, 'start')
   const strictEnd = end || getEventsDatePoints(events, true, 'end')
   const dif = strictEnd - strictStart
 
+  // Points to be occupied in the graph, including diffuse zones
   const [s, sd] = start ? [start, false] : pushDatePoints(strictStart || strictEnd, false, type, dif || 0, end)
-  const [e, ed] = end ? [end, false] : pushDatePoints(strictEnd || strictStart, true, type, dif || 0, start)
+  const [realE, ed] = end ? [end, false] : pushDatePoints(strictEnd || strictStart, true, type, dif || 0, start)
 
-  const df = e - s
+  // Extend zone to a minimum of years to fit labels
+  const realDif = realE - s
+  const min = 60 //20 + (name.length - 0) * 2
+  const e = realDif < min ? realE + min - realDif : realE
 
-  // const fac = 20 + (name.length - 0) * 4
-
-  // const finalE = df < fac ? e + fac - df : e
-
-  return { s, e, sd, ed }
+  return { s, e, ev: realE, sd, ed }
 }
 
 // Get max (forward) or min (!forward) value of the 'key' property from 'events' array

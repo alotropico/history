@@ -8,29 +8,23 @@
     {
       "name": "Hoshea",
       "desc": "Nineteenth and last king of the Israelite Kingdom of Israel.",
-      "events": [
-        {
-          "name": "King of Israel",
-          "start": -732,
-          "end": -731
-        }
-      ]
+      "events": [{ "name": "King of Israel", "start": -732, "end": -731 }]
     },
     {
-      "tax": "knowledge",
+      "tax": "religion",
       "name": "Isaiah",
       "desc": "Israelite prophet after whom the Book of Isaiah is named. The traditional view is that all 66 chapters of the book of Isaiah were written by Isaiah, and that the book includes dramatic prophetic declarations of Cyrus the Great in the Bible, acting to restore the nation of Israel from Babylonian captivity.",
       "events": [{ "start": -700 }]
     },
     {
-      "tax": "knowledge",
+      "tax": "religion",
       "name": "Jeremiah",
       "desc": "Also called the \"weeping prophet\", Jeremiah was one of the major prophets of the Hebrew Bible. According to Jewish tradition, Jeremiah authored the Book of Jeremiah, the Books of Kings and the Book of Lamentations, with the assistance and under the editorship of Baruch ben Neriah, his scribe and disciple.",
       "start": -650,
       "end": -570
     },
     {
-      "tax": "knowledge",
+      "tax": "religion",
       "name": "Ezekiel",
       "desc": "In Judaism, Christianity, and Islam, Ezekiel is acknowledged as a Hebrew prophet. In Judaism and Christianity, he is also viewed as the 6th-century BCE author of the Book of Ezekiel, which reveals prophecies regarding the destruction of Jerusalem, and the restoration to the land of Israel.",
       "start": -622,
@@ -40,7 +34,7 @@
       "tax": "religion",
       "name": "Joseph",
       "fullName": "Saint Joseph",
-      "desc": "Was a 1st-century Jewish man of Nazareth who, according to the canonical Gospels, was married to Mary, the mother of Jesus, and was the legal father of Jesus",
+      "desc": "Was a 1st-century Jewish man of Nazareth who, according to the canonical Gospels, was married to Mary, the mother of Jesus, and was the legal father of Jesus.",
       "start": -100,
       "end": 1
     },

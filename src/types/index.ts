@@ -37,6 +37,7 @@ export type DbItem = {
 export type RenderItem = {
   s?: number
   e?: number
+  ev?: number
   sd?: boolean
   ed?: boolean
 }
@@ -46,6 +47,7 @@ export type DataItem = DbItem &
     type: ItemTypes
     dates: string
     theme?: any
+    display?: boolean
   }
 export type SpatialItem = DataItem & {
   set: string
