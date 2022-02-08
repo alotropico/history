@@ -1,4 +1,4 @@
-import style from '../style/Card.module.scss'
+import style from '../style/Desc.module.scss'
 
 export default function Desc({ desc, source, sourceLink }) {
   const renderDesc = desc && parseDesc(desc)
@@ -22,9 +22,9 @@ export default function Desc({ desc, source, sourceLink }) {
   ) : null
 }
 
+// Split text by dots and display every chunk in a paragraph
 const parseDesc = (desc) =>
   desc
-    // .replace(/\.+ /gi, '. ')
     .replaceAll('. ', '. \n')
     .split(/(\r?\n+)/gi)
     .map((p, j) => <p key={j}>{p}</p>)

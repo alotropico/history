@@ -5,6 +5,7 @@
   overflow: hidden;
 
   header {
+    font-family: var(--font-family-monospace);
     display: flex;
     justify-content: space-between;
     margin: 0 1rem;
@@ -40,7 +41,7 @@
     display: flex;
     align-items: center;
     padding: 0 1rem;
-    background-color: rgba(black, 0.1);
+    background-color: var(--color-bg-soft);
     border-top: 1px solid rgba(white, 0.1);
   }
 }

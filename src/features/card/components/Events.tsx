@@ -1,6 +1,6 @@
 import parseYear from '../../../utils/parseYear'
 
-import style from '../style/Card.module.scss'
+import style from '../style/Events.module.scss'
 
 export default function Events({ events, bottomSeparator, itemEnd }) {
   // Filter out events without name

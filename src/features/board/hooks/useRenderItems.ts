@@ -7,24 +7,16 @@ export default function useRenderItems(
   forcedStart: number | null = null,
   forcedEnd: number | null = null
 ): useRenderItemsRet {
+  const displayedItems = items.filter((item) => item.display)
+
   const start =
-    forcedStart || items.reduce((a: any, item) => (!a || (item.display && item?.s && a > item.s) ? item.s : a), null)
+    forcedStart || displayedItems.reduce((a: any, item) => (!a || (item?.s && a > item.s) ? item.s : a), null) || -100
+
   const end =
-    forcedEnd || items.reduce((a: any, item) => (!a || (item.display && item?.e && a < item.e) ? item.e : a), null)
-  //const scopedItems = getSortedItems(items, start, end)
-  const scopedItems = items //getSortedItems(items)
-  const [parsedItems, layers] = insertSpatialData(scopedItems, start, end)
+    forcedEnd || displayedItems.reduce((a: any, item) => (!a || (item?.e && a < item.e) ? item.e : a), null) || 0
+
+  const [parsedItems, layers] = insertSpatialData(items, start, end)
   return [parsedItems, start, end]
-}
-
-// Get only items between 'start' and 'end' dates
-function getItemsByScope(items, start, end): DataItems {
-  return items // items.filter((item) => item.e > start && item.s < end)
-}
-
-//
-function getSortedItems(items): DataItems {
-  return items.sort((a, b) => (a.display && !b.display ? 1 : !a.display && b.display ? -1 : 0))
 }
 
 // Insert spatial data into each item
@@ -54,7 +46,7 @@ function insertSpatialData(items, start, end): [SpatialItems, number] {
 }
 
 function insertBottomPosition(items: SpatialItems, layers): SpatialItems {
-  const itemHeight = 100 / layers
+  const itemHeight = 1 / layers
   return items.map((item) => ({
     ...item,
     spatial: {
@@ -66,5 +58,5 @@ function insertBottomPosition(items: SpatialItems, layers): SpatialItems {
 }
 
 function toPercentage(n) {
-  return Math.round(n * 1000 * 100) / 1000
+  return Math.round(n * 10000) / 10000
 }

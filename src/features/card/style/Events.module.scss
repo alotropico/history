@@ -1,0 +1,21 @@
+.events {
+  font-family: var(--font-family-serif);
+  line-height: 1.3;
+  margin: 0 var(--card-padding);
+  padding: 1rem 0;
+
+  &.bottomSeparator {
+    border-bottom: 1px solid var(--color-bg-soft);
+  }
+
+  & > span {
+    display: block;
+
+    & > span {
+      display: inline-block;
+      &::before {
+        content: ' ';
+      }
+    }
+  }
+}

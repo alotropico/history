@@ -1,0 +1,24 @@
+.bottom {
+  font-size: var(--font-size);
+  padding: var(--card-padding);
+  background-color: #e0e0e0;
+
+  h4 {
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+    padding: 0;
+    opacity: 0.9;
+  }
+  ul {
+    list-style-type: none;
+    line-height: 1.6;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+    li {
+      flex: 0 0 50%;
+    }
+  }
+}

@@ -1,7 +1,5 @@
 import Icons from '../../assets/svg/icons.svg'
 
-import './style/Icons.scss'
-
 import { iconProps } from './types/types'
 
 export default function Icon(props: iconProps) {

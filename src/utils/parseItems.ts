@@ -33,11 +33,11 @@ const parseItem = (item: DbItem, i): DataItem => {
 }
 
 const getIcon = (tax, events) => {
-  if (arrayHasWords([{ tax: tax }], 'tax', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'pharao', 'dynasty']))
+  if (arrayHasWords([{ tax: tax }], 'tax', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'dynasty', 'tyrant']))
     return 'king'
   if (arrayHasWords([{ tax: tax }], 'tax', ['consul', 'censor', 'dictator', 'strategos'])) return 'authority'
   if (tax) return tax
-  if (arrayHasWords(events, 'name', ['king', 'queen', 'pharaoh', 'emperor', 'basileus'])) return 'king'
+  if (arrayHasWords(events, 'name', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'tyrant'])) return 'king'
   if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos'])) return 'authority'
 }
 
@@ -69,7 +69,7 @@ const getDatePoints = (name, start, end, events, type) => {
 
   // Extend zone to a minimum of years to fit labels
   const realDif = realE - s
-  const min = 60 //20 + (name.length - 0) * 2
+  const min = 30 + name.length
   const e = realDif < min ? realE + min - realDif : realE
 
   return { s, e, ev: realE, sd, ed }

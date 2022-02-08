@@ -1,20 +1,13 @@
 .item {
-  display: flex;
   position: absolute;
-  flex-direction: column;
-  max-height: 50px;
-  transition: all 0.7s ease-in-out;
+  bottom: 0;
+  transition: var(--transition);
   cursor: pointer;
+  // pointer-events: none;
 
   &:hover,
   &:focus {
     z-index: 3;
-
-    .item_wrapper {
-      &::after {
-        opacity: 1;
-      }
-    }
   }
 
   &:focus {
@@ -37,41 +30,37 @@
     pointer-events: none;
   }
 
-  &_wrapper {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    margin-right: 1px;
-    margin-bottom: 1px;
-    background-color: #333;
-    border-radius: 2px;
-
-    &:after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-color: rgba(black, 0.2);
-      border-radius: 2px;
-      opacity: 0;
-      transition: opacity 0.3s ease-out;
-    }
+  &_bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+    border-radius: 3px;
+    transform-origin: 0 0;
+    transition: var(--transition);
   }
 
   &_name {
     text-align: center;
-    text-overflow: ellipsis;
     white-space: nowrap;
-    position: relative;
-    z-index: 1;
-    flex: 1 0 auto;
-    padding: 0 0.25rem;
-    user-select: none;
     display: flex;
+    position: absolute;
+    position: absolute;
+    z-index: 1;
+    gap: 0.3rem;
     justify-content: center;
     align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 0.3rem;
+    height: calc(100% - 1px);
+    min-width: calc(100% - 1px);
+    transition: var(--transition);
+    user-select: none;
 
     svg {
-      margin-right: 0.4rem;
       width: 14px;
       height: 14px;
       opacity: 0.6;

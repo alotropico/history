@@ -1,4 +1,4 @@
-import style from '../style/Card.module.scss'
+import style from '../style/Links.module.scss'
 
 export default function Links({ fullName, name, place, set }) {
   const title = fullName || name

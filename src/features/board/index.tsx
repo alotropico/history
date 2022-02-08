@@ -43,7 +43,7 @@ export default function Board({ items, sets }: BoardProps) {
         <header>
           <h1 className={style.title}>Chronology of Renowned People from the Early Classical Antiquity</h1>
           <p className={style.status}>
-            {renderItems.length} items {dates}
+            {renderItems.filter((item) => item.display).length} items {dates}
           </p>
         </header>
         <main>

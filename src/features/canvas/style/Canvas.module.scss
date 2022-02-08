@@ -1,7 +1,5 @@
 .canvas {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-    'Droid Sans', 'Helvetica Neue', sans-serif;
-  font-size: 14px;
+  font-size: var(--font-size);
   position: relative;
   flex-grow: 1;
   margin: 0.5rem 0 2rem;

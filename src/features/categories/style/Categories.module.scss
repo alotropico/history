@@ -17,7 +17,7 @@
   user-select: none;
 
   &.selected {
-    background-color: rgba(black, 0.2);
+    background-color: rgba(var(--color-text), 0.2);
   }
 
   &.off {

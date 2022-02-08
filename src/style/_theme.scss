@@ -1,0 +1,20 @@
+:root {
+  --font-family: sans-serif;
+  --font-family-monospace: monospace;
+  --font-family-serif: 'Georgia', 'Times', serif;
+  --font-size: 14px;
+
+  --card-padding: calc(0.5vw + 1rem);
+  --card-width: 400px;
+
+  --color-text: #222;
+
+  --color-negative-text: #{rgba(white, 0.8)};
+
+  --color-bg-soft: #{rgba(black, 0.1)};
+
+  --shadow: 0 0 60px #{rgba(black, 0.3)};
+
+  --transition: all 0.3s ease-out;
+  --transition-ui: all 0.2s ease-out;
+}

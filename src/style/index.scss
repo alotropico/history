@@ -1,3 +1,5 @@
+@import 'theme';
+
 *,
 *:after,
 *:before {
@@ -10,14 +12,12 @@ body {
 }
 
 body {
-  font-family: monospace;
-  font-size: 14px;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
   line-height: 1.2;
   margin: 0;
-  color: #ebebeb;
+  color: var(--color-negative-text);
   background-color: #43434c;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
@@ -34,7 +34,7 @@ a {
   color: #3776cde6;
 
   &:active {
-    color: black;
+    color: var(--color-text);
   }
   &:hover {
     text-decoration: none;
