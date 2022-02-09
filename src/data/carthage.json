@@ -71,7 +71,8 @@
     {
       "name": "Hannibal",
       "start": -247,
-      "end": -181
+      "end": -181,
+      "events": [{ "name": "Commander in chief of the army", "start": -221, "end": "end" }]
     }
   ]
 }

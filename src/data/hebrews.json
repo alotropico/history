@@ -31,6 +31,12 @@
       "end": -570
     },
     {
+      "name": "Zedekiah",
+      "desc": "Was the 20th and last king of Judah before the destruction of the kingdom by King Nebuchadnezzar II of Babylon. Zedekiah was installed as king of Judah by Nebuchadnezzar II, king of Babylon, after a siege of Jerusalem in 597 BC, to succeed his nephew, Jehoiachin, who was overthrown as king after reigning three months and 10 days.",
+      "start": -617,
+      "events": [{ "name": "King of Judah", "start": -597, "end": -586 }]
+    },
+    {
       "tax": "religion",
       "name": "Joseph",
       "fullName": "Saint Joseph",

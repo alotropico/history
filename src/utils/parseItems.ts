@@ -1,13 +1,16 @@
 import parseYear from './parseYear'
-import hex2rgba from './hex2Rgba'
+import { hex2rgba, hex2rgbaDarken } from './colors'
+import { toPercentage } from './numbers'
 import { DbItem, DataItem } from '../types'
 
 export default function parseItems(items: DbItem[]): DataItem[] {
-  return items
-    .map((item, i) => parseItem(item, i))
-    .sort((a, b) => sortByNumericValue('e', a, b))
-    .sort((a, b) => sortByNumericValue('s', a, b))
-    .sort((a, b) => sortByValue('set', a, b))
+  return (
+    items
+      .map((item, i) => parseItem(item, i))
+      // .sort((a, b) => sortByNumericValue('e', a, b))
+      // .sort((a, b) => sortByNumericValue('s', a, b))
+      .sort((a, b) => sortByValue('set', a, b))
+  )
 }
 
 // Parse individual item
@@ -19,8 +22,10 @@ const parseItem = (item: DbItem, i): DataItem => {
     theme: {
       ...item.theme,
       background: bgColor(item.theme.color, sd, ed),
+      layerBackground: hex2rgbaDarken(item.theme.color, 0.5),
       icon: getIcon(item.tax || '', item.events || []),
     },
+    layers: item?.events ? getLayers(item.events, s, ev) : [],
     id: item.set + '-' + i,
     dates: datesToString(item?.start, item?.end),
     type,
@@ -32,13 +37,27 @@ const parseItem = (item: DbItem, i): DataItem => {
   }
 }
 
+const getLayers = (events, s, e) => {
+  const lapse = e - s
+  return events
+    .filter((event) => event?.name && event?.start)
+    .map((event) => (event?.end && isNaN(event.end) ? { ...event, end: e } : event))
+    .map((event) => ({
+      name: event?.name,
+      l: toPercentage((event.start - s) / lapse),
+      w: event?.end ? toPercentage((event.end - event.start) / lapse) : 0,
+    }))
+}
+
 const getIcon = (tax, events) => {
   if (arrayHasWords([{ tax: tax }], 'tax', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'dynasty', 'tyrant']))
     return 'king'
-  if (arrayHasWords([{ tax: tax }], 'tax', ['consul', 'censor', 'dictator', 'strategos'])) return 'authority'
+  if (arrayHasWords([{ tax: tax }], 'tax', ['consul', 'censor', 'dictator', 'strategos', 'commander', 'general']))
+    return 'authority'
   if (tax) return tax
   if (arrayHasWords(events, 'name', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'tyrant'])) return 'king'
-  if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos'])) return 'authority'
+  if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos', 'commander', 'general']))
+    return 'authority'
 }
 
 const arrayHasWords = (ar, prop, words) =>
@@ -69,7 +88,8 @@ const getDatePoints = (name, start, end, events, type) => {
 
   // Extend zone to a minimum of years to fit labels
   const realDif = realE - s
-  const min = 30 + name.length
+  const nameLength = name.length < 10 ? name.length : 10
+  const min = 30 + nameLength
   const e = realDif < min ? realE + min - realDif : realE
 
   return { s, e, ev: realE, sd, ed }

@@ -1,4 +1,5 @@
 // Converts parsed data into data ready for rendering
+import { toPercentage } from '../../../utils/numbers'
 import { DataItems, SpatialItems } from '../../../types'
 import { useRenderItemsRet } from '../types'
 
@@ -7,20 +8,18 @@ export default function useRenderItems(
   forcedStart: number | null = null,
   forcedEnd: number | null = null
 ): useRenderItemsRet {
+  // Get start and end times from displayed items
   const displayedItems = items.filter((item) => item.display)
-
   const start =
     forcedStart || displayedItems.reduce((a: any, item) => (!a || (item?.s && a > item.s) ? item.s : a), null) || -100
-
   const end =
     forcedEnd || displayedItems.reduce((a: any, item) => (!a || (item?.e && a < item.e) ? item.e : a), null) || 0
 
-  const [parsedItems, layers] = insertSpatialData(items, start, end)
-  return [parsedItems, start, end]
+  return [insertSpatialData(items, start, end), start, end]
 }
 
 // Insert spatial data into each item
-function insertSpatialData(items, start, end): [SpatialItems, number] {
+function insertSpatialData(items, start, end): SpatialItems {
   const layers: any = []
   const lapse = end - start
 
@@ -42,7 +41,7 @@ function insertSpatialData(items, start, end): [SpatialItems, number] {
     return { ...item, spatial }
   })
 
-  return [insertBottomPosition(spatialItems, layers.length), layers.length]
+  return insertBottomPosition(spatialItems, layers.length)
 }
 
 function insertBottomPosition(items: SpatialItems, layers): SpatialItems {
@@ -55,8 +54,4 @@ function insertBottomPosition(items: SpatialItems, layers): SpatialItems {
       h: itemHeight,
     },
   }))
-}
-
-function toPercentage(n) {
-  return Math.round(n * 10000) / 10000
 }

@@ -48,6 +48,7 @@ export type DataItem = DbItem &
     dates: string
     theme?: any
     display?: boolean
+    layers?: { name?: string; l: number; w: number }[]
   }
 export type SpatialItem = DataItem & {
   set: string

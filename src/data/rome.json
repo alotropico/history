@@ -86,7 +86,17 @@
       "fullName": "Marcus Valerius Corvus",
       "desc": "Military commander and politician from the early-to-middle period of the Roman Republic. During his career he was elected consul six times, first at the unusual age of 23. He was appointed dictator two times and led the armies of the Republic in the First Samnite War. He occupied the curule chair a total of twenty-one times throughout his career. According to tradition, he lived to the age of one hundred.",
       "start": -370,
-      "end": -270
+      "end": -270,
+      "events": [
+        { "name": "Consul", "start": -348 },
+        { "name": "Consul", "start": -346 },
+        { "name": "Consul", "start": -343 },
+        { "name": "Dictator", "start": -342 },
+        { "name": "Consul", "start": -335 },
+        { "name": "Dictator", "start": -302 },
+        { "name": "Consul", "start": -300 },
+        { "name": "Consul", "start": -299 }
+      ]
     },
     {
       "name": "Imperiosus",
@@ -285,10 +295,14 @@
     {
       "name": "Sulla",
       "fullName": "Lucius Cornelius Sulla Felix",
+      "desc": "He won the first large-scale civil war in Roman history and became the first man of the Republic to seize power through force. A gifted and innovative general, he achieved numerous successes in wars against foreign and domestic opponents. Sulla rose to prominence during the war against the Numidian king Jugurtha, whom he captured as a result of Jugurtha's betrayal by the king's allies, although his superior Gaius Marius took credit for ending the war. He then fought successfully against Germanic tribes during the Cimbrian War, and Italic tribes during the Social War. He was awarded the Grass Crown for his command in the latter war.",
       "start": -138,
       "end": -78,
-      "desc": "The failed hero a corrupt and negligent system was asking for.",
-      "events": [{ "name": "Dictator", "start": -82, "end": -79 }]
+      "events": [
+        { "name": "Consul", "start": -88 },
+        { "name": "Dictator", "start": -82, "end": -79 },
+        { "name": "Consul", "start": -80 }
+      ]
     },
 
     {
@@ -387,8 +401,10 @@
       "tax": "knowledge",
       "name": "Virgil",
       "fullName": "Publius Vergilius Maro",
+      "desc": "He composed three of the most famous poems in Latin literature: the Eclogues (or Bucolics), the Georgics, and the epic Aeneid. Virgil's work has had wide and deep influence on Western literature, most notably Dante's Divine Comedy, in which Virgil appears as the author's guide through Hell and Purgatory. Virgil has been traditionally ranked as one of Rome's greatest poets. His Aeneid is also considered a national epic of ancient Rome, a title held since composition.",
       "start": -70,
-      "end": -19
+      "end": -19,
+      "events": [{ "name": "Wrote the Aeneid", "start": -29, "end": "end" }]
     },
     {
       "tax": "knowledge",
