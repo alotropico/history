@@ -31,15 +31,15 @@ h2 {
 }
 
 a {
-  color: #3776cde6;
+  color: white;
 
   &:active {
-    color: var(--color-text);
+    opacity: 0.8;
   }
   &:hover {
     text-decoration: none;
   }
   &:visited {
-    color: #666;
+    opacity: 0.5;
   }
 }

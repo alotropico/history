@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  overflow: hidden;
 
   header {
     font-family: var(--font-family-monospace);
@@ -26,6 +25,28 @@
     .status {
       margin: 0;
       opacity: 0.5;
+    }
+  }
+
+  .main {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    max-width: 360px;
+    max-height: 100%;
+    border-left: 2px dotted rgba(white, 0.1);
+    //box-shadow: -15px 0 50px rgba(black, 0.05);
+
+    & > * {
+      margin-right: 1rem;
+      margin-left: 1rem;
     }
   }
 

@@ -13,7 +13,7 @@ export default function Search() {
       defaultValue=''
       onChange={handleChange}
       className={style.input}
-      placeholder='Search. ie: Scipio, Alexander'
+      placeholder='Filter: Scipio, Alexander, etc.'
       onFocus={(event) => event.target.select()}
     />
   )

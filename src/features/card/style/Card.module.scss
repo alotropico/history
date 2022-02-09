@@ -1,49 +1,29 @@
 .card {
-  font-size: 16px;
-  position: absolute;
-  z-index: 4;
-  top: 36.98px;
-  left: 1rem;
-  width: var(--card-width);
-  max-width: calc(100vw - 6vw * 2);
-  max-height: calc(100vh - 36.98px - 43.8px);
+  font-family: var(--font-family-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: auto;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding: 1rem 1rem 0 1rem;
+  height: 50vh;
   overflow-x: hidden;
   overflow-y: auto;
-  color: var(--color-text);
-  background-color: rgba(white, 0.9);
-  border-radius: 2px;
-  box-shadow: var(--shadow);
-
-  .top {
-    display: flex;
-    position: sticky;
-    z-index: 6;
-    justify-content: flex-end;
-    top: 0;
-    margin: 0;
-    padding: 0 1rem 0;
-    background-color: #ededed;
-
-    & > span {
-      padding: 1rem;
-    }
-  }
+  border-top: 1px solid rgba(white, 0.1);
 
   h2 {
-    font-family: inherit;
-    font-family: var(--font-family-serif);
-    font-size: 2rem;
-    font-weight: 400;
-    margin: 0 0 1rem;
-    padding: 0 var(--card-padding);
+    font-size: 1.6em;
+    font-weight: lighter;
+    margin: 0 0 0.5rem;
+    padding: 0;
   }
 
   .date {
-    font-family: var(--font-family-serif);
-    font-size: 1.2em;
+    font-family: var(--font-family-monospace);
+    font-size: 1em;
     text-align: center;
-    margin: 0;
     padding: 0.5rem 0;
     color: white;
+    border-radius: 2px;
   }
 }

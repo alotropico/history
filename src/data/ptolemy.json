@@ -1,0 +1,40 @@
+{
+  "info": {
+    "name": "Ptolemy",
+    "color": "279b80"
+  },
+  "items": [
+    {
+      "name": "Ptolemy I",
+      "fullName": "Ptolemy I Soter",
+      "desc": "Founder of the Ptolemaic dynasty, which ruled Egypt until the death of Cleopatra in 30 BC, turning the country into a Hellenistic kingdom and Alexandria into a center of Greek culture.",
+      "start": -367,
+      "end": -282,
+      "place": "Egypt",
+      "events": [{ "name": "Pharaoh of Egypt", "start": -305, "end": "end" }]
+    },
+    {
+      "name": "Ptolemy II",
+      "fullName": "Ptolemy II Ceraunus",
+      "start": -319,
+      "end": -279,
+      "desc": "Ptolemy II Ceraunus was a member of the Ptolemaic dynasty and briefly king of Macedon. As the son of Ptolemy I Soter, he was originally heir to the throne of Ptolemaic Egypt, but he was displaced in favour of his younger brother Ptolemy II Philadelphus. He fled to King Lysimachus of Thrace and Macedon where he was involved in court intrigue that led to the fall of that kingdom in 281 BC to Seleucus I, whom he then assassinated. He then seized the throne of Macedon, which he ruled for seventeen months before his death in battle against the Gauls in early 279 BC. His epithet Ceraunus is Greek for \"Thunderbolt\" and referred to his impatient, impetuous, and destructive character.",
+      "events": [{ "name": "King of Macedon", "start": -281, "end": -279 }]
+    },
+    {
+      "name": "Cleopatra VII",
+      "fullName": "Cleopatra VII Philopator",
+      "desc": "Last active ruler of the Ptolemaic Kingdom of Egypt. After her death, Egypt became a province of the Roman Empire, marking the end of the second to last Hellenistic state and the age that had lasted since the reign of Alexander. Her native language was Koine Greek, and she was the only Ptolemaic ruler to learn the Egyptian language.",
+      "start": -69,
+      "end": -29,
+      "place": "Egypt",
+      "events": [
+        {
+          "name": "Queen of Egypt",
+          "start": -51,
+          "end": -30
+        }
+      ]
+    }
+  ]
+}

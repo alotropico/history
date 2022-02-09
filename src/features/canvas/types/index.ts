@@ -5,7 +5,7 @@ export type CanvasProps = {
 }
 
 export type ItemProps = SpatialItem & {
-  tabIndex: number
+  tabIndex?: number
   canvas?: {
     width: number
     height: number

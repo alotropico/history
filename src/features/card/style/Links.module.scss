@@ -1,14 +1,8 @@
 .bottom {
-  font-size: var(--font-size);
-  padding: var(--card-padding);
-  background-color: #e0e0e0;
+  margin-top: 1rem;
+  padding: 0.5rem 0 1rem;
+  border-top: 1px solid rgba(white, 0.1);
 
-  h4 {
-    font-weight: 600;
-    margin: 0 0 0.5rem;
-    padding: 0;
-    opacity: 0.9;
-  }
   ul {
     list-style-type: none;
     line-height: 1.6;

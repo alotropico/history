@@ -46,16 +46,25 @@ export default function Board({ items, sets }: BoardProps) {
             {renderItems.filter((item) => item.display).length} items {dates}
           </p>
         </header>
-        <main>
-          <Scale start={start} end={end} />
-          <Canvas items={renderItems} />
-        </main>
-        <footer>
-          <Categories sets={sets.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))} filters={filters} />
-          <Search />
-        </footer>
+
+        <div className={style.main}>
+          <main>
+            <Scale start={start} end={end} />
+            <Canvas items={renderItems} />
+          </main>
+
+          <aside>
+            <Search />
+            <Categories
+              sets={sets.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))}
+              filters={filters}
+            />
+            {selected && <Card {...selected} handleClose={() => setSelected(null)} />}
+          </aside>
+        </div>
+
+        {/* <footer /> */}
       </div>
-      {selected && <Card {...selected} handleClose={() => setSelected(null)} />}
     </BoardContext.Provider>
   )
 }

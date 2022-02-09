@@ -7,7 +7,6 @@ export default function Links({ fullName, name, place, set }) {
 
   return (
     <div className={style.bottom}>
-      <h4>Search:</h4>
       <ul>
         <li>
           <a href={`https://en.wikipedia.org/w/index.php?search=${title}`} target='_blank' rel='noreferrer'>

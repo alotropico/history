@@ -20,7 +20,7 @@ export default function Events({ events, bottomSeparator, itemEnd }) {
     <div className={[style.events, bottomSeparator ? style.bottomSeparator : ''].join(' ')}>
       {Object.keys(eventsObj).map((k) => (
         <span key={k}>
-          <strong>{k}</strong> {Boolean(eventsObj[k].length) && <span>({eventsObj[k].join(', ')})</span>}
+          <span>{k}</span> {Boolean(eventsObj[k].length) && <span>({eventsObj[k].join(', ')})</span>}
         </span>
       ))}
     </div>
