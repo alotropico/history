@@ -1,7 +1,11 @@
 .item {
   position: absolute;
+  left: 50%;
+  bottom: 50%;
   transition: var(--transition);
   cursor: pointer;
+  width: 0;
+  height: 0;
 
   &:hover,
   &:focus {
@@ -63,6 +67,11 @@
       top: 0;
       height: 100%;
       min-width: 1px;
+      opacity: 0.5;
+
+      &.short {
+        opacity: 1;
+      }
     }
   }
 

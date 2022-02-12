@@ -44,12 +44,14 @@
       "events": [{ "name": "Chief Archon of Athens", "start": -525, "end": -524 }]
     },
     {
+      "tax": "strategos",
       "name": "Aristides",
       "desc": "Athenian statesman. Nicknamed \"the Just\", he flourished in the early quarter of Athens' Classical period and is remembered for his generalship in the Persian War. The ancient historian Herodotus cited him as \"the best and most honourable man in Athens\",  and he received similarly reverent treatment in Plato's Socratic dialogues.",
       "start": -530,
       "end": -468
     },
     {
+      "tax": "strategos",
       "name": "Miltiades",
       "fullName": "Miltiades the Younger",
       "desc": "Also known as Miltiades the Younger, was a Greek Athenian citizen known mostly for his role in the Battle of Marathon, as well as for his downfall afterwards. He was the son of Cimon Coalemos, a renowned Olympic chariot-racer, and the father of Cimon, the noted Athenian statesman.",
@@ -57,6 +59,7 @@
       "end": -489
     },
     {
+      "tax": "strategos",
       "name": "Themistocles",
       "desc": "One of a new breed of non-aristocratic politicians who rose to prominence in the early years of the Athenian democracy. As a politician, Themistocles was a populist, having the support of lower-class Athenians, and generally being at odds with the Athenian nobility. Elected archon in 493 BC, he convinced the polis to increase the naval power of Athens, a recurring theme in his political career. During the first Persian invasion of Greece he fought at the Battle of Marathon and was possibly one of the ten Athenian strategoi in that battle.",
       "start": -524,
@@ -64,10 +67,18 @@
     },
     {
       "name": "Cimon",
-      "desc": "Athenian statesman and general in mid-5th century BC Greece. He was the son of Miltiades, the victor of the Battle of Marathon. Cimon played a key role in creating the powerful Athenian maritime empire following the failure of the Persian invasion of Greece by Xerxes I in 480–479 BC. Cimon became a celebrated military hero and was elected to the rank of strategos after fighting in the Battle of Salamis.",
+      "desc": "Athenian statesman and general in mid-5th century BC Greece. He was the son of Miltiades, the victor of the Battle of Marathon. Cimon played a key role in creating the powerful Athenian maritime empire following the failure of the Persian invasion of Greece by Xerxes I. Cimon funded many construction projects throughout Athens. These projects were greatly needed in order to rebuild after the Achaemenid destruction. He ordered the expansion of the Acropolis and the walls around Athens, and the construction of public roads, public gardens, and several political buildings.",
       "start": -510,
       "end": -450,
-      "place": "Kimon"
+      "events": [
+        { "name": "Battle of Salamis", "start": -479 },
+        { "name": "Strategos of the Delian League", "start": -479, "end": -463 },
+        { "name": "Battle of Eurymedon", "start": -466 },
+        { "name": "Thracian revolt", "start": -465, "start": -463 },
+        { "name": "Helot revolt in Sparta", "start": -462 },
+        { "name": "Ostracized", "start": -461 },
+        { "name": "Return to Athens", "start": -451 }
+      ]
     },
     {
       "tax": "knowledge",
@@ -93,7 +104,8 @@
       "name": "Pericles",
       "desc": "Greek statesman and general during the Golden Age of Athens. He turned the Delian League into an Athenian empire and led his countrymen during the first two years of the Peloponnesian War. Pericles promoted the arts and literature, and it is principally through his efforts that Athens acquired the reputation of being the educational and cultural center of the ancient Greek world. He started an ambitious project that generated most of the surviving structures on the Acropolis, including the Parthenon. This project beautified and protected the city, exhibited its glory and gave work to its people. Pericles also fostered Athenian democracy to such an extent that critics called him a populist.",
       "start": -495,
-      "end": -429
+      "end": -429,
+      "events": [{ "name": "Political career", "start": -472, "end": "end" }]
     },
     {
       "name": "Nicias",
@@ -175,6 +187,12 @@
       "desc": "Athenian statesman and strategos, and the subject of one of Plutarch's Parallel Lives. Phocion was a successful politician of Athens. He believed that extreme frugality was the condition for virtue and lived in accord with this; consequently, he was popularly known as \"The Good.\" Further, people thought that Phocion was the most honest member of the Athenian Assembly. However, within this chamber, Phocion's tendency to strong opposition relegated him to a solitary stand against the entire political class. Nonetheless, by both his individual prestige and his military expertise, which was acquired by the side of Chabrias, Phocion was elected strategos numerous times, with a record 45 terms in office. Thus, during most of his 84 years of life, Phocion occupied the most important Athenian offices.",
       "start": -402,
       "end": -318
+    },
+    {
+      "name": "Xenocrates",
+      "desc": "He distinguished three forms of being: the sensible, the intelligible, and a third compounded of the two, to which correspond respectively, sense, intellect and opinion. He considered unity and duality to be gods which rule the universe, and the soul a self-moving number. God pervades all things, and there are daemonical powers, intermediate between the divine and the mortal, which consist in conditions of the soul. He held that mathematical objects and the Platonic Ideas are identical, unlike Plato who distinguished them. In ethics, he taught that virtue produces happiness, but external goods can minister to it and enable it to effect its purpose.",
+      "start": -396,
+      "end": -314
     },
     {
       "name": "Hypereides",

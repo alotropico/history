@@ -1,12 +1,13 @@
 import { useContext } from 'react'
 
 import { ItemProps } from '../types'
+import { iconType } from '../../../components/icons/types/types'
 import { BoardContext } from '../../board'
 import Icon from '../../../components/icons'
 import style from '../style/Item.module.scss'
 
 export default function Item(props: ItemProps) {
-  const { set, name, fullName, dates, spatial, theme, tabIndex, highlight, display, layers } = props
+  const { set, name, fullName, dates, spatial, theme, tabIndex, highlight, display, layers, icon } = props
 
   const title = `${fullName || name} ${dates && `(${dates})`}`
 
@@ -37,7 +38,7 @@ export default function Item(props: ItemProps) {
         {layers && Boolean(layers?.length) && <Layers layers={layers} background={theme.layerBackground} />}
       </div>
       <div className={style.name}>
-        {theme?.icon && <Icon name={theme.icon} />}
+        {icon && <Icon name={icon || ''} />}
         <span>{name}</span>
       </div>
     </div>
@@ -51,6 +52,7 @@ function Layers({ layers, background }) {
       left: `${layer.l * 100}%`,
       width: `${layer.w * 100}%`,
     }
-    return <div key={i} className={style.inner} style={layerStyle} />
+    const classes = [style.inner, layer.w < 0.01 && style.short].join(' ')
+    return <div key={i} className={classes} style={layerStyle} />
   })
 }

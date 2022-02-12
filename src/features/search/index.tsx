@@ -15,6 +15,7 @@ export default function Search() {
       className={style.input}
       placeholder='Filter: Scipio, Alexander, etc.'
       onFocus={(event) => event.target.select()}
+      type='search'
     />
   )
 }

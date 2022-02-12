@@ -43,3 +43,7 @@ a {
     opacity: 0.5;
   }
 }
+
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}

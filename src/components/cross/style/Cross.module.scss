@@ -1,26 +1,29 @@
 .cross {
-  padding: 0 0.5rem;
+  padding: 0;
   cursor: pointer;
 
   & > span {
     display: block;
     position: relative;
-    width: 0.25rem;
-    height: 1.25rem;
-    transition: var(--transition-ui);
+    margin: 0 0.7rem;
+    width: calc(0.05rem);
+    height: calc(1.5rem);
+    transition: all 0.2s ease-out;
 
     &::before,
     &::after {
       content: '';
       position: absolute;
       inset: 0;
-      background-color: var(--color-text);
+      background-color: white;
+      opacity: 0.37;
+      transition: transform 0.2s ease-in-out, opacity 0.2s ease-out;
     }
     &::before {
-      transform: rotate(45deg);
+      transform: rotate(90deg);
     }
     &::after {
-      transform: rotate(-45deg);
+      transform: rotate(-90deg);
     }
   }
 
@@ -35,7 +38,15 @@
 
   &:hover {
     & > span {
-      transform: scale(1.2, 1.2);
+      transform: scale(1);
+      &::before {
+        transform: rotate(45deg);
+        opacity: 1;
+      }
+      &::after {
+        transform: rotate(-45deg);
+        opacity: 1;
+      }
     }
   }
 }

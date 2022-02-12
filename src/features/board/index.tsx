@@ -4,6 +4,7 @@ import Canvas from '../canvas'
 import Scale from '../scale'
 import Card from '../card'
 import Categories from '../categories'
+import Occs from '../occs'
 import Search from '../search'
 
 import style from './style/Board.module.scss'
@@ -16,12 +17,17 @@ import { BoardProps } from './types'
 
 export const BoardContext = createContext<any>(() => null)
 
-export default function Board({ items, sets }: BoardProps) {
+export default function Board({ items, sets, occs }: BoardProps) {
   const [filters, setFilters] = useState([])
+
+  const [occFilters, setOccFilters] = useState([])
 
   const [highlights, setHighlights] = useState('')
 
-  const filteredItems = useFilterItems(items, filters)
+  const filteredItems = useFilterItems(items, [
+    { filters, prop: 'set' },
+    { filters: occFilters, prop: 'icon' },
+  ])
 
   const highlightedItems = useHighlightItems(filteredItems, highlights)
 
@@ -35,18 +41,12 @@ export default function Board({ items, sets }: BoardProps) {
     setSelected,
     setFilters,
     setHighlights,
+    setOccFilters,
   }
 
   return (
     <BoardContext.Provider value={contextMethods}>
       <div className={style.board}>
-        <header>
-          <h1 className={style.title}>Chronology of Renowned People from the Early Classical Antiquity</h1>
-          <p className={style.status}>
-            {renderItems.filter((item) => item.display).length} items {dates}
-          </p>
-        </header>
-
         <div className={style.main}>
           <main>
             <Scale start={start} end={end} />
@@ -54,11 +54,18 @@ export default function Board({ items, sets }: BoardProps) {
           </main>
 
           <aside>
+            <header>
+              <h1 className={style.title}>Early Classical Antiquity</h1>
+              <p className={style.status}>
+                {renderItems.filter((item) => item.display).length} items {dates}
+              </p>
+            </header>
             <Search />
             <Categories
               sets={sets.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))}
               filters={filters}
             />
+            <Occs occs={occs || []} filters={occFilters} />
             {selected && <Card {...selected} handleClose={() => setSelected(null)} />}
           </aside>
         </div>

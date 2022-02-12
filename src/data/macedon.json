@@ -170,7 +170,10 @@
       "name": "Antipater II",
       "fullName": "Antipater II of Macedon",
       "desc": "Antipater II of Macedon (Greek: Ἀντίπατρος Βʹ ὁ Μακεδών), was the son of Cassander and Thessalonike of Macedon, who was a half-sister of Alexander the Great. He was king of Macedon from 297 BC until 294 BC, jointly with his brother Alexander V. Eventually, he murdered his mother and ousted his brother from the throne. Alexander turned to Pyrrhus and Demetrius I Poliorcetes for help, and Demetrius I overthrew Antipater and then had Alexander murdered. Antipater was killed by Lysimachus, after he fled from Demetrius I to Thrace. His wife was Eurydice, his paternal cousin who was a daughter of Lysimachus. He and his brother were the last kings of Macedon to be descended from Perdiccas I.",
-      "events": [{ "name": "King of Macedon", "start": -297, "end": -294 }]
+      "events": [
+        { "name": "King of Macedon", "start": -297, "end": -294 },
+        { "name": "Battle of Beneventum", "start": -275 }
+      ]
     },
     {
       "name": "Demetrius I",
@@ -286,31 +289,12 @@
       "end": -321
     },
     {
-      "name": "Peucestas",
-      "desc": "Founder of the Ptolemaic dynasty, which ruled Egypt until the death of Cleopatra in 30 BC, turning the country into a Hellenistic kingdom and Alexandria into a center of Greek culture.",
-      "place": "Egypt",
-      "events": [{ "start": -325 }]
-    },
-    {
       "name": "Peithon",
       "desc": "After the Second War of the Diadochi, Peithon was among the most powerful diadochi in the eastern part of the empire and he started to build his power again. Antigonus felt threatened by Peithon's growing power so he tricked him into coming to his court, where he had him executed.",
       "start": -355,
       "end": -314
     },
-    {
-      "name": "Leonnatus",
-      "desc": "Alexander's sister Cleopatra, the widow of King Alexander I of Epirus, offered her hand to Leonnatus. When the Athenians heard that Alexander had died, they revolted against Macedonia and the new regent, Antipater. Leonnatus led an army of 20,000 infantry with 1,500 cavalry to relieve Antipater during the siege in Lamia (see Lamian War). He intervened probably with the ambition to usurp Antipater's power. A victory in battle against the Athenians would have certainly enhanced his claim to the throne. Leonnatus was killed in battle against the Athenians and his marriage with Cleopatra never took place.",
-      "start": -356,
-      "end": -322
-    },
-    {
-      "name": "Antigonus I",
-      "fullName": "Antigonus I Monophthalmus",
-      "desc": "Macedonian Greek nobleman, general, satrap, and king. During the first half of his life he served under Philip II; after Philip's death in 336 BC, he served Philip's son Alexander. He was a major figure in the Wars of the Diadochi after Alexander's death, declaring himself king in 306 BC and establishing the Antigonid dynasty.",
-      "start": -382,
-      "end": -301,
-      "events": [{ "name": "Basileus of the Antigonid Empire", "start": -306, "end": "end" }]
-    },
+
     {
       "name": "Neoptolemus",
       "desc": "Neoptolemus was a Macedonian officer who served under Alexander the Great.",
@@ -318,7 +302,7 @@
     },
     {
       "name": "Polyperchon",
-      "desc": "Polyperchon (sometimes written Polysperchon; Greek: Πολυπέρχων; b. between 390-380 BC – d. after 304 BC, possibly into 3rd century BC), was a Macedonian Greek general who served both Philip II and Alexander the Great and then played an active role in the ensuing battles for control between Alexander's generals.",
+      "desc": "General who served both Philip II and Alexander the Great and then played an active role in the ensuing battles for control between Alexander's generals.",
       "start": -390,
       "end": -304
     },
@@ -347,21 +331,6 @@
       "desc": "Eumenes was a Greek general and satrap. He participated in the Wars of Alexander the Great, serving as both Alexander's personal secretary and as a battlefield commander. He later was a participant in the Wars of the Diadochi as a supporter of the Macedonian Argead royal house. He was executed after the Battle of Gabiene in 316 BC.",
       "start": -362,
       "end": -316
-    },
-    {
-      "name": "Philetaerus",
-      "desc": "Philetaerus was the founder of the Attalid dynasty of Pergamon in Anatolia.",
-      "start": -343,
-      "end": -263,
-      "events": [{ "name": "King of Pergamon", "start": -282, "end": "end" }]
-    },
-    {
-      "name": "Mithridates VI",
-      "fullName": "Mithridates VI Eupator",
-      "desc": "Ruler of the Kingdom of Pontus in northern Anatolia from 120 to 63 BC, and one of the Roman Republic's most formidable and determined opponents. He was an effective, ambitious and ruthless ruler who sought to dominate Asia Minor and the var(--color-text) Sea region, waging several hard-fought but ultimately unsuccessful wars (the Mithridatic Wars) to break Roman dominion over Asia and the Hellenic world. He has been called the greatest ruler of the Kingdom of Pontus. After his death he became known as Mithridates the Great; due to his affinity for poison he has also been called \"The Poison King\".",
-      "start": -135,
-      "end": -63,
-      "events": [{ "name": "King of Pontus", "start": -120, "end": "end" }]
     }
   ]
 }

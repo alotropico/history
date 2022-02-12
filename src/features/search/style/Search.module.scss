@@ -2,7 +2,7 @@
   font-family: inherit;
   font-size: inherit;
   padding: 0.5rem 0.5rem;
-  min-width: 260px;
+  min-width: 10px;
   color: inherit;
   background-color: transparent;
   border: 1px solid rgba(white, 0.1);
@@ -10,9 +10,9 @@
 
   &:hover,
   &:focus {
+    background-color: rgba(black, 0.1);
     border: 1px solid rgba(white, 0.8);
     outline: none;
-    background-color: rgba(black, 0.1);
   }
 
   &::placeholder {

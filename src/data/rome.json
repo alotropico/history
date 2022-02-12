@@ -17,7 +17,12 @@
       "name": "Vecellinus",
       "fullName": "Spurius Cassius Vecellinus",
       "desc": "One of the most distinguished men of the early Roman Republic. He was three times consul, and celebrated two triumphs. He was the first magister equitum, and the author of the first agrarian law. The year following his last consulship, he was accused of aiming at regal power, and was put to death by the patricians.",
-      "end": -485
+      "end": -485,
+      "events": [
+        { "name": "Consul", "start": -502 },
+        { "name": "Consul", "start": -493 },
+        { "name": "Consul", "start": -486 }
+      ]
     },
     {
       "name": "Lucretia",
@@ -28,7 +33,8 @@
       "name": "Brutus",
       "fullName": "Lucius Junius Brutus",
       "desc": "Semi-legendary founder of the Roman Republic, and traditionally one of its first consuls in 509 BC. He was reputedly responsible for the expulsion of his uncle the Roman king Tarquinius Superbus after the suicide of Lucretia, which led to the overthrow of the Roman monarchy. He was involved in the abdication of fellow consul Tarquinius Collatinus, and executed two of his sons for plotting the restoration of the Tarquins.",
-      "end": -509
+      "end": -509,
+      "events": [{ "name": "Consul", "start": -509 }]
     },
     {
       "name": "Tarquinius",
@@ -41,7 +47,8 @@
       "name": "Aquilinus",
       "fullName": "Titus Herminius Aquilinus",
       "desc": "One of the heroes of the Roman Republic. He participated in two of the most famous conflicts that attended the birth of the Republic, and was elected consul in 506 BC. However, his greatest fame was won as one of the defenders of the Sublician bridge against the army of Lars Porsena, the King of Clusium.",
-      "end": -498
+      "end": -498,
+      "events": [{ "name": "Consul", "start": -506 }]
     },
     {
       "name": "Cossus",
@@ -49,7 +56,16 @@
       "desc": "He is most famous for being the second Roman, after Romulus, to be awarded the spolia opima, Rome's highest military honor, for killing the commander of an enemy army in single combat. Only three Romans ever achieved this feat.",
       "events": [
         {
+          "name": "Battle of Fidenae",
           "start": -437
+        },
+        {
+          "name": "Praetor",
+          "start": -428
+        },
+        {
+          "name": "Consular tribune",
+          "start": -426
         }
       ]
     },
@@ -114,11 +130,31 @@
     {
       "name": "Rullianus",
       "fullName": "Quintus Fabius Maximus Rullianus",
-      "desc": "Quintus Fabius Maximus Rullianus (or Rullus), son of Marcus Fabius Ambustus, of the patrician Fabii of ancient Rome, was five times consul and a hero of the Samnite Wars.",
+      "desc": "as five times consul and a hero of the Samnite Wars.",
       "events": [
         {
-          "start": -325,
-          "end": -292
+          "name": "Consul",
+          "start": -322
+        },
+        {
+          "name": "Dictator",
+          "start": -315
+        },
+        {
+          "name": "Consul",
+          "start": -310
+        },
+        {
+          "name": "Consul",
+          "start": -308
+        },
+        {
+          "name": "Censor",
+          "start": -304
+        },
+        {
+          "name": "Consul",
+          "start": -297
         }
       ]
     },
@@ -127,14 +163,16 @@
       "fullName": "Lucius Cornelius Scipio Barbatus",
       "desc": "One of the two elected Roman consuls in 298 BC. He led the Roman army to victory against the Etruscans near Volterra. A member of the noble Roman family of Scipiones, he was the father of Lucius Cornelius Scipio and Gnaeus Cornelius Scipio Asina and great-grandfather of Scipio Africanus.",
       "start": -337,
-      "end": -270
+      "end": -270,
+      "events": [{ "name": "Consul", "start": -298 }]
     },
     {
       "name": "Caecus",
       "fullName": "Appius Claudius Caecus",
       "desc": "Statesman and writer from the Roman Republic. The first Roman public figure whose life can be traced with some historical certainty, Caecus was responsible for the building of Rome's first road (the Appian Way) and first aqueduct (the Aqua Appia), as well as instigating controversial popular-minded reforms. He is also credited with the authorship of a juristic treatise, a collection of moral essays, and several poems, making him one of Rome's earliest literary figures.",
       "start": -312,
-      "end": -279
+      "end": -279,
+      "events": [{ "name": "Consul", "start": -296 }]
     },
     {
       "name": "Valerius",
@@ -149,15 +187,31 @@
     {
       "name": "Dentatus",
       "fullName": "Manius Curius Dentatus",
-      "desc": "Roman general and statesman noted for ending the Samnite War and for his military exploits during the Pyrrhic War. According to Pliny, he was born with teeth, thus earning the surname Dentatus, \"toothed\". Dentatus was a tribune of the plebs sometime between 298 and 291 BC. As tribune, he foiled efforts by the interrex Appius Claudius Caecus to keep plebeian candidates out of the consular elections.",
-      "end": -270
+      "desc": "Dentatus is described as having been incorruptible and frugal; the story was that when the Samnites sent ambassadors with expensive gifts in an attempt to influence him in their favor, they found him sitting by the hearth roasting turnips. He refused the gifts, saying that he preferred ruling the possessors of gold over possessing it himself. Although the truth of this story is unclear — it may have been an invention of Cato.. According to Pliny, he was born with teeth, thus earning the surname Dentatus, \"toothed\". Dentatus was a tribune of the plebs sometime between 298 and 291 BC. As tribune, he foiled efforts by the interrex Appius Claudius Caecus to keep plebeian candidates out of the consular elections.",
+      "end": -270,
+      "events": [
+        { "name": "Tribune of the plebs", "start": -295 },
+        { "name": "Consul", "start": -290 },
+        { "name": "Consul", "start": -275 },
+        { "name": "Battle of Beneventum", "start": -275 },
+        { "name": "Censor", "start": -272 }
+      ]
     },
     {
       "name": "Cunctator",
       "fullName": "Quintus Fabius Maximus Verrucosus",
-      "desc": "Roman statesman and general of the third century BC. He was consul five times (233, 228, 215, 214, and 209 BC) and was appointed dictator in 221 and 217 BC. He was censor in 230 BC. His agnomen, Cunctator, usually translated as \"the delayer\", refers to the strategy that he employed against Hannibal's forces during the Second Punic War. Facing an outstanding commander with superior numbers, he pursued a then-novel strategy of targeting the enemy's supply lines, and accepting only smaller engagements on favourable ground, rather than risking his entire army on direct confrontation with Hannibal himself. As a result, he is regarded as the originator of many tactics used in guerrilla warfare.",
+      "desc": "His agnomen, Cunctator, usually translated as \"the delayer\", refers to the strategy that he employed against Hannibal's forces during the Second Punic War. Facing an outstanding commander with superior numbers, he pursued a then-novel strategy of targeting the enemy's supply lines, and accepting only smaller engagements on favourable ground, rather than risking his entire army on direct confrontation with Hannibal himself. As a result, he is regarded as the originator of many tactics used in guerrilla warfare.",
       "start": -280,
-      "end": -203
+      "end": -203,
+      "events": [
+        { "name": "Consul", "start": -233 },
+        { "name": "Consul", "start": -228 },
+        { "name": "Dictator", "start": -221 },
+        { "name": "Dictator", "start": -217 },
+        { "name": "Consul", "start": -215 },
+        { "name": "Consul", "start": -214 },
+        { "name": "Consul", "start": -209 }
+      ]
     },
     {
       "name": "Duilius",
@@ -233,7 +287,8 @@
       "fullName": "Marcus Valerius Laevinus",
       "desc": "A member of the gens Valeria, an old patrician family believed to have migrated to Rome under the Sabine king Tatius, Laevinus played an integral role in the containment of the Macedonian threat.",
       "start": -260,
-      "end": -200
+      "end": -200,
+      "events": [{ "name": "Consul", "start": -210 }]
     },
     {
       "name": "Scipio",
@@ -247,6 +302,25 @@
       ]
     },
     {
+      "name": "Gaius Gracchus",
+      "fullName": "Gaius Sempronius Gracchus",
+      "desc": "Was a populist Roman politician best known for his agrarian reform law entailing the transfer of land from the Roman state and wealthy landowners to poorer citizens. Against stiff opposition in the aristocratic Senate, this legislation was carried through during his term as tribune of the plebs. Fears of Tiberius's populist programme, as well as his uncompromising behavior, led to his being killed, along with many supporters, in a riot instigated by his senatorial enemies. A decade later his younger brother Gaius attempted similar legislation and suffered a similar fate.",
+      "start": -163,
+      "end": -133,
+      "events": [{ "name": "Tribune of the plebs", "start": -133 }]
+    },
+    {
+      "name": "Tiberius Gracchus",
+      "fullName": "Tiberius Sempronius Gracchus",
+      "desc": "His election to the office of tribune and reformative policies while in office prompted a constitutional crisis and his death at the hands of the Roman Senate",
+      "start": -154,
+      "end": -121,
+      "events": [
+        { "name": "Tribune of the plebs", "start": -123 },
+        { "name": "Tribune of the plebs", "start": -122 }
+      ]
+    },
+    {
       "name": "Mummius",
       "fullName": "Lucius Mummius Achaicus",
       "start": -200,
@@ -254,17 +328,15 @@
     },
     {
       "name": "Aemilianus",
-      "fullName": "Publius Cornelius Scipio Africanus Aemilianus",
-      "desc": "Roman general and statesman noted for his military exploits in the Third Punic War against Carthage and during the Numantine War in Spain. He oversaw the final defeat and destruction of the city of Carthage.",
+      "fullName": "Scipio Aemilianus",
+      "desc": "Roman general and statesman noted for his military exploits in the Third Punic War against Carthage and during the Numantine War in Spain. He oversaw the final defeat and destruction of the city of Carthage. Appian wrote that it could not be known whether Scipio was murdered by Cornelia (the mother of the Gracchi brothers) and her daughter Sempronia (who was married to Scipio), who were worried that the Gracchian law might be repealed, or whether he committed suicide because he saw that he could not deliver on his promises.",
       "start": -185,
-      "end": -129
-    },
-    {
-      "name": "Gracchus",
-      "fullName": "Tiberius Sempronius Gracchus",
-      "desc": "Populist Roman politician best known for his agrarian reform law entailing the transfer of land from the Roman state and wealthy landowners to poorer citizens. Against stiff opposition in the aristocratic Senate, this legislation was carried through during his term as tribune of the plebs in 133 BC. Fears of Tiberius's populist programme, as well as his uncompromising behavior, led to his being killed, along with many supporters, in a riot instigated by his senatorial enemies. A decade later his younger brother Gaius attempted similar legislation and suffered a similar fate.",
-      "start": -163,
-      "end": -133
+      "end": -129,
+      "events": [
+        { "name": "Consul", "start": -147 },
+        { "name": "Censor", "start": -142 },
+        { "name": "Consul", "start": -134 }
+      ]
     },
     {
       "name": "Saturninus",
@@ -325,6 +397,7 @@
       "end": -43
     },
     {
+      "tax": "knowledge",
       "name": "Cicero",
       "fullName": "Marcus Tullius Cicero",
       "desc": "Roman statesman, lawyer, scholar, philosopher and Academic Skeptic, who tried to uphold optimate principles during the political crises that led to the establishment of the Roman Empire. His extensive writings include treatises on rhetoric, philosophy and politics, and he is considered one of Rome's greatest orators and prose stylists. He came from a wealthy municipal family of the Roman equestrian order, and served as consul in 63 BC.",
@@ -404,14 +477,15 @@
       "desc": "He composed three of the most famous poems in Latin literature: the Eclogues (or Bucolics), the Georgics, and the epic Aeneid. Virgil's work has had wide and deep influence on Western literature, most notably Dante's Divine Comedy, in which Virgil appears as the author's guide through Hell and Purgatory. Virgil has been traditionally ranked as one of Rome's greatest poets. His Aeneid is also considered a national epic of ancient Rome, a title held since composition.",
       "start": -70,
       "end": -19,
-      "events": [{ "name": "Wrote the Aeneid", "start": -29, "end": "end" }]
+      "events": [{ "name": "Writes the Aeneid", "start": -29, "end": "end" }]
     },
     {
       "tax": "knowledge",
       "name": "Livy",
       "fullName": "Titus Livius",
       "start": -59,
-      "end": 17
+      "end": 17,
+      "place": "Patavium"
     }
   ]
 }

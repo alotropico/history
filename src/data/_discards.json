@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Discards"
+  },
+  "items": [
+    {
+      "name": "Peucestas",
+      "place": "Egypt",
+      "events": [{ "start": -325 }]
+    },
+    {
+      "name": "Leonnatus",
+      "desc": "Alexander's sister Cleopatra, the widow of King Alexander I of Epirus, offered her hand to Leonnatus. When the Athenians heard that Alexander had died, they revolted against Macedonia and the new regent, Antipater. Leonnatus led an army of 20,000 infantry with 1,500 cavalry to relieve Antipater during the siege in Lamia (see Lamian War). He intervened probably with the ambition to usurp Antipater's power. A victory in battle against the Athenians would have certainly enhanced his claim to the throne. Leonnatus was killed in battle against the Athenians and his marriage with Cleopatra never took place.",
+      "start": -356,
+      "end": -322
+    }
+  ]
+}

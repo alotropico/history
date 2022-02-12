@@ -3,5 +3,7 @@ import Board from './features/board'
 
 export default function App() {
   const [items, sets] = useItems()
-  return <Board items={items} sets={sets} />
+  const occs = [...new Set(items.map((item) => item?.icon).filter((icon) => icon))]
+
+  return <Board items={items} sets={sets} occs={occs} />
 }

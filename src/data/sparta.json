@@ -5,6 +5,61 @@
   },
   "items": [
     {
+      "tax": "Eurypontid dynasty",
+      "name": "Nicander",
+      "desc": "Nicander and his allies the Asinaeans carried out a raid on nearby Argolis, causing the Argives to attack Asine in return.",
+      "end": -725,
+      "events": [{ "name": "King of Sparta", "start": -750, "end": "end" }],
+      "color": "5745b5"
+    },
+    {
+      "tax": "Eurypontid dynasty",
+      "name": "Theopompus",
+      "fullName": "Theopompus of Sparta",
+      "events": [{ "name": "King of Sparta" }, { "start": -700 }],
+      "color": "5745b5"
+    },
+    {
+      "tax": "Eurypontid dynasty",
+      "name": "Anaxandridas I",
+      "end": -645,
+      "events": [{ "name": "King of Sparta", "start": -675, "end": "end" }],
+      "color": "5745b5"
+    },
+    {
+      "tax": "Eurypontid dynasty",
+      "name": "Zeuxidamus",
+      "end": -625,
+      "events": [{ "name": "King of Sparta", "start": -645, "end": "end" }],
+      "color": "5745b5"
+    },
+    {
+      "tax": "Eurypontid dynasty",
+      "name": "Anaxidamus",
+      "end": -600,
+      "events": [{ "name": "King of Sparta", "start": -625, "end": "end" }],
+      "color": "5745b5"
+    },
+    {
+      "tax": "Eurypontid dynasty",
+      "name": "Archidamus I",
+      "desc": "Archidamus is the first Spartan king to bear the word damos in his name. Previously, royal names of both dynasties often included the word laus. These words already existed during the Mycenaean era, in which Laos meant people and damos designated a small community, but in the 7th century the latter word acquired a political meaning, that of the citizens as a whole. As the Eurypontids were the junior of the Agiads, it seems that they tried to compensate their inferiority by courting citizens. Then, damos-names often appear among the Eurypontids, such as Damaratos, Zeuxidamos, and the later Archidamos.",
+      "end": -645,
+      "events": [{ "name": "King of Sparta", "start": -660, "end": "end" }],
+      "color": "5745b5"
+    },
+
+    {
+      "tax": "Eurypontid dynasty",
+      "name": "Agesilaus II",
+      "desc": "Generally considered the most important king in the history of Sparta, Agesilaus was the main actor during the period of Spartan hegemony that followed the Peloponnesian War. Although brave in combat, Agesilaus lacked the diplomatic skills to preserve Sparta's position, especially against the rising power of Thebes, which reduced Sparta to a secondary power after its victory at Leuctra in 371 BC.",
+      "start": -442,
+      "end": -358,
+      "events": [{ "name": "King of Sparta", "start": -399, "end": "end" }],
+      "color": "5745b5"
+    },
+
+    {
       "tax": "Agiad dynasty",
       "name": "Alcmenes",
       "desc": "Commander in the night-expedition against Ampheia, which began the First Messenian War.",
@@ -111,60 +166,6 @@
     },
 
     {
-      "tax": "Eurypontid dynasty",
-      "name": "Nicander",
-      "desc": "Nicander and his allies the Asinaeans carried out a raid on nearby Argolis, causing the Argives to attack Asine in return.",
-      "end": -725,
-      "events": [{ "name": "King of Sparta", "start": -750, "end": "end" }]
-    },
-    {
-      "tax": "Eurypontid dynasty",
-      "name": "Theopompus",
-      "fullName": "Theopompus of Sparta",
-      "events": [{ "name": "King of Sparta" }, { "start": -700 }]
-    },
-    {
-      "tax": "Eurypontid dynasty",
-      "name": "Theopompus",
-      "fullName": "Theopompus of Sparta",
-      "events": [{ "name": "King of Sparta" }, { "start": -700 }]
-    },
-    {
-      "tax": "Eurypontid dynasty",
-      "name": "Anaxandridas I",
-      "end": -645,
-      "events": [{ "name": "King of Sparta", "start": -675, "end": "end" }]
-    },
-    {
-      "tax": "Eurypontid dynasty",
-      "name": "Zeuxidamus",
-      "end": -625,
-      "events": [{ "name": "King of Sparta", "start": -645, "end": "end" }]
-    },
-    {
-      "tax": "Eurypontid dynasty",
-      "name": "Anaxidamus",
-      "end": -600,
-      "events": [{ "name": "King of Sparta", "start": -625, "end": "end" }]
-    },
-    {
-      "tax": "Eurypontid dynasty",
-      "name": "Archidamus I",
-      "desc": "Archidamus is the first Spartan king to bear the word damos in his name. Previously, royal names of both dynasties often included the word laus. These words already existed during the Mycenaean era, in which Laos meant people and damos designated a small community, but in the 7th century the latter word acquired a political meaning, that of the citizens as a whole. As the Eurypontids were the junior of the Agiads, it seems that they tried to compensate their inferiority by courting citizens. Then, damos-names often appear among the Eurypontids, such as Damaratos, Zeuxidamos, and the later Archidamos.",
-      "end": -645,
-      "events": [{ "name": "King of Sparta", "start": -660, "end": "end" }]
-    },
-
-    {
-      "tax": "Eurypontid dynasty",
-      "name": "Agesilaus II",
-      "desc": "Generally considered the most important king in the history of Sparta, Agesilaus was the main actor during the period of Spartan hegemony that followed the Peloponnesian War. Although brave in combat, Agesilaus lacked the diplomatic skills to preserve Sparta's position, especially against the rising power of Thebes, which reduced Sparta to a secondary power after its victory at Leuctra in 371 BC.",
-      "start": -442,
-      "end": -358,
-      "events": [{ "name": "King of Sparta", "start": -399, "end": "end" }]
-    },
-
-    {
       "name": "Machanidas",
       "end": -207,
       "events": [{ "name": "Tyrant of Sparta", "start": -210, "end": "end" }]
@@ -198,6 +199,7 @@
       ]
     },
     {
+      "tax": "militar",
       "name": "Brasidas",
       "desc": "The most distinguished Spartan officer during the first decade of the Peloponnesian War. He died during the Second Battle of Amphipolis while winning one of his most spectacular victories.",
       "end": -422

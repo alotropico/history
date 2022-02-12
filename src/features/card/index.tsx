@@ -17,9 +17,8 @@ export default function Card(props) {
     <div className={style.card}>
       <div className={style.top}>
         <Cross onClick={handleClose} />
+        <h2>{title}</h2>
       </div>
-
-      <h2>{title}</h2>
 
       {dates && (
         <p className={style.date} style={cardColor}>

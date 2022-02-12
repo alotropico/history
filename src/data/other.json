@@ -11,22 +11,20 @@
       "place": "Egypt"
     },
     {
-      "tax": "pharao",
       "name": "Piye",
       "desc": "Founder of the Twenty-fifth Dynasty of Egypt, who ruled Egypt. He ruled from the city of Napata, located deep in Nubia, modern-day Sudan.",
       "end": -714,
-      "events": [{ "name": "Pharao", "start": -744, "end": "end" }],
+      "events": [{ "name": "Pharaoh", "start": -744, "end": "end" }],
       "place": "Kush"
     },
     {
-      "tax": "pharao",
       "name": "Psamtik III",
       "desc": "Last Pharaoh of the last native dynasty of Egypt.",
-      "events": [{ "name": "Pharao", "start": -526, "end": -525 }],
+      "events": [{ "name": "Pharaoh", "start": -526, "end": -525 }],
       "place": "Egypt"
     },
     {
-      "tax": "religion",
+      "tax": "knowledge",
       "name": "Confucius",
       "desc": "Philosopher, poet and politician of the Spring and Autumn period who was traditionally considered the paragon of Chinese sages. Confucius's teachings and philosophy formed the basis of East Asian culture and society, and continues to remain influential across China and East Asia as of today.",
       "start": -551,
@@ -34,26 +32,51 @@
       "place": "China"
     },
     {
-      "tax": "religion",
+      "tax": "knowledge",
       "name": "Laozi",
       "fullName": "Lao Tzu",
-      "desc": "Philosopher and writer. He is the reputed author of the Tao Te Ching, the founder of philosophical Taoism, and a deity in religious Taoism and traditional Chinese religions.",
+      "desc": "Philosopher and writer. He is the reputed author of the Tao Te Ching, the founder of philosophical Taoism, and a deity in religious Taoism and traditional Chinese knowledges.",
       "events": [{ "start": -500 }],
       "place": "China"
     },
     {
-      "tax": "religion",
+      "tax": "knowledge",
       "name": "Buddha",
       "fullName": "Gautama Buddha",
-      "desc": "Was an ascetic, a religious leader and teacher who lived in ancient India. He is regarded as the founder of the world religion of Buddhism, and revered by Buddhists as an enlightened being, who rediscovered an ancient path to freedom from ignorance, craving and the cycle of rebirth and suffering. He taught for around 45 years and built a large following, both monastic and lay. His teaching is based on his insight into the arising of suffering or dissatisfaction and its ending—the state called Nirvana.",
+      "desc": "Was an ascetic, a religious leader and teacher who lived in ancient India. He is regarded as the founder of the world knowledge of Buddhism, and revered by Buddhists as an enlightened being, who rediscovered an ancient path to freedom from ignorance, craving and the cycle of rebirth and suffering. He taught for around 45 years and built a large following, both monastic and lay. His teaching is based on his insight into the arising of suffering or dissatisfaction and its ending—the state called Nirvana.",
       "events": [{ "start": -490 }],
       "place": "India"
     },
     {
+      "tax": "knowledge",
+      "name": "Zisi",
+      "desc": "Chinese philosopher and the grandson of Confucius.",
+      "start": -481,
+      "end": -402,
+      "place": "China"
+    },
+    {
+      "tax": "warrior",
       "name": "Brennus",
-      "desc": "Chieftain of the Senones. He defeated the Romans at the Battle of the Allia (ca 390 BC). Later that year, he led an army of Cisalpine Gauls in their attack on Rome and captured most of the city, holding it for several months. Brennus's sack of Rome was the only time in 800 years the city was occupied by a non-Roman army before the fall of the city to the Visigoths in 410 AD.",
-      "events": [{ "start": -390 }],
+      "desc": "Chieftain of the Senones. He defeated the Romans at the Battle of the Allia. Later that year, he led an army of Cisalpine Gauls in their attack on Rome and captured most of the city, holding it for several months. Brennus's sack of Rome was the only time in 800 years the city was occupied by a non-Roman army before the fall of the city to the Visigoths in 410 AD.",
+      "events": [{ "name": "Battle of the Allia", "start": -390 }],
       "place": "Seine basin"
+    },
+    {
+      "tax": "knowledge",
+      "name": "Mencius",
+      "desc": "Confucian philosopher who has often been described as the \"second Sage\", that is, after only Confucius himself. He is part of Confucius' fourth generation of disciples. Mencius inherited Confucius' ideology and developed it further. Living during the Warring States period, he is said to have spent much of his life travelling around the states offering counsel to different rulers. Conversations with these rulers form the basis of the Mencius, which would later be canonised as a Confucian classic.",
+      "start": -372,
+      "end": -289,
+      "place": "China"
+    },
+    {
+      "tax": "knowledge",
+      "name": "Xun Kuang",
+      "desc": "Chinese Confucian philosopher and writer who lived during the Warring States period and contributed to the Hundred Schools of Thought. Along with Confucius and Mencius, Xunzi is considered one of the great early architects of Confucianism. His works survive in excellent condition, and were a major influence in forming the official state doctrines of the Han dynasty.",
+      "start": -310,
+      "end": -235,
+      "place": "China"
     },
     {
       "name": "Qin",
@@ -74,18 +97,27 @@
       "place": "China"
     },
     {
+      "tax": "warrior",
       "name": "Spartacus",
       "desc": "Thracian gladiator who, along with others, was one of the escaped slave leaders in the Third Servile War, a major slave uprising against the Roman Republic.",
       "start": -111,
       "end": -71,
-      "place": "Thracia"
+      "place": "Thracia",
+      "events": [{ "name": "Third Servile War", "start": -73, "end": "end" }]
     },
     {
+      "tax": "general",
       "name": "Vercingetorix",
       "desc": "Was a king and chieftain of the Arverni tribe who united the Gauls in a failed revolt against Roman forces during the last phase of Julius Caesar's Gallic Wars. Despite having willingly surrendered to Caesar, he was executed in Rome.",
       "start": -82,
       "end": -46,
-      "place": "West Europe"
+      "place": "West Europe",
+      "events": [
+        {
+          "name": "Last phase of the Gallic Wars",
+          "start": -52
+        }
+      ]
     }
   ]
 }

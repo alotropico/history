@@ -9,6 +9,7 @@ export default function Events({ events, bottomSeparator, itemEnd }) {
   // Save events in an object to consolidate different time periods for the same name
   const eventsObj = {}
   eventsWithContent.forEach((e) => {
+    console.log(e)
     const dates = [parseYear(e?.start), e?.end === 'end' ? parseYear(itemEnd) : parseYear(e?.end)]
       .filter((d) => d)
       .join(' - ')
@@ -18,11 +19,19 @@ export default function Events({ events, bottomSeparator, itemEnd }) {
 
   return eventsWithContent.length ? (
     <div className={[style.events, bottomSeparator ? style.bottomSeparator : ''].join(' ')}>
-      {Object.keys(eventsObj).map((k) => (
-        <span key={k}>
-          <span>{k}</span> {Boolean(eventsObj[k].length) && <span>({eventsObj[k].join(', ')})</span>}
-        </span>
-      ))}
+      {Object.keys(eventsObj).map((k) => {
+        const nums = eventsObj[k]
+        const dates =
+          nums.length > 2 && nums.every((d) => d.indexOf(' BC') > -1)
+            ? nums.map((d) => d.replaceAll(' BC', '')).join(', ') + ' BC'
+            : nums.join(', ')
+
+        return (
+          <span key={k} title={`${k}: ${dates}`}>
+            <span title={k}>{k}</span> {dates && <span>{dates}</span>}
+          </span>
+        )
+      })}
     </div>
   ) : (
     <></>

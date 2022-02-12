@@ -1,4 +1,6 @@
+export type iconType = 'consul' | 'king' | 'knowledge' | 'religion' | 'explorer' | string
+
 export type iconProps = {
-  name: 'consul' | 'king' | 'knowledge'
+  name: iconType
   className?: string
 }

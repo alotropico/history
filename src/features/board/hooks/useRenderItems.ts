@@ -15,7 +15,7 @@ export default function useRenderItems(
   const end =
     forcedEnd || displayedItems.reduce((a: any, item) => (!a || (item?.e && a < item.e) ? item.e : a), null) || 0
 
-  return [insertSpatialData(items, start, end), start, end]
+  return [displayedItems.length ? insertSpatialData(items, start, end) : [], start, end]
 }
 
 // Insert spatial data into each item
@@ -46,6 +46,7 @@ function insertSpatialData(items, start, end): SpatialItems {
 
 function insertBottomPosition(items: SpatialItems, layers): SpatialItems {
   const itemHeight = 1 / layers
+
   return items.map((item) => ({
     ...item,
     spatial: {

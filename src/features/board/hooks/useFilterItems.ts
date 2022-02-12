@@ -1,20 +1,25 @@
 import { useEffect, useState } from 'react'
 import { DataItems } from '../../../types'
 
-export default function useFilterItems(items: DataItems, filters: any): DataItems {
+export default function useFilterItems(items: DataItems, filterCollection: any): DataItems {
   const [filteredItems, setFilteredItems] = useState(items)
 
   useEffect(() => {
-    setFilteredItems(getFilteredItems(items, filters))
-  }, [items, filters])
+    setFilteredItems(getFilteredItems(items, filterCollection))
+  }, [JSON.stringify(items), JSON.stringify(filterCollection)])
 
   return filteredItems
 }
 
-const getFilteredItems = (items: DataItems, filters: any): DataItems => {
-  if (!filters.length) return items.map((item) => ({ ...item, display: true }))
+const getFilteredItems = (items: DataItems, filterCollection: any): DataItems => {
+  return items.map((item) => {
+    let display: boolean = item?.display || true
 
-  return items.map((item) => (filters.includes(item.set) ? { ...item, display: true } : { ...item, display: false }))
+    filterCollection.forEach((filtersObject) => {
+      const { filters } = filtersObject
+      if (filters.length && !filters.includes(item?.[filtersObject.prop])) display = false
+    })
 
-  // return items.filter((item) => filters.includes(item.set))
+    return { ...item, display }
+  })
 }

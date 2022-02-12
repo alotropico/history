@@ -152,6 +152,21 @@
     },
     {
       "tax": "knowledge",
+      "name": "Leucippus",
+      "desc": "A brief notice in Diogenes Laërtius’s life of Epicurus says that on the testimony of Epicurus, Leucippus never existed. As the philosophical heir of Democritus, Epicurus's word has some weight.",
+      "start": -460,
+      "place": "Abdera"
+    },
+    {
+      "tax": "knowledge",
+      "name": "Democritus",
+      "desc": "His exact contributions are difficult to disentangle from those of his mentor Leucippus, as they are often mentioned together in texts. Their speculation on atoms, taken from Leucippus, bears a passing and partial resemblance to the 19th-century understanding of atomic structure that has led some to regard Democritus as more of a scientist than other Greek philosophers; however, their ideas rested on very different bases. Largely ignored in ancient Athens, Democritus is said to have been disliked so much by Plato that the latter wished all of his books burned. He was nevertheless well known to his fellow northern-born philosopher Aristotle, and was the teacher of Protagoras.",
+      "start": -460,
+      "end": -370,
+      "place": "Thracia"
+    },
+    {
+      "tax": "knowledge",
       "name": "Diogenes",
       "desc": "He was the son of a mintmaster and was banished from Sinope for debasement of currency. After being exiled, he moved to Athens and criticized many cultural conventions of the city. He modeled himself on the example of Heracles, and believed that virtue was better revealed in action than in theory. He used his simple lifestyle and behavior to criticize the social values and institutions of what he saw as a corrupt, confused society. He had a reputation for sleeping and eating wherever he chose in a highly non-traditional fashion, and took to toughening himself against nature. He declared himself a cosmopolitan and a citizen of the world rather than claiming allegiance to just one place. There are many tales about his dogging Antisthenes' footsteps and becoming his \"faithful hound\". Diogenes made a virtue of poverty. He begged for a living and often slept in a large ceramic jar, or pithos, in the marketplace. He became notorious for his philosophical stunts, such as carrying a lamp during the day, claiming to be looking for a man (often rendered in English as \"looking for an honest man\"). He criticized Plato, disputed his interpretation of Socrates, and sabotaged his lectures, sometimes distracting listeners by bringing food and eating during the discussions. Diogenes was also noted for having mocked Alexander the Great, both in public and to his face when he visited Corinth in 336 BC. Diogenes was captured by pirates and sold into slavery, eventually settling in Corinth. There he passed his philosophy of Cynicism to Crates, who taught it to Zeno of Citium, who fashioned it into the school of Stoicism, one of the most enduring schools of Greek philosophy.",
       "start": -412,

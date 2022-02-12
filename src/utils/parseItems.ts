@@ -8,7 +8,7 @@ export default function parseItems(items: DbItem[]): DataItem[] {
     items
       .map((item, i) => parseItem(item, i))
       // .sort((a, b) => sortByNumericValue('e', a, b))
-      // .sort((a, b) => sortByNumericValue('s', a, b))
+      .sort((a, b) => sortByNumericValue('s', a, b))
       .sort((a, b) => sortByValue('set', a, b))
   )
 }
@@ -21,10 +21,10 @@ const parseItem = (item: DbItem, i): DataItem => {
     ...item,
     theme: {
       ...item.theme,
-      background: bgColor(item.theme.color, sd, ed),
-      layerBackground: hex2rgbaDarken(item.theme.color, 0.5),
-      icon: getIcon(item.tax || '', item.events || []),
+      background: bgColor(item?.color || item.theme.color, sd, ed),
+      layerBackground: hex2rgbaDarken(item?.color || item.theme.color, 0.5),
     },
+    icon: getIcon(item.tax || '', item.events || []),
     layers: item?.events ? getLayers(item.events, s, ev) : [],
     id: item.set + '-' + i,
     dates: datesToString(item?.start, item?.end),
@@ -49,15 +49,15 @@ const getLayers = (events, s, e) => {
     }))
 }
 
+const king = ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'dynasty', 'tyrant']
+const authority = ['consul', 'censor', 'dictator', 'strategos', 'commander', 'general', 'militar', 'warrior', 'tribune']
+
 const getIcon = (tax, events) => {
-  if (arrayHasWords([{ tax: tax }], 'tax', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'dynasty', 'tyrant']))
-    return 'king'
-  if (arrayHasWords([{ tax: tax }], 'tax', ['consul', 'censor', 'dictator', 'strategos', 'commander', 'general']))
-    return 'authority'
+  if (arrayHasWords([{ tax: tax }], 'tax', king)) return 'king'
+  if (arrayHasWords([{ tax: tax }], 'tax', authority)) return 'authority'
   if (tax) return tax
-  if (arrayHasWords(events, 'name', ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'tyrant'])) return 'king'
-  if (arrayHasWords(events, 'name', ['consul', 'censor', 'dictator', 'strategos', 'commander', 'general']))
-    return 'authority'
+  if (arrayHasWords(events, 'name', king)) return 'king'
+  if (arrayHasWords(events, 'name', authority)) return 'authority'
 }
 
 const arrayHasWords = (ar, prop, words) =>
@@ -89,7 +89,8 @@ const getDatePoints = (name, start, end, events, type) => {
   // Extend zone to a minimum of years to fit labels
   const realDif = realE - s
   const nameLength = name.length < 10 ? name.length : 10
-  const min = 30 + nameLength
+  const wordLength = name.split(' ').filter((w) => w.length > 3).length - 1
+  const min = 40 + nameLength + wordLength * 40
   const e = realDif < min ? realE + min - realDif : realE
 
   return { s, e, ev: realE, sd, ed }

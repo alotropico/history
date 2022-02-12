@@ -2,8 +2,7 @@ import greece from '../data/greece.json'
 import sparta from '../data/sparta.json'
 import athens from '../data/athens.json'
 import macedon from '../data/macedon.json'
-import seleucus from '../data/seleucus.json'
-import ptolemy from '../data/ptolemy.json'
+import hellenistic from '../data/hellenistic.json'
 import rome from '../data/rome.json'
 import carthage from '../data/carthage.json'
 import persia from '../data/persia.json'
@@ -15,7 +14,7 @@ import parseItems from '../utils/parseItems'
 import { DbItem, DataItem, DbSet, DbSetInfo } from '../types'
 
 export default function useItems(): [DataItem[], DbSetInfo[]] {
-  const dataSets = [greece, hebrews, athens, sparta, rome, macedon, seleucus, ptolemy, persia, carthage, other]
+  const dataSets = [greece, hebrews, athens, sparta, rome, hellenistic, macedon, persia, carthage, other]
   // const dataSets = [other, hebrews, persia, rome, carthage, sparta, greece, athens, macedon]
   return [
     dataSets.map((set) => parseItems(parseItemsBySet(set))).reduce((acc, set) => [...acc, ...set], []),

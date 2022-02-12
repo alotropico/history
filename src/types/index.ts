@@ -33,6 +33,7 @@ export type DbItem = {
   theme?: any
   source?: string
   sourceLink?: string
+  color?: string
 }
 export type RenderItem = {
   s?: number
@@ -49,6 +50,7 @@ export type DataItem = DbItem &
     theme?: any
     display?: boolean
     layers?: { name?: string; l: number; w: number }[]
+    icon?: string
   }
 export type SpatialItem = DataItem & {
   set: string
