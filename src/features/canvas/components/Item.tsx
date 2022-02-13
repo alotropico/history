@@ -30,7 +30,6 @@ export default function Item(props: ItemProps) {
     <div
       className={[...setClass, style.item, !display ? style.hide : style.show].join(' ')}
       style={itemStyle}
-      title={title}
       tabIndex={tabIndex}
       onClick={() => setSelected(props)}
       onFocus={() => setSelected(props)}>
@@ -47,12 +46,19 @@ export default function Item(props: ItemProps) {
 
 function Layers({ layers, background }) {
   return layers.map((layer, i) => {
+    const left = layer.l > 0.99 ? `calc(${layer.l * 100}% - 1px)` : `${layer.l * 100}%`
     const layerStyle = {
-      background,
-      left: `${layer.l * 100}%`,
+      background:
+        layer?.name &&
+        (layer.name.toLowerCase().indexOf('battle') > -1 ||
+          layer.name.toLowerCase().indexOf('siege') > -1 ||
+          layer.name.toLowerCase().indexOf('expedition') > -1)
+          ? 'rgba(255, 255, 255, .5)'
+          : background,
+      left,
       width: `${layer.w * 100}%`,
     }
     const classes = [style.inner, layer.w < 0.01 && style.short].join(' ')
-    return <div key={i} className={classes} style={layerStyle} />
+    return <div key={i} className={classes} style={layerStyle} title={layer?.name} />
   })
 }

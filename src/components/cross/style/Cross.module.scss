@@ -16,14 +16,14 @@
       position: absolute;
       inset: 0;
       background-color: white;
-      opacity: 0.37;
-      transition: transform 0.2s ease-in-out, opacity 0.2s ease-out;
+      opacity: 0.6;
+      transition: transform 0.2s ease-out, opacity 0.2s ease-out;
     }
     &::before {
-      transform: rotate(90deg);
+      transform: rotate(35deg);
     }
     &::after {
-      transform: rotate(-90deg);
+      transform: rotate(-35deg);
     }
   }
 
@@ -41,11 +41,11 @@
       transform: scale(1);
       &::before {
         transform: rotate(45deg);
-        opacity: 1;
+        opacity: 0.9;
       }
       &::after {
         transform: rotate(-45deg);
-        opacity: 1;
+        opacity: 0.9;
       }
     }
   }

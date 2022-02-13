@@ -2,7 +2,8 @@
   "info": {
     "name": "Persia",
     "color": "b76125cc",
-    "lightColor": "e7a3b4"
+    "lightColor": "e7a3b4",
+    "place": "Persia"
   },
   "items": [
     {
@@ -13,7 +14,8 @@
       "name": "Cyrus I",
       "fullName": "Cyrus I of Anshan",
       "end": -580,
-      "events": [{ "name": "King of Kings of the Achaemenid Empire", "start": -600, "end": "end" }]
+      "events": [{ "name": "King of Kings of the Achaemenid Empire", "start": -600, "end": "end" }],
+      "place": "Anshan"
     },
     {
       "name": "Cyrus the Great",
@@ -21,7 +23,8 @@
       "desc": "Under his rule, the empire embraced all of the previous civilized states of the ancient Near East, expanded vastly and eventually conquered most of Western Asia and much of Central Asia. Spanning from the Mediterranean Sea and Hellespont in the west to the Indus River in the east, the empire created by Cyrus was the largest the world had yet seen. At its maximum extent under his successors, the Achaemenid Empire stretched from parts of the Balkans (Eastern Bulgaria–Paeonia and Thrace–Macedonia) and Southeast Europe proper in the west to the Indus Valley in the east.",
       "start": -600,
       "end": -530,
-      "events": [{ "name": "King of Kings of the Achaemenid Empire", "start": -559, "end": "end" }]
+      "events": [{ "name": "King of Kings of the Achaemenid Empire", "start": -559, "end": "end" }],
+      "place": "Anshan"
     },
     {
       "name": "Cambyses II",

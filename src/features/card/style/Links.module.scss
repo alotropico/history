@@ -1,6 +1,6 @@
 .bottom {
   padding: 1rem 0 1rem;
-  border-top: 1px solid rgba(white, 0.1);
+  border-top: 1px solid rgba(#34343a, 0.14);
 
   ul {
     list-style-type: none;
@@ -12,6 +12,10 @@
 
     li {
       flex: 0 0 50%;
+
+      a {
+        color: inherit;
+      }
     }
   }
 }

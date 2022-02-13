@@ -11,7 +11,7 @@ import other from '../data/other.json'
 
 import parseItems from '../utils/parseItems'
 
-import { DbItem, DataItem, DbSet, DbSetInfo } from '../types'
+import { DbItem, DataItem, DataItems, DbSet, DbSetInfo, DbTheme } from '../types'
 
 export default function useItems(): [DataItem[], DbSetInfo[]] {
   const dataSets = [greece, hebrews, athens, sparta, rome, hellenistic, macedon, persia, carthage, other]
@@ -22,16 +22,32 @@ export default function useItems(): [DataItem[], DbSetInfo[]] {
   ]
 }
 
-function parseItemsBySet(set: DbSet): DbItem[] {
+const parseItemsBySet = (set: DbSet): DbItem[] => {
   // Copy 'info.name' from the set into each item and return a spread array with all items
 
   return set.items.map((item) => {
     return {
       ...item,
       set: item.set || set.info.name,
+      place: item.place || set.info.place,
       theme: {
-        color: set.info.color || '999999',
+        color: getMatchColors(set.info?.themes, item) || set.info.color || '999999',
       },
     }
   })
+}
+
+const getMatchColors = (themes?: DbTheme[], item?: DbItem): string => {
+  if (!themes || !item) return ''
+
+  return (
+    themes.filter((theme) => {
+      return (
+        (item?.tax && item.tax.toLowerCase().indexOf(theme.match) > -1) ||
+        (item?.place && item.place.toLowerCase().indexOf(theme.match) > -1) ||
+        (item?.gender && item.gender.toLowerCase().indexOf(theme.match) > -1) ||
+        (item?.events && item.events.some((event) => event?.name && event.name.toLowerCase().indexOf(theme.match) > -1))
+      )
+    })?.[0]?.color || ''
+  )
 }

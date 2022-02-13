@@ -14,12 +14,16 @@ export default function useFilterItems(items: DataItems, filterCollection: any):
 const getFilteredItems = (items: DataItems, filterCollection: any): DataItems => {
   return items.map((item) => {
     let display: boolean = item?.display || true
+    let displayId = item.displayId || false
 
     filterCollection.forEach((filtersObject) => {
       const { filters } = filtersObject
-      if (filters.length && !filters.includes(item?.[filtersObject.prop])) display = false
+      if (display && filters.length && !filters.includes(item?.[filtersObject.prop])) {
+        display = false
+        displayId = filtersObject.prop
+      }
     })
 
-    return { ...item, display }
+    return { ...item, display, displayId }
   })
 }

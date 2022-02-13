@@ -1,7 +1,18 @@
 {
   "info": {
     "name": "Others",
-    "skipOnSearch": true
+    "color": "656572",
+    "place": "World",
+    "themes": [
+      {
+        "match": "pharaoh",
+        "color": "696989"
+      },
+      {
+        "match": "china",
+        "color": "737087"
+      }
+    ]
   },
   "items": [
     {

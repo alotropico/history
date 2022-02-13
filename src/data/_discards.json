@@ -4,6 +4,13 @@
   },
   "items": [
     {
+      "tax": "General",
+      "name": "Eumenes",
+      "desc": "Eumenes was a Greek general and satrap. He participated in the Wars of Alexander the Great, serving as both Alexander's personal secretary and as a battlefield commander. He later was a participant in the Wars of the Diadochi as a supporter of the Macedonian Argead royal house. He was executed after the Battle of Gabiene in 316 BC.",
+      "start": -362,
+      "end": -316
+    },
+    {
       "name": "Peucestas",
       "place": "Egypt",
       "events": [{ "start": -325 }]
@@ -13,6 +20,29 @@
       "desc": "Alexander's sister Cleopatra, the widow of King Alexander I of Epirus, offered her hand to Leonnatus. When the Athenians heard that Alexander had died, they revolted against Macedonia and the new regent, Antipater. Leonnatus led an army of 20,000 infantry with 1,500 cavalry to relieve Antipater during the siege in Lamia (see Lamian War). He intervened probably with the ambition to usurp Antipater's power. A victory in battle against the Athenians would have certainly enhanced his claim to the throne. Leonnatus was killed in battle against the Athenians and his marriage with Cleopatra never took place.",
       "start": -356,
       "end": -322
+    },
+    {
+      "tax": "General",
+      "name": "Neoptolemus",
+      "fullName": "Neoptolemus (general)",
+      "desc": "Neoptolemus was a Macedonian officer who served under Alexander the Great.",
+      "end": -321,
+      "events": [{ "name": "siege of Gaza", "start": -332 }]
+    },
+    {
+      "name": "Peithon",
+      "desc": "After the Second War of the Diadochi, Peithon was among the most powerful diadochi in the eastern part of the empire and he started to build his power again. Antigonus felt threatened by Peithon's growing power so he tricked him into coming to his court, where he had him executed.",
+      "start": -355,
+      "end": -314
+    },
+
+    {
+      "name": "Cleopatra",
+      "fullName": "Cleopatra of Macedon",
+      "desc": "The only full sibling of Alexander the Great.",
+      "start": -355,
+      "end": -308,
+      "gender": "female"
     }
   ]
 }

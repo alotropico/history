@@ -1,7 +1,18 @@
 {
   "info": {
     "name": "Sparta",
-    "color": "7376d3"
+    "color": "7376d3",
+    "place": "Sparta",
+    "themes": [
+      {
+        "match": "eurypontid",
+        "color": "6456b5"
+      },
+      {
+        "match": "knowledge",
+        "color": "7f61bb"
+      }
+    ]
   },
   "items": [
     {
@@ -9,44 +20,38 @@
       "name": "Nicander",
       "desc": "Nicander and his allies the Asinaeans carried out a raid on nearby Argolis, causing the Argives to attack Asine in return.",
       "end": -725,
-      "events": [{ "name": "King of Sparta", "start": -750, "end": "end" }],
-      "color": "5745b5"
+      "events": [{ "name": "King of Sparta", "start": -750, "end": "end" }]
     },
     {
       "tax": "Eurypontid dynasty",
       "name": "Theopompus",
       "fullName": "Theopompus of Sparta",
-      "events": [{ "name": "King of Sparta" }, { "start": -700 }],
-      "color": "5745b5"
+      "events": [{ "name": "King of Sparta" }, { "start": -700 }]
     },
     {
       "tax": "Eurypontid dynasty",
       "name": "Anaxandridas I",
       "end": -645,
-      "events": [{ "name": "King of Sparta", "start": -675, "end": "end" }],
-      "color": "5745b5"
+      "events": [{ "name": "King of Sparta", "start": -675, "end": "end" }]
     },
     {
       "tax": "Eurypontid dynasty",
       "name": "Zeuxidamus",
       "end": -625,
-      "events": [{ "name": "King of Sparta", "start": -645, "end": "end" }],
-      "color": "5745b5"
+      "events": [{ "name": "King of Sparta", "start": -645, "end": "end" }]
     },
     {
       "tax": "Eurypontid dynasty",
       "name": "Anaxidamus",
       "end": -600,
-      "events": [{ "name": "King of Sparta", "start": -625, "end": "end" }],
-      "color": "5745b5"
+      "events": [{ "name": "King of Sparta", "start": -625, "end": "end" }]
     },
     {
       "tax": "Eurypontid dynasty",
       "name": "Archidamus I",
       "desc": "Archidamus is the first Spartan king to bear the word damos in his name. Previously, royal names of both dynasties often included the word laus. These words already existed during the Mycenaean era, in which Laos meant people and damos designated a small community, but in the 7th century the latter word acquired a political meaning, that of the citizens as a whole. As the Eurypontids were the junior of the Agiads, it seems that they tried to compensate their inferiority by courting citizens. Then, damos-names often appear among the Eurypontids, such as Damaratos, Zeuxidamos, and the later Archidamos.",
       "end": -645,
-      "events": [{ "name": "King of Sparta", "start": -660, "end": "end" }],
-      "color": "5745b5"
+      "events": [{ "name": "King of Sparta", "start": -660, "end": "end" }]
     },
 
     {
@@ -55,8 +60,7 @@
       "desc": "Generally considered the most important king in the history of Sparta, Agesilaus was the main actor during the period of Spartan hegemony that followed the Peloponnesian War. Although brave in combat, Agesilaus lacked the diplomatic skills to preserve Sparta's position, especially against the rising power of Thebes, which reduced Sparta to a secondary power after its victory at Leuctra in 371 BC.",
       "start": -442,
       "end": -358,
-      "events": [{ "name": "King of Sparta", "start": -399, "end": "end" }],
-      "color": "5745b5"
+      "events": [{ "name": "King of Sparta", "start": -399, "end": "end" }]
     },
 
     {
@@ -104,12 +108,14 @@
       "events": [{ "name": "King of Sparta", "start": -560, "end": "end" }]
     },
     {
+      "tax": "Agiad dynasty",
       "name": "Cleomenes I",
       "desc": "One of the most important Spartan kings, Cleomenes was instrumental in organising the Greek resistance against the Persian Empire of Darius, as well as shaping the geopolitical balance of Classical Greece.",
       "end": -490,
       "events": [{ "name": "King of Sparta", "start": -519, "end": "end" }]
     },
     {
+      "tax": "Agiad dynasty",
       "name": "Leonidas I",
       "desc": "Leonidas had a notable participation in the Second Persian War, where he led the allied Greek forces to a last stand at the Battle of Thermopylae (480 BC) while attempting to defend the pass from the invading Persian army; he died at the battle and entered myth as the leader of the 300 Spartans. While the Greeks lost this battle, they were able to expel the Persian invaders in the following year.",
       "start": -540,

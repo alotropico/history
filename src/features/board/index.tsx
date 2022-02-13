@@ -1,4 +1,4 @@
-import { createContext, useState } from 'react'
+import { createContext, useCallback, useEffect, useState } from 'react'
 
 import Canvas from '../canvas'
 import Scale from '../scale'
@@ -17,16 +17,21 @@ import { BoardProps } from './types'
 
 export const BoardContext = createContext<any>(() => null)
 
+const sortTaxonomy = (a, b) => (a > b ? 1 : a < b ? -1 : 0)
+
 export default function Board({ items, sets, occs }: BoardProps) {
   const [filters, setFilters] = useState([])
 
   const [occFilters, setOccFilters] = useState([])
+
+  const [tagFilters, setTagFilters] = useState([])
 
   const [highlights, setHighlights] = useState('')
 
   const filteredItems = useFilterItems(items, [
     { filters, prop: 'set' },
     { filters: occFilters, prop: 'icon' },
+    { filters: tagFilters, prop: 'place' },
   ])
 
   const highlightedItems = useHighlightItems(filteredItems, highlights)
@@ -37,11 +42,31 @@ export default function Board({ items, sets, occs }: BoardProps) {
 
   const [selected, setSelected] = useState(null)
 
+  const [tags, setTags] = useState<any>([])
+
+  useEffect(() => {
+    setTags(
+      [
+        ...new Set(
+          filteredItems
+            .filter((i) => i?.display || i.displayId === 'place')
+            .map((item) => item?.place)
+            .filter((place) => place)
+        ),
+      ].sort(sortTaxonomy)
+    )
+  }, [JSON.stringify(filteredItems)])
+
+  useEffect(() => {
+    setTagFilters([])
+  }, [JSON.stringify(filters), JSON.stringify(occFilters)])
+
   const contextMethods: any = {
     setSelected,
     setFilters,
     setHighlights,
     setOccFilters,
+    setTagFilters,
   }
 
   return (
@@ -65,7 +90,13 @@ export default function Board({ items, sets, occs }: BoardProps) {
               sets={sets.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))}
               filters={filters}
             />
-            <Occs occs={occs || []} filters={occFilters} />
+            <Occs
+              occs={occs || []}
+              filters={occFilters}
+              onSetFilter={useCallback(setOccFilters, [occFilters])}
+              useIcon={true}
+            />
+            <Occs occs={tags || []} filters={tagFilters} onSetFilter={useCallback(setTagFilters, [tagFilters])} />
             {selected && <Card {...selected} handleClose={() => setSelected(null)} />}
           </aside>
         </div>

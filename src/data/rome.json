@@ -2,7 +2,21 @@
   "info": {
     "name": "Rome",
     "color": "ab9740",
-    "lightColor": "ebac91"
+    "place": "Rome",
+    "themes": [
+      {
+        "match": "king",
+        "color": "837229"
+      },
+      {
+        "match": "knowledge",
+        "color": "ab8540"
+      },
+      {
+        "match": "female",
+        "color": "b6bd50"
+      }
+    ]
   },
   "items": [
     {
@@ -11,8 +25,48 @@
       "source": "Livy, The History of Rome, Book 1",
       "sourceLink": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0026%3Abook%3D1%3Achapter%3D15",
       "end": -716,
-      "events": [{ "name": "King of Rome", "start": -753, "end": "end" }]
+      "events": [{ "name": "King of Rome", "start": -753, "end": "end" }],
+      "place": "Alba Longa"
     },
+    {
+      "name": "Numa",
+      "fullName": "Numa Pompilius",
+      "desc": "He was of Sabine origin, and many of Rome's most important religious and political institutions are attributed to him, such as the Roman calendar, Vestal Virgins, the cult of Mars, the cult of Jupiter, the cult of Romulus, and the office of pontifex maximus.",
+      "end": -672,
+      "events": [{ "name": "King of Rome", "start": -715, "end": "end" }]
+    },
+    {
+      "name": "Hostilius",
+      "fullName": "Tullus Hostilius",
+      "end": -640,
+      "events": [{ "name": "King of Rome", "start": -672, "end": "end" }]
+    },
+    {
+      "name": "Marcius",
+      "fullName": "Ancus Marcius",
+      "end": -616,
+      "events": [{ "name": "King of Rome", "start": -640, "end": "end" }]
+    },
+    {
+      "name": "Priscus",
+      "fullName": "Lucius Tarquinius Priscus",
+      "end": -578,
+      "events": [{ "name": "King of Rome", "start": -616, "end": "end" }]
+    },
+    {
+      "name": "Tullius",
+      "fullName": "Servius Tullius",
+      "end": -534,
+      "events": [{ "name": "King of Rome", "start": -578, "end": "end" }]
+    },
+    {
+      "name": "Superbus",
+      "fullName": "Lucius Tarquinius Superbus",
+      "desc": "Legendary seventh and final king of Rome, reigning from 535 BC until the popular uprising in 509 BC that led to the establishment of the Roman Republic.",
+      "end": -495,
+      "events": [{ "name": "King of Rome", "start": -535, "end": -509 }]
+    },
+
     {
       "name": "Vecellinus",
       "fullName": "Spurius Cassius Vecellinus",
@@ -25,23 +79,11 @@
       ]
     },
     {
-      "name": "Lucretia",
-      "desc": "According to Roman tradition, Lucretia was a noblewoman in ancient Rome, whose rape by the king Sextus Tarquinius and subsequent suicide precipitated a rebellion that overthrew the Roman monarchy and led to the transition of Roman government from a kingdom to a republic.",
-      "end": -510
-    },
-    {
       "name": "Brutus",
       "fullName": "Lucius Junius Brutus",
       "desc": "Semi-legendary founder of the Roman Republic, and traditionally one of its first consuls in 509 BC. He was reputedly responsible for the expulsion of his uncle the Roman king Tarquinius Superbus after the suicide of Lucretia, which led to the overthrow of the Roman monarchy. He was involved in the abdication of fellow consul Tarquinius Collatinus, and executed two of his sons for plotting the restoration of the Tarquins.",
       "end": -509,
       "events": [{ "name": "Consul", "start": -509 }]
-    },
-    {
-      "name": "Tarquinius",
-      "fullName": "Lucius Tarquinius Superbus",
-      "desc": "Legendary seventh and final king of Rome, reigning from 535 BC until the popular uprising in 509 BC that led to the establishment of the Roman Republic.",
-      "end": -495,
-      "events": [{ "name": "King of Rome", "start": -535, "end": -509 }]
     },
     {
       "name": "Aquilinus",
@@ -78,6 +120,7 @@
       "events": [
         { "name": "Consul", "start": -460 },
         { "name": "Dictator", "start": -458 },
+        { "name": "Battle of Mount Algidus", "start": -458 },
         { "name": "Dictator", "start": -439 }
       ]
     },
@@ -258,7 +301,7 @@
     },
     {
       "name": "Cato the Elder",
-      "fullName": "Marcus Porcius Cato",
+      "fullName": "Cato the Elder",
       "desc": "Roman soldier, senator, and historian known for his conservatism and opposition to Hellenization. He was the first to write history in Latin with his Origines, a now lost work on the History of Rome.",
       "start": -234,
       "end": -149,
@@ -271,7 +314,8 @@
           "name": "Censor",
           "start": -184
         }
-      ]
+      ],
+      "place": "Tusculum"
     },
     {
       "name": "Pera",
@@ -311,7 +355,7 @@
     },
     {
       "name": "Tiberius Gracchus",
-      "fullName": "Tiberius Sempronius Gracchus",
+      "fullName": "Tiberius Gracchus",
       "desc": "His election to the office of tribune and reformative policies while in office prompted a constitutional crisis and his death at the hands of the Roman Senate",
       "start": -154,
       "end": -121,
@@ -326,6 +370,7 @@
       "start": -200,
       "events": [{ "name": "Consul", "start": -146 }]
     },
+
     {
       "name": "Aemilianus",
       "fullName": "Scipio Aemilianus",
@@ -341,8 +386,12 @@
     {
       "name": "Saturninus",
       "fullName": "Lucius Appuleius Saturninus",
-      "desc": "Roman populist and tribune. He is most notable for introducing a series of legislative reforms, alongside his associate Gaius Servilius Glaucia and with the consent of Gaius Marius, during the last years of the second century BC. Senatorial opposition to these laws eventually led to an internal crisis, the declaration of the senatus consultum ultimum, and the deaths of Saturninus, Glaucia, and their followers in 100 BC.",
-      "end": -100
+      "desc": "Roman populist and tribune. He is most notable for introducing a series of legislative reforms, alongside his associate Gaius Servilius Glaucia and with the consent of Gaius Marius, during the last years of the second century BC. Senatorial opposition to these laws eventually led to an internal crisis, the declaration of the senatus consultum ultimum, and the deaths of Saturninus, Glaucia, and their followers.",
+      "end": -100,
+      "events": [
+        { "name": "Tribune of the plebs", "start": -103 },
+        { "name": "Tribune of the plebs", "start": -100 }
+      ]
     },
     {
       "name": "Marius",
@@ -355,14 +404,19 @@
         { "name": "Consul", "start": -107 },
         { "name": "Consul", "start": -104, "end": -100 },
         { "name": "Consul", "start": -86 }
-      ]
+      ],
+      "place": "Cereatae"
     },
     {
       "name": "Numidicus",
       "fullName": "Quintus Caecilius Metellus Numidicus",
-      "desc": "Having gone through all the honors, he was voluntarily exiled (by none other than Saturninus) to a life of appreciation of poetry and art.",
+      "desc": "Leader of the Optimates, the conservative faction of the Roman Senate. He was a bitter political opponent of Gaius Marius. Metellus Numidicus enjoyed a reputation for integrity in an era when Roman politics was increasingly corrupt. The tribune Saturninus proposed a law to exile Metellus Numidicus. Rather than face a confrontation between Saturninus' and his own supporters, who were prepared to defend him by force, Metellus departed into exile voluntarily, spending a year in Rhodes. He was accompanied into exile by a rhetorician, Lucius Aelius Praeconinus or Stilo, and pursued his study of philosophy while in Rhodes.",
       "start": -155,
-      "end": -91
+      "end": -91,
+      "events": [
+        { "name": "Consul", "start": -109 },
+        { "name": "Censor", "start": -102 }
+      ]
     },
     {
       "name": "Sulla",
@@ -387,14 +441,8 @@
         { "name": "Consul", "start": -70 },
         { "name": "Consul", "start": -55 },
         { "name": "Consul", "start": -52 }
-      ]
-    },
-
-    {
-      "name": "Servilia",
-      "desc": "Roman matron from a distinguished family, the Servilii Caepiones. She was the daughter of Quintus Servilius Caepio and Livia, thus the half-sister of Cato the Younger. She married Marcus Junius Brutus, they had a son, the Brutus who would assassinate Caesar. After her first husband's death in 77, she married Decimus Junius Silanus, and with him had a son and three daughters. She gained fame as the mistress of Julius Caesar, whom her son Brutus and son-in-law Gaius Cassius Longinus, would assassinate in 44 BC.",
-      "start": -106,
-      "end": -43
+      ],
+      "place": "Picenum"
     },
     {
       "tax": "knowledge",
@@ -402,7 +450,9 @@
       "fullName": "Marcus Tullius Cicero",
       "desc": "Roman statesman, lawyer, scholar, philosopher and Academic Skeptic, who tried to uphold optimate principles during the political crises that led to the establishment of the Roman Empire. His extensive writings include treatises on rhetoric, philosophy and politics, and he is considered one of Rome's greatest orators and prose stylists. He came from a wealthy municipal family of the Roman equestrian order, and served as consul in 63 BC.",
       "start": -101,
-      "end": -42
+      "end": -42,
+      "events": [{ "name": "Consul", "start": -63 }],
+      "place": "Arpinum"
     },
     {
       "name": "Julius Caesar",
@@ -427,22 +477,31 @@
     },
     {
       "name": "Cato",
-      "fullName": "Marcus Porcius Cato",
-      "desc": "Also known as \"Cato the Younger\", he was a conservative Roman senator in the period of the late republic. A noted orator and a follower of the Stoic philosophy, he is remembered for his stubbornness and tenacity, as well as his immunity to bribes, his moral integrity, and his famous distaste for the ubiquitous corruption of the period. He took his own life to avoid the humiliation of being pardoned by Julius Caesar.",
+      "fullName": "Cato the Younger",
+      "desc": "Marcus Porcius Cato was a conservative Roman senator in the period of the late republic. A noted orator and a follower of the Stoic philosophy, he is remembered for his stubbornness and tenacity, as well as his immunity to bribes, his moral integrity, and his famous distaste for the ubiquitous corruption of the period. He took his own life to avoid the humiliation of being pardoned by Julius Caesar.",
       "start": -95,
-      "end": -46
+      "end": -46,
+      "events": [{ "name": "Praetor", "start": -54 }]
     },
     {
       "name": "Lepidus",
-      "fullName": "Marcus Aemilius Lepidus",
+      "fullName": "Marcus Aemilius Lepidus (triumvir)",
+      "desc": "Roman general and statesman who formed the Second Triumvirate alongside Octavian and Mark Antony during the final years of the Roman Republic. Lepidus had previously been a close ally of Julius Caesar. He was also the last Pontifex Maximus before the Roman Empire.",
       "start": -89,
-      "end": -12
+      "end": -12,
+      "events": [
+        { "name": "Consul", "start": -46 },
+        { "name": "Triumvir", "start": -43, "end": -33 },
+        { "name": "Consul", "start": -42 }
+      ],
+      "place": "Circeii"
     },
     {
       "name": "Brutus",
       "fullName": "Marcus Junius Brutus",
       "start": -85,
-      "end": -42
+      "end": -42,
+      "events": [{ "name": "Praetor", "start": -44 }]
     },
     {
       "name": "Marcus Antonius",
@@ -468,7 +527,10 @@
       "desc": "His status as the founder of the Roman Principate has consolidated a legacy as one of the most effective leaders in human history. The reign of Augustus initiated an era of relative peace known as the Pax Romana. Augustus dramatically enlarged the Empire, annexing Egypt, Dalmatia, Pannonia, Noricum and Raetia, expanding possessions in Africa, and completing the conquest of Hispania, but suffered a major setback in Germania. Beyond the frontiers, he secured the Empire with a buffer region of client states and made peace with the Parthian Empire through diplomacy. He reformed the Roman system of taxation, developed networks of roads with an official courier system, established a standing army, established the Praetorian Guard, official police and fire-fighting services for Rome, and rebuilt much of the city during his reign.",
       "start": -63,
       "end": 14,
-      "events": [{ "name": "Roman emperor", "start": -27, "end": "end" }]
+      "events": [
+        { "name": "Triumvir", "start": -43, "end": -33 },
+        { "name": "Roman emperor", "start": -27, "end": "end" }
+      ]
     },
     {
       "tax": "knowledge",
@@ -477,7 +539,8 @@
       "desc": "He composed three of the most famous poems in Latin literature: the Eclogues (or Bucolics), the Georgics, and the epic Aeneid. Virgil's work has had wide and deep influence on Western literature, most notably Dante's Divine Comedy, in which Virgil appears as the author's guide through Hell and Purgatory. Virgil has been traditionally ranked as one of Rome's greatest poets. His Aeneid is also considered a national epic of ancient Rome, a title held since composition.",
       "start": -70,
       "end": -19,
-      "events": [{ "name": "Writes the Aeneid", "start": -29, "end": "end" }]
+      "events": [{ "name": "Writes the Aeneid", "start": -29, "end": "end" }],
+      "place": "Cisalpine Gaul"
     },
     {
       "tax": "knowledge",
@@ -486,6 +549,38 @@
       "start": -59,
       "end": 17,
       "place": "Patavium"
+    },
+
+    {
+      "name": "Lucretia",
+      "desc": "According to Roman tradition, Lucretia was a noblewoman in ancient Rome, whose rape by the king Sextus Tarquinius and subsequent suicide precipitated a rebellion that overthrew the Roman monarchy and led to the transition of Roman government from a kingdom to a republic.",
+      "end": -510,
+      "gender": "female"
+    },
+    {
+      "name": "Cornelia",
+      "fullName": "Cornelia (mother of the Gracchi)",
+      "desc": "Was the second daughter of Publius Cornelius Scipio Africanus and Aemilia Paulla. Although drawing similarities to prototypical examples of virtuous Roman women, such as Lucretia, Cornelia puts herself apart from the rest because of her interest in literature, writing, and her investment in the political careers of her sons. She was the mother of the Gracchi brothers, and the mother-in-law of Scipio Aemilianus. After the political assasination of her sons, she wrote in a letter: \"You will say that it is a beautiful thing to take on vengeance on enemies. To no one does this seem either greater or more beautiful than it does to me, but only if it is possible to pursue these aims without harming our country. But seeing as that cannot be done, our enemies will not perish for a long time and for many reasons, and they will be as they are now rather than have our country be destroyed and perish.\"",
+      "start": -190,
+      "end": -115,
+      "gender": "female"
+    },
+    {
+      "name": "Servilia",
+      "fullName": "Servilia (mother of Brutus)",
+      "desc": "Roman matron from a distinguished family, the Servilii Caepiones. She was the daughter of Quintus Servilius Caepio and Livia, thus the half-sister of Cato the Younger. She married Marcus Junius Brutus, they had a son, the Brutus who would assassinate Caesar. After her first husband's death in 77, she married Decimus Junius Silanus, and with him had a son and three daughters. She gained fame as the mistress of Julius Caesar, whom her son Brutus and son-in-law Gaius Cassius Longinus, would assassinate in 44 BC.",
+      "start": -106,
+      "end": -43,
+      "gender": "female"
+    },
+    {
+      "name": "Julia",
+      "fullName": "Julia (daughter of Caesar)",
+      "desc": "Daughter of Roman dictator Julius Caesar by his first or second wife Cornelia, and his only child from his marriages. Julia became the fourth wife of Pompey the Great and was renowned for her beauty and virtue.",
+      "start": -76,
+      "end": -54,
+      "gender": "female",
+      "events": [{ "name": "Pompey's spouse", "start": -59, "end": "end" }]
     }
   ]
 }

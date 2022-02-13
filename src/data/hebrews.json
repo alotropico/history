@@ -2,7 +2,8 @@
   "info": {
     "name": "Hebrews",
     "color": "994a8bcc",
-    "skipOnSearch": true
+    "skipOnSearch": true,
+    "place": "Judah"
   },
   "items": [
     {
@@ -21,7 +22,8 @@
       "name": "Jehoahaz",
       "fullName": "Jehoahaz of Judah",
       "start": -633,
-      "events": [{ "name": "King of Judah", "start": -609 }]
+      "events": [{ "name": "King of Judah", "start": -609 }],
+      "place": "Shallum"
     },
     {
       "name": "Jehoiakim",
@@ -44,7 +46,9 @@
       "name": "Esther",
       "start": -492,
       "end": -460,
-      "events": [{ "name": "Queen of Persia" }]
+      "events": [{ "name": "Queen of Persia" }],
+      "gender": "female",
+      "place": "Hadassah"
     },
     {
       "tax": "knowledge",
@@ -57,7 +61,8 @@
       "name": "Jeremiah",
       "desc": "Also called the \"weeping prophet\", Jeremiah was one of the major prophets of the Hebrew Bible. According to Jewish tradition, Jeremiah authored the Book of Jeremiah, the Books of Kings and the Book of Lamentations, with the assistance and under the editorship of Baruch ben Neriah, his scribe and disciple.",
       "start": -650,
-      "end": -570
+      "end": -570,
+      "place": "Anathoth"
     },
     {
       "tax": "knowledge",
@@ -82,7 +87,8 @@
       "fullName": "Saint Joseph",
       "desc": "Was a 1st-century Jewish man of Nazareth who, according to the canonical Gospels, was married to Mary, the mother of Jesus, and was the legal father of Jesus.",
       "start": -100,
-      "end": 1
+      "end": 1,
+      "place": "Nazareth"
     },
     {
       "tax": "knowledge",
@@ -97,7 +103,9 @@
       "fullName": "Mary, mother of Jesus",
       "desc": "According to the gospels of Matthew and Luke in the New Testament, Mary was a first-century Jewish woman of Nazareth, the wife of Joseph, and the mother of Jesus. Both the New Testament and the Quran describe Mary as a virgin. According to Christian theology, Mary conceived Jesus through the Holy Spirit while still a virgin, and accompanied Joseph to Bethlehem, where Jesus was born. Mary has been venerated since early Christianity, and is considered by millions to be the holiest and greatest saint because of her extraordinary virtues as seen at the Annunciation by the archangel Gabriel.",
       "start": -18,
-      "end": 30
+      "end": 30,
+      "gender": "female",
+      "place": "Nazareth"
     },
     {
       "tax": "knowledge",
@@ -105,7 +113,8 @@
       "fullName": "Jesus of Nazareth",
       "desc": "Also referred to as Jesus of Nazareth or Jesus Christ, was a first-century Jewish preacher and religious leader. He is the central figure of Christianity, the world's largest knowledge. Most Christians believe he is the incarnation of God the Son and the awaited messiah (the Christ), prophesied in the Hebrew Bible.",
       "start": -4,
-      "end": 30
+      "end": 30,
+      "place": "Nazareth"
     }
   ]
 }

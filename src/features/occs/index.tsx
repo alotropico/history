@@ -1,20 +1,16 @@
-import { useContext } from 'react'
-
-import { BoardContext } from '../board'
 import { CategoriesProps } from './types'
 import style from './style/Occs.module.scss'
 import Cross from '../../components/cross'
 import Icon from '../../components/icons'
-import { iconType } from '../../components/icons/types/types'
 
-export default function Occs({ occs, filters }: CategoriesProps) {
-  const { setOccFilters } = useContext(BoardContext)
-
+export default function Occs({ occs, filters, onSetFilter, useIcon = false }: CategoriesProps) {
   const handleChange = (id) =>
-    setOccFilters((filters) => (filters.includes(id) ? filters.filter((filter) => filter !== id) : [...filters, id]))
+    onSetFilter((filters) => (filters.includes(id) ? filters.filter((filter) => filter !== id) : [...filters, id]))
+
+  const containerClasses = [style.categories, useIcon ? style.icons : ''].join(' ')
 
   return (
-    <div className={style.categories}>
+    <div className={containerClasses}>
       {occs.map((occ) => {
         const itemClasses = [
           style.category,
@@ -23,11 +19,11 @@ export default function Occs({ occs, filters }: CategoriesProps) {
 
         return (
           <div key={occ} onClick={() => handleChange(occ)} className={itemClasses}>
-            <Icon name={occ} />
+            {useIcon ? <Icon name={occ} /> : occ}
           </div>
         )
       })}
-      {Boolean(filters.length) && <Cross onClick={() => setOccFilters([])} theme='light' className={style.cross} />}
+      {Boolean(filters.length) && <Cross onClick={() => onSetFilter([])} theme='light' className={style.cross} />}
     </div>
   )
 }

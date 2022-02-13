@@ -7,8 +7,8 @@ export default function parseItems(items: DbItem[]): DataItem[] {
   return (
     items
       .map((item, i) => parseItem(item, i))
-      // .sort((a, b) => sortByNumericValue('e', a, b))
-      .sort((a, b) => sortByNumericValue('s', a, b))
+      .sort((a, b) => sortByNumericValue('e', a, b))
+      //.sort((a, b) => sortByNumericValue('s', a, b))
       .sort((a, b) => sortByValue('set', a, b))
   )
 }
@@ -50,7 +50,21 @@ const getLayers = (events, s, e) => {
 }
 
 const king = ['king', 'queen', 'pharaoh', 'emperor', 'basileus', 'dynasty', 'tyrant']
-const authority = ['consul', 'censor', 'dictator', 'strategos', 'commander', 'general', 'militar', 'warrior', 'tribune']
+const authority = [
+  'consul',
+  'censor',
+  'dictator',
+  'strategos',
+  'commander',
+  'general',
+  'militar',
+  'warrior',
+  'tribune',
+  'praetor',
+  'regent',
+  'politician',
+  'nobleman',
+]
 
 const getIcon = (tax, events) => {
   if (arrayHasWords([{ tax: tax }], 'tax', king)) return 'king'

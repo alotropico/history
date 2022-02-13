@@ -11,15 +11,17 @@
   margin-left: 0 !important;
   padding: 1rem 1rem 0 1rem;
   width: 100%;
-  max-height: 60vh;
+  max-height: 70vh;
+  color: #34343a;
+  background-color: #f3f3f3;
   animation: hi 0.6s forwards;
 
   &:before {
     content: '';
-    height: 1px;
-    background-color: rgba(white, 0.1);
     position: absolute;
     inset: 0 0 auto;
+    height: 1px;
+    background-color: rgba(white, 0.1);
   }
 
   .top {
@@ -29,12 +31,12 @@
   }
 
   h2 {
+    font-family: var(--font-family-serif);
     font-size: 1.8em;
     font-weight: lighter;
+    line-height: 1.25;
     margin: 0;
     padding: 0;
-    font-family: var(--font-family-serif);
-    line-height: 1.25;
   }
 
   .date {
@@ -44,6 +46,15 @@
     padding: 0.5rem 0;
     color: white;
     border-radius: 2px;
+  }
+}
+
+.cross {
+  & > span {
+    &::before,
+    &::after {
+      background-color: #34343a;
+    }
   }
 }
 

@@ -1,14 +1,16 @@
 type ItemTypes = 'person' | 'battle' | 'period' | 'event' | string
 
+export type DbTheme = {
+  match: string
+  color: string
+}
+
 export type DbSetInfo = {
   name: string
   color?: string
   lightColor?: string
-  children?: {
-    name: string
-    color?: string
-    lightColor?: string
-  }[]
+  themes?: DbTheme[]
+  place?: string
 }
 export type DbSet = {
   info: DbSetInfo
@@ -34,6 +36,7 @@ export type DbItem = {
   source?: string
   sourceLink?: string
   color?: string
+  gender?: string
 }
 export type RenderItem = {
   s?: number
@@ -49,6 +52,7 @@ export type DataItem = DbItem &
     dates: string
     theme?: any
     display?: boolean
+    displayId?: boolean | string
     layers?: { name?: string; l: number; w: number }[]
     icon?: string
   }

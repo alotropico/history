@@ -2,9 +2,113 @@
   "info": {
     "name": "Macedon",
     "color": "57a165",
-    "lightColor": "b9d9bf"
+    "lightColor": "b9d9bf",
+    "place": "Macedon",
+    "themes": [
+      {
+        "match": "female",
+        "color": "86bb6b"
+      },
+      {
+        "match": "epirus",
+        "color": "3d7a48"
+      }
+    ]
   },
   "items": [
+    {
+      "name": "Philip II",
+      "fullName": "Philip II of Macedon",
+      "desc": "The rise of Macedon, its conquest and political consolidation of most of Classical Greece during the reign of Philip II was achieved in part by his reformation of the Macedonian army, establishing the Macedonian phalanx that proved critical in securing victories on the battlefield. After defeating the Greek city-states of Athens and Thebes at the Battle of Chaeronea in 338 BC, Philip II led the effort to establish a federation of Greek states known as the League of Corinth, with him as the elected hegemon and commander-in-chief of Greece for a planned invasion of the Achaemenid Empire of Persia. However, his assassination by a royal bodyguard, Pausanias of Orestis, led to the immediate succession of his son Alexander, who would go on to invade the Achaemenid Empire in his father's stead.",
+      "start": -382,
+      "end": -336,
+      "events": [
+        { "name": "King of Macedon", "start": -359, "end": "end" },
+        { "name": "Hegemon of the Hellenic League", "start": -337, "end": "end" }
+      ]
+    },
+    {
+      "name": "Alexander the Great",
+      "fullName": "Alexander the Great",
+      "desc": "By the age of thirty, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle and is widely considered to be one of history's greatest and most successful military commanders.",
+      "start": -356,
+      "end": -323,
+      "events": [
+        { "name": "King of Macedon", "start": -336, "end": "end" },
+        { "name": "Hegemon of the Hellenic League", "start": -336, "end": "end" },
+        { "name": "Battle of the Granicus River", "start": -334 },
+        { "name": "Siege of Halicarnassus", "start": -334 },
+        { "name": "Battle of Issus", "start": -333 },
+        { "name": "Siege of Tyre", "start": -332 },
+        { "name": "Siege of Gaza", "start": -332 },
+        { "name": "Pharaoh of Egypt", "start": -332, "end": "end" },
+        { "name": "Battle of Gaugamela", "start": -321 },
+        { "name": "Battle of the Persian Gate", "start": -330 },
+        { "name": "King of Persia", "start": -330, "end": "end" },
+        { "name": "Battle of the Hydaspes", "start": -326 }
+      ]
+    },
+
+    {
+      "tax": "General",
+      "name": "Parmenion",
+      "desc": "By the age of thirty, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle and is widely considered to be one of history's greatest and most successful military commanders.",
+      "start": -400,
+      "end": -330,
+      "events": [
+        { "name": "Battle of the Granicus River", "start": -334 },
+        { "name": "Battle of Issus", "start": -333 },
+        { "name": "Siege of Tyre", "start": -332 },
+        { "name": "Siege of Gaza", "start": -332 },
+        { "name": "Battle of Gaugamela", "start": -331 }
+      ]
+    },
+    {
+      "tax": "General",
+      "name": "Antipater",
+      "desc": "Antipater was a Macedonian general and statesman under kings Philip II of Macedon and Alexander the Great, and father of King Cassander. In 320 BC, he became regent of all of Alexander the Great's Empire but died the next year; he had named an officer named Polyperchon as his successor instead of his son Cassander, and a two-year-long power struggle ensued.",
+      "start": -400,
+      "end": -319,
+      "events": [
+        { "name": "Battle of Chaeronea", "start": -338 },
+        { "name": "Battle of Issus", "start": -333 },
+        { "name": "Battle of Megalopolis", "start": -331 },
+        { "name": "Battle of Crannon", "start": -322 },
+        { "name": "Regent of Macedon", "start": -321, "end": -320 }
+      ]
+    },
+    {
+      "tax": "General",
+      "name": "Polyperchon",
+      "desc": "General who served both Philip II and Alexander the Great and then played an active role in the ensuing battles for control between Alexander's generals.",
+      "start": -390,
+      "end": -304,
+      "events": [
+        { "name": "Battle of Issus", "start": -333 },
+        { "name": "Regent of Macedon", "start": -319, "end": -316 }
+      ]
+    },
+    {
+      "tax": "General",
+      "name": "Craterus",
+      "desc": "In 322 Craterus aided Antipater in the Lamian War against Athens. He sailed with his Cilician navy to Greece and led troops at the Battle of Crannon in 322. When Antigonus rose in rebellion against Perdiccas and Eumenes, Craterus joined him, alongside Antipater and Ptolemy. He married Antipater's daughter Phila, with whom he had a son, also called Craterus.",
+      "start": -370,
+      "end": -321,
+      "events": [
+        { "name": "Battle of Issus", "start": -333 },
+        { "name": "Battle of Crannon", "start": -322 }
+      ]
+    },
+    {
+      "tax": "General",
+      "name": "Perdiccas",
+      "fullName": "Perdikkas",
+      "desc": "He was the first of the Diadochi who fought for control over Alexander's empire but in his attempts to establish a power base and stay in control of the empire, he managed to make enemies of critical generals in the Macedonian army, Antipater, Craterus and Antigonus Monophtalmus, who decided to revolt against the regent. In response to this formidable coalition and a provocation from another general, Ptolemy, Perdiccas invaded Egypt, but his soldiers revolted and killed him when the invasion foundered.",
+      "start": -355,
+      "end": -321,
+      "events": [{ "name": "Regent of Macedon", "start": -323, "end": "end" }]
+    },
+
     {
       "name": "Aeropus I",
       "fullName": "Aeropus I of Macedon",
@@ -109,30 +213,7 @@
       "end": -335,
       "events": [{ "name": "King of Macedon", "start": -359, "end": -359 }]
     },
-    {
-      "name": "Philip II",
-      "fullName": "Philip II of Macedon",
-      "desc": "The rise of Macedon, its conquest and political consolidation of most of Classical Greece during the reign of Philip II was achieved in part by his reformation of the Macedonian army, establishing the Macedonian phalanx that proved critical in securing victories on the battlefield. After defeating the Greek city-states of Athens and Thebes at the Battle of Chaeronea in 338 BC, Philip II led the effort to establish a federation of Greek states known as the League of Corinth, with him as the elected hegemon and commander-in-chief of Greece for a planned invasion of the Achaemenid Empire of Persia. However, his assassination by a royal bodyguard, Pausanias of Orestis, led to the immediate succession of his son Alexander, who would go on to invade the Achaemenid Empire in his father's stead.",
-      "start": -382,
-      "end": -336,
-      "events": [
-        { "name": "King of Macedon", "start": -359, "end": "end" },
-        { "name": "Hegemon of the Hellenic League", "start": -337, "end": "end" }
-      ]
-    },
-    {
-      "name": "Alexander the Great",
-      "fullName": "Alexander the Great",
-      "desc": "By the age of thirty, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle and is widely considered to be one of history's greatest and most successful military commanders.",
-      "start": -356,
-      "end": -323,
-      "events": [
-        { "name": "King of Macedon", "start": -336, "end": "end" },
-        { "name": "Hegemon of the Hellenic League", "start": -336, "end": "end" },
-        { "name": "Pharaoh of Egypt", "start": -332, "end": "end" },
-        { "name": "King of Persia", "start": -330, "end": "end" }
-      ]
-    },
+
     {
       "name": "Philip III",
       "fullName": "Philip III of Macedon",
@@ -271,66 +352,19 @@
     },
 
     {
-      "name": "Craterus",
-      "desc": "In 322 Craterus aided Antipater in the Lamian War against Athens. He sailed with his Cilician navy to Greece and led troops at the Battle of Crannon in 322. When Antigonus rose in rebellion against Perdiccas and Eumenes, Craterus joined him, alongside Antipater and Ptolemy. He married Antipater's daughter Phila, with whom he had a son, also called Craterus.",
-      "start": -370,
-      "end": -321
-    },
-    {
-      "name": "Antipater",
-      "desc": "Antipater was a Macedonian general and statesman under kings Philip II of Macedon and Alexander the Great, and father of King Cassander. In 320 BC, he became regent of all of Alexander the Great's Empire but died the next year; he had named an officer named Polyperchon as his successor instead of his son Cassander, and a two-year-long power struggle ensued.",
-      "start": -400,
-      "end": -319
-    },
-    {
-      "name": "Perdiccas",
-      "desc": "He was the first of the Diadochi who fought for control over Alexander's empire but in his attempts to establish a power base and stay in control of the empire, he managed to make enemies of critical generals in the Macedonian army, Antipater, Craterus and Antigonus Monophtalmus, who decided to revolt against the regent. In response to this formidable coalition and a provocation from another general, Ptolemy, Perdiccas invaded Egypt, but his soldiers revolted and killed him when the invasion foundered.",
-      "start": -355,
-      "end": -321
-    },
-    {
-      "name": "Peithon",
-      "desc": "After the Second War of the Diadochi, Peithon was among the most powerful diadochi in the eastern part of the empire and he started to build his power again. Antigonus felt threatened by Peithon's growing power so he tricked him into coming to his court, where he had him executed.",
-      "start": -355,
-      "end": -314
-    },
-
-    {
-      "name": "Neoptolemus",
-      "desc": "Neoptolemus was a Macedonian officer who served under Alexander the Great.",
-      "end": -321
-    },
-    {
-      "name": "Polyperchon",
-      "desc": "General who served both Philip II and Alexander the Great and then played an active role in the ensuing battles for control between Alexander's generals.",
-      "start": -390,
-      "end": -304
-    },
-    {
       "name": "Olympias",
       "desc": "Eldest daughter of king Neoptolemus I of Epirus, the sister of Alexander I of Epirus, the fourth wife of Philip II, the king of Macedonia and the mother of Alexander the Great. She was extremely influential in Alexander's life and was recognized as de facto leader of Macedon during Alexander's conquests. After her son's death, she fought on behalf of Alexander's son Alexander IV, successfully defeating Adea Eurydice. After she was finally defeated by Cassander, his armies refused to execute her, and he finally had to summon family members of those Olympias had previously killed to end her life. According to the 1st century AD biographer, Plutarch, she was a devout member of the orgiastic snake-worshiping cult of Dionysus, and he suggests that she slept with snakes in her bed.",
       "start": -375,
       "end": -316,
-      "events": [{ "name": "Queen of Macedon", "start": -357, "end": "end" }]
+      "events": [{ "name": "Queen of Macedon", "start": -357, "end": "end" }],
+      "gender": "female"
     },
     {
       "name": "Eurydice II",
       "fullName": "Eurydice II of Macedon",
       "desc": "She was at first confined, together with her husband, in a narrow dungeon, and scantily supplied with food; but soon Olympias, becoming alarmed at the compassion excited among the Macedonians, determined to get rid of her rival, and sent the young queen in her prison a sword, a rope, and a cup of hemlock, with orders to choose her mode of death. The spirit of Eurydice remained unbroken to the last; she still breathed defiance to Olympias, and prayed that she might soon be requited with the like gifts; then, having paid as well as she could the last duties to her husband, she put an end to her own life by hanging, without giving way to a tear or word of lamentation. Her body was afterwards removed by Cassander, and interred, together with that of her husband, with royal pomp at Aegae.",
-      "end": -317
-    },
-    {
-      "name": "Cleopatra",
-      "fullName": "Cleopatra of Macedon",
-      "desc": "The only full sibling of Alexander the Great.",
-      "start": -355,
-      "end": -308
-    },
-    {
-      "name": "Eumenes",
-      "desc": "Eumenes was a Greek general and satrap. He participated in the Wars of Alexander the Great, serving as both Alexander's personal secretary and as a battlefield commander. He later was a participant in the Wars of the Diadochi as a supporter of the Macedonian Argead royal house. He was executed after the Battle of Gabiene in 316 BC.",
-      "start": -362,
-      "end": -316
+      "end": -317,
+      "gender": "female"
     }
   ]
 }

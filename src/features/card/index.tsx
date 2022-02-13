@@ -1,8 +1,8 @@
 import Desc from './components/Desc'
 import Links from './components/Links'
+import Events from './components/Events'
 import Cross from '../../components/cross'
 import style from './style/Card.module.scss'
-import Events from './components/Events'
 
 export default function Card(props) {
   const { set, name, fullName, place, dates, theme, desc, source, sourceLink, events, e, handleClose } = props
@@ -16,7 +16,7 @@ export default function Card(props) {
   return (
     <div className={style.card}>
       <div className={style.top}>
-        <Cross onClick={handleClose} />
+        <Cross onClick={handleClose} className={style.cross} />
         <h2>{title}</h2>
       </div>
 
