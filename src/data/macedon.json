@@ -42,7 +42,7 @@
         { "name": "Siege of Tyre", "start": -332 },
         { "name": "Siege of Gaza", "start": -332 },
         { "name": "Pharaoh of Egypt", "start": -332, "end": "end" },
-        { "name": "Battle of Gaugamela", "start": -321 },
+        { "name": "Battle of Gaugamela", "start": -331 },
         { "name": "Battle of the Persian Gate", "start": -330 },
         { "name": "King of Persia", "start": -330, "end": "end" },
         { "name": "Battle of the Hydaspes", "start": -326 }

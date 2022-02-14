@@ -175,19 +175,19 @@
     },
     {
       "tax": "knowledge",
+      "name": "Archytas",
+      "desc": "Philosopher, mathematician, music theorist,[3] astronomer, statesman, and strategist. He was a scientist of the Pythagorean school and famous for being the reputed founder of mathematical mechanics, as well as a good friend of Plato. As only described in the writings of Aulus Gellius five centuries after him, he was reputed to have designed and built the first artificial, self-propelled flying device, a bird-shaped model propelled by a jet of what was probably steam, said to have actually flown some 200 meters. This machine, which its inventor called The pigeon, may have been suspended on a wire or pivot for its flight. Archytas also wrote some lost works, as he was included by Vitruvius in the list of the twelve authors of works of mechanics. Thomas Nelson Winter presents evidence that the pseudo-Aristotelian Mechanical Problems was actually authored by Archytas and misattributed. Politically and militarily, Archytas appears to have been the dominant figure in Tarentum in his generation, somewhat comparable to Pericles in Athens a half-century earlier. The Tarentines elected him strategos seven years in a row",
+      "start": -435,
+      "end": -360,
+      "place": "Tarentum"
+    },
+    {
+      "tax": "knowledge",
       "name": "Diogenes",
       "desc": "He was the son of a mintmaster and was banished from Sinope for debasement of currency. After being exiled, he moved to Athens and criticized many cultural conventions of the city. He modeled himself on the example of Heracles, and believed that virtue was better revealed in action than in theory. He used his simple lifestyle and behavior to criticize the social values and institutions of what he saw as a corrupt, confused society. He had a reputation for sleeping and eating wherever he chose in a highly non-traditional fashion, and took to toughening himself against nature. He declared himself a cosmopolitan and a citizen of the world rather than claiming allegiance to just one place. There are many tales about his dogging Antisthenes' footsteps and becoming his \"faithful hound\". Diogenes made a virtue of poverty. He begged for a living and often slept in a large ceramic jar, or pithos, in the marketplace. He became notorious for his philosophical stunts, such as carrying a lamp during the day, claiming to be looking for a man (often rendered in English as \"looking for an honest man\"). He criticized Plato, disputed his interpretation of Socrates, and sabotaged his lectures, sometimes distracting listeners by bringing food and eating during the discussions. Diogenes was also noted for having mocked Alexander the Great, both in public and to his face when he visited Corinth in 336 BC. Diogenes was captured by pirates and sold into slavery, eventually settling in Corinth. There he passed his philosophy of Cynicism to Crates, who taught it to Zeno of Citium, who fashioned it into the school of Stoicism, one of the most enduring schools of Greek philosophy.",
       "start": -412,
       "end": -323,
       "place": "Sinope"
-    },
-    {
-      "tax": "knowledge",
-      "name": "Crates",
-      "desc": "Crates gave away his money to live a life of poverty on the streets of Athens. Respected by the people of Athens, he is remembered for being the teacher of Zeno of Citium, the founder of Stoicism.",
-      "start": -365,
-      "end": -285,
-      "place": "Thebes"
     },
     {
       "tax": "knowledge",
@@ -207,20 +207,27 @@
       "place": "Thebes"
     },
     {
+      "tax": "knowledge",
+      "name": "Stilpo",
+      "desc": "Philosopher of the Megarian school. None of his writings survive, he was interested in logic and dialectic, and he argued that the universal is fundamentally separated from the individual and concrete. His most important followers were Pyrrho, the founder of Pyrrhonism, and Zeno of Citium, the founder of Stoicism.",
+      "start": -360,
+      "end": -280,
+      "place": "Megara"
+    },
+    {
+      "tax": "knowledge",
+      "name": "Clinomachus",
+      "desc": "He is said by Diogenes Laërtius to have been the first who composed treatises on the fundamental principles of dialectics, and is described as the founder of the Dialectical school. According to the Suda, he was the disciple of Euclid of Megara,[3] and he taught Bryson, the teacher of Pyrrho. He thus lived towards the earlier half of the 4th century BC.",
+      "place": "Thurii",
+      "event": [{ "start": -385 }]
+    },
+    {
       "tax": "general",
       "name": "Epaminondas",
       "desc": "General of Thebes and statesman who transformed the city-state of Thebes, leading it out of Spartan subjugation into a pre-eminent position in Greek politics called the Theban Hegemony. In the process, he broke Spartan military power with his victory at Leuctra and liberated the Messenian helots, a group of Peloponnesian Greeks who had been enslaved under Spartan rule for some 230 years after being defeated in the Messenian War ending in 600 BC. Epaminondas reshaped the political map of Greece, fragmented old alliances, created new ones, and supervised the construction of entire cities. He was also militarily influential and invented and implemented several major battlefield tactics.",
       "start": -419,
       "end": -362,
       "place": "Thebes"
-    },
-    {
-      "tax": "knowledge",
-      "name": "Aristotle",
-      "desc": "Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the Aristotelian tradition. His writings cover many subjects including physics, biology, zoology, metaphysics, logic, ethics, aesthetics, poetry, theatre, music, rhetoric, psychology, linguistics, economics, politics, meteorology, geology and government. Aristotle provided a complex synthesis of the various philosophies existing prior to him. It was above all from his teachings that the West inherited its intellectual lexicon, as well as problems and methods of inquiry. As a result, his philosophy has exerted a unique influence on almost every form of knowledge in the West and it continues to be a subject of contemporary philosophical discussion.",
-      "start": -384,
-      "end": -322,
-      "place": "Stagira"
     },
     {
       "tax": "knowledge",
@@ -232,11 +239,26 @@
     },
     {
       "tax": "knowledge",
+      "name": "Pyrrho",
+      "start": -360,
+      "end": -270,
+      "place": "Olynthus"
+    },
+    {
+      "tax": "knowledge",
       "name": "Callisthenes",
       "desc": "Callisthenes of Olynthus was a well-connected Greek historian in Macedon, who accompanied Alexander the Great during the Asiatic expedition. The philosopher Aristotle was Callisthenes' great uncle.",
       "start": -360,
       "end": -327,
       "place": "Olynthus"
+    },
+    {
+      "tax": "knowledge",
+      "name": "Euclid",
+      "fullName": "Euclid of Alexandria",
+      "desc": "Greek mathematician, often referred to as the \"founder of geometry\" or the \"father of geometry\". He was active in Alexandria during the reign of Ptolemy I (323–283 BC). His Elements is one of the most influential works in the history of mathematics, serving as the main textbook for teaching mathematics (especially geometry) from the time of its publication until the late 19th or early 20th century. In the Elements, Euclid deduced the theorems of what is now called Euclidean geometry from a small set of axioms. Euclid also wrote works on perspective, conic sections, spherical geometry, number theory, and mathematical rigour.",
+      "place": "Alexandria",
+      "events": [{ "start": -300 }]
     },
     {
       "name": "Hiero II",
@@ -269,12 +291,12 @@
     },
     {
       "tax": "knowledge",
-      "name": "Posidonius",
-      "fullName": "Posidonius of Rhodes",
-      "desc": "Posidonius \"of Apameia\" or \"of Rhodes\" (c. 135 – c. 51 BC), was a Greek politician, astronomer, astrologer, geographer, historian, mathematician, and teacher native to Apamea, Syria. He was considered the most learned man of his time and, possibly, of the entire Stoic school. After a period learning Stoic philosophy from Panaetius in Athens, he spent many years in travel and scientific researches in Spain, Africa, Italy, Gaul, Liguria, Sicily and on the eastern shores of the Adriatic. He settled as a teacher at Rhodes where his fame attracted numerous scholars. Next to Panaetius he did most, by writings and personal lectures, to spread Stoicism to the Roman world, and he became well known to many leading men, including Pompey and Cicero.",
-      "start": -135,
-      "end": -51,
-      "place": "Apamea"
+      "name": "Theodosius",
+      "fullName": "Theodosius of Bithynia",
+      "desc": "Astronomer and mathematician who wrote the Sphaerics. Provided the mathematics for spherical astronomy, and may have been based on a work by Eudoxus of Cnidus. It is reasonably complete, and remained the main reference on the subject at least until the time of Pappus of Alexandria (4th century AD). The work was translated into Arabic in the 10th century, and then into Latin in the early 16th century, but these versions were faulty.",
+      "start": -169,
+      "end": -100,
+      "place": "Bithynia"
     },
     {
       "tax": "knowledge",

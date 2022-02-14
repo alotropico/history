@@ -5,10 +5,9 @@
   & > span {
     display: block;
     position: relative;
-    margin: 0 0.7rem;
-    width: calc(0.05rem);
-    height: calc(1.5rem);
-    transition: all 0.2s ease-out;
+    margin: 0 0.5rem;
+    width: calc(0.1rem);
+    height: calc(1rem);
 
     &::before,
     &::after {
@@ -16,14 +15,15 @@
       position: absolute;
       inset: 0;
       background-color: white;
+      border-radius: 2px;
       opacity: 0.6;
       transition: transform 0.2s ease-out, opacity 0.2s ease-out;
     }
     &::before {
-      transform: rotate(35deg);
+      transform: rotate(45deg);
     }
     &::after {
-      transform: rotate(-35deg);
+      transform: rotate(-45deg);
     }
   }
 
@@ -38,7 +38,6 @@
 
   &:hover {
     & > span {
-      transform: scale(1);
       &::before {
         transform: rotate(45deg);
         opacity: 0.9;

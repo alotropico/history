@@ -86,10 +86,7 @@ export default function Board({ items, sets, occs }: BoardProps) {
               </p>
             </header>
             <Search />
-            <Categories
-              sets={sets.sort((a, b) => (a.name > b.name ? 1 : a.name < b.name ? -1 : 0))}
-              filters={filters}
-            />
+            <Occs occs={sets.map((set) => set)} filters={filters} onSetFilter={useCallback(setFilters, [filters])} />
             <Occs
               occs={occs || []}
               filters={occFilters}

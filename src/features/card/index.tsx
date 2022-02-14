@@ -22,7 +22,7 @@ export default function Card(props) {
 
       {dates && (
         <p className={style.date} style={cardColor}>
-          {dates}
+          {place + ', ' + dates}
         </p>
       )}
 

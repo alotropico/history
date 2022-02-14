@@ -7,10 +7,67 @@
       {
         "match": "knowledge",
         "color": "1d7fa7"
+      },
+      {
+        "match": "scholarch",
+        "color": "1f9fd3"
       }
     ]
   },
   "items": [
+    {
+      "tax": "scholarch",
+      "name": "Plato",
+      "desc": "Athenian philosopher during the Classical period in Ancient Greece, founder of the Platonist school of thought and the Academy, the first institution of higher learning in the Western world.",
+      "start": -428,
+      "end": -348,
+      "events": [
+        { "name": "Founding of the Academy", "start": -387 },
+        { "name": "Scholarch of the Academy", "start": -387, "end": "end" }
+      ]
+    },
+    {
+      "tax": "scholarch",
+      "name": "Speusippus",
+      "start": -408,
+      "end": -339,
+      "events": [{ "name": "Scholarch of the Academy", "start": -348, "end": "end" }]
+    },
+    {
+      "tax": "scholarch",
+      "name": "Xenocrates",
+      "desc": "He distinguished three forms of being: the sensible, the intelligible, and a third compounded of the two, to which correspond respectively, sense, intellect and opinion. He considered unity and duality to be gods which rule the universe, and the soul a self-moving number. God pervades all things, and there are daemonical powers, intermediate between the divine and the mortal, which consist in conditions of the soul. He held that mathematical objects and the Platonic Ideas are identical, unlike Plato who distinguished them. In ethics, he taught that virtue produces happiness, but external goods can minister to it and enable it to effect its purpose.",
+      "start": -396,
+      "end": -314,
+      "place": "Chalcedon",
+      "events": [{ "name": "Scholarch of the Academy", "start": -339, "end": "end" }]
+    },
+    {
+      "tax": "scholarch",
+      "name": "Polemon",
+      "fullName": "Polemon (scholarch)",
+      "end": -270,
+      "events": [{ "name": "Scholarch of the Academy", "start": -314, "end": "end" }]
+    },
+    {
+      "tax": "scholarch",
+      "name": "Crates",
+      "fullName": "Crates of Athens",
+      "desc": "Crates gave away his money to live a life of poverty on the streets of Athens. Respected by the people of Athens, he is remembered for being the teacher of Zeno of Citium, the founder of Stoicism.",
+      "end": -264,
+      "place": "Thebes",
+      "events": [{ "name": "Scholarch of the Academy", "start": -269, "end": "end" }]
+    },
+    {
+      "tax": "scholarch",
+      "name": "Arcesilaus",
+      "desc": "His opinions were imperfectly known to his contemporaries, and can now only be gathered from the statements of later writers, as he committed nothing to writing. This makes his philosophy difficult to evaluate and partly inconsistent. This led scholars to see his skepticism in several ways. Some see his philosophy as completely negative or destructive of all philosophical views. Others regard him as taking the position that nothing can be known on the basis of his philosophical arguments. Others claimed he held no positive views on any philosophical topic, including the possibility of knowledge.",
+      "start": -316,
+      "end": -241,
+      "place": "Pitane",
+      "events": [{ "name": "Scholarch of the Academy", "start": -266, "end": "end" }]
+    },
+
     {
       "tax": "nobleman",
       "name": "Cylon",
@@ -216,6 +273,14 @@
     },
     {
       "tax": "knowledge",
+      "name": "Antiphon",
+      "fullName": "Antiphon of Rhamnus",
+      "start": -480,
+      "end": -411,
+      "place": "Rhamnus"
+    },
+    {
+      "tax": "knowledge",
       "name": "Euripides",
       "start": -480,
       "end": -406,
@@ -237,17 +302,19 @@
     },
     {
       "tax": "knowledge",
-      "name": "Plato",
-      "desc": "Athenian philosopher during the Classical period in Ancient Greece, founder of the Platonist school of thought and the Academy, the first institution of higher learning in the Western world.",
-      "start": -428,
-      "end": -348
-    },
-    {
-      "tax": "knowledge",
       "name": "Thucydides",
       "desc": "Athenian historian and general. His History of the Peloponnesian War recounts the fifth-century BC war between Sparta and Athens until the year 411 BC. Thucydides has been dubbed the father of \"scientific history\" by those who accept his claims to have applied strict standards of impartiality and evidence-gathering and analysis of cause and effect, without reference to intervention by the deities, as outlined in his introduction to his work.",
       "start": -460,
       "end": -400
+    },
+    {
+      "tax": "knowledge",
+      "name": "Euclid",
+      "fullName": "Euclid of Megara",
+      "desc": "Socratic philosopher who founded the Megarian school of philosophy. He was a pupil of Socrates in the late 5th century BC, and was present at his death. He held the supreme good to be one, eternal and unchangeable, and denied the existence of anything contrary to the good. Editors and translators in the Middle Ages often confused him with Euclid of Alexandria when discussing the latter's Elements.",
+      "start": -435,
+      "end": -365,
+      "place": "Megara"
     },
     {
       "tax": "knowledge",
@@ -262,11 +329,28 @@
     },
     {
       "tax": "knowledge",
-      "name": "Xenocrates",
-      "desc": "He distinguished three forms of being: the sensible, the intelligible, and a third compounded of the two, to which correspond respectively, sense, intellect and opinion. He considered unity and duality to be gods which rule the universe, and the soul a self-moving number. God pervades all things, and there are daemonical powers, intermediate between the divine and the mortal, which consist in conditions of the soul. He held that mathematical objects and the Platonic Ideas are identical, unlike Plato who distinguished them. In ethics, he taught that virtue produces happiness, but external goods can minister to it and enable it to effect its purpose.",
-      "start": -396,
-      "end": -314,
-      "place": "Chalcedon"
+      "name": "Eudoxus",
+      "fullName": "Eudoxus of Cnidus",
+      "desc": "Is considered by some to be the greatest of classical Greek mathematicians, and in all Antiquity second only to Archimedes. Eudoxus was probably the source for most of book V of Euclid's Elements. He rigorously developed Antiphon's method of exhaustion, a precursor to the integral calculus which was also used in a masterly way by Archimedes in the following century. In applying the method, Eudoxus proved such mathematical statements as: areas of circles are to one another as the squares of their radii, volumes of spheres are to one another as the cubes of their radii, the volume of a pyramid is one-third the volume of a prism with the same base and altitude, and the volume of a cone is one-third that of the corresponding cylinder.",
+      "start": -408,
+      "end": -355,
+      "place": "Cnidus"
+    },
+    {
+      "tax": "knowledge",
+      "name": "Aristotle",
+      "desc": "Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the Aristotelian tradition. His writings cover many subjects including physics, biology, zoology, metaphysics, logic, ethics, aesthetics, poetry, theatre, music, rhetoric, psychology, linguistics, economics, politics, meteorology, geology and government. Aristotle provided a complex synthesis of the various philosophies existing prior to him. It was above all from his teachings that the West inherited its intellectual lexicon, as well as problems and methods of inquiry. As a result, his philosophy has exerted a unique influence on almost every form of knowledge in the West and it continues to be a subject of contemporary philosophical discussion.",
+      "start": -384,
+      "end": -322,
+      "place": "Stagira"
+    },
+    {
+      "tax": "knowledge",
+      "name": "Theophrastus",
+      "desc": "Successor to Aristotle in the Peripatetic school., Theophrastus introduced his Physics with the proof that all natural existence, being corporeal and composite, requires principles, and first and foremost, motion, as the basis of all change.",
+      "start": -371,
+      "end": -287,
+      "place": "Lesbos"
     },
     {
       "tax": "knowledge",
@@ -277,6 +361,22 @@
     },
     {
       "tax": "knowledge",
+      "name": "Autolycus",
+      "fullName": "Autolycus of Pitane",
+      "desc": "Astronomer, mathematician, and geographer. In his \"On the Moving Sphere\", Autolycus studied the characteristics and movement of a sphere. The work is simple and not exactly original, since it consists of only elementary theorems on spheres that would be needed by astronomers, but its theorems are clearly enunciated and proved. Its prime significance, therefore, is that it indicates that by his day there was a thoroughly established textbook tradition in geometry that is today regarded as typical of classical Greek geometry.",
+      "start": -360,
+      "end": -290,
+      "place": "Pitane"
+    },
+    {
+      "tax": "knowledge",
+      "name": "Crantor",
+      "desc": "Was the first of Plato's followers who wrote commentaries on the works of his master. Crantor paid special attention to ethics, and arranged \"good\" things in the following order: virtue, health, pleasure, riches.",
+      "end": -276,
+      "place": "Soli"
+    },
+    {
+      "tax": "knowledge",
       "name": "Epicurus",
       "desc": "Greek philosopher and sage who founded Epicureanism, a highly influential school of philosophy. He was born on the Greek island of Samos to Athenian parents. Influenced by Democritus, Aristippus, Pyrrho,  and possibly the Cynics, he turned against the Platonism of his day and established his own school, known as \"the Garden\", in Athens. Epicurus and his followers were known for eating simple meals and discussing a wide range of philosophical subjects. He openly allowed women and slaves  to join the school as a matter of policy. Epicurus is said to have originally written over 300 works on various subjects, but the vast majority of these writings have been lost. Only three letters written by him—the letters to Menoeceus, Pythocles, and Herodotus—and two collections of quotes—the Principal Doctrines and the Vatican Sayings—have survived intact, along with a few fragments of his other writings. Most knowledge of his teachings comes from later authors, particularly the biographer Diogenes Laërtius, the Epicurean Roman poet Lucretius and the Epicurean philosopher Philodemus, and with hostile but largely accurate accounts by the Pyrrhonist philosopher Sextus Empiricus, and the Academic Skeptic and statesman Cicero.",
       "start": -341,
@@ -284,12 +384,32 @@
       "place": "Samos"
     },
     {
-      "tax": "knowledge",
+      "tax": "scholarch",
       "name": "Zeno of Citium",
       "start": -334,
       "end": -262,
-      "place": "Cyprus"
+      "place": "Cyprus",
+      "events": [{ "name": "Scholarch of the Stoic school", "start": -300, "end": "end" }]
     },
+    {
+      "tax": "scholarch",
+      "name": "Cleanthes",
+      "desc": "Originally a boxer, he came to Athens where he took up philosophy, listening to Zeno's lectures. He supported himself by working as a water-carrier at night. After the death of Zeno, he became the head of the school, a post he held for the next 32 years. Cleanthes successfully preserved and developed Zeno's doctrines. He originated new ideas in Stoic physics, and developed Stoicism in accordance with the principles of materialism and pantheism. Among the fragments of Cleanthes' writings which have come down to us, the largest is a Hymn to Zeus. His pupil was Chrysippus who became one of the most important Stoic thinkers.",
+      "start": -330,
+      "end": -230,
+      "place": "Assos",
+      "events": [{ "name": "Scholarch of the Stoic school", "start": -262, "end": "end" }]
+    },
+
+    {
+      "tax": "knowledge",
+      "name": "Aristo",
+      "fullName": "Aristo of Chios",
+      "desc": "Stoic philosopher and colleague of Zeno of Citium. He outlined a system of Stoic philosophy that was, in many ways, closer to earlier Cynic philosophy. He rejected the logical and physical sides of philosophy endorsed by Zeno and emphasized ethics. Although agreeing with Zeno that Virtue was the supreme good, he rejected the idea that morally indifferent things such as health and wealth could be ranked according to whether they are naturally preferred. An important philosopher in his day, his views were eventually marginalized by Zeno's successors.",
+      "place": "Chios",
+      "events": [{ "start": -260 }]
+    },
+
     {
       "tax": "knowledge",
       "name": "Heraclides",

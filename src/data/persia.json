@@ -96,7 +96,10 @@
       "desc": "The last Achaemenid King of Kings of Persia.",
       "start": -380,
       "end": -330,
-      "events": [{ "name": "King of Kings of the Achaemenid Empire", "start": -336, "end": "end" }]
+      "events": [
+        { "name": "King of Kings of the Achaemenid Empire", "start": -336, "end": "end" },
+        { "name": "Battle of Gaugamela", "start": -331 }
+      ]
     }
   ]
 }

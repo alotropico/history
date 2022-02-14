@@ -53,7 +53,7 @@ function Layers({ layers, background }) {
         (layer.name.toLowerCase().indexOf('battle') > -1 ||
           layer.name.toLowerCase().indexOf('siege') > -1 ||
           layer.name.toLowerCase().indexOf('expedition') > -1)
-          ? 'rgba(255, 255, 255, .5)'
+          ? 'rgba(255, 255, 255, .3)'
           : background,
       left,
       width: `${layer.w * 100}%`,

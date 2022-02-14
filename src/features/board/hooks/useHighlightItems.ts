@@ -12,7 +12,7 @@ export default function useHighlightItems(items: DataItems, highlight: string): 
 }
 
 const getHighlightedItems = (items: DataItems, highlight: string): DataItems => {
-  if (!highlight) return items
+  if (!highlight || highlight.length < 3) return items
 
   return items.map((item) => {
     const textSearch = highlight.toLowerCase()
@@ -20,6 +20,6 @@ const getHighlightedItems = (items: DataItems, highlight: string): DataItems => 
       item.name.toLowerCase().indexOf(textSearch) > -1 ||
       (item?.fullName && item.fullName.toLowerCase().indexOf(textSearch) > -1)
 
-    return isHighlight ? { ...item, highlight: true } : item
+    return isHighlight ? { ...item, highlight: true, display: true } : item
   })
 }

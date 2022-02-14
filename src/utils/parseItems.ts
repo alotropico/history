@@ -65,13 +65,16 @@ const authority = [
   'politician',
   'nobleman',
 ]
+const knowledge = ['scholarch']
 
 const getIcon = (tax, events) => {
   if (arrayHasWords([{ tax: tax }], 'tax', king)) return 'king'
   if (arrayHasWords([{ tax: tax }], 'tax', authority)) return 'authority'
-  if (tax) return tax
+  if (arrayHasWords([{ tax: tax }], 'tax', knowledge)) return 'knowledge'
   if (arrayHasWords(events, 'name', king)) return 'king'
   if (arrayHasWords(events, 'name', authority)) return 'authority'
+  if (arrayHasWords(events, 'name', knowledge)) return 'knowledge'
+  if (tax) return tax
 }
 
 const arrayHasWords = (ar, prop, words) =>
@@ -104,7 +107,7 @@ const getDatePoints = (name, start, end, events, type) => {
   const realDif = realE - s
   const nameLength = name.length < 10 ? name.length : 10
   const wordLength = name.split(' ').filter((w) => w.length > 3).length - 1
-  const min = 40 + nameLength + wordLength * 40
+  const min = 40 + nameLength * 2 + wordLength * 30
   const e = realDif < min ? realE + min - realDif : realE
 
   return { s, e, ev: realE, sd, ed }

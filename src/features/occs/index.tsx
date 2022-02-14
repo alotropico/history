@@ -12,12 +12,20 @@ export default function Occs({ occs, filters, onSetFilter, useIcon = false }: Ca
   return (
     <div className={containerClasses}>
       {occs.map((occ) => {
+        const name = occ?.name ? occ.name : occ
         const itemClasses = [
           style.category,
-          filters.includes(occ) ? style.selected : filters.length ? style.off : '',
+          filters.includes(name) ? style.selected : filters.length ? style.off : '',
         ].join(' ')
 
-        return (
+        const spanStyle = occ?.color && { backgroundColor: '#' + occ.color }
+
+        return occ?.name ? (
+          <div key={occ.name} onClick={() => handleChange(occ.name)} className={itemClasses}>
+            <span style={spanStyle} />
+            {occ.name}
+          </div>
+        ) : (
           <div key={occ} onClick={() => handleChange(occ)} className={itemClasses}>
             {useIcon ? <Icon name={occ} /> : occ}
           </div>
@@ -27,3 +35,15 @@ export default function Occs({ occs, filters, onSetFilter, useIcon = false }: Ca
     </div>
   )
 }
+
+// {sets.map((set) => {
+//   const itemClasses = [
+//     style.category,
+//     filters.includes(set.name) ? style.selected : filters.length ? style.off : '',
+//   ].join(' ')
+//   const spanStyle = { backgroundColor: '#' + set.color }
+
+//   return (
+
+//   )
+// })}

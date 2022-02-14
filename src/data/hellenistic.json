@@ -195,7 +195,10 @@
       "desc": "Founder of the Ptolemaic dynasty, which ruled Egypt until the death of Cleopatra in 30 BC, turning the country into a Hellenistic kingdom and Alexandria into a center of Greek culture.",
       "start": -367,
       "end": -282,
-      "events": [{ "name": "Pharaoh of Egypt", "start": -305, "end": "end" }],
+      "events": [
+        { "name": "Battle of Gaugamela", "start": -331 },
+        { "name": "Pharaoh of Egypt", "start": -305, "end": "end" }
+      ],
       "place": "Pella"
     },
     {

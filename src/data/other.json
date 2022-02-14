@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Others",
-    "color": "656572",
+    "color": "76716c",
     "place": "World",
     "themes": [
       {
@@ -11,6 +11,10 @@
       {
         "match": "china",
         "color": "737087"
+      },
+      {
+        "match": "india",
+        "color": "8c9188"
       }
     ]
   },

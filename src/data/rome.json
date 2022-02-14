@@ -426,6 +426,7 @@
       "end": -78,
       "events": [
         { "name": "Consul", "start": -88 },
+        { "name": "Destruction of the Academy of Athens", "start": -84 },
         { "name": "Dictator", "start": -82, "end": -79 },
         { "name": "Consul", "start": -80 }
       ]
