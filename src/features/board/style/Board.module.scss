@@ -47,9 +47,9 @@ aside {
   padding-top: 1rem;
   max-width: 380px;
   max-height: 100%;
-  overflow: hidden;
+  // overflow: hidden;
   border-left: 2px dotted rgba(white, 0.1);
-  //box-shadow: -15px 0 50px rgba(black, 0.05);
+  // box-shadow: -15px 0 50px rgba(black, 0.05);
 
   & > * {
     margin-right: 1rem;

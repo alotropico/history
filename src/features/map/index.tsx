@@ -1,10 +1,9 @@
 import * as d3 from 'd3'
 import * as d3g from 'd3-geo-projection'
-import { feature } from 'topojson-client'
-import { Feature, Geometry } from 'geojson'
 
 import { MapProps } from './types'
 import style from './style/Map.module.scss'
+// import world from './assets/world-land-simplified.geo.json'
 import world from './assets/world.geo.json'
 import points from './assets/places.json'
 
@@ -50,9 +49,10 @@ export default function Map({ places }: MapProps) {
             <path d={path({ type: 'Sphere' })} />
           </g>
           <g className={style.land}>
-            {mapFeatures.map((d, i) => (
-              <path key={i} d={path(d)} />
-            ))}
+            {mapFeatures.map((d, i) => {
+              console.log(d)
+              return <path key={i} d={path(d)} />
+            })}
           </g>
           <g className={style.place}>
             {pointFeatures

@@ -1,12 +1,16 @@
 .mapWrapper {
   position: absolute;
-  inset: auto -1rem 0;
+  bottom: 0;
+  left: 0;
+  //inset: auto -1rem 0;
+  margin: 0;
+  width: 100%;
   border-top: 2px dotted rgba(white, 0.1);
 }
 
 .map {
   overflow: hidden;
-  background-color: #34343c;
+  background-color: rgba(#34343c, 0.6);
 
   svg {
     display: block;
