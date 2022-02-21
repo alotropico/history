@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [24.58, 40.56] },
+      "properties": { "name": "Abdera", "parent": "Thrace" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.35, 37.19] },
+      "properties": { "name": "Akragas" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.65026, 41.74691]
+      },
+      "properties": { "name": "Alba Longa" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.55, 31.12]
+      },
+      "properties": { "name": "Alexandria" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.15, 31.48]
+      },
+      "properties": { "name": "Anathoth" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.59, 41.06]
+      },
+      "properties": { "name": "Anshan" }
+    }
+  ]
+}

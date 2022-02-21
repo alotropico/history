@@ -15,6 +15,11 @@
     display: flex;
     gap: 1rem;
     margin: 1rem 0;
+    color: black;
+
+    a {
+      color: inherit;
+    }
 
     &:before {
       content: '--';

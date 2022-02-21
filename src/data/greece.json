@@ -219,7 +219,7 @@
       "name": "Clinomachus",
       "desc": "He is said by Diogenes Laërtius to have been the first who composed treatises on the fundamental principles of dialectics, and is described as the founder of the Dialectical school. According to the Suda, he was the disciple of Euclid of Megara,[3] and he taught Bryson, the teacher of Pyrrho. He thus lived towards the earlier half of the 4th century BC.",
       "place": "Thurii",
-      "event": [{ "start": -385 }]
+      "events": [{ "start": -385 }]
     },
     {
       "tax": "general",

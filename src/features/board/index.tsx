@@ -14,6 +14,7 @@ import useRenderItems from './hooks/useRenderItems'
 import parseYear from '../../utils/parseYear'
 
 import { BoardProps } from './types'
+import Map from '../map'
 
 export const BoardContext = createContext<any>(() => null)
 
@@ -94,6 +95,7 @@ export default function Board({ items, sets, occs }: BoardProps) {
               useIcon={true}
             />
             <Occs occs={tags || []} filters={tagFilters} onSetFilter={useCallback(setTagFilters, [tagFilters])} />
+            <Map places={tags} />
             {selected && <Card {...selected} handleClose={() => setSelected(null)} />}
           </aside>
         </div>

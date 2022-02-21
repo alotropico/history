@@ -1,0 +1,38 @@
+.mapWrapper {
+  position: absolute;
+  inset: auto -1rem 0;
+  border-top: 2px dotted rgba(white, 0.1);
+}
+
+.map {
+  overflow: hidden;
+  background-color: #34343c;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.sphere {
+  path {
+    fill: #43506a;
+  }
+}
+
+.land {
+  path {
+    fill: #62849f;
+    stroke: rgba(#43506a, 0.4);
+    stroke-width: 1px;
+  }
+}
+
+.place {
+  circle {
+    fill: rgba(white, 0.8);
+    stroke: #34343c;
+    stroke-width: 3px;
+  }
+}
