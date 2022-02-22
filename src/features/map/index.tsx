@@ -3,23 +3,25 @@ import * as d3g from 'd3-geo-projection'
 
 import { MapProps } from './types'
 import style from './style/Map.module.scss'
-// import world from './assets/world-land-simplified.geo.json'
+// import world from './assets/world-land-low.geo.json'
 import world from './assets/world.geo.json'
 import points from './assets/places.json'
+import usePlaces from './hooks/usePlaces'
+
+const canvasW = 960
+const canvasH = 960 * 0.5 // 484
 
 export default function Map({ places }: MapProps) {
   const mapConfig = {
-    rotate: [-45, -45, 0],
+    rotate: [-45, -36, 0],
     tilt: 0,
-    scale: 750,
+    scale: 820,
     distance: 2,
   }
 
-  //const mapPreFeatures: any = world?.objects?.land && feature(world, world.objects.land)
+  const mapFeatures: Array<any> = world.features
 
-  const mapFeatures: Array<any> = world.features // mapPreFeatures ? mapPreFeatures.features : []
-
-  const pointFeatures: Array<any> = points.features
+  const pointFeatures: Array<any> = usePlaces(points.features, places)
 
   const path = d3.geoPath()
 
@@ -30,7 +32,7 @@ export default function Map({ places }: MapProps) {
     .fitExtent(
       [
         [0, 0],
-        [960, 484],
+        [canvasW, canvasH],
       ],
       { type: 'Sphere' }
     )
@@ -44,22 +46,28 @@ export default function Map({ places }: MapProps) {
   return (
     <div className={style.mapWrapper}>
       <div className={style.map}>
-        <svg viewBox='0 0 960 484'>
+        <svg viewBox={`0 0 ${canvasW} ${canvasH}`}>
           <g className={style.sphere}>
             <path d={path({ type: 'Sphere' })} />
           </g>
+
           <g className={style.land}>
-            {mapFeatures.map((d, i) => {
-              console.log(d)
-              return <path key={i} d={path(d)} />
-            })}
+            {mapFeatures.map((d, i) => (
+              <path key={i} d={path(d)} />
+            ))}
           </g>
-          <g className={style.place}>
+
+          <g className={style.places}>
             {pointFeatures
               .filter((d) => d)
               .map((d, i) => {
                 const centroid = path.centroid(d.geometry)
-                return centroid[0] && <circle r='10' key={i} cx={centroid[0]} cy={centroid[1]} />
+                const { color, reach } = d.properties
+                return (
+                  centroid[0] && (
+                    <circle r={6 + reach / 3} fill={'#' + color} key={i} cx={centroid[0]} cy={centroid[1]} />
+                  )
+                )
               })}
           </g>
         </svg>

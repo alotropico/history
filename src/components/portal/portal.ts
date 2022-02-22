@@ -1,13 +1,9 @@
 import { useState, useEffect } from 'react'
 import { createPortal } from 'react-dom'
 
-type portalProps = {
-  children: React.ReactElement
-  className?: string
-  el?: 'div'
-}
+import { PortalProps } from './types'
 
-export default function Portal({ children, className = 'root-portal', el = 'div' }: portalProps) {
+export default function Portal({ children, className = 'root-portal', el = 'div' }: PortalProps) {
   const [container] = useState(() => {
     // This will be executed only on the initial render
     // https://reactjs.org/docs/hooks-reference.html#lazy-initial-state

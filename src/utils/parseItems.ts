@@ -1,6 +1,6 @@
 import parseYear from './parseYear'
 import { hex2rgba, hex2rgbaDarken } from './colors'
-import { toPercentage } from './numbers'
+import { toPercenplacee } from './numbers'
 import { DbItem, DataItem } from '../types'
 
 export default function parseItems(items: DbItem[]): DataItem[] {
@@ -44,8 +44,8 @@ const getLayers = (events, s, e) => {
     .map((event) => (event?.end && isNaN(event.end) ? { ...event, end: e } : event))
     .map((event) => ({
       name: event?.name,
-      l: toPercentage((event.start - s) / lapse),
-      w: event?.end ? toPercentage((event.end - event.start) / lapse) : 0,
+      l: toPercenplacee((event.start - s) / lapse),
+      w: event?.end ? toPercenplacee((event.end - event.start) / lapse) : 0,
     }))
 }
 
@@ -138,7 +138,13 @@ const datesToString = (start, end): string => {
   const dates: any = []
   start ? dates.push(start) : dates.push('unknown')
   end && dates.push(end)
-  return dates.every((d) => d === 'unknown') ? 'unknown dates' : dates.map((y) => parseYear(y)).join(' - ')
+  return dates.every((d) => d === 'unknown')
+    ? 'unknown dates'
+    : dates.map((y) => parseYear(y)).join(' - ') + getAge(start, end)
+}
+
+const getAge = (start, end): string => {
+  return !start || !end ? '' : ` (aged ~ ${end - start})`
 }
 
 const sortByValue = (value, a, b): number => {

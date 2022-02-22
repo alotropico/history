@@ -3,6 +3,8 @@ import Links from './components/Links'
 import Events from './components/Events'
 import Cross from '../../components/cross'
 import style from './style/Card.module.scss'
+import useClickOutside from '../../hooks/useClickOutside'
+import { useRef } from 'react'
 
 export default function Card(props) {
   const { set, name, fullName, place, dates, theme, desc, source, sourceLink, events, e, handleClose } = props
@@ -13,11 +15,14 @@ export default function Card(props) {
     background: theme.background,
   }
 
+  const ref = useRef(null)
+  useClickOutside(ref, () => handleClose())
+
   return (
-    <div className={style.card}>
+    <div className={style.card} ref={ref}>
       <div className={style.top}>
-        <Cross onClick={handleClose} className={style.cross} />
         <h2>{title}</h2>
+        <Cross onClick={handleClose} className={style.cross} />
       </div>
 
       {dates && (

@@ -55,7 +55,6 @@
       "fullName": "Crates of Athens",
       "desc": "Crates gave away his money to live a life of poverty on the streets of Athens. Respected by the people of Athens, he is remembered for being the teacher of Zeno of Citium, the founder of Stoicism.",
       "end": -264,
-      "place": "Thebes",
       "events": [{ "name": "Scholarch of the Academy", "start": -269, "end": "end" }]
     },
     {

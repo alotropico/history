@@ -22,8 +22,7 @@
       "name": "Jehoahaz",
       "fullName": "Jehoahaz of Judah",
       "start": -633,
-      "events": [{ "name": "King of Judah", "start": -609 }],
-      "place": "Shallum"
+      "events": [{ "name": "King of Judah", "start": -609 }]
     },
     {
       "name": "Jehoiakim",
@@ -48,7 +47,7 @@
       "end": -460,
       "events": [{ "name": "Queen of Persia" }],
       "gender": "female",
-      "place": "Hadassah"
+      "place": "Persia"
     },
     {
       "tax": "knowledge",

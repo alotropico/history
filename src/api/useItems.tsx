@@ -8,13 +8,15 @@ import carthage from '../data/carthage.json'
 import persia from '../data/persia.json'
 import hebrews from '../data/hebrews.json'
 import other from '../data/other.json'
+import east from '../data/east.json'
+import egypt from '../data/egypt.json'
 
 import parseItems from '../utils/parseItems'
 
 import { DbItem, DataItem, DataItems, DbSet, DbSetInfo, DbTheme } from '../types'
 
 export default function useItems(): [DataItem[], DbSetInfo[]] {
-  const dataSets = [greece, hebrews, athens, sparta, rome, hellenistic, macedon, persia, carthage, other]
+  const dataSets = [greece, hebrews, athens, sparta, rome, hellenistic, macedon, persia, carthage, egypt, other, east]
   // const dataSets = [other, hebrews, persia, rome, carthage, sparta, greece, athens, macedon]
   return [
     dataSets.map((set) => parseItems(parseItemsBySet(set))).reduce((acc, set) => [...acc, ...set], []),

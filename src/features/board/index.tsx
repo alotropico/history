@@ -3,8 +3,8 @@ import { createContext, useCallback, useEffect, useState } from 'react'
 import Canvas from '../canvas'
 import Scale from '../scale'
 import Card from '../card'
-import Categories from '../categories'
-import Occs from '../occs'
+import Panel from '../../components/panel'
+import Selector from '../selector'
 import Search from '../search'
 
 import style from './style/Board.module.scss'
@@ -15,24 +15,25 @@ import parseYear from '../../utils/parseYear'
 
 import { BoardProps } from './types'
 import Map from '../map'
+import Portal from '../../components/portal/portal'
+import usePlaces from './hooks/usePlaces'
+import dif from '../../utils/arrayDif'
 
 export const BoardContext = createContext<any>(() => null)
 
-const sortTaxonomy = (a, b) => (a > b ? 1 : a < b ? -1 : 0)
-
-export default function Board({ items, sets, occs }: BoardProps) {
+export default function Board({ items, sets, tax }: BoardProps) {
   const [filters, setFilters] = useState([])
 
-  const [occFilters, setOccFilters] = useState([])
+  const [typeFilters, setTypeFilters] = useState([])
 
-  const [tagFilters, setTagFilters] = useState([])
+  const [placeFilters, setPlaceFilters] = useState<any>([])
 
   const [highlights, setHighlights] = useState('')
 
   const filteredItems = useFilterItems(items, [
     { filters, prop: 'set' },
-    { filters: occFilters, prop: 'icon' },
-    { filters: tagFilters, prop: 'place' },
+    { filters: typeFilters, prop: 'icon' },
+    { filters: placeFilters, prop: 'place' },
   ])
 
   const highlightedItems = useHighlightItems(filteredItems, highlights)
@@ -43,31 +44,15 @@ export default function Board({ items, sets, occs }: BoardProps) {
 
   const [selected, setSelected] = useState(null)
 
-  const [tags, setTags] = useState<any>([])
+  const places = usePlaces(filteredItems)
 
   useEffect(() => {
-    setTags(
-      [
-        ...new Set(
-          filteredItems
-            .filter((i) => i?.display || i.displayId === 'place')
-            .map((item) => item?.place)
-            .filter((place) => place)
-        ),
-      ].sort(sortTaxonomy)
-    )
-  }, [JSON.stringify(filteredItems)])
-
-  useEffect(() => {
-    setTagFilters([])
-  }, [JSON.stringify(filters), JSON.stringify(occFilters)])
+    setPlaceFilters([])
+  }, [dif(filters), dif(typeFilters)])
 
   const contextMethods: any = {
     setSelected,
-    setFilters,
     setHighlights,
-    setOccFilters,
-    setTagFilters,
   }
 
   return (
@@ -86,22 +71,51 @@ export default function Board({ items, sets, occs }: BoardProps) {
                 {renderItems.filter((item) => item.display).length} items {dates}
               </p>
             </header>
-            <Search />
-            <Occs occs={sets.map((set) => set)} filters={filters} onSetFilter={useCallback(setFilters, [filters])} />
-            <Occs
-              occs={occs || []}
-              filters={occFilters}
-              onSetFilter={useCallback(setOccFilters, [occFilters])}
-              useIcon={true}
-            />
-            <Occs occs={tags || []} filters={tagFilters} onSetFilter={useCallback(setTagFilters, [tagFilters])} />
-            <Map places={tags} />
-            {selected && <Card {...selected} handleClose={() => setSelected(null)} />}
+
+            <Panel title='Highlight'>
+              <Search />
+            </Panel>
+
+            <Panel title='Civilizations'>
+              <Selector
+                tax={sets.map((set) => set)}
+                filters={filters}
+                onSetFilter={useCallback(setFilters, [filters])}
+                theme={'big'}
+              />
+            </Panel>
+
+            <Panel title='Types'>
+              <Selector
+                tax={tax || []}
+                filters={typeFilters}
+                onSetFilter={useCallback(setTypeFilters, [typeFilters])}
+                useIcon={true}
+              />
+            </Panel>
+
+            <Panel title='Places' className={style.places}>
+              <Selector
+                tax={places || []}
+                filters={placeFilters}
+                onSetFilter={useCallback(setPlaceFilters, [placeFilters])}
+              />
+            </Panel>
+
+            <Panel className={style.map}>
+              <Map places={places.filter((p) => (placeFilters.length ? placeFilters.includes(p.name) : true))} />
+            </Panel>
           </aside>
         </div>
-
-        {/* <footer /> */}
       </div>
+
+      {selected && (
+        <Portal>
+          <Panel theme='standalone'>
+            <Card {...selected} handleClose={() => setSelected(null)} />
+          </Panel>
+        </Portal>
+      )}
     </BoardContext.Provider>
   )
 }

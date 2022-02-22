@@ -2,6 +2,7 @@
   font-family: inherit;
   font-size: inherit;
   padding: 0.5rem 0.5rem;
+  width: 100%;
   min-width: 10px;
   color: inherit;
   background-color: transparent;
@@ -16,6 +17,7 @@
   }
 
   &::placeholder {
+    font-style: italic;
     color: rgba(white, 0.6);
   }
 }

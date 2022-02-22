@@ -3,10 +3,10 @@ import Board from './features/board'
 
 export default function App() {
   const [items, sets] = useItems()
-  const occs = [...new Set(items.map((item) => item?.icon).filter((icon) => icon))].sort(sortTaxonomy)
-  const tags = [...new Set(items.map((item) => item?.place).filter((place) => place))].sort(sortTaxonomy)
+  const tax = [...new Set(items.map((item) => item?.icon).filter((icon) => icon))].sort(sortTaxonomy)
+  const places = [...new Set(items.map((item) => item?.place).filter((place) => place))].sort(sortTaxonomy)
 
-  return <Board items={items} sets={sets} occs={occs} tags={tags} />
+  return <Board items={items} sets={sets} tax={tax} places={places} />
 }
 
 const sortTaxonomy = (a, b) => (a > b ? 1 : a < b ? -1 : 0)
