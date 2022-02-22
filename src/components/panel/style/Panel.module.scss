@@ -1,0 +1,49 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0 0 0.5rem 1rem;
+
+  h4 {
+    font-family: var(--font-family-serif);
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+
+  &::after {
+    content: '';
+    flex-grow: 1;
+    border-bottom: 1px solid rgba(white, 0.1);
+  }
+}
+
+.content {
+  margin-left: 1rem;
+  padding-right: 1rem;
+  overflow-y: auto;
+}
+
+.standalone {
+  display: flex;
+  position: fixed;
+  z-index: 3;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 380px;
+
+  .content {
+    position: relative;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    overflow: visible;
+  }
+}
