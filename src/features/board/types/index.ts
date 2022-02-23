@@ -1,5 +1,11 @@
 import { DataItem, SpatialItems, DbSetInfo } from '../../../types'
 
+export type placeType = {
+  name: string
+  color: string
+  reach: number
+}
+
 export type BoardProps = {
   items: DataItem[]
   sets: DbSetInfo[]

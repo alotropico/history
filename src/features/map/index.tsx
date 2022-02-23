@@ -1,27 +1,24 @@
 import * as d3 from 'd3'
 import * as d3g from 'd3-geo-projection'
 
-import { MapProps } from './types'
-import style from './style/Map.module.scss'
 // import world from './assets/world-land-low.geo.json'
 import world from './assets/world.geo.json'
 import points from './assets/places.json'
 import usePlaces from './hooks/usePlaces'
+import useMapConfig from './hooks/useMapConfig'
+
+import { MapProps } from './types'
+import style from './style/Map.module.scss'
 
 const canvasW = 960
-const canvasH = 960 * 0.5 // 484
+const canvasH = 960 * 0.62 // 484
 
 export default function Map({ places }: MapProps) {
-  const mapConfig = {
-    rotate: [-45, -36, 0],
-    tilt: 0,
-    scale: 820,
-    distance: 2,
-  }
+  const mapFeatures = world.features
 
-  const mapFeatures: Array<any> = world.features
+  const pointFeatures = usePlaces(points, places)
 
-  const pointFeatures: Array<any> = usePlaces(points.features, places)
+  const mapConfig = useMapConfig(pointFeatures)
 
   const path = d3.geoPath()
 
@@ -65,7 +62,7 @@ export default function Map({ places }: MapProps) {
                 const { color, reach } = d.properties
                 return (
                   centroid[0] && (
-                    <circle r={6 + reach / 3} fill={'#' + color} key={i} cx={centroid[0]} cy={centroid[1]} />
+                    <circle r={10 + reach / 2} fill={'#' + color} key={i} cx={centroid[0]} cy={centroid[1]} />
                   )
                 )
               })}

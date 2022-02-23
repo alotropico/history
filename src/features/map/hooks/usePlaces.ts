@@ -1,11 +1,14 @@
 import { useEffect, useState } from 'react'
 
-export default function usePlaces(dictionary, currentPlaces): any {
-  const [filteredPlaces, setFilteredPlaces] = useState([])
+import { pointsType, renderPlacesType } from '../types'
+import { placeType } from '../../board/types'
+
+export default function usePlaces(dictionary: pointsType, currentPlaces: placeType[]): renderPlacesType {
+  const [filteredPlaces, setFilteredPlaces] = useState<any>([])
 
   useEffect(() => {
     setFilteredPlaces(
-      dictionary
+      dictionary.features
         .map((entry) => {
           const renderPlace = currentPlaces.find((place) => place.name === entry.properties.name)
           return renderPlace ? { ...entry, properties: { ...entry.properties, ...renderPlace } } : null

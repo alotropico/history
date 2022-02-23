@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 
 import dif from '../../../utils/arrayDif'
+import { placeType } from '../types'
 
-export default function usePlaces(items): any {
+export default function usePlaces(items): placeType[] {
   const [places, setPlaces] = useState<any>([])
 
   useEffect(() => {
