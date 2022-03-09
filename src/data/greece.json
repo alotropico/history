@@ -216,6 +216,15 @@
     },
     {
       "tax": "knowledge",
+      "name": "Theodorus",
+      "fullName": "Theodorus the Atheist",
+      "desc": "As a Cyrenaic philosopher, he taught that the goal of life was to obtain joy and avoid grief, and that the former resulted from knowledge, and the latter from ignorance.",
+      "start": -340,
+      "end": -250,
+      "place": "Cyrene"
+    },
+    {
+      "tax": "knowledge",
       "name": "Clinomachus",
       "desc": "He is said by Diogenes Laërtius to have been the first who composed treatises on the fundamental principles of dialectics, and is described as the founder of the Dialectical school. According to the Suda, he was the disciple of Euclid of Megara,[3] and he taught Bryson, the teacher of Pyrrho. He thus lived towards the earlier half of the 4th century BC.",
       "place": "Thurii",

@@ -130,6 +130,11 @@
       "properties": { "name": "Cyme" }
     },
     { "type": "Feature", "geometry": { "type": "Point", "coordinates": [33, 35] }, "properties": { "name": "Cyprus" } },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [21.51, 32.49] },
+      "properties": { "name": "Cyrene" }
+    },
     { "type": "Feature", "geometry": { "type": "Point", "coordinates": [30, 26] }, "properties": { "name": "Egypt" } },
     {
       "type": "Feature",
