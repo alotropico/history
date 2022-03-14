@@ -1,5 +1,5 @@
 // Converts parsed data into data ready for rendering
-import { toPercenplacee } from '../../../utils/numbers'
+import { round } from '../../../utils/numbers'
 import { DataItems, SpatialItems } from '../../../types'
 import { useRenderItemsRet } from '../types'
 
@@ -28,8 +28,8 @@ function insertSpatialData(items, start, end): SpatialItems {
 
     const spatial = {
       i: layer >= 0 ? layer : layers.length,
-      l: toPercenplacee((item.s - start) / lapse),
-      w: toPercenplacee((item.ev - item.s) / lapse),
+      l: round((item.s - start) / lapse),
+      w: round((item.ev - item.s) / lapse),
     }
 
     // Push this item into the corresponding layers cache
@@ -51,7 +51,7 @@ function insertBottomPosition(items: SpatialItems, layers): SpatialItems {
     ...item,
     spatial: {
       ...item.spatial,
-      b: toPercenplacee(item.spatial.i / layers),
+      b: round(item.spatial.i / layers),
       h: itemHeight,
     },
   }))

@@ -13,15 +13,19 @@ export default function usePlaces(items): placeType[] {
       .filter((i) => i?.display || i.displayId === 'place')
       .forEach((item) => {
         if (item.place) {
-          if (!newPlaces?.[item.place]) {
-            newPlaces[item.place] = {
-              name: item.place,
-              color: item.theme.color,
-              reach: 1,
+          const places = Array.isArray(item.place) ? item.place : [item.place]
+
+          places.forEach((place) => {
+            if (!newPlaces?.[place]) {
+              newPlaces[place] = {
+                name: place,
+                color: item.theme.color,
+                reach: 1,
+              }
+            } else {
+              newPlaces[place].reach++
             }
-          } else {
-            newPlaces[item.place].reach++
-          }
+          })
         }
       })
 

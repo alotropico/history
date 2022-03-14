@@ -1,386 +1,1212 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [24.58, 40.56] },
-      "properties": { "name": "Abdera" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.35, 37.19] },
-      "properties": { "name": "Akragas" }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.65026, 41.74691]
-      },
-      "properties": { "name": "Alba Longa" }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [29.55, 31.12]
-      },
-      "properties": { "name": "Alexandria" }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [35.15, 31.48]
-      },
-      "properties": { "name": "Anathoth" }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [52.24, 30.0]
-      },
-      "properties": { "name": "Anshan" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.3635, 41.3852] },
-      "properties": { "name": "Arpinum" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.2013, 39.2916] },
-      "properties": { "name": "Assos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.4341, 37.5903] },
-      "properties": { "name": "Athens" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [44.25, 32.32] },
-      "properties": { "name": "Babylon" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [29.5503, 40.4545] },
-      "properties": { "name": "Bithynia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [10.3233, 36.8528] },
-      "properties": { "name": "Carthage" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.25, 41.41] },
-      "properties": { "name": "Cereatae" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [29.0138, 40.5904] },
-      "properties": { "name": "Chalcedon" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [116.23, 39.55] },
-      "properties": { "name": "China" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.0354, 38.2239] },
-      "properties": { "name": "Chios" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.03, 41.14] },
-      "properties": { "name": "Circeii" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [9.422, 45.252] },
-      "properties": { "name": "Cisalpine Gaul" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.223, 36.4109] },
-      "properties": { "name": "Cnidus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [25.947, 35.1753] },
-      "properties": { "name": "Cnossos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.4341, 37.5903] },
-      "properties": { "name": "Colonus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [24.54, 35.12] },
-      "properties": { "name": "Crete" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [24.06, 38.38] },
-      "properties": { "name": "Cyme" }
-    },
-    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [33, 35] }, "properties": { "name": "Cyprus" } },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [21.51, 32.49] },
-      "properties": { "name": "Cyrene" }
-    },
-    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [30, 26] }, "properties": { "name": "Egypt" } },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [15.0918, 40.0939] },
-      "properties": { "name": "Elea" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.32, 38.2] },
-      "properties": { "name": "Eleusis" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [21.5, 40.14] },
-      "properties": { "name": "Elimeia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.2031, 37.5628] },
-      "properties": { "name": "Ephesus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.2938, 41.1639] },
-      "properties": { "name": "Europus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.57, 37.44] },
-      "properties": { "name": "Frearrioi" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.2527, 37.0216] },
-      "properties": { "name": "Halicarnassus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [31.2453, 41.175] },
-      "properties": { "name": "Heraclea Pontica" }
-    },
-    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [78, 21] }, "properties": { "name": "India" } },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.5, 38.2] },
-      "properties": { "name": "Ionia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.0, 31.4] },
-      "properties": { "name": "Judah" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.14, 36.51] },
-      "properties": { "name": "Kos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [31.84, 18.53] },
-      "properties": { "name": "Kush" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.1648, 39.1236] },
-      "properties": { "name": "Lesbos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.52105, 40.754669] },
-      "properties": { "name": "Macedon" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.8, 37.24] },
-      "properties": { "name": "Megalopolis" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.204, 37.5947] },
-      "properties": { "name": "Megara" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.1642, 37.3149] },
-      "properties": { "name": "Miletus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.1812, 32.4207] },
-      "properties": { "name": "Nazareth" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [6.36, 36.21] },
-      "properties": { "name": "Numidia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.354, 40.296] },
-      "properties": { "name": "Olynthus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [11.52, 45.25] },
-      "properties": { "name": "Patavium" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.52105, 40.754669] },
-      "properties": { "name": "Pella" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [44.25, 32.32] },
-      "properties": { "name": "Persia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.52, 43.1] },
-      "properties": { "name": "Picenum" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.5614, 38.5541] },
-      "properties": { "name": "Pitane" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.4959, 40.39] },
-      "properties": { "name": "Pontus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [24.138, 38.1324] },
-      "properties": { "name": "Rhamnus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.56, 36.1] },
-      "properties": { "name": "Rhodes" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.2858, 41.5336] },
-      "properties": { "name": "Rome" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.3, 37.56] },
-      "properties": { "name": "Salamis" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.5, 37.45] },
-      "properties": { "name": "Samos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [28.0225, 38.2918] },
-      "properties": { "name": "Sardis" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [2.2108, 48.5124] },
-      "properties": { "name": "Seine basin" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [14.0, 37.3] },
-      "properties": { "name": "Sicily" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.0904, 42.0136] },
-      "properties": { "name": "Sinope" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.821, 38.257] },
-      "properties": { "name": "Smyrna" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [34.38, 36.48] },
-      "properties": { "name": "Soli" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.2525, 37.455] },
-      "properties": { "name": "Sparta" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.4509, 40.3149] },
-      "properties": { "name": "Stagira" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [48.1528, 32.1126] },
-      "properties": { "name": "Susa" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [15.1715, 37.0409] },
-      "properties": { "name": "Syracuse" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [36.18, 33.3] },
-      "properties": { "name": "Syria" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [17.14, 40.28] },
-      "properties": { "name": "Tarentum" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.19, 38.19] },
-      "properties": { "name": "Thebes" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26, 42] },
-      "properties": { "name": "Thracia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [16.2944, 39.432] },
-      "properties": { "name": "Thurii" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [32.0123, 41.3341] },
-      "properties": { "name": "Tieium" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.4239, 41.4754] },
-      "properties": { "name": "Tusculum" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [3.0, 45.2] },
-      "properties": { "name": "West Europe" }
-    }
-  ]
-}
+[
+  {
+    "wikidataId": "Q220",
+    "label": "Rome",
+    "coordinates": [12.482777777778, 41.893055555556]
+  },
+  {
+    "wikidataId": "Q944814",
+    "label": "Theatre of Pompey",
+    "coordinates": [12.47361111, 41.89527778]
+  },
+  {
+    "wikidataId": "Q1747689",
+    "label": "Ancient Rome",
+    "coordinates": [12.48, 41.89]
+  },
+  {
+    "wikidataId": "Q72288",
+    "label": "Nola",
+    "coordinates": [14.533333333333, 40.933333333333]
+  },
+  {
+    "wikidataId": "Q401231",
+    "label": "Miseno",
+    "coordinates": [14.086389, 40.786389]
+  },
+  {
+    "wikidataId": "Q200642",
+    "label": "Palatine Hill",
+    "coordinates": [12.486944444444, 41.888333333333]
+  },
+  {
+    "wikidataId": "Q665",
+    "label": "Lugdunum",
+    "coordinates": [4.8194444444444, 45.759722222222]
+  },
+  {
+    "wikidataId": "Q622438",
+    "label": "Domus Aurea",
+    "coordinates": [12.495277777778, 41.891388888889]
+  },
+  {
+    "wikidataId": "Q128226",
+    "label": "Terracina",
+    "coordinates": [13.25, 41.283333333333]
+  },
+  {
+    "wikidataId": "Q470839",
+    "label": "Nuceria Alfaterna",
+    "coordinates": [14.633333333333, 40.75]
+  },
+  {
+    "wikidataId": "Q927670",
+    "label": "Falacrine",
+    "coordinates": [13.17055556, 42.59361111]
+  },
+  {
+    "wikidataId": "Q383071",
+    "label": "Aquae Cutiliae",
+    "coordinates": [13.008757, 42.380104]
+  },
+  {
+    "wikidataId": "Q10866",
+    "label": "Narni",
+    "coordinates": [12.516666666667, 42.516666666667]
+  },
+  {
+    "wikidataId": "Q1241278",
+    "label": "Gardens of Sallust",
+    "coordinates": [12.496916666666667, 41.90808333333333]
+  },
+  {
+    "wikidataId": "Q658893",
+    "label": "Italica",
+    "coordinates": [-6.04489368647575, 37.4417977346731]
+  },
+  {
+    "wikidataId": "Q1424724",
+    "label": "Selinus (Cilicia)",
+    "coordinates": [32.28472222, 36.26111111]
+  },
+  {
+    "wikidataId": "Q2832670",
+    "label": "Lanuvium",
+    "coordinates": [12.69758, 41.67469]
+  },
+  {
+    "wikidataId": "Q1444690",
+    "label": "Lorium",
+    "coordinates": [12.28565, 41.901109]
+  },
+  {
+    "wikidataId": "Q871525",
+    "label": "Vindobona",
+    "coordinates": [16.370277777778, 48.210833333333]
+  },
+  {
+    "wikidataId": "Q441542",
+    "label": "Altinum",
+    "coordinates": [12.39888889, 45.54638889]
+  },
+  {
+    "wikidataId": "Q729978",
+    "label": "Mediolanum",
+    "coordinates": [9.185321, 45.462907]
+  },
+  {
+    "wikidataId": "Q490",
+    "label": "Milan",
+    "coordinates": [9.19, 45.466944444444]
+  },
+  {
+    "wikidataId": "Q191504",
+    "label": "Leptis Magna",
+    "coordinates": [14.290555555556, 32.639166666667]
+  },
+  {
+    "wikidataId": "Q958954",
+    "label": "Eboracum",
+    "coordinates": [-1.080556, 53.961667]
+  },
+  {
+    "wikidataId": "Q3660711",
+    "label": "Haran",
+    "coordinates": [39.2167, 36.85]
+  },
+  {
+    "wikidataId": "Q116440",
+    "label": "Arpino",
+    "coordinates": [13.61155, 41.64705]
+  },
+  {
+    "wikidataId": "Q128086",
+    "label": "Formia",
+    "coordinates": [13.606944444444, 41.256388888889]
+  },
+  {
+    "wikidataId": "Q675858",
+    "label": "Arqa",
+    "coordinates": [36.045833333333, 34.530555555556]
+  },
+  {
+    "wikidataId": "Q571790",
+    "label": "Mogontiacum",
+    "coordinates": [8.27111, 50]
+  },
+  {
+    "wikidataId": "Q6343",
+    "label": "Carthage",
+    "coordinates": [10.323461, 36.852558]
+  },
+  {
+    "wikidataId": "Q26897",
+    "label": "Gallia Narbonensis",
+    "coordinates": [4, 44]
+  },
+  { "wikidataId": "Q2277", "label": "Roman Empire", "coordinates": [14, 42] },
+  {
+    "wikidataId": "Q898417",
+    "label": "Liternum",
+    "coordinates": [14.030128, 40.921094]
+  },
+  { "wikidataId": "Q181238", "label": "Africa", "coordinates": [12.74, 31.8] },
+  {
+    "wikidataId": "Q209349",
+    "label": "Nicomedia",
+    "coordinates": [29.9175, 40.7625]
+  },
+  {
+    "wikidataId": "Q1524",
+    "label": "Athens",
+    "coordinates": [23.728055555555557, 37.98416666666667]
+  },
+  {
+    "wikidataId": "Q16869",
+    "label": "Constantinople",
+    "coordinates": [28.976018, 41.01224]
+  },
+  {
+    "wikidataId": "Q11767",
+    "label": "Mesopotamia",
+    "coordinates": [43.5, 33.7]
+  },
+  {
+    "wikidataId": "Q13670",
+    "label": "Syracuse",
+    "coordinates": [15.2875, 37.069166666667]
+  },
+  {
+    "wikidataId": "Q12544",
+    "label": "Byzantine Empire",
+    "coordinates": [28.98472222, 41.01527778]
+  },
+  {
+    "wikidataId": "Q1258998",
+    "label": "Salona",
+    "coordinates": [16.483055555555556, 43.53944444444444]
+  },
+  { "wikidataId": "Q1663", "label": "Split", "coordinates": [16.45, 43.51] },
+  {
+    "wikidataId": "Q649612",
+    "label": "Coca",
+    "coordinates": [-4.5222222222222, 41.217777777778]
+  },
+  {
+    "wikidataId": "Q833060",
+    "label": "Sirmium",
+    "coordinates": [19.610555555555557, 44.96611111111111]
+  },
+  {
+    "wikidataId": "Q23482",
+    "label": "Marseille",
+    "coordinates": [5.3763888888889, 43.296666666667]
+  },
+  {
+    "wikidataId": "Q214655",
+    "label": "Çorlu",
+    "coordinates": [27.802777777778, 41.159722222222]
+  },
+  {
+    "wikidataId": "Q15141121",
+    "label": "Massilia",
+    "coordinates": [5.369889, 43.296346]
+  },
+  {
+    "wikidataId": "Q243456",
+    "label": "Cumae",
+    "coordinates": [14.053611, 40.848611]
+  },
+  {
+    "wikidataId": "Q639912",
+    "label": "Istria",
+    "coordinates": [13.904444444444, 45.261111111111]
+  },
+  {
+    "wikidataId": "Q1438",
+    "label": "Campania",
+    "coordinates": [14.920555555555556, 40.910555555555554]
+  },
+  {
+    "wikidataId": "Q985596",
+    "label": "Farsala",
+    "coordinates": [22.383333333333, 39.283333333333]
+  },
+  {
+    "wikidataId": "Q87",
+    "label": "Alexandria",
+    "coordinates": [29.916666666667, 31.2]
+  },
+  {
+    "wikidataId": "Q90",
+    "label": "Paris",
+    "coordinates": [2.3513888888889, 48.856944444444]
+  },
+  {
+    "wikidataId": "Q170062",
+    "label": "Pannonia",
+    "coordinates": [19.02, 44.9]
+  },
+  {
+    "wikidataId": "Q13364",
+    "label": "Ravenna",
+    "coordinates": [12.201666666666666, 44.416111111111114]
+  },
+  {
+    "wikidataId": "Q583038",
+    "label": "Ostrogothic Kingdom",
+    "coordinates": [12.2, 44.416667]
+  },
+  {
+    "wikidataId": "Q1398480",
+    "label": "Volsinii",
+    "coordinates": [11.9858, 42.6447]
+  },
+  {
+    "wikidataId": "Q1145715",
+    "label": "Pelusium",
+    "coordinates": [32.6, 31.05]
+  },
+  {
+    "wikidataId": "Q1479",
+    "label": "Bordeaux",
+    "coordinates": [-0.57944444444444, 44.837777777778]
+  },
+  { "wikidataId": "Q62646", "label": "Germania", "coordinates": [11.1, 50.9] },
+  {
+    "wikidataId": "Q1308",
+    "label": "Como",
+    "coordinates": [9.0861388888889, 45.81025]
+  },
+  { "wikidataId": "Q373189", "label": "Bithynia", "coordinates": [31, 40.5] },
+  {
+    "wikidataId": "Q29431803",
+    "label": "Villa Commedia",
+    "coordinates": [9.3, 45.966666666667]
+  },
+  {
+    "wikidataId": "Q42942",
+    "label": "Lierna",
+    "coordinates": [9.3051, 45.9581]
+  },
+  {
+    "wikidataId": "Q15523",
+    "label": "Lake Como",
+    "coordinates": [9.2666666666667, 46]
+  },
+  {
+    "wikidataId": "Q3415",
+    "label": "Ancona",
+    "coordinates": [13.516666666667, 43.616666666667]
+  },
+  {
+    "wikidataId": "Q221495",
+    "label": "Vinkovci",
+    "coordinates": [18.8, 45.283333333333]
+  },
+  {
+    "wikidataId": "Q43387",
+    "label": "Edirne",
+    "coordinates": [26.57361, 41.67304]
+  },
+  {
+    "wikidataId": "Q405166",
+    "label": "Sapareva Banya",
+    "coordinates": [23.258859, 42.28742]
+  },
+  {
+    "wikidataId": "Q199547",
+    "label": "Harran",
+    "coordinates": [39.032777777778, 36.864444444444]
+  },
+  {
+    "wikidataId": "Q173292",
+    "label": "Capri",
+    "coordinates": [14.233333333333, 40.55]
+  },
+  {
+    "wikidataId": "Q754314",
+    "label": "Tusculum",
+    "coordinates": [12.710833333333, 41.798333333333]
+  },
+  {
+    "wikidataId": "Q189792",
+    "label": "Zenopolis in Isauria",
+    "coordinates": [32.690517, 36.699801]
+  },
+  {
+    "wikidataId": "Q739037",
+    "label": "Nicaea",
+    "coordinates": [29.7195, 40.429]
+  },
+  {
+    "wikidataId": "Q182428",
+    "label": "Silistra",
+    "coordinates": [27.265381, 44.109238]
+  },
+  {
+    "wikidataId": "Q1228725",
+    "label": "Saticula",
+    "coordinates": [14.5, 41.08333333]
+  },
+  {
+    "wikidataId": "Q456",
+    "label": "Lyon",
+    "coordinates": [4.8413888888889, 45.758888888889]
+  },
+  {
+    "wikidataId": "Q200441",
+    "label": "Antioch",
+    "coordinates": [36.181666666666665, 36.20472222222222]
+  },
+  {
+    "wikidataId": "Q217265",
+    "label": "Cappadocia",
+    "coordinates": [34.839167, 38.670556]
+  },
+  { "wikidataId": "Q116415", "label": "Aquino", "coordinates": [13.7, 41.5] },
+  {
+    "wikidataId": "Q42168",
+    "label": "Clermont-Ferrand",
+    "coordinates": [3.0869444444444, 45.779722222222]
+  },
+  {
+    "wikidataId": "Q186513",
+    "label": "Hispania",
+    "coordinates": [-4.35, 40.21]
+  },
+  {
+    "wikidataId": "Q53216",
+    "label": "Aquileia",
+    "coordinates": [13.366666666667, 45.766666666667]
+  },
+  {
+    "wikidataId": "Q41604",
+    "label": "Amiens",
+    "coordinates": [2.2977777777778, 49.891944444444]
+  },
+  {
+    "wikidataId": "Q6231",
+    "label": "Cremona",
+    "coordinates": [10.033333333333, 45.133333333333]
+  },
+  {
+    "wikidataId": "Q109773",
+    "label": "Teutoburg Forest",
+    "coordinates": [8.8136111111111, 51.895555555556]
+  },
+  {
+    "wikidataId": "Q207154",
+    "label": "Langon",
+    "coordinates": [-0.24944444444444, 44.553055555556]
+  },
+  {
+    "wikidataId": "Q2736539",
+    "label": "Hadrumetum",
+    "coordinates": [10.638888888889, 35.824444444444]
+  },
+  {
+    "wikidataId": "Q215155",
+    "label": "Fréjus",
+    "coordinates": [6.7355555555556, 43.433055555556]
+  },
+  {
+    "wikidataId": "Q1026347",
+    "label": "Samosata",
+    "coordinates": [38.481316666667, 37.57955]
+  },
+  {
+    "wikidataId": "Q18986",
+    "label": "Pergamon",
+    "coordinates": [27.183333, 39.116667]
+  },
+  {
+    "wikidataId": "Q169460",
+    "label": "Miletus",
+    "coordinates": [27.275556, 37.531111]
+  },
+  {
+    "wikidataId": "Q18927",
+    "label": "Lycia",
+    "coordinates": [29.9, 36.733333333333]
+  },
+  {
+    "wikidataId": "Q536924",
+    "label": "Cyrrhus",
+    "coordinates": [36.95916667, 36.74416667]
+  },
+  { "wikidataId": "Q202311", "label": "Egypt", "coordinates": [32.1, 28] },
+  {
+    "wikidataId": "Q6624",
+    "label": "Ascoli Piceno",
+    "coordinates": [13.575277777778, 42.854722222222]
+  },
+  {
+    "wikidataId": "Q4656",
+    "label": "Pula",
+    "coordinates": [13.833333333333, 44.866666666667]
+  },
+  {
+    "wikidataId": "Q212150",
+    "label": "Marathon",
+    "coordinates": [23.963611111111, 38.155]
+  },
+  {
+    "wikidataId": "Q122443",
+    "label": "Attica",
+    "coordinates": [23.81, 38.0027]
+  },
+  {
+    "wikidataId": "Q52691",
+    "label": "Venosa",
+    "coordinates": [15.816666666667, 40.966666666667]
+  },
+  { "wikidataId": "Q38060", "label": "Gaul", "coordinates": [2.9, 46.5] },
+  {
+    "wikidataId": "Q1720",
+    "label": "Mainz",
+    "coordinates": [8.2666666666667, 50]
+  },
+  {
+    "wikidataId": "Q1131978",
+    "label": "Lucania",
+    "coordinates": [15.956247, 40.482608]
+  },
+  {
+    "wikidataId": "Q649559",
+    "label": "Peltuinum",
+    "coordinates": [13.62261, 42.286929]
+  },
+  {
+    "wikidataId": "Q103011",
+    "label": "Corinth",
+    "coordinates": [22.927222222222223, 37.93861111111111]
+  },
+  {
+    "wikidataId": "Q242793",
+    "label": "Lanuvio",
+    "coordinates": [12.7, 41.683333333333]
+  },
+  {
+    "wikidataId": "Q620864",
+    "label": "Cilicia",
+    "coordinates": [34.89555556, 36.91666667]
+  },
+  { "wikidataId": "Q41741", "label": "Thrace", "coordinates": [26, 42] },
+  { "wikidataId": "Q37495", "label": "Ionian Sea", "coordinates": [19, 38] },
+  {
+    "wikidataId": "Q1093156",
+    "label": "Cirta",
+    "coordinates": [6.61194444, 36.3675]
+  },
+  {
+    "wikidataId": "Q117382",
+    "label": "Sora",
+    "coordinates": [13.616666666667, 41.716666666667]
+  },
+  {
+    "wikidataId": "Q207250",
+    "label": "Battle of Lake Trasimene",
+    "coordinates": [12.085, 43.1975]
+  },
+  {
+    "wikidataId": "Q13138",
+    "label": "Chieti",
+    "coordinates": [14.167427777778, 42.351113888889]
+  },
+  {
+    "wikidataId": "Q13134",
+    "label": "Pesaro",
+    "coordinates": [12.9133, 43.91015]
+  },
+  {
+    "wikidataId": "Q23048",
+    "label": "Colonia Claudia Ara Agrippinensium",
+    "coordinates": [6.9569444444444, 50.938055555556]
+  },
+  {
+    "wikidataId": "Q938412",
+    "label": "Ierapetra",
+    "coordinates": [25.733333333333, 35]
+  },
+  {
+    "wikidataId": "Q457362",
+    "label": "Djemila",
+    "coordinates": [5.73667, 36.32056]
+  },
+  {
+    "wikidataId": "Q103305",
+    "label": "Volterra",
+    "coordinates": [10.866666666667, 43.4]
+  },
+  {
+    "wikidataId": "Q2282045",
+    "label": "Sidyma",
+    "coordinates": [29.19333333, 36.40833333]
+  },
+  {
+    "wikidataId": "Q592987",
+    "label": "Santa Severa",
+    "coordinates": [11.94836, 42.02413]
+  },
+  {
+    "wikidataId": "Q1724661",
+    "label": "Pyrgi",
+    "coordinates": [11.963414, 42.015226]
+  },
+  {
+    "wikidataId": "Q214725",
+    "label": "Massa Marittima",
+    "coordinates": [10.893611111111, 43.05]
+  },
+  {
+    "wikidataId": "Q2268382",
+    "label": "Plomin",
+    "coordinates": [14.180833333333, 45.137777777778]
+  },
+  {
+    "wikidataId": "Q152136",
+    "label": "Germania Inferior",
+    "coordinates": [5.22, 50.58]
+  },
+  {
+    "wikidataId": "Q50197",
+    "label": "Ferentino",
+    "coordinates": [13.25, 41.683333333333]
+  },
+  {
+    "wikidataId": "Q279",
+    "label": "Modena",
+    "coordinates": [10.92572, 44.64582]
+  },
+  {
+    "wikidataId": "Q715376",
+    "label": "Gallia Aquitania",
+    "coordinates": [-0.579444, 44.837778]
+  },
+  {
+    "wikidataId": "Q753824",
+    "label": "Illyricum",
+    "coordinates": [17.329379, 43.804412]
+  },
+  {
+    "wikidataId": "Q131301",
+    "label": "Homs",
+    "coordinates": [36.716666666667, 34.733333333333]
+  },
+  {
+    "wikidataId": "Q3136685",
+    "label": "ancient Capua",
+    "coordinates": [14.25, 41.083333333333336]
+  },
+  {
+    "wikidataId": "Q23067",
+    "label": "Llíria",
+    "coordinates": [-0.5961102, 39.6258293]
+  },
+  {
+    "wikidataId": "Q1891",
+    "label": "Bologna",
+    "coordinates": [11.342777777778, 44.493888888889]
+  },
+  {
+    "wikidataId": "Q568611",
+    "label": "Cannae",
+    "coordinates": [16.151666666667, 41.296388888889]
+  },
+  { "wikidataId": "Q6537", "label": "Vicenza", "coordinates": [11.55, 45.55] },
+  {
+    "wikidataId": "Q159605",
+    "label": "Tivoli",
+    "coordinates": [12.8, 41.966666666667]
+  },
+  {
+    "wikidataId": "Q128089",
+    "label": "Gaeta",
+    "coordinates": [13.566666666667, 41.216666666667]
+  },
+  { "wikidataId": "Q1462", "label": "Sardinia", "coordinates": [9, 40] },
+  {
+    "wikidataId": "Q35997",
+    "label": "İzmir",
+    "coordinates": [27.13838, 38.41273]
+  },
+  { "wikidataId": "Q23522", "label": "Balkans", "coordinates": [22, 42] },
+  {
+    "wikidataId": "Q309272",
+    "label": "Mauretania",
+    "coordinates": [-6.59179688, 32.06]
+  },
+  {
+    "wikidataId": "Q212420",
+    "label": "Sens",
+    "coordinates": [3.2833333333333, 48.197222222222]
+  },
+  {
+    "wikidataId": "Q243133",
+    "label": "Palestrina",
+    "coordinates": [12.9, 41.833333333333]
+  },
+  {
+    "wikidataId": "Q56053",
+    "label": "Cossignano",
+    "coordinates": [13.688080555556, 42.983988888889]
+  },
+  {
+    "wikidataId": "Q948682",
+    "label": "Thapsus",
+    "coordinates": [11.045, 35.625833333333]
+  },
+  {
+    "wikidataId": "Q124886",
+    "label": "Sassoferrato",
+    "coordinates": [12.856519444444, 43.427469444444]
+  },
+  {
+    "wikidataId": "Q173532",
+    "label": "Byblos",
+    "coordinates": [35.65, 34.116666666667]
+  },
+  {
+    "wikidataId": "Q4918",
+    "label": "Mediterranean Sea",
+    "coordinates": [17, 38]
+  },
+  {
+    "wikidataId": "Q9160295",
+    "label": "Arretium",
+    "coordinates": [11.878056, 43.463056]
+  },
+  { "wikidataId": "Q79", "label": "Egypt", "coordinates": [29, 27] },
+  {
+    "wikidataId": "Q180717",
+    "label": "Sousse",
+    "coordinates": [10.633333333333, 35.833333333333]
+  },
+  {
+    "wikidataId": "Q1396850",
+    "label": "Tiddis",
+    "coordinates": [6.48388889, 36.46333333]
+  },
+  {
+    "wikidataId": "Q2420610",
+    "label": "Thibilis",
+    "coordinates": [7.25, 36.38333333]
+  },
+  {
+    "wikidataId": "Q858",
+    "label": "Syria",
+    "coordinates": [38.583333, 35.216667]
+  },
+  {
+    "wikidataId": "Q617",
+    "label": "Padua",
+    "coordinates": [11.877777777778, 45.406388888889]
+  },
+  {
+    "wikidataId": "Q4951156",
+    "label": "Sicily",
+    "coordinates": [14.266666666667, 37.566666666667]
+  },
+  {
+    "wikidataId": "Q677935",
+    "label": "Veii",
+    "coordinates": [12.401388888889, 42.023888888889]
+  },
+  {
+    "wikidataId": "Q94982",
+    "label": "Urbisaglia",
+    "coordinates": [13.377338888889, 43.197261111111]
+  },
+  {
+    "wikidataId": "Q3138",
+    "label": "Trier",
+    "coordinates": [6.6413888888889, 49.756666666667]
+  },
+  {
+    "wikidataId": "Q6555",
+    "label": "Narbonne",
+    "coordinates": [3.0036111111111, 43.184722222222]
+  },
+  {
+    "wikidataId": "Q3554226",
+    "label": "Teate",
+    "coordinates": [14.168101, 42.346992]
+  },
+  {
+    "wikidataId": "Q131955",
+    "label": "Umm Qais",
+    "coordinates": [35.688611111111, 32.653888888889]
+  },
+  {
+    "wikidataId": "Q26849",
+    "label": "Vienne",
+    "coordinates": [4.8747222222222, 45.525555555556]
+  },
+  {
+    "wikidataId": "Q1640",
+    "label": "Osijek",
+    "coordinates": [18.670277777778, 45.560277777778]
+  },
+  {
+    "wikidataId": "Q27163866",
+    "label": "Lake Regillus",
+    "coordinates": [12.693055555556, 41.879722222222]
+  },
+  {
+    "wikidataId": "Q1492",
+    "label": "Barcelona",
+    "coordinates": [2.1769444444444, 41.3825]
+  },
+  {
+    "wikidataId": "Q43048",
+    "label": "Rhodes",
+    "coordinates": [28, 36.166666666667]
+  },
+  {
+    "wikidataId": "Q203767",
+    "label": "Vis",
+    "coordinates": [16.1525, 43.0425]
+  },
+  {
+    "wikidataId": "Q6487",
+    "label": "Antalya",
+    "coordinates": [30.69556, 36.90812]
+  },
+  {
+    "wikidataId": "Q1393407",
+    "label": "Alexandria Troas",
+    "coordinates": [26.15861111, 39.75194444]
+  },
+  {
+    "wikidataId": "Q656954",
+    "label": "Soli",
+    "coordinates": [34.54, 36.741944444444]
+  },
+  {
+    "wikidataId": "Q17151",
+    "label": "Thessaloniki",
+    "coordinates": [22.935555555555556, 40.640277777777776]
+  },
+  {
+    "wikidataId": "Q290097",
+    "label": "Baiae",
+    "coordinates": [14.069722222222, 40.816666666667]
+  },
+  {
+    "wikidataId": "Q72111",
+    "label": "Ercolano",
+    "coordinates": [14.352608333333, 40.806791666667]
+  },
+  {
+    "wikidataId": "Q15906",
+    "label": "Ptuj",
+    "coordinates": [15.871388888889, 46.418611111111]
+  },
+  {
+    "wikidataId": "Q232615",
+    "label": "Sardis",
+    "coordinates": [28.040278, 38.488333]
+  },
+  {
+    "wikidataId": "Q187346",
+    "label": "Constantine",
+    "coordinates": [6.6147222222222, 36.365]
+  },
+  { "wikidataId": "Q29", "label": "Spain", "coordinates": [-3.5, 40.2] },
+  {
+    "wikidataId": "Q3820",
+    "label": "Beirut",
+    "coordinates": [35.513055555556, 33.886944444444]
+  },
+  {
+    "wikidataId": "Q3094251",
+    "label": "Gades",
+    "coordinates": [-6.298979, 36.534789]
+  },
+  {
+    "wikidataId": "Q48292",
+    "label": "Arles",
+    "coordinates": [4.6286111111111, 43.676944444444]
+  },
+  {
+    "wikidataId": "Q3320446",
+    "label": "Hispania Balearica",
+    "coordinates": [3, 39.5]
+  },
+  {
+    "wikidataId": "Q13375",
+    "label": "Pisa",
+    "coordinates": [10.4, 43.716666666667]
+  },
+  {
+    "wikidataId": "Q2914723",
+    "label": "Nemausus",
+    "coordinates": [4.36083333, 43.83777778]
+  },
+  {
+    "wikidataId": "Q206730",
+    "label": "Etruria",
+    "coordinates": [11.838912, 42.227871]
+  },
+  {
+    "wikidataId": "Q481514",
+    "label": "Marsala",
+    "coordinates": [12.434166666666666, 37.79805555555556]
+  },
+  {
+    "wikidataId": "Q83285",
+    "label": "Durrës",
+    "coordinates": [19.455833333333, 41.324166666667]
+  },
+  {
+    "wikidataId": "Q1747689",
+    "label": "Ancient Rome",
+    "coordinates": [12.48, 41.89]
+  },
+  {
+    "wikidataId": "Q18986",
+    "label": "Pergamon",
+    "coordinates": [27.183333, 39.116667]
+  },
+  {
+    "wikidataId": "Q27163866",
+    "label": "Lake Regillus",
+    "coordinates": [12.693055555556, 41.879722222222]
+  },
+  { "wikidataId": "Q116404", "label": "Anagni", "coordinates": [13.15, 41.75] },
+  {
+    "wikidataId": "Q2759",
+    "label": "Urbino",
+    "coordinates": [12.6372, 43.725238888889]
+  },
+  {
+    "wikidataId": "Q220",
+    "label": "Rome",
+    "coordinates": [12.482777777778, 41.893055555556]
+  },
+  {
+    "wikidataId": "Q34374",
+    "label": "Crete",
+    "coordinates": [24.893333333333, 35.309722222222]
+  },
+  { "wikidataId": "Q373189", "label": "Bithynia", "coordinates": [31, 40.5] },
+  {
+    "wikidataId": "Q16869",
+    "label": "Constantinople",
+    "coordinates": [28.976018, 41.01224]
+  },
+  {
+    "wikidataId": "Q12544",
+    "label": "Byzantine Empire",
+    "coordinates": [28.98472222, 41.01527778]
+  },
+  {
+    "wikidataId": "Q340572",
+    "label": "Akhmim",
+    "coordinates": [31.746111111111, 26.564166666667]
+  },
+  {
+    "wikidataId": "Q51938",
+    "label": "Ordona",
+    "coordinates": [15.633333333333, 41.316666666667]
+  },
+  {
+    "wikidataId": "Q20458",
+    "label": "Gubbio",
+    "coordinates": [12.5772674, 43.3517882]
+  },
+  {
+    "wikidataId": "Q729978",
+    "label": "Mediolanum",
+    "coordinates": [9.185321, 45.462907]
+  },
+  {
+    "wikidataId": "Q186513",
+    "label": "Hispania",
+    "coordinates": [-4.35, 40.21]
+  },
+  { "wikidataId": "Q181238", "label": "Africa", "coordinates": [12.74, 31.8] },
+  {
+    "wikidataId": "Q52981",
+    "label": "Faenza",
+    "coordinates": [11.883333333333, 44.285555555556]
+  },
+  { "wikidataId": "Q2277", "label": "Roman Empire", "coordinates": [14, 42] },
+  {
+    "wikidataId": "Q34925",
+    "label": "Capitoline Hill",
+    "coordinates": [12.483055555556, 41.893333333333]
+  },
+  {
+    "wikidataId": "Q219415",
+    "label": "Hispania Baetica",
+    "coordinates": [-5.007223, 37.849462]
+  },
+  {
+    "wikidataId": "Q754314",
+    "label": "Tusculum",
+    "coordinates": [12.710833333333, 41.798333333333]
+  },
+  {
+    "wikidataId": "Q42807",
+    "label": "Nîmes",
+    "coordinates": [4.36, 43.836944444444]
+  },
+  {
+    "wikidataId": "Q3998196",
+    "label": "Trebula Suffenas",
+    "coordinates": [12.93777778, 41.95472222]
+  },
+  {
+    "wikidataId": "Q849709",
+    "label": "Laodicea on the Lycus",
+    "coordinates": [29.1075, 37.835833333333]
+  },
+  {
+    "wikidataId": "Q152136",
+    "label": "Germania Inferior",
+    "coordinates": [5.22, 50.58]
+  },
+  {
+    "wikidataId": "Q1139578",
+    "label": "Cremera",
+    "coordinates": [12.49772, 41.98717]
+  },
+  { "wikidataId": "Q204772", "label": "Achaea", "coordinates": [22.45, 37.89] },
+  {
+    "wikidataId": "Q242793",
+    "label": "Lanuvio",
+    "coordinates": [12.7, 41.683333333333]
+  },
+  { "wikidataId": "Q1026628", "label": "Cales", "coordinates": [14.132, 41.2] },
+  {
+    "wikidataId": "Q117382",
+    "label": "Sora",
+    "coordinates": [13.616666666667, 41.716666666667]
+  },
+  {
+    "wikidataId": "Q470839",
+    "label": "Nuceria Alfaterna",
+    "coordinates": [14.633333333333, 40.75]
+  },
+  {
+    "wikidataId": "Q128226",
+    "label": "Terracina",
+    "coordinates": [13.25, 41.283333333333]
+  },
+  {
+    "wikidataId": "Q571790",
+    "label": "Mogontiacum",
+    "coordinates": [8.27111, 50]
+  },
+  {
+    "wikidataId": "Q116531",
+    "label": "Atina, Lazio",
+    "coordinates": [13.798438797350553, 41.620499997560486]
+  },
+  {
+    "wikidataId": "Q174019",
+    "label": "Béziers",
+    "coordinates": [3.2161111111111, 43.343333333333]
+  },
+  {
+    "wikidataId": "Q991472",
+    "label": "Yalvaç",
+    "coordinates": [31.183333333333, 38.3]
+  },
+  {
+    "wikidataId": "Q597347",
+    "label": "Ferentium",
+    "coordinates": [12.1325, 42.48861111]
+  },
+  {
+    "wikidataId": "Q6231",
+    "label": "Cremona",
+    "coordinates": [10.033333333333, 45.133333333333]
+  },
+  {
+    "wikidataId": "Q13142",
+    "label": "Fano",
+    "coordinates": [13.019755555556, 43.843530555556]
+  },
+  {
+    "wikidataId": "Q16134",
+    "label": "Benevento Province",
+    "coordinates": [14.783333333333, 41.133333333333]
+  },
+  {
+    "wikidataId": "Q1398480",
+    "label": "Volsinii",
+    "coordinates": [11.9858, 42.6447]
+  },
+  {
+    "wikidataId": "Q2623043",
+    "label": "Lago del Turano",
+    "coordinates": [12.956572222222, 42.210977777778]
+  },
+  {
+    "wikidataId": "Q528042",
+    "label": "Dalmatia",
+    "coordinates": [16.218756, 43.812761]
+  },
+  {
+    "wikidataId": "Q463459",
+    "label": "Samnium",
+    "coordinates": [14.23611111111111, 41.169444444444444]
+  },
+  {
+    "wikidataId": "Q2281073",
+    "label": "Sicca",
+    "coordinates": [8.704167, 36.173611]
+  },
+  {
+    "wikidataId": "Q18287233",
+    "label": "Rome",
+    "coordinates": [12.485277777777778, 41.89222222222222]
+  },
+  { "wikidataId": "Q29", "label": "Spain", "coordinates": [-3.5, 40.2] },
+  {
+    "wikidataId": "Q20559",
+    "label": "Spello",
+    "coordinates": [12.666666666667, 42.983333333333]
+  },
+  {
+    "wikidataId": "Q2028",
+    "label": "Verona",
+    "coordinates": [10.992777777777778, 45.43861111111111]
+  },
+  {
+    "wikidataId": "Q17151",
+    "label": "Thessaloniki",
+    "coordinates": [22.935555555555556, 40.640277777777776]
+  },
+  {
+    "wikidataId": "Q6221",
+    "label": "Brescia",
+    "coordinates": [10.220280555556, 45.538888888889]
+  },
+  {
+    "wikidataId": "Q1447",
+    "label": "Apulia",
+    "coordinates": [16.512777777778, 41.008611111111]
+  },
+  {
+    "wikidataId": "Q1135603",
+    "label": "Thyatira",
+    "coordinates": [27.8416666667, 38.9208333333]
+  },
+  {
+    "wikidataId": "Q319242",
+    "label": "Caesarea Maritima",
+    "coordinates": [34.899722222222, 32.5]
+  },
+  {
+    "wikidataId": "Q102911",
+    "label": "Holland",
+    "coordinates": [4.667, 52.25]
+  },
+  {
+    "wikidataId": "Q1256",
+    "label": "Liguria",
+    "coordinates": [8.7666666666667, 44.45]
+  },
+  { "wikidataId": "Q971609", "label": "Dacia", "coordinates": [26.5, 45.7] },
+  {
+    "wikidataId": "Q53216",
+    "label": "Aquileia",
+    "coordinates": [13.366666666667, 45.766666666667]
+  },
+  {
+    "wikidataId": "Q281345",
+    "label": "Corsica and Sardinia",
+    "coordinates": [9.05, 39.25]
+  },
+  {
+    "wikidataId": "Q6616",
+    "label": "Poitiers",
+    "coordinates": [0.33527777777778, 46.581111111111]
+  },
+  {
+    "wikidataId": "Q12837",
+    "label": "Iberian Peninsula",
+    "coordinates": [-4.2391666666667, 40.24]
+  },
+  {
+    "wikidataId": "Q13625",
+    "label": "Vibo Valentia",
+    "coordinates": [16.0959, 38.675277777778]
+  },
+  {
+    "wikidataId": "Q20103",
+    "label": "Assisi",
+    "coordinates": [12.6175, 43.07]
+  },
+  {
+    "wikidataId": "Q216791",
+    "label": "Hispania Tarraconensis",
+    "coordinates": [1.2552, 41.1165]
+  },
+  {
+    "wikidataId": "Q4656",
+    "label": "Pula",
+    "coordinates": [13.833333333333, 44.866666666667]
+  },
+  {
+    "wikidataId": "Q45829",
+    "label": "Ptolemais",
+    "coordinates": [20.951888888889, 32.707138888889]
+  },
+  {
+    "wikidataId": "Q10561876",
+    "label": "Q10561876",
+    "coordinates": [15.4161, 59.4062]
+  },
+  { "wikidataId": "Q34", "label": "Sweden", "coordinates": [15, 61] },
+  {
+    "wikidataId": "Q10678488",
+    "label": "Q10678488",
+    "coordinates": [13.821944444444, 57.552638888889]
+  },
+  {
+    "wikidataId": "Q10671268",
+    "label": "Skön",
+    "coordinates": [17.3515, 62.44866667]
+  },
+  {
+    "wikidataId": "Q10512441",
+    "label": "Gävle Parish",
+    "coordinates": [17.138055555556, 60.672777777778]
+  },
+  {
+    "wikidataId": "Q5473073",
+    "label": "Forum Novum",
+    "coordinates": [12.6039, 42.3306]
+  },
+  {
+    "wikidataId": "Q583038",
+    "label": "Ostrogothic Kingdom",
+    "coordinates": [12.2, 44.416667]
+  },
+  { "wikidataId": "Q142", "label": "France", "coordinates": [2, 47] },
+  {
+    "wikidataId": "Q7525",
+    "label": "Sevastopol",
+    "coordinates": [33.533333333333, 44.6]
+  },
+  {
+    "wikidataId": "Q3138",
+    "label": "Trier",
+    "coordinates": [6.6413888888889, 49.756666666667]
+  }
+]

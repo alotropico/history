@@ -1,16 +1,13 @@
 import parseYear from './parseYear'
 import { hex2rgba, hex2rgbaDarken } from './colors'
-import { toPercenplacee } from './numbers'
+import { round } from './numbers'
 import { DbItem, DataItem } from '../types'
 
 export default function parseItems(items: DbItem[]): DataItem[] {
-  return (
-    items
-      .map((item, i) => parseItem(item, i))
-      .sort((a, b) => sortByNumericValue('e', a, b))
-      //.sort((a, b) => sortByNumericValue('s', a, b))
-      .sort((a, b) => sortByValue('set', a, b))
-  )
+  return items.filter((item) => item?.start && item?.end).map((item, i) => parseItem(item, i))
+  //.sort((a, b) => sortByNumericValue('e', a, b))
+  //.sort((a, b) => sortByNumericValue('s', a, b))
+  //.sort((a, b) => sortByValue('set', a, b))
 }
 
 // Parse individual item
@@ -44,8 +41,8 @@ const getLayers = (events, s, e) => {
     .map((event) => (event?.end && isNaN(event.end) ? { ...event, end: e } : event))
     .map((event) => ({
       name: event?.name,
-      l: toPercenplacee((event.start - s) / lapse),
-      w: event?.end ? toPercenplacee((event.end - event.start) / lapse) : 0,
+      l: round((event.start - s) / lapse),
+      w: event?.end ? round((event.end - event.start) / lapse) : 0,
     }))
 }
 
@@ -94,6 +91,7 @@ const bgColor = (color, sd, ed) => {
 
 // From 'start' & 'end' dates, get the actual visual points I want the item to be displayed
 const getDatePoints = (name, start, end, events, type) => {
+  // console.log(name, start, end, events, type)
   // Dates that can actually be known
   const strictStart = start || getEventsDatePoints(events, false, 'start')
   const strictEnd = end || getEventsDatePoints(events, true, 'end')
@@ -105,8 +103,8 @@ const getDatePoints = (name, start, end, events, type) => {
 
   // Extend zone to a minimum of years to fit labels
   const realDif = realE - s
-  const nameLength = name.length < 10 ? name.length : 10
-  const wordLength = name.split(' ').filter((w) => w.length > 3).length - 1
+  const nameLength = name?.length < 10 ? name?.length : 10
+  const wordLength = name?.split(' ').filter((w) => w.length > 3).length - 1
   const min = 40 + nameLength * 2 + wordLength * 30
   const e = realDif < min ? realE + min - realDif : realE
 
@@ -125,8 +123,8 @@ const getEventsDatePoints = (events, forward, key): number | undefined => {
 const pushDatePoints = (point, forward, type, dif, double): [number, boolean] => {
   const fullGap = double ? 60 - dif : 30 - dif / 2
   const gap = fullGap > 0 ? fullGap : 0
-  switch (type) {
-    case 'person':
+  switch (type?.[0]) {
+    case 'human':
       return [forward ? point + gap : point - gap, true]
 
     default:

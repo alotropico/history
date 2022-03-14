@@ -26,8 +26,8 @@ export type DbItem = {
   tax?: 'source' | string
   name: string
   fullName?: string
-  start?: number
-  end?: number
+  start?: any
+  end?: any
   events?: ItemEvent[]
   desc?: string
   place?: string
@@ -37,6 +37,7 @@ export type DbItem = {
   sourceLink?: string
   color?: string
   gender?: string
+  claims?: any
 }
 export type RenderItem = {
   s?: number

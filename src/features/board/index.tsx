@@ -76,14 +76,14 @@ export default function Board({ items, sets, tax }: BoardProps) {
               <Search />
             </Panel>
 
-            <Panel title='Civilizations'>
+            {/* <Panel title='Civilizations'>
               <Selector
                 tax={sets.map((set) => set)}
                 filters={filters}
                 onSetFilter={useCallback(setFilters, [filters])}
                 theme={'big'}
               />
-            </Panel>
+            </Panel> */}
 
             <Panel title='Types'>
               <Selector

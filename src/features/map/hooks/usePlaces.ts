@@ -8,8 +8,8 @@ export default function usePlaces(dictionary: pointsType, currentPlaces: placeTy
 
   useEffect(() => {
     setFilteredPlaces(
-      dictionary.features
-        .map((entry) => {
+      dictionaryToFeatures(dictionary)
+        .features.map((entry) => {
           const renderPlace = currentPlaces.find((place) => place.name === entry.properties.name)
           return renderPlace ? { ...entry, properties: { ...entry.properties, ...renderPlace } } : null
         })
@@ -17,5 +17,20 @@ export default function usePlaces(dictionary: pointsType, currentPlaces: placeTy
     )
   }, [dictionary, currentPlaces])
 
+  // useEffect(() => {
+  //   //console.log(filteredPlaces)
+  // }, [JSON.stringify(filteredPlaces)])
+
   return filteredPlaces
+}
+
+const dictionaryToFeatures = (dictionary: any): any => {
+  return {
+    type: 'FeatureCollection',
+    features: dictionary.map((item) => ({
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: [item.coordinates[0], item.coordinates[1]] },
+      properties: { name: item?.label, wikidataId: item?.wikidataId },
+    })),
+  }
 }

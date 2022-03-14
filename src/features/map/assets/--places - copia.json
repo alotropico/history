@@ -1,0 +1,386 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [24.58, 40.56] },
+      "properties": { "name": "Abdera" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.35, 37.19] },
+      "properties": { "name": "Akragas" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.65026, 41.74691]
+      },
+      "properties": { "name": "Alba Longa" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.55, 31.12]
+      },
+      "properties": { "name": "Alexandria" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.15, 31.48]
+      },
+      "properties": { "name": "Anathoth" }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [52.24, 30.0]
+      },
+      "properties": { "name": "Anshan" }
+    },
+
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.3635, 41.3852] },
+      "properties": { "name": "Arpinum" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26.2013, 39.2916] },
+      "properties": { "name": "Assos" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.4341, 37.5903] },
+      "properties": { "name": "Athens" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [44.25, 32.32] },
+      "properties": { "name": "Babylon" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [29.5503, 40.4545] },
+      "properties": { "name": "Bithynia" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [10.3233, 36.8528] },
+      "properties": { "name": "Carthage" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.25, 41.41] },
+      "properties": { "name": "Cereatae" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [29.0138, 40.5904] },
+      "properties": { "name": "Chalcedon" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [116.23, 39.55] },
+      "properties": { "name": "China" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26.0354, 38.2239] },
+      "properties": { "name": "Chios" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.03, 41.14] },
+      "properties": { "name": "Circeii" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.422, 45.252] },
+      "properties": { "name": "Cisalpine Gaul" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.223, 36.4109] },
+      "properties": { "name": "Cnidus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [25.947, 35.1753] },
+      "properties": { "name": "Cnossos" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.4341, 37.5903] },
+      "properties": { "name": "Colonus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [24.54, 35.12] },
+      "properties": { "name": "Crete" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [24.06, 38.38] },
+      "properties": { "name": "Cyme" }
+    },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [33, 35] }, "properties": { "name": "Cyprus" } },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [21.51, 32.49] },
+      "properties": { "name": "Cyrene" }
+    },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [30, 26] }, "properties": { "name": "Egypt" } },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [15.0918, 40.0939] },
+      "properties": { "name": "Elea" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.32, 38.2] },
+      "properties": { "name": "Eleusis" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [21.5, 40.14] },
+      "properties": { "name": "Elimeia" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.2031, 37.5628] },
+      "properties": { "name": "Ephesus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [22.2938, 41.1639] },
+      "properties": { "name": "Europus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.57, 37.44] },
+      "properties": { "name": "Frearrioi" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.2527, 37.0216] },
+      "properties": { "name": "Halicarnassus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.2453, 41.175] },
+      "properties": { "name": "Heraclea Pontica" }
+    },
+    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [78, 21] }, "properties": { "name": "India" } },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.5, 38.2] },
+      "properties": { "name": "Ionia" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [35.0, 31.4] },
+      "properties": { "name": "Judah" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.14, 36.51] },
+      "properties": { "name": "Kos" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.84, 18.53] },
+      "properties": { "name": "Kush" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26.1648, 39.1236] },
+      "properties": { "name": "Lesbos" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [22.52105, 40.754669] },
+      "properties": { "name": "Macedon" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [22.8, 37.24] },
+      "properties": { "name": "Megalopolis" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.204, 37.5947] },
+      "properties": { "name": "Megara" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.1642, 37.3149] },
+      "properties": { "name": "Miletus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [35.1812, 32.4207] },
+      "properties": { "name": "Nazareth" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [6.36, 36.21] },
+      "properties": { "name": "Numidia" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.354, 40.296] },
+      "properties": { "name": "Olynthus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [11.52, 45.25] },
+      "properties": { "name": "Patavium" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [22.52105, 40.754669] },
+      "properties": { "name": "Pella" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [44.25, 32.32] },
+      "properties": { "name": "Persia" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.52, 43.1] },
+      "properties": { "name": "Picenum" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26.5614, 38.5541] },
+      "properties": { "name": "Pitane" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [35.4959, 40.39] },
+      "properties": { "name": "Pontus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [24.138, 38.1324] },
+      "properties": { "name": "Rhamnus" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.56, 36.1] },
+      "properties": { "name": "Rhodes" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [12.2858, 41.5336] },
+      "properties": { "name": "Rome" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.3, 37.56] },
+      "properties": { "name": "Salamis" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26.5, 37.45] },
+      "properties": { "name": "Samos" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [28.0225, 38.2918] },
+      "properties": { "name": "Sardis" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [2.2108, 48.5124] },
+      "properties": { "name": "Seine basin" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [14.0, 37.3] },
+      "properties": { "name": "Sicily" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [35.0904, 42.0136] },
+      "properties": { "name": "Sinope" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [27.821, 38.257] },
+      "properties": { "name": "Smyrna" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [34.38, 36.48] },
+      "properties": { "name": "Soli" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [22.2525, 37.455] },
+      "properties": { "name": "Sparta" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.4509, 40.3149] },
+      "properties": { "name": "Stagira" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [48.1528, 32.1126] },
+      "properties": { "name": "Susa" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [15.1715, 37.0409] },
+      "properties": { "name": "Syracuse" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [36.18, 33.3] },
+      "properties": { "name": "Syria" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [17.14, 40.28] },
+      "properties": { "name": "Tarentum" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [23.19, 38.19] },
+      "properties": { "name": "Thebes" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [26, 42] },
+      "properties": { "name": "Thracia" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [16.2944, 39.432] },
+      "properties": { "name": "Thurii" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [32.0123, 41.3341] },
+      "properties": { "name": "Tieium" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [12.4239, 41.4754] },
+      "properties": { "name": "Tusculum" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [3.0, 45.2] },
+      "properties": { "name": "West Europe" }
+    }
+  ]
+}

@@ -27,7 +27,7 @@ export default function Card(props) {
 
       {dates && (
         <p className={style.date} style={cardColor}>
-          {place + ', ' + dates}
+          {(Array.isArray(place) ? place[0] : place) + ', ' + dates}
         </p>
       )}
 

@@ -13,7 +13,7 @@ export default function useMapConfig(points: renderPlacesType) {
   return {
     rotate: [-config[0], -config[1], 0],
     tilt: 0,
-    scale: 160 * (180 / config[2]),
+    scale: 360 * (180 / config[2]) * 0.9,
     distance: 2,
   }
 }
@@ -34,5 +34,5 @@ const getCentroid = (arr: [number, number][]): [number, number, number] => {
   const w = maxX - minX
   const h = maxY - minY
   const size = h > w ? h : w
-  return [(minX + maxX) / 2, (minY + maxY) / 2, size < 2 ? 2 : size > 45 ? 45 : size]
+  return [(minX + maxX) / 2, (minY + maxY) / 2, size < 15 ? 15 : size > 45 ? 45 : size]
 }
