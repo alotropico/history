@@ -17,11 +17,11 @@ import { BoardProps } from './types'
 import Map from '../map'
 import Portal from '../../components/portal/portal'
 import usePlaces from './hooks/usePlaces'
-import dif from '../../utils/arrayDif'
+import { arrayDif } from '../../utils/arrays'
 
 export const BoardContext = createContext<any>(() => null)
 
-export default function Board({ items, sets, tax }: BoardProps) {
+export default function Board({ items, tax }: BoardProps) {
   const [filters, setFilters] = useState([])
 
   const [typeFilters, setTypeFilters] = useState([])
@@ -40,7 +40,7 @@ export default function Board({ items, sets, tax }: BoardProps) {
 
   const [renderItems, start, end] = useRenderItems(highlightedItems)
 
-  const dates = `(${end - start} years: ${parseYear(start)} to ${parseYear(end)})`
+  const life = `(${end - start} years: ${parseYear(start)} to ${parseYear(end)})`
 
   const [selected, setSelected] = useState(null)
 
@@ -48,7 +48,7 @@ export default function Board({ items, sets, tax }: BoardProps) {
 
   useEffect(() => {
     setPlaceFilters([])
-  }, [dif(filters), dif(typeFilters)])
+  }, [arrayDif(filters), arrayDif(typeFilters)])
 
   const contextMethods: any = {
     setSelected,
@@ -66,9 +66,9 @@ export default function Board({ items, sets, tax }: BoardProps) {
 
           <aside>
             <header>
-              <h1 className={style.title}>Early Classical Antiquity</h1>
+              <h1 className={style.title}>Spacetime charts</h1>
               <p className={style.status}>
-                {renderItems.filter((item) => item.display).length} items {dates}
+                {renderItems.filter((item) => item.display).length} items {life}
               </p>
             </header>
 
@@ -85,14 +85,14 @@ export default function Board({ items, sets, tax }: BoardProps) {
               />
             </Panel> */}
 
-            <Panel title='Types'>
+            {/* <Panel title='Types'>
               <Selector
                 tax={tax || []}
                 filters={typeFilters}
                 onSetFilter={useCallback(setTypeFilters, [typeFilters])}
                 useIcon={true}
               />
-            </Panel>
+            </Panel> */}
 
             <Panel title='Places' className={style.places}>
               <Selector

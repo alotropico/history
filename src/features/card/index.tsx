@@ -7,7 +7,10 @@ import useClickOutside from '../../hooks/useClickOutside'
 import { useRef } from 'react'
 
 export default function Card(props) {
-  const { set, name, fullName, place, dates, theme, desc, source, sourceLink, events, e, handleClose } = props
+  const { handleClose, name, fullName, theme, events, properties, e: end, set } = props
+
+  const { imageUrl, life, desc, claims } = properties
+  const { occupation } = claims
 
   const title = fullName || name
 
@@ -18,6 +21,13 @@ export default function Card(props) {
   const ref = useRef(null)
   useClickOutside(ref, () => handleClose())
 
+  const links = {
+    ...(properties?.wikidataId && { wikidataId: properties.wikidataId }),
+    ...(properties?.wikipediaId && { wikipediaId: properties.wikipediaId }),
+    google: title,
+    youtube: title,
+  }
+
   return (
     <div className={style.card} ref={ref}>
       <div className={style.top}>
@@ -25,17 +35,30 @@ export default function Card(props) {
         <Cross onClick={handleClose} className={style.cross} />
       </div>
 
-      {dates && (
-        <p className={style.date} style={cardColor}>
-          {(Array.isArray(place) ? place[0] : place) + ', ' + dates}
-        </p>
+      {set && <p>{set}</p>}
+
+      {life && (
+        <div className={style.date} style={cardColor}>
+          {life.map((item) => {
+            const { label, date, place, comment } = item
+            return (
+              <p key={label}>
+                <span className={style.label}>{label}:</span>{' '}
+                {(place || date) && (
+                  <span className={style.spacetime}>{[place, date].filter((i) => i).join(', ')}</span>
+                )}{' '}
+                {comment && <span className={style.comment}>{comment}</span>}
+              </p>
+            )
+          })}
+        </div>
       )}
 
-      <Events events={events} bottomSeparator={Boolean(desc)} itemEnd={e} />
+      <Events events={events} tags={occupation} bottomSeparator={Boolean(desc)} itemEnd={end} />
 
-      <Desc desc={desc} source={source} sourceLink={sourceLink} />
+      <Desc image={imageUrl} desc={desc} />
 
-      <Links fullName={fullName} name={name} place={place} set={set} />
+      <Links links={links} />
     </div>
   )
 }

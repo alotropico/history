@@ -268,5 +268,6 @@
       "page-break-before",
       "page-break-inside"
     ]
-  }
+  },
+  "colorize.languages": ["typescript", "javascript", "css", "scss"]
 }

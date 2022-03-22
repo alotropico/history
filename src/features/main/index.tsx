@@ -1,14 +1,14 @@
 import useItems from '../../api/useItems'
 import Board from '../board'
 import useGetTaxonomies from './hooks/useGetTaxonomies'
-import useParseRawData from './hooks/useParseRawData'
+import useParseData from './parser/useParseData'
 
 export default function Main() {
-  const { data, error } = useItems('rome')
+  const { data, error } = useItems('test')
 
-  const { items, sets } = useParseRawData(data)
+  const items = useParseData(data)
 
-  const { taxonomies, places } = useGetTaxonomies(items)
+  const { taxonomies } = useGetTaxonomies(items)
 
-  return <>{data && <Board items={items} sets={sets} tax={taxonomies} places={places} />}</>
+  return <>{data && <Board items={items} tax={taxonomies} />}</>
 }

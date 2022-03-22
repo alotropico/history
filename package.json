@@ -5,6 +5,7 @@
   "homepage": "/history",
   "dependencies": {
     "@geo-maps/world-land-100m": "^0.5.0",
+    "@js-temporal/polyfill": "^0.4.0",
     "@types/node": "^16.11.19",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",

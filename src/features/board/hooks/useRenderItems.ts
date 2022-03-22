@@ -11,9 +11,9 @@ export default function useRenderItems(
   // Get start and end times from displayed items
   const displayedItems = items.filter((item) => item.display)
   const start =
-    forcedStart || displayedItems.reduce((a: any, item) => (!a || (item?.s && a > item.s) ? item.s : a), null) || -100
+    forcedStart || displayedItems.reduce((a: any, item) => (!a || (item?.s && a > item.s) ? item.s : a), null) || 0
   const end =
-    forcedEnd || displayedItems.reduce((a: any, item) => (!a || (item?.e && a < item.e) ? item.e : a), null) || 0
+    forcedEnd || displayedItems.reduce((a: any, item) => (!a || (item?.e && a < item.e) ? item.e : a), null) || 2000
 
   return [displayedItems.length ? insertSpatialData(items, start, end) : [], start, end]
 }

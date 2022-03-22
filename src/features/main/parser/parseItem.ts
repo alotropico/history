@@ -1,30 +1,32 @@
-import parseYear from './parseYear'
-import { hex2rgba, hex2rgbaDarken } from './colors'
-import { round } from './numbers'
-import { DbItem, DataItem } from '../types'
-
-export default function parseItems(items: DbItem[]): DataItem[] {
-  return items.filter((item) => item?.start && item?.end).map((item, i) => parseItem(item, i))
-  //.sort((a, b) => sortByNumericValue('e', a, b))
-  //.sort((a, b) => sortByNumericValue('s', a, b))
-  //.sort((a, b) => sortByValue('set', a, b))
-}
+import { hex2rgba, hex2rgbaDarken } from '../../../utils/colors'
+import { round } from '../../../utils/numbers'
+import { ParsedItem, DataItem } from '../../../types'
+import getDateLegend from '../../../utils/getDateLegend'
 
 // Parse individual item
-const parseItem = (item: DbItem, i): DataItem => {
-  const type = item?.type || 'person'
+export default function parseItem(item: ParsedItem): DataItem {
+  // console.log(item)
+  const type = item?.type?.[0] || 'human'
   const { s, e, ev, sd, ed } = getDatePoints(item.name, item?.start, item?.end, item?.events || [], type)
+
+  const icon = getIcon(item.events || [])
+
   return {
     ...item,
-    theme: {
-      ...item.theme,
-      background: bgColor(item?.color || item.theme.color, sd, ed),
-      layerBackground: hex2rgbaDarken(item?.color || item.theme.color, 0.5),
+    properties: {
+      ...(item?.properties && item.properties),
+      life: getDateLegend(
+        item?.start,
+        item?.end,
+        item?.properties?.claims?.residence?.[0],
+        item?.properties?.claims?.birth?.[0],
+        item?.properties?.claims?.death?.[0]
+      ),
     },
-    icon: getIcon(item.tax || '', item.events || []),
+    theme: {
+      ...(icon && { icon }),
+    },
     layers: item?.events ? getLayers(item.events, s, ev) : [],
-    id: item.set + '-' + i,
-    dates: datesToString(item?.start, item?.end),
     type,
     s,
     e,
@@ -64,32 +66,16 @@ const authority = [
 ]
 const knowledge = ['scholarch']
 
-const getIcon = (tax, events) => {
-  if (arrayHasWords([{ tax: tax }], 'tax', king)) return 'king'
-  if (arrayHasWords([{ tax: tax }], 'tax', authority)) return 'authority'
-  if (arrayHasWords([{ tax: tax }], 'tax', knowledge)) return 'knowledge'
+const getIcon = (events) => {
   if (arrayHasWords(events, 'name', king)) return 'king'
   if (arrayHasWords(events, 'name', authority)) return 'authority'
   if (arrayHasWords(events, 'name', knowledge)) return 'knowledge'
-  if (tax) return tax
 }
 
 const arrayHasWords = (ar, prop, words) =>
   ar.some((a) => words.some((word) => a?.[prop]?.toLowerCase().indexOf(word) > -1))
 
-const bgColor = (color, sd, ed) => {
-  const solid = hex2rgba(color, 0.9)
-  const alpha = hex2rgba(color, 0)
-  return sd && ed
-    ? `linear-gradient(90deg, ${alpha} 0%, ${solid} 30%, ${solid} 50%, ${solid} 70%, ${alpha} 100%)`
-    : sd
-    ? `linear-gradient(90deg, ${alpha} 0%, ${solid} 30%, ${solid} 100%)`
-    : ed
-    ? `linear-gradient(90deg, ${solid} 0%, ${solid} 70%, ${alpha} 100%)`
-    : solid
-}
-
-// From 'start' & 'end' dates, get the actual visual points I want the item to be displayed
+// From 'start' & 'end' life, get the actual visual points I want the item to be displayed
 const getDatePoints = (name, start, end, events, type) => {
   // console.log(name, start, end, events, type)
   // Dates that can actually be known
@@ -105,7 +91,7 @@ const getDatePoints = (name, start, end, events, type) => {
   const realDif = realE - s
   const nameLength = name?.length < 10 ? name?.length : 10
   const wordLength = name?.split(' ').filter((w) => w.length > 3).length - 1
-  const min = 40 + nameLength * 2 + wordLength * 30
+  const min = 60 + nameLength * 4 + wordLength * 10
   const e = realDif < min ? realE + min - realDif : realE
 
   return { s, e, ev: realE, sd, ed }
@@ -123,32 +109,12 @@ const getEventsDatePoints = (events, forward, key): number | undefined => {
 const pushDatePoints = (point, forward, type, dif, double): [number, boolean] => {
   const fullGap = double ? 60 - dif : 30 - dif / 2
   const gap = fullGap > 0 ? fullGap : 0
-  switch (type?.[0]) {
+  switch (type) {
     case 'human':
+    case 'human who may be fictional':
       return [forward ? point + gap : point - gap, true]
 
     default:
       return [point, false]
   }
-}
-
-const datesToString = (start, end): string => {
-  const dates: any = []
-  start ? dates.push(start) : dates.push('unknown')
-  end && dates.push(end)
-  return dates.every((d) => d === 'unknown')
-    ? 'unknown dates'
-    : dates.map((y) => parseYear(y)).join(' - ') + getAge(start, end)
-}
-
-const getAge = (start, end): string => {
-  return !start || !end ? '' : ` (aged ~ ${end - start})`
-}
-
-const sortByValue = (value, a, b): number => {
-  return a?.[value] == b?.[value] ? 0 : a?.[value] > b?.[value] ? 1 : -1
-}
-
-const sortByNumericValue = (value, a, b): number => {
-  return isNaN(a?.[value]) ? (isNaN(b?.[value]) ? 0 : -1) : !isNaN(b?.[value]) ? a?.[value] - b?.[value] : 1
 }

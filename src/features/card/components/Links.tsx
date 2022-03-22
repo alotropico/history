@@ -1,34 +1,61 @@
 import style from '../style/Links.module.scss'
 
-export default function Links({ fullName, name, place, set }) {
-  const title = fullName || name
-
-  const searchId = `${title} ${place || set}`
-
+export default function Links({ links }) {
   return (
     <div className={style.bottom}>
       <ul>
-        <li>
-          <a href={`https://en.wikipedia.org/w/index.php?search=${title}`} target='_blank' rel='noreferrer'>
-            Wikipedia
-          </a>
-        </li>
-        <li>
-          <a href={`https://www.perseus.tufts.edu/hopper/searchresults?q=${title}`} target='_blank' rel='noreferrer'>
-            Perseus Library
-          </a>
-        </li>
-        <li>
-          <a href={`https://www.google.com/search?q=${searchId}`} target='_blank' rel='noreferrer'>
-            Google
-          </a>
-        </li>
-        <li>
-          <a href={`https://www.youtube.com/results?search_query=${searchId}`} target='_blank' rel='noreferrer'>
-            Youtube
-          </a>
-        </li>
+        {Object.keys(links).map((k) => {
+          const src = getLink(k, links[k])
+
+          return src ? (
+            <li key={k}>
+              <a href={src} target='_blank' rel='noreferrer'>
+                {getLinkText(k)}
+              </a>
+            </li>
+          ) : (
+            ''
+          )
+        })}
       </ul>
     </div>
   )
+}
+
+const getLink = (label, id) => {
+  switch (label) {
+    case 'wikidataId':
+      return `https://www.wikidata.org/wiki/${id}`
+
+    case 'wikipediaId':
+      return `https://en.wikipedia.org/wiki?curid=${id}`
+
+    case 'google':
+      return `https://www.google.com/search?q=${id}`
+
+    case 'youtube':
+      return `https://www.youtube.com/results?search_query=${id}`
+
+    case 'perseus':
+      return `https://www.perseus.tufts.edu/hopper/searchresults?q=${id}`
+
+    default:
+      return null
+  }
+}
+
+const getLinkText = (str) => {
+  switch (str) {
+    case 'wikidataId':
+      return 'Wikidata'
+
+    case 'wikipediaId':
+      return 'Wikipedia'
+
+    case 'google':
+      return 'Google'
+
+    case 'youtube':
+      return 'Youtube'
+  }
 }

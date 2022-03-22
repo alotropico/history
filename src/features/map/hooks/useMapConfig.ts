@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
+import { arrayDif } from '../../../utils/arrays'
 
-import dif from '../../../utils/arrayDif'
 import { renderPlacesType } from '../types'
 
 export default function useMapConfig(points: renderPlacesType) {
@@ -8,12 +8,12 @@ export default function useMapConfig(points: renderPlacesType) {
 
   useEffect(() => {
     setConfig(getCentroid(getCoordinates(points)))
-  }, [dif(points)])
+  }, [arrayDif(points)])
 
   return {
     rotate: [-config[0], -config[1], 0],
     tilt: 0,
-    scale: 360 * (180 / config[2]) * 0.9,
+    scale: config[2],
     distance: 2,
   }
 }
@@ -33,6 +33,6 @@ const getCentroid = (arr: [number, number][]): [number, number, number] => {
   })
   const w = maxX - minX
   const h = maxY - minY
-  const size = h > w ? h : w
-  return [(minX + maxX) / 2, (minY + maxY) / 2, size < 15 ? 15 : size > 45 ? 45 : size]
+  const size = h > w ? 360 * (180 / h) : 360 * (180 / w)
+  return [(minX + maxX) / 2, (minY + maxY) / 2, size < 15 ? 15 : size > 3000 ? 3000 : size]
 }

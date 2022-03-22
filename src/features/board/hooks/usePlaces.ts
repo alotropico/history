@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
+import { arrayDif } from '../../../utils/arrays'
 
-import dif from '../../../utils/arrayDif'
 import { placeType } from '../types'
 
 export default function usePlaces(items): placeType[] {
@@ -30,7 +30,7 @@ export default function usePlaces(items): placeType[] {
       })
 
     setPlaces(Object.entries(newPlaces).map((item) => item[1]))
-  }, [dif(items)])
+  }, [arrayDif(items)])
 
   return places
 }

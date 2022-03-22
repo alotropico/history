@@ -7,9 +7,7 @@ import Icon from '../../../components/icons'
 import style from '../style/Item.module.scss'
 
 export default function Item(props: ItemProps) {
-  const { set, name, fullName, dates, spatial, theme, tabIndex, highlight, display, layers, icon } = props
-
-  const title = `${fullName || name} ${dates && `(${dates})`}`
+  const { name, spatial, theme, tabIndex, highlight, display, layers, icon } = props
 
   const setClass = [highlight ? style.highlight : '']
 

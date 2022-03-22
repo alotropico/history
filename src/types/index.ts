@@ -1,44 +1,51 @@
-type ItemTypes = 'person' | 'battle' | 'period' | 'event' | string
-
-export type DbTheme = {
-  match: string
-  color: string
-}
-
-export type DbSetInfo = {
-  name: string
-  color?: string
-  lightColor?: string
-  themes?: DbTheme[]
-  place?: string
-}
-export type DbSet = {
-  info: DbSetInfo
-  items: DbItem[]
-}
-export type ItemEvent = {
+type eventType = {
   name?: string
   start?: number | 'end' | string
   end?: number | 'end' | string
 }
-export type DbItem = {
-  type?: ItemTypes
-  tax?: 'source' | string
-  name: string
-  fullName?: string
+
+type claimsType = {
+  type?: string[]
   start?: any
   end?: any
-  events?: ItemEvent[]
-  desc?: string
-  place?: string
-  set?: string
-  theme?: any
-  source?: string
-  sourceLink?: string
-  color?: string
-  gender?: string
-  claims?: any
+  events?: any[]
+  birth?: string[]
+  residence?: string[]
+  death?: string[]
+  occupation?: string[]
+  country?: string[]
 }
+
+export type DbItem = {
+  name?: string
+  title?: string
+  extract?: string
+  imageUrl?: string
+  pageid?: string
+  wikidataId?: string
+  id: string
+  claims?: claimsType
+}
+
+export type ParsedItem = {
+  id: string
+  name: string
+  fullName: string
+  type?: string
+  start?: number
+  end?: number
+  place?: string[]
+  events?: eventType[]
+  properties: {
+    extract?: string
+    imageUrl?: string
+    pageid?: string
+    wikidataId?: string
+    life?: string
+    claims?: claimsType
+  }
+}
+
 export type RenderItem = {
   s?: number
   e?: number
@@ -46,17 +53,22 @@ export type RenderItem = {
   sd?: boolean
   ed?: boolean
 }
-export type DataItem = DbItem &
+
+export type DataItem = ParsedItem &
   RenderItem & {
-    id: string
-    type: ItemTypes
-    dates: string
-    theme?: any
+    theme: {
+      color?: string
+      icon?: string
+      background?: string
+      layerBackground?: string
+    }
     display?: boolean
     displayId?: boolean | string
     layers?: { name?: string; l: number; w: number }[]
     icon?: string
+    set?: string
   }
+
 export type SpatialItem = DataItem & {
   set: string
   highlight?: boolean

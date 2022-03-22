@@ -62,7 +62,14 @@ export default function Map({ places }: MapProps) {
                 const { color, reach } = d.properties
                 return (
                   centroid[0] && (
-                    <circle r={10 + reach / 2} fill={'#' + color} key={i} cx={centroid[0]} cy={centroid[1]} />
+                    <circle
+                      r={10 + reach / 2}
+                      fill={'#' + color}
+                      key={i}
+                      cx={centroid[0]}
+                      cy={centroid[1]}
+                      onMouseEnter={() => console.log(d.properties)}
+                    />
                   )
                 )
               })}
