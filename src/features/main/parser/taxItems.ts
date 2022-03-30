@@ -22,9 +22,7 @@ export default function taxItems(items: DataItem[]): DataItem[] {
     .sort((a, b) => sortByValue('count', b, a))
     .map((country, i) => ({ ...country, color: getRandomHex(i) }))
 
-  console.log(
-    colors.forEach((i) => console.log(`%c ${i.key} - ${i.count} `, 'background: #' + i.color + '; color: #ffffff'))
-  )
+  // colors.forEach((i) => console.log(`%c ${i.key} - ${i.count} `, 'background: #' + i.color + '; color: #ffffff'))
 
   const ret = items
     .map((item) => {

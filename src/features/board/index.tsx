@@ -16,7 +16,7 @@ import parseYear from '../../utils/parseYear'
 import { BoardProps } from './types'
 import Map from '../map'
 import Portal from '../../components/portal/portal'
-import usePlaces from './hooks/usePlaces'
+import useTaxonomies from './hooks/useTaxonomies'
 import { arrayDif } from '../../utils/arrays'
 
 export const BoardContext = createContext<any>(() => null)
@@ -32,9 +32,11 @@ export default function Board({ items, tax }: BoardProps) {
 
   const filteredItems = useFilterItems(items, [
     { filters, prop: 'set' },
-    { filters: typeFilters, prop: 'icon' },
-    { filters: placeFilters, prop: 'place' },
+    { filters: typeFilters, prop: 'occupation' },
+    { filters: placeFilters, prop: 'country' },
   ])
+
+  console.log(items)
 
   const highlightedItems = useHighlightItems(filteredItems, highlights)
 
@@ -44,7 +46,9 @@ export default function Board({ items, tax }: BoardProps) {
 
   const [selected, setSelected] = useState(null)
 
-  const places = usePlaces(filteredItems)
+  const types = useTaxonomies(filteredItems, 'occupation')
+
+  const places = useTaxonomies(filteredItems, 'country')
 
   useEffect(() => {
     setPlaceFilters([])
@@ -85,14 +89,9 @@ export default function Board({ items, tax }: BoardProps) {
               />
             </Panel> */}
 
-            {/* <Panel title='Types'>
-              <Selector
-                tax={tax || []}
-                filters={typeFilters}
-                onSetFilter={useCallback(setTypeFilters, [typeFilters])}
-                useIcon={true}
-              />
-            </Panel> */}
+            <Panel title='Types'>
+              <Selector tax={types || []} filters={typeFilters} onSetFilter={useCallback(setTypeFilters, [types])} />
+            </Panel>
 
             <Panel title='Places' className={style.places}>
               <Selector
@@ -102,9 +101,9 @@ export default function Board({ items, tax }: BoardProps) {
               />
             </Panel>
 
-            <Panel className={style.map}>
+            {/* <Panel className={style.map}>
               <Map places={places.filter((p) => (placeFilters.length ? placeFilters.includes(p.name) : true))} />
-            </Panel>
+            </Panel> */}
           </aside>
         </div>
       </div>

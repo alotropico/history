@@ -91,7 +91,7 @@ const getDatePoints = (name, start, end, events, type) => {
   const realDif = realE - s
   const nameLength = name?.length < 10 ? name?.length : 10
   const wordLength = name?.split(' ').filter((w) => w.length > 3).length - 1
-  const min = 60 + nameLength * 4 + wordLength * 10
+  const min = 20 + nameLength * 2 + wordLength * 2
   const e = realDif < min ? realE + min - realDif : realE
 
   return { s, e, ev: realE, sd, ed }
@@ -107,7 +107,7 @@ const getEventsDatePoints = (events, forward, key): number | undefined => {
 
 // Move beginning and finishing datePoints according to item type
 const pushDatePoints = (point, forward, type, dif, double): [number, boolean] => {
-  const fullGap = double ? 60 - dif : 30 - dif / 2
+  const fullGap = double ? 50 - dif : 25 - dif / 2
   const gap = fullGap > 0 ? fullGap : 0
   switch (type) {
     case 'human':

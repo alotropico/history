@@ -4,7 +4,7 @@ import * as d3g from 'd3-geo-projection'
 // import world from './assets/world-land-low.geo.json'
 import world from './assets/world.geo.json'
 import points from './assets/places.json'
-import usePlaces from './hooks/usePlaces'
+import useTaxonomies from './hooks/usePlaces'
 import useMapConfig from './hooks/useMapConfig'
 
 import { MapProps } from './types'
@@ -16,7 +16,7 @@ const canvasH = 960 // * 0.62 // 484
 export default function Map({ places }: MapProps) {
   const mapFeatures = world.features
 
-  const pointFeatures = usePlaces(points, places)
+  const pointFeatures = useTaxonomies(points, places)
 
   const mapConfig = useMapConfig(pointFeatures)
 

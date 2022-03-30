@@ -18,7 +18,7 @@ const getFilteredItems = (items: DataItems, filterCollection: any): DataItems =>
 
     filterCollection.forEach((filtersObject) => {
       const { filters, prop } = filtersObject
-      if (display && filters.length && !arrayIsOnArray(filters, item?.[prop])) {
+      if (display && filters.length && !arrayIsOnArray(filters, item?.properties?.claims?.[prop])) {
         display = false
         displayId = filtersObject.prop
       }

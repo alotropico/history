@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { pointsType, renderPlacesType } from '../types'
 import { placeType } from '../../board/types'
 
-export default function usePlaces(dictionary: pointsType, currentPlaces: placeType[]): renderPlacesType {
+export default function useTaxonomies(dictionary: pointsType, currentPlaces: placeType[]): renderPlacesType {
   const [filteredPlaces, setFilteredPlaces] = useState<any>([])
 
   useEffect(() => {

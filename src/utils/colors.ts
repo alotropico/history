@@ -12,50 +12,93 @@ const hex2rgbaDarken = (hex, alpha = 1) => {
 }
 
 const colors = [
-  '#c42e2e',
-  '#d6487e',
-  '#8a0b26',
-  '#ce0fb5',
-  '#8d0492',
-  '#680381',
-  '#641bb8',
-  '#7d1ccc',
-  '#4d25bd',
-  '#4b5ec4',
-  '#4a7cda',
-  '#0d689c',
-  '#127467',
-  '#0fa195',
-  '#198b4c',
-  '#0f9e2e',
-  '#4ac72b',
-  '#669753',
-  '#93b80d',
-  '#899707',
-  '#b6aa0a',
-  '#a36d0f',
-  '#684f1a',
-  '#68391a',
-  '#af5855',
-  '#be3150',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
-  '#7c2147',
+  '8012ed',
+  '890de8',
+  '9309e2',
+  '9d06dc',
+  'a703d4',
+  'b002cd',
+  'b901c5',
+  'c201bc',
+  'ca01b3',
+  'd203aa',
+  'd905a0',
+  'e00897',
+  'e60b8d',
+  'ec1083',
+  'f11579',
+  'f51b6f',
+  'f82165',
+  'fb285b',
+  'fd3052',
+  'fe3849',
+  'ff4040',
+  'fe4938',
+  'fd5230',
+  'fb5b28',
+  'f86521',
+  'f56f1b',
+  'f17915',
+  'ec8310',
+  'e68d0b',
+  'e09708',
+  'd9a005',
+  'd2aa03',
+  'cab301',
+  'c2bc01',
+  'b9c501',
+  'b0cd02',
+  'a7d403',
+  '9ddc06',
+  '93e209',
+  '89e80d',
+  '80ed12',
+  '76f217',
+  '6cf61d',
+  '62f923',
+  '58fc2b',
+  '4ffd32',
+  '46fe3a',
+  '3dfe43',
+  '35fe4c',
+  '2dfc55',
+  '26fa5f',
+  '1ff768',
+  '19f472',
+  '13ef7c',
+  '0eea86',
+  '0ae490',
+  '07de9a',
+  '04d7a4',
+  '02cfad',
+  '01c7b6',
+  '01bfbf',
+  '01b6c7',
+  '02adcf',
+  '04a4d7',
+  '079ade',
+  '0a90e4',
+  '0e86ea',
+  '137cef',
+  '1972f4',
+  '1f68f7',
+  '265ffa',
+  '2d55fc',
+  '354cfe',
+  '3d43fe',
+  '463afe',
+  '4f32fd',
+  '582bfc',
+  '6223f9',
+  '6c1df6',
+  '7617f2',
 ]
 
 let colorCount = -1
 const getRandomHex = (id: any = false) => {
   colorCount++
   if (colorCount >= colors.length) colorCount = 0
-  const color = colors[id !== false ? id : colorCount].replace('#', '')
+  const color = colors[id !== false ? id : colorCount]
   // console.log(`%c ${color} `, 'background: #' + color + '; color: #ffffff')
   return color
 }
@@ -72,6 +115,27 @@ const stringToColour = (str) => {
   }
   return colour
 }
+
+const size = 80
+const rainbow = new Array(size)
+
+for (let i = 0; i < size; i++) {
+  const red = sin_to_hex(i, (0 * Math.PI * 2) / 3) // 0   deg
+  const blue = sin_to_hex(i, (1 * Math.PI * 2) / 3) // 120 deg
+  const green = sin_to_hex(i, (2 * Math.PI * 2) / 3) // 240 deg
+
+  rainbow[i] = '#' + red + green + blue
+}
+
+function sin_to_hex(i, phase) {
+  const sin = Math.sin((Math.PI / size) * 2 * i + phase)
+  const int = Math.floor(sin * 127) + 128
+  const hex = int.toString(16)
+
+  return hex.length === 1 ? '0' + hex : hex
+}
+
+console.log(rainbow)
 
 // const getRandomHex = () => colors[Math.round(Math.random() * (colors.length - 1))]
 

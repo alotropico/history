@@ -4,12 +4,12 @@ const getItemName = (s) => {
   return (
     s
       .replace(/ *\([^)]*\) */g, '')
-      .replace(/,.*$/, '')
-      .replace(/of.*$/, '')
+      // .replace(/,.*$/, '')
+      // .replace(/of.*$/, '')
       .split(' ')
       .map((i) => i.trim())
       .filter((i) => i?.length > 3)
-      .pop() ||
+      .join(' ') ||
     s ||
     'unnamed'
   )
