@@ -1,6 +1,7 @@
 .events {
   font-family: var(--font-family-serif);
   font-size: 16px;
+  margin-bottom: 1rem;
   padding: 0 0 1rem 0;
 
   &.bottomSeparator {
@@ -26,6 +27,30 @@
         white-space: nowrap;
         flex: 1 1 70%;
         overflow: hidden;
+      }
+    }
+  }
+}
+
+.tags {
+  font-family: monospace;
+  margin-bottom: 1rem;
+
+  &.bottomSeparator {
+    border-bottom: 1px solid rgba(#34343a, 0.14);
+  }
+
+  & > * {
+    display: inline-block;
+    margin-right: 0.5rem;
+
+    &:after {
+      content: ', ';
+    }
+
+    &:last-child {
+      &::after {
+        content: '';
       }
     }
   }

@@ -17,8 +17,8 @@ const getFilteredItems = (items: DataItems, filterCollection: any): DataItems =>
     let displayId = item.displayId || false
 
     filterCollection.forEach((filtersObject) => {
-      const { filters } = filtersObject
-      if (display && filters.length && !filters.includes(item?.[filtersObject.prop])) {
+      const { filters, prop } = filtersObject
+      if (display && filters.length && !arrayIsOnArray(filters, item?.properties?.claims?.[prop])) {
         display = false
         displayId = filtersObject.prop
       }
@@ -27,3 +27,9 @@ const getFilteredItems = (items: DataItems, filterCollection: any): DataItems =>
     return { ...item, display, displayId }
   })
 }
+
+const arrayIsOnArray = (ar1, ar2) =>
+  ar1.some((a) => {
+    const ar2a = Array.isArray(ar2) ? ar2 : [ar2]
+    return ar2a.includes(a)
+  })

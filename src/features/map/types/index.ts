@@ -3,7 +3,7 @@ import { placeType } from '../../board/types'
 
 export type pointsType = typeof points
 
-export type renderPlacesType = typeof points.features[0] &
+export type renderPlacesType = typeof points[0] &
   {
     properties: placeType
   }[] &

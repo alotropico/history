@@ -17,11 +17,11 @@ const getHighlightedItems = (items: DataItems, highlight: string): DataItems => 
   return items.map((item) => {
     const textSearch = highlight.toLowerCase()
     const isHighlight =
-      item.name.toLowerCase().indexOf(textSearch) > -1 ||
-      (item?.fullName && item.fullName.toLowerCase().indexOf(textSearch) > -1) ||
+      item.name?.toLowerCase()?.indexOf(textSearch) > -1 ||
+      (item?.fullName && item.fullName.toLowerCase().indexOf(textSearch) > -1) /* ||
       (item?.place && item.place.toLowerCase().indexOf(textSearch) > -1) ||
-      (item?.dates && item.dates.toLowerCase().indexOf(textSearch) > -1) ||
-      (item?.tax && item.tax.toLowerCase().indexOf(textSearch) > -1)
+      (item?.life && item.life.toLowerCase().indexOf(textSearch) > -1) ||
+      (item?.tax && item.tax.toLowerCase().indexOf(textSearch) > -1) */
 
     return isHighlight ? { ...item, highlight: true, display: true } : item
   })

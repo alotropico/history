@@ -1,386 +1,196 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [24.58, 40.56] },
-      "properties": { "name": "Abdera" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.35, 37.19] },
-      "properties": { "name": "Akragas" }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [12.65026, 41.74691]
-      },
-      "properties": { "name": "Alba Longa" }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [29.55, 31.12]
-      },
-      "properties": { "name": "Alexandria" }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [35.15, 31.48]
-      },
-      "properties": { "name": "Anathoth" }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [52.24, 30.0]
-      },
-      "properties": { "name": "Anshan" }
-    },
-
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.3635, 41.3852] },
-      "properties": { "name": "Arpinum" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.2013, 39.2916] },
-      "properties": { "name": "Assos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.4341, 37.5903] },
-      "properties": { "name": "Athens" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [44.25, 32.32] },
-      "properties": { "name": "Babylon" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [29.5503, 40.4545] },
-      "properties": { "name": "Bithynia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [10.3233, 36.8528] },
-      "properties": { "name": "Carthage" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.25, 41.41] },
-      "properties": { "name": "Cereatae" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [29.0138, 40.5904] },
-      "properties": { "name": "Chalcedon" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [116.23, 39.55] },
-      "properties": { "name": "China" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.0354, 38.2239] },
-      "properties": { "name": "Chios" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.03, 41.14] },
-      "properties": { "name": "Circeii" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [9.422, 45.252] },
-      "properties": { "name": "Cisalpine Gaul" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.223, 36.4109] },
-      "properties": { "name": "Cnidus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [25.947, 35.1753] },
-      "properties": { "name": "Cnossos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.4341, 37.5903] },
-      "properties": { "name": "Colonus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [24.54, 35.12] },
-      "properties": { "name": "Crete" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [24.06, 38.38] },
-      "properties": { "name": "Cyme" }
-    },
-    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [33, 35] }, "properties": { "name": "Cyprus" } },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [21.51, 32.49] },
-      "properties": { "name": "Cyrene" }
-    },
-    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [30, 26] }, "properties": { "name": "Egypt" } },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [15.0918, 40.0939] },
-      "properties": { "name": "Elea" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.32, 38.2] },
-      "properties": { "name": "Eleusis" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [21.5, 40.14] },
-      "properties": { "name": "Elimeia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.2031, 37.5628] },
-      "properties": { "name": "Ephesus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.2938, 41.1639] },
-      "properties": { "name": "Europus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.57, 37.44] },
-      "properties": { "name": "Frearrioi" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.2527, 37.0216] },
-      "properties": { "name": "Halicarnassus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [31.2453, 41.175] },
-      "properties": { "name": "Heraclea Pontica" }
-    },
-    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [78, 21] }, "properties": { "name": "India" } },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.5, 38.2] },
-      "properties": { "name": "Ionia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.0, 31.4] },
-      "properties": { "name": "Judah" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.14, 36.51] },
-      "properties": { "name": "Kos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [31.84, 18.53] },
-      "properties": { "name": "Kush" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.1648, 39.1236] },
-      "properties": { "name": "Lesbos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.52105, 40.754669] },
-      "properties": { "name": "Macedon" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.8, 37.24] },
-      "properties": { "name": "Megalopolis" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.204, 37.5947] },
-      "properties": { "name": "Megara" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.1642, 37.3149] },
-      "properties": { "name": "Miletus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.1812, 32.4207] },
-      "properties": { "name": "Nazareth" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [6.36, 36.21] },
-      "properties": { "name": "Numidia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.354, 40.296] },
-      "properties": { "name": "Olynthus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [11.52, 45.25] },
-      "properties": { "name": "Patavium" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.52105, 40.754669] },
-      "properties": { "name": "Pella" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [44.25, 32.32] },
-      "properties": { "name": "Persia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [13.52, 43.1] },
-      "properties": { "name": "Picenum" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.5614, 38.5541] },
-      "properties": { "name": "Pitane" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.4959, 40.39] },
-      "properties": { "name": "Pontus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [24.138, 38.1324] },
-      "properties": { "name": "Rhamnus" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.56, 36.1] },
-      "properties": { "name": "Rhodes" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.2858, 41.5336] },
-      "properties": { "name": "Rome" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.3, 37.56] },
-      "properties": { "name": "Salamis" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26.5, 37.45] },
-      "properties": { "name": "Samos" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [28.0225, 38.2918] },
-      "properties": { "name": "Sardis" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [2.2108, 48.5124] },
-      "properties": { "name": "Seine basin" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [14.0, 37.3] },
-      "properties": { "name": "Sicily" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [35.0904, 42.0136] },
-      "properties": { "name": "Sinope" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [27.821, 38.257] },
-      "properties": { "name": "Smyrna" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [34.38, 36.48] },
-      "properties": { "name": "Soli" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [22.2525, 37.455] },
-      "properties": { "name": "Sparta" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.4509, 40.3149] },
-      "properties": { "name": "Stagira" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [48.1528, 32.1126] },
-      "properties": { "name": "Susa" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [15.1715, 37.0409] },
-      "properties": { "name": "Syracuse" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [36.18, 33.3] },
-      "properties": { "name": "Syria" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [17.14, 40.28] },
-      "properties": { "name": "Tarentum" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [23.19, 38.19] },
-      "properties": { "name": "Thebes" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [26, 42] },
-      "properties": { "name": "Thracia" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [16.2944, 39.432] },
-      "properties": { "name": "Thurii" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [32.0123, 41.3341] },
-      "properties": { "name": "Tieium" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [12.4239, 41.4754] },
-      "properties": { "name": "Tusculum" }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [3.0, 45.2] },
-      "properties": { "name": "West Europe" }
-    }
-  ]
-}
+[
+  { "wikidataId": "Q583490", "label": "Antissa", "coordinates": [25.98027778, 39.23333333] },
+  { "wikidataId": "Q5690", "label": "Sparta", "coordinates": [22.423611111111, 37.081944444444] },
+  { "wikidataId": "Q5680", "label": "Nineveh", "coordinates": [43.15, 36.366667] },
+  { "wikidataId": "Q41137", "label": "Assyrian Empire", "coordinates": [43.3, 36] },
+  { "wikidataId": "Q1747689", "label": "Ancient Rome", "coordinates": [12.48, 41.89] },
+  { "wikidataId": "Q201272", "label": "Paros", "coordinates": [25.183333333333, 37.05] },
+  { "wikidataId": "Q188527", "label": "Naxos Island", "coordinates": [25.466666666667, 37.083333333333] },
+  { "wikidataId": "Q220", "label": "Rome", "coordinates": [12.482777777778, 41.893055555556] },
+  { "wikidataId": "Q237614", "label": "Nimrud", "coordinates": [43.328888888889, 36.098055555556] },
+  { "wikidataId": "Q5684", "label": "Babylon", "coordinates": [44.431644444444, 32.541780555556] },
+  { "wikidataId": "Q1218", "label": "Jerusalem", "coordinates": [35.216666666667, 31.783333333333] },
+  { "wikidataId": "Q48685", "label": "Judah", "coordinates": [35.099825, 31.532569] },
+  { "wikidataId": "Q11768", "label": "Ancient Egypt", "coordinates": [31.3, 29.8] },
+  { "wikidataId": "Q865988", "label": "Ancient Linzi", "coordinates": [118.3554, 36.8829] },
+  { "wikidataId": "Q210287", "label": "Qufu", "coordinates": [116.98333333333, 35.6] },
+  { "wikidataId": "Q12996889", "label": "Chinaamiram", "coordinates": [81.49527778, 16.54055556] },
+  { "wikidataId": "Q29520", "label": "China", "coordinates": [105, 35] },
+  { "wikidataId": "Q9213", "label": "Lumbini", "coordinates": [83.275829, 27.4814] },
+  { "wikidataId": "Q825673", "label": "Kushinagar", "coordinates": [83.888888888889, 26.740277777778] },
+  { "wikidataId": "Q668", "label": "India", "coordinates": [83, 22.8] },
+  { "wikidataId": "Q837", "label": "Nepal", "coordinates": [84, 28] },
+  { "wikidataId": "Q30610827", "label": "Kapilavastu", "coordinates": [83.054978, 27.576455] },
+  { "wikidataId": "Q156882", "label": "Samos", "coordinates": [26.8333, 37.75] },
+  { "wikidataId": "Q1058770", "label": "Metapontum", "coordinates": [16.816763888889, 40.416077777778] },
+  { "wikidataId": "Q6681", "label": "Crotone", "coordinates": [17.116666666667, 39.083333333333] },
+  { "wikidataId": "Q837855", "label": "Qi", "coordinates": [118.3, 36.8167] },
+  { "wikidataId": "Q912068", "label": "Wu", "coordinates": [120.6, 31.3] },
+  { "wikidataId": "Q47611", "label": "Ephesus", "coordinates": [27.348611, 37.939722] },
+  { "wikidataId": "Q389688", "label": "Achaemenid Empire", "coordinates": [44.42083333, 32.53638889] },
+  { "wikidataId": "Q189901", "label": "Argos", "coordinates": [22.729166666666668, 37.63333333333333] },
+  { "wikidataId": "Q272968", "label": "Velia", "coordinates": [15.154444444444, 40.159444444444] },
+  { "wikidataId": "Q794", "label": "Iran", "coordinates": [53, 32] },
+  { "wikidataId": "Q3746183", "label": "Persis", "coordinates": [52, 30] },
+  { "wikidataId": "Q1142488", "label": "Colophon", "coordinates": [27.14222222, 38.11555556] },
+  { "wikidataId": "Q1524", "label": "Athens", "coordinates": [23.728055555555557, 37.98416666666667] },
+  { "wikidataId": "Q844930", "label": "Classical Athens", "coordinates": [23.71666667, 37.96666667] },
+  { "wikidataId": "Q17586", "label": "Teos", "coordinates": [26.785, 38.177222222222] },
+  { "wikidataId": "Q230025", "label": "Pasargadae", "coordinates": [53.179444444444, 30.2] },
+  { "wikidataId": "Q83311", "label": "Persian Empire", "coordinates": [53, 33] },
+  { "wikidataId": "Q17", "label": "Japan", "coordinates": [136, 35] },
+  { "wikidataId": "Q6064174", "label": "Ioulis", "coordinates": [24.34, 37.64] },
+  { "wikidataId": "Q13678", "label": "Agrigento", "coordinates": [13.576547222222, 37.311075] },
+  { "wikidataId": "Q4420718", "label": "ancient Syracuse", "coordinates": [15.28333333, 37.08333333] },
+  { "wikidataId": "Q2839314", "label": "Alopeke", "coordinates": [23.75, 37.95] },
+  { "wikidataId": "Q863683", "label": "Rajgir", "coordinates": [85.42, 25.03] },
+  { "wikidataId": "Q1457477", "label": "Megara Hyblaea", "coordinates": [15.18194444, 37.20388889] },
+  { "wikidataId": "Q184864", "label": "Megara", "coordinates": [23.3423, 37.9949] },
+  { "wikidataId": "Q166919", "label": "Thessalia", "coordinates": [22.2, 39.6] },
+  { "wikidataId": "Q169460", "label": "Miletus", "coordinates": [27.275556, 37.531111] },
+  { "wikidataId": "Q232615", "label": "Sardis", "coordinates": [28.040278, 38.488333] },
+  { "wikidataId": "Q6948303", "label": "Myrkinos", "coordinates": [23.819776, 40.901252] },
+  { "wikidataId": "Q180773", "label": "Susa", "coordinates": [48.25, 32.2] },
+  { "wikidataId": "Q160483", "label": "Chios", "coordinates": [26.016666666667, 38.4] },
+  { "wikidataId": "Q128087", "label": "Lesbos", "coordinates": [26.28, 39.21] },
+  { "wikidataId": "Q23725", "label": "Byzantium", "coordinates": [28.984722222222, 41.015277777778] },
+  { "wikidataId": "Q27163866", "label": "Lake Regillus", "coordinates": [12.693055555556, 41.879722222222] },
+  { "wikidataId": "Q651101", "label": "Gaomi", "coordinates": [119.75, 36.383333333333] },
+  { "wikidataId": "Q198370", "label": "Zibo", "coordinates": [118.049722, 36.783056] },
+  { "wikidataId": "Q1356616", "label": "Jianli", "coordinates": [112.90186, 29.82395] },
+  { "wikidataId": "Q42622", "label": "Suzhou", "coordinates": [120.61642, 31.30401] },
+  { "wikidataId": "Q202422", "label": "Salamis Island", "coordinates": [23.493055555556, 37.965555555556] },
+  { "wikidataId": "Q194450", "label": "Thermopylae", "coordinates": [22.535785, 38.797617] },
+  { "wikidataId": "Q191082", "label": "Aegina", "coordinates": [23.49, 37.73] },
+  { "wikidataId": "Q3836325", "label": "Epizephyrian Locri", "coordinates": [16.23677, 38.20779] },
+  { "wikidataId": "Q47690", "label": "Babylonia", "coordinates": [44.5, 32.5] },
+  { "wikidataId": "Q3660711", "label": "Haran", "coordinates": [39.2167, 36.85] },
+  { "wikidataId": "Q1810451", "label": "Tahpanhes", "coordinates": [32.171388888889, 30.860555555556] },
+  { "wikidataId": "Q103011", "label": "Corinth", "coordinates": [22.927222222222223, 37.93861111111111] },
+  { "wikidataId": "Q5715", "label": "Memphis", "coordinates": [31.25934, 29.85412] },
+  { "wikidataId": "Q1295830", "label": "Yingshang County", "coordinates": [116.25619, 32.63584] },
+  { "wikidataId": "Q43407", "label": "Shandong", "coordinates": [118.4, 36.4] },
+  { "wikidataId": "Q34756", "label": "Qin", "coordinates": [106.993575, 33.049117] },
+  { "wikidataId": "Q128904", "label": "Elam", "coordinates": [52.4, 29.9] },
+  { "wikidataId": "Q2537068", "label": "Andania", "coordinates": [21.9482, 37.2679] },
+  { "wikidataId": "Q43048", "label": "Rhodes", "coordinates": [28, 36.166666666667] },
+  { "wikidataId": "Q1247159", "label": "Messenia", "coordinates": [21.8333, 37.25] },
+  { "wikidataId": "Q6076774", "label": "Pyrrha", "coordinates": [26.25, 39.1667] },
+  { "wikidataId": "Q368628", "label": "Sicyon", "coordinates": [22.711145, 37.984104] },
+  { "wikidataId": "Q13670", "label": "Syracuse", "coordinates": [15.2875, 37.069166666667] },
+  { "wikidataId": "Q204905", "label": "Eleusis", "coordinates": [23.54527778, 38.04138889] },
+  { "wikidataId": "Q39971", "label": "Gela", "coordinates": [14.25, 37.066666666667] },
+  { "wikidataId": "Q1432674", "label": "Magnesia on the Maeander", "coordinates": [27.527104, 37.852692] },
+  { "wikidataId": "Q214109", "label": "Kea", "coordinates": [24.34, 37.6125] },
+  { "wikidataId": "Q645234", "label": "Tegea", "coordinates": [22.428524, 37.464359] },
+  { "wikidataId": "Q122443", "label": "Attica", "coordinates": [23.81, 38.0027] },
+  { "wikidataId": "Q3305786", "label": "Mende", "coordinates": [23.422644, 39.963784] },
+  { "wikidataId": "Q41", "label": "Greece", "coordinates": [23, 38.5] },
+  { "wikidataId": "Q302511", "label": "Heraclea Pontica", "coordinates": [31.414722222222, 41.284722222222] },
+  { "wikidataId": "Q1006561", "label": "Decelea", "coordinates": [23.77861111, 38.11] },
+  { "wikidataId": "Q217414", "label": "Amphipolis", "coordinates": [23.847767, 40.823773] },
+  { "wikidataId": "Q5024669", "label": "Calynda", "coordinates": [28.835833, 36.750278] },
+  { "wikidataId": "Q181109", "label": "Acanthus", "coordinates": [23.885983, 40.393962] },
+  { "wikidataId": "Q837807", "label": "Zhaoge", "coordinates": [114.19416666666666, 35.602222222222224] },
+  { "wikidataId": "Q1583181", "label": "Sigeion", "coordinates": [26.18055556, 39.99] },
+  { "wikidataId": "Q689896", "label": "Abbey library of St. Gallen", "coordinates": [9.3764, 47.4228] },
+  { "wikidataId": "Q16990", "label": "Mount Etna", "coordinates": [14.993220288812111, 37.7508345148182] },
+  { "wikidataId": "Q38888", "label": "Olympia", "coordinates": [21.630833333333, 37.638333333333] },
+  { "wikidataId": "Q171882", "label": "Larnaca", "coordinates": [33.633333333333, 34.916666666667] },
+  { "wikidataId": "Q767089", "label": "Salamis", "coordinates": [33.9, 35.183333333333] },
+  { "wikidataId": "Q4951156", "label": "Sicily", "coordinates": [14.266666666667, 37.566666666667] },
+  { "wikidataId": "Q187027", "label": "Kos", "coordinates": [27.110277777778, 36.815277777778] },
+  { "wikidataId": "Q1234405", "label": "Fidenae", "coordinates": [12.512264, 41.978544] },
+  { "wikidataId": "Q677935", "label": "Veii", "coordinates": [12.401388888889, 42.023888888889] },
+  { "wikidataId": "Q10259759", "label": "Bozcaada", "coordinates": [26.028888888889, 39.821944444444] },
+  { "wikidataId": "Q4894643", "label": "Spartolos", "coordinates": [23.1667, 40.3333] },
+  { "wikidataId": "Q1018156", "label": "Ialysos", "coordinates": [28.15, 36.416666666667] },
+  { "wikidataId": "Q5843680", "label": "Halicarnassus", "coordinates": [27.424167, 37.037778] },
+  { "wikidataId": "Q8257871", "label": "Boeotia Regional Unit", "coordinates": [23.083333333333, 38.416666666667] },
+  { "wikidataId": "Q8777773", "label": "Skotoussa (Thessaly)", "coordinates": [22.5833, 39.5833] },
+  { "wikidataId": "Q1292498", "label": "Caulonia", "coordinates": [16.57875, 38.44541667] },
+  { "wikidataId": "Q1903", "label": "Catania", "coordinates": [15.087269444444, 37.502669444444] },
+  { "wikidataId": "Q1363688", "label": "Ancient Corinth", "coordinates": [22.878741, 37.905785] },
+  { "wikidataId": "Q2359730", "label": "Stymphalos", "coordinates": [22.459311111111, 37.859319444444] },
+  { "wikidataId": "Q1160195", "label": "Mantineia", "coordinates": [22.383333333333, 37.616666666667] },
+  { "wikidataId": "Q5860679", "label": "Lepreon", "coordinates": [21.724552, 37.440283] },
+  { "wikidataId": "Q1235930", "label": "Colonus", "coordinates": [23.715278, 37.995833] },
+  { "wikidataId": "Q13422916", "label": "Atene", "coordinates": [23.96, 37.68] },
+  { "wikidataId": "Q602564", "label": "Thurii", "coordinates": [16.47111111, 39.695] },
+  { "wikidataId": "Q213679", "label": "Pella", "coordinates": [22.519167, 40.76] },
+  { "wikidataId": "Q536598", "label": "Klazomenai", "coordinates": [26.76758333, 38.35816667] },
+  { "wikidataId": "Q1229422", "label": "Lampsacus", "coordinates": [26.683611, 40.343889] },
+  { "wikidataId": "Q188615", "label": "Abdera", "coordinates": [24.98305556, 40.95] },
+  { "wikidataId": "Q37495", "label": "Ionian Sea", "coordinates": [19, 38] },
+  { "wikidataId": "Q32579", "label": "Phrygia", "coordinates": [31, 39] },
+  { "wikidataId": "Q129072", "label": "Persepolis", "coordinates": [52.891388888889, 29.934444444444] },
+  { "wikidataId": "Q1768553", "label": "Rhamnous", "coordinates": [24.027221944444, 38.223333055556] },
+  { "wikidataId": "Q1481525", "label": "Kydonia", "coordinates": [24.019485, 35.517291] },
+  { "wikidataId": "Q6514", "label": "Dardanelles", "coordinates": [26.4, 40.2] },
+  { "wikidataId": "Q23822737", "label": "Arginusae", "coordinates": [26.79028, 39.00528] },
+  { "wikidataId": "Q189059", "label": "Mytilene", "coordinates": [26.5536, 39.1047] },
+  { "wikidataId": "Q6343", "label": "Carthage", "coordinates": [10.323461, 36.852558] },
+  { "wikidataId": "Q870517", "label": "Odrysian kingdom", "coordinates": [25.71, 41.98] },
+  { "wikidataId": "Q16562724", "label": "Eretria", "coordinates": [23.790167, 38.39709] },
+  { "wikidataId": "Q41741", "label": "Thrace", "coordinates": [26, 42] },
+  { "wikidataId": "Q3641694", "label": "Bolae", "coordinates": [12.888307, 41.839323] },
+  { "wikidataId": "Q487174", "label": "Noto", "coordinates": [15.083333333333, 36.883333333333] },
+  { "wikidataId": "Q495936", "label": "Caronia", "coordinates": [14.433333333333, 38.016666666667] },
+  { "wikidataId": "Q593295", "label": "Koroneia, Boeotia", "coordinates": [22.95944444, 38.34916667] },
+  { "wikidataId": "Q1237536", "label": "Xichuan County", "coordinates": [111.48216, 33.13754] },
+  { "wikidataId": "Q615449", "label": "Cyzicus", "coordinates": [27.799873, 40.399836] },
+  { "wikidataId": "Q1184284", "label": "Delium", "coordinates": [23.64910126, 38.34798392] },
+  { "wikidataId": "Q321371", "label": "Bosporan Kingdom", "coordinates": [37.04, 45.26] },
+  { "wikidataId": "Q11091440", "label": "Zeng (state)", "coordinates": [113.34488888888889, 31.730888888888888] },
+  { "wikidataId": "Q1018197", "label": "Eresos", "coordinates": [25.933055555556, 39.166666666667] },
+  { "wikidataId": "Q190138", "label": "Lefkada", "coordinates": [20.643889, 38.717778] },
+  { "wikidataId": "Q1317936", "label": "Mesembria (Pontus)", "coordinates": [27.733353, 42.658737] },
+  { "wikidataId": "Q75459", "label": "Delphi", "coordinates": [22.5, 38.483333333333] },
+  { "wikidataId": "Q13526212", "label": "Ikarion", "coordinates": [23.8908555, 38.1050635] },
+  { "wikidataId": "Q696193", "label": "Ecbatana", "coordinates": [48.516247, 34.8065] },
+  { "wikidataId": "Q42295059", "label": "Mytilene", "coordinates": [26.5621, 39.1114] },
+  { "wikidataId": "Q54614", "label": "Gioia Tauro", "coordinates": [15.9, 38.433333333333] },
+  { "wikidataId": "Q185068", "label": "Urartu", "coordinates": [43.3425, 38.5] },
+  { "wikidataId": "Q44112", "label": "Cyrene", "coordinates": [21.85, 32.816666666667] },
+  { "wikidataId": "Q7623270", "label": "Phigalia", "coordinates": [21.8391, 37.3963] },
+  { "wikidataId": "Q995656", "label": "Karystos", "coordinates": [24.420275, 38.015791666667] },
+  { "wikidataId": "Q38060", "label": "Gaul", "coordinates": [2.9, 46.5] },
+  { "wikidataId": "Q1611219", "label": "Munichia", "coordinates": [23.658, 37.94] },
+  { "wikidataId": "Q204096", "label": "Thasos", "coordinates": [24.666666666667, 40.666666666667] },
+  { "wikidataId": "Q5409865", "label": "Euonymon", "coordinates": [23.738603388889, 37.916835694444] },
+  { "wikidataId": "Q769709", "label": "Kifisia", "coordinates": [23.81666667, 38.08333333] },
+  { "wikidataId": "Q3411612", "label": "Upper Paiania", "coordinates": [23.844008, 37.974635] },
+  { "wikidataId": "Q43684", "label": "Henan", "coordinates": [113.5, 33.9] },
+  { "wikidataId": "Q1141295", "label": "Thespiae", "coordinates": [23.1549, 38.2935] },
+  { "wikidataId": "Q173148", "label": "Delos", "coordinates": [25.271111111111, 37.393333333333] },
+  { "wikidataId": "Q82070", "label": "Tyre", "coordinates": [35.2, 33.266666666667] },
+  { "wikidataId": "Q2006096", "label": "Ramoth-Gilead", "coordinates": [36.016666666667, 32.5] },
+  { "wikidataId": "Q1757438", "label": "Samaria", "coordinates": [35.195, 32.276111] },
+  { "wikidataId": "Q170054", "label": "Arcadia Prefecture", "coordinates": [22.375, 37.508333] },
+  { "wikidataId": "Q208379", "label": "Tel Megiddo", "coordinates": [35.184444444444445, 32.585277777777776] },
+  { "wikidataId": "Q1294629", "label": "Samaria", "coordinates": [35.26062, 32.14306] },
+  { "wikidataId": "Q2002121", "label": "Tirzah", "coordinates": [35.3378, 32.2874] },
+  { "wikidataId": "Q79", "label": "Egypt", "coordinates": [29, 27] },
+  { "wikidataId": "Q569107", "label": "Anshan", "coordinates": [52.407777777778, 30.011666666667] },
+  { "wikidataId": "Q483159", "label": "Syr Dar", "coordinates": [71.7575, 40.9] },
+  { "wikidataId": "Q922329", "label": "Pisa", "coordinates": [21.654, 37.644] },
+  { "wikidataId": "Q211230", "label": "Syros", "coordinates": [24.9, 37.45] },
+  { "wikidataId": "Q142819", "label": "Priene", "coordinates": [27.297778, 37.659722] },
+  { "wikidataId": "Q135028", "label": "Nubia", "coordinates": [32.2558, 18.9508] },
+  { "wikidataId": "Q2914898", "label": "Jezreel", "coordinates": [35.327952777778, 32.557852777778] },
+  { "wikidataId": "Q12874064", "label": "Messini", "coordinates": [22, 37.05] },
+  { "wikidataId": "Q650271", "label": "Alimus", "coordinates": [36.160389, 36.202667] },
+  { "wikidataId": "Q1460", "label": "Sicily", "coordinates": [14.015377777778, 37.599958333333] },
+  { "wikidataId": "Q614510", "label": "Gabii", "coordinates": [12.715833333333334, 41.88688888888889] },
+  { "wikidataId": "Q1502156", "label": "Heraclea Minoa", "coordinates": [13.280747222222, 37.393952777778] },
+  { "wikidataId": "Q192860", "label": "Gallipoli", "coordinates": [26.455, 40.367222222222] },
+  { "wikidataId": "Q428732", "label": "Phocaea", "coordinates": [26.758055555556, 38.6675] },
+  { "wikidataId": "Q243456", "label": "Cumae", "coordinates": [14.053611, 40.848611] },
+  { "wikidataId": "Q241790", "label": "Kush", "coordinates": [33.83, 17.18] },
+  { "wikidataId": "Q1049", "label": "Sudan", "coordinates": [32, 15] },
+  { "wikidataId": "Q200133", "label": "Chalkida", "coordinates": [23.595, 38.4625] },
+  { "wikidataId": "Q173096", "label": "Euboea", "coordinates": [24, 38.5] },
+  { "wikidataId": "Q1231662", "label": "Dyme", "coordinates": [21.551425, 38.144625] },
+  { "wikidataId": "Q5760", "label": "Thebes", "coordinates": [23.323611111111, 38.324166666667] },
+  { "wikidataId": "Q335070", "label": "Alba Longa", "coordinates": [12.65026, 41.74691] }
+]

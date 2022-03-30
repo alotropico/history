@@ -1,4 +1,4 @@
-import { DataItem, SpatialItems, DbSetInfo } from '../../../types'
+import { DataItem, SpatialItems } from '../../../types'
 
 export type placeType = {
   name: string
@@ -8,9 +8,7 @@ export type placeType = {
 
 export type BoardProps = {
   items: DataItem[]
-  sets: DbSetInfo[]
   tax: any[]
-  places: any[]
 }
 
 export type useRenderItemsRet = [SpatialItems, number, number]
