@@ -1,4 +1,4 @@
-import { createContext, useCallback, useEffect, useState } from 'react'
+import { createContext, useState } from 'react'
 
 import Canvas from '../canvas'
 import Scale from '../scale'
@@ -8,7 +8,6 @@ import Selector from '../selector'
 import Search from '../search'
 
 import style from './style/Board.module.scss'
-import useFilterItems from './hooks/useFilterItems'
 import useHighlightItems from './hooks/useHighlightItems'
 import useRenderItems from './hooks/useRenderItems'
 import parseYear from '../../utils/parseYear'
@@ -16,28 +15,15 @@ import parseYear from '../../utils/parseYear'
 import { BoardProps } from './types'
 import Map from '../map'
 import Portal from '../../components/portal/portal'
-import useTaxonomies from './hooks/useTaxonomies'
-import { arrayDif } from '../../utils/arrays'
+import useFilterSets from './hooks/useFilterSets'
 
 export const BoardContext = createContext<any>(() => null)
 
-export default function Board({ items, tax }: BoardProps) {
-  const [filters, setFilters] = useState([])
-
-  const [typeFilters, setTypeFilters] = useState([])
-
-  const [placeFilters, setPlaceFilters] = useState<any>([])
+export default function Board({ items }: BoardProps) {
+  const [filteredItems, filterSets, userInput, changeUserInput, places, placeFilters, setPlaceFilters] =
+    useFilterSets(items)
 
   const [highlights, setHighlights] = useState('')
-
-  const filteredItems = useFilterItems(items, [
-    { filters, prop: 'set' },
-    { filters: typeFilters, prop: 'occupation' },
-    { filters: placeFilters, prop: 'country' },
-  ])
-
-  console.log(items)
-
   const highlightedItems = useHighlightItems(filteredItems, highlights)
 
   const [renderItems, start, end] = useRenderItems(highlightedItems)
@@ -45,14 +31,6 @@ export default function Board({ items, tax }: BoardProps) {
   const life = `(${end - start} years: ${parseYear(start)} to ${parseYear(end)})`
 
   const [selected, setSelected] = useState(null)
-
-  const types = useTaxonomies(filteredItems, 'occupation')
-
-  const places = useTaxonomies(filteredItems, 'country')
-
-  useEffect(() => {
-    setPlaceFilters([])
-  }, [arrayDif(filters), arrayDif(typeFilters)])
 
   const contextMethods: any = {
     setSelected,
@@ -76,34 +54,28 @@ export default function Board({ items, tax }: BoardProps) {
               </p>
             </header>
 
-            <Panel title='Highlight'>
+            <Panel title='Highlight' className={style.highlight}>
               <Search />
             </Panel>
 
-            {/* <Panel title='Civilizations'>
-              <Selector
-                tax={sets.map((set) => set)}
-                filters={filters}
-                onSetFilter={useCallback(setFilters, [filters])}
-                theme={'big'}
-              />
-            </Panel> */}
+            {filterSets.map((set, i) => (
+              <Panel
+                title={`${set.name} (${userInput[i].length}/${set.children.length})`}
+                key={set.name}
+                className={style.asidePanel}
+                openDefault={false}>
+                <Selector
+                  tax={set.children}
+                  filters={userInput?.[i] ? userInput[i] : []}
+                  onSetFilter={changeUserInput}
+                  id={i}
+                />
+              </Panel>
+            ))}
 
-            <Panel title='Types'>
-              <Selector tax={types || []} filters={typeFilters} onSetFilter={useCallback(setTypeFilters, [types])} />
-            </Panel>
-
-            <Panel title='Places' className={style.places}>
-              <Selector
-                tax={places || []}
-                filters={placeFilters}
-                onSetFilter={useCallback(setPlaceFilters, [placeFilters])}
-              />
-            </Panel>
-
-            {/* <Panel className={style.map}>
+            <Panel className={style.map}>
               <Map places={places.filter((p) => (placeFilters.length ? placeFilters.includes(p.name) : true))} />
-            </Panel> */}
+            </Panel>
           </aside>
         </div>
       </div>

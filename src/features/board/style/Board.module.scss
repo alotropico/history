@@ -17,8 +17,7 @@ header {
     font-weight: inherit;
     font-weight: lighter;
     letter-spacing: 1px;
-    margin: 0 0 0.75rem;
-    padding: 0;
+    margin: 0.5rem 0;
 
     span {
       opacity: 0.5;
@@ -43,18 +42,24 @@ aside {
   flex-direction: column;
   gap: 1rem;
   justify-content: flex-start;
-  padding-top: 1rem;
+  justify-content: flex-start;
   width: 380px;
+  height: 100vh;
   max-height: 100%;
   background-color: rgba(white, 0.05);
   border-left: 1px solid rgba(white, 0.1);
 
-  .places {
-    flex: 1 1 auto;
-    height: 10px;
+  // .places {
+  //   flex: 1 1 auto;
+  //   height: 10px;
+  // }
+
+  .highlight {
+    flex-shrink: 0;
   }
 
   .map {
+    flex-shrink: 0;
     margin-top: auto;
     border-top: 1px solid rgba(white, 0.1);
 
@@ -65,6 +70,12 @@ aside {
       overflow: hidden;
     }
   }
+}
+
+.asidePanel {
+  flex: 0 1 auto;
+  min-height: calc(1em);
+  overflow: hidden;
 }
 
 main {

@@ -8,7 +8,6 @@ export type placeType = {
 
 export type BoardProps = {
   items: DataItem[]
-  tax: any[]
 }
 
 export type useRenderItemsRet = [SpatialItems, number, number]

@@ -5,5 +5,6 @@ export type CategoriesProps = {
   filters: string[]
   useIcon?: boolean
   onSetFilter: Function
+  id: number
   theme?: 'big'
 }

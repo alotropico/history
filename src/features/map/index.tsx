@@ -11,7 +11,7 @@ import { MapProps } from './types'
 import style from './style/Map.module.scss'
 
 const canvasW = 960
-const canvasH = 960 // * 0.62 // 484
+const canvasH = 960 * 0.7 // * 0.62 // 484
 
 export default function Map({ places }: MapProps) {
   const mapFeatures = world.features

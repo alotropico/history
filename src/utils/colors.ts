@@ -11,7 +11,7 @@ const hex2rgbaDarken = (hex, alpha = 1) => {
   return `rgba(${r},${g},${b}, ${alpha})`
 }
 
-const colors = [
+const colorsPalette = [
   '8012ed',
   '890de8',
   '9309e2',
@@ -94,11 +94,13 @@ const colors = [
   '7617f2',
 ]
 
+const colors = [...colorsPalette.filter((c, i) => !(i % 2)), ...colorsPalette.filter((c, i) => i % 2)]
+
 let colorCount = -1
 const getRandomHex = (id: any = false) => {
   colorCount++
   if (colorCount >= colors.length) colorCount = 0
-  const color = colors[id !== false ? id : colorCount]
+  const color = colors[id]
   // console.log(`%c ${color} `, 'background: #' + color + '; color: #ffffff')
   return color
 }
@@ -134,8 +136,6 @@ function sin_to_hex(i, phase) {
 
   return hex.length === 1 ? '0' + hex : hex
 }
-
-console.log(rainbow)
 
 // const getRandomHex = () => colors[Math.round(Math.random() * (colors.length - 1))]
 

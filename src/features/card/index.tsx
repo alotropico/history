@@ -9,6 +9,8 @@ import { useRef } from 'react'
 export default function Card(props) {
   const { handleClose, name, fullName, theme, events, properties, e: end, set } = props
 
+  console.log(props)
+
   const { imageUrl, life, desc, claims } = properties
   const { occupation } = claims
 

@@ -6,9 +6,10 @@
   height: 100%;
   max-height: calc(100vh - 1rem);
   color: #34343a;
-  background-color: #f3f3f3;
+  background-color: #fcfcfc;
   border-radius: 3px;
   box-shadow: 0 15px 25px rgba(black, 0.6);
+  color-scheme: light;
 
   .top {
     display: flex;
@@ -30,9 +31,10 @@
     font-family: monospace;
     font-size: 1em;
     text-align: center;
+    text-shadow: 1px 1px 0 rgba(white, 0.1);
     margin: 1rem -1rem;
     padding: 0.5rem 1rem;
-    color: white;
+    color: #1e1e20;
 
     p {
       white-space: nowrap;
@@ -42,15 +44,19 @@
 
       .label {
         text-align: right;
-        width: 24%;
-        opacity: 0.7;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 60px;
+        overflow: hidden;
+        opacity: 0.8;
       }
       .spacetime {
+        font-weight: bold;
         text-overflow: ellipsis;
         overflow: hidden;
       }
       .comment {
-        opacity: 0.7;
+        opacity: 0.8;
       }
     }
   }
