@@ -46,38 +46,40 @@ export default function Board({ items }: BoardProps) {
             <Canvas items={renderItems} />
           </main>
 
-          <aside>
-            <header>
-              <h1 className={style.title}>Spacetime charts</h1>
-              <p className={style.status}>
-                {renderItems.filter((item) => item.display).length} items {life}
-              </p>
-            </header>
-
-            <Panel title='Highlight' className={style.highlight}>
-              <Search />
-            </Panel>
-
-            {filterSets.map((set, i) => (
-              <Panel
-                title={`${set.name} (${userInput[i].length}/${set.children.length})`}
-                key={set.name}
-                className={style.asidePanel}
-                openDefault={false}>
-                <Selector
-                  tax={set.children}
-                  filters={userInput?.[i] ? userInput[i] : []}
-                  onSetFilter={changeUserInput}
-                  id={i}
-                />
-              </Panel>
-            ))}
-
-            <Panel className={style.map}>
-              <Map places={places.filter((p) => (placeFilters.length ? placeFilters.includes(p.name) : true))} />
-            </Panel>
-          </aside>
+          <footer>
+            {filterSets.map((set, i) => {
+              const count = userInput[i].length
+              const countTotal = set.children.length
+              const title = `${set.name} [${count ? count + '/' : ''}${countTotal}]`
+              return countTotal ? (
+                <Panel title={title} key={set.name} className={style.asidePanel}>
+                  <Selector
+                    tax={set.children}
+                    filters={userInput?.[i] ? userInput[i] : []}
+                    onSetFilter={changeUserInput}
+                    id={i}
+                  />
+                </Panel>
+              ) : null
+            })}
+          </footer>
         </div>
+        <aside>
+          <header>
+            <h1 className={style.title}>Spacetime charts</h1>
+            <p className={style.status}>
+              {renderItems.filter((item) => item.display).length} items {life}
+            </p>
+          </header>
+
+          <Panel title='Highlight' className={style.asidePanelFixed}>
+            <Search />
+          </Panel>
+
+          <Panel className={style.map}>
+            <Map places={places.filter((p) => (placeFilters.length ? placeFilters.includes(p.name) : true))} />
+          </Panel>
+        </aside>
       </div>
 
       {selected && (

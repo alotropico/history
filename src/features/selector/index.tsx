@@ -24,7 +24,7 @@ export default function Selector({ tax, filters, onSetFilter, theme, id, useIcon
         return taxonomy?.name ? (
           <div key={taxonomy.name} onClick={() => onSetFilter(id, taxonomy?.name)} className={itemClasses}>
             <span style={spanStyle} />
-            {taxonomy.name}
+            {`${taxonomy.name} (${taxonomy.reach})`}
           </div>
         ) : (
           <div key={taxonomy} onClick={() => onSetFilter(id, taxonomy)} className={itemClasses}>

@@ -1,18 +1,18 @@
 import { useEffect, useState } from 'react'
 import { DataItems } from '../../../types'
-import { arrayDif } from '../../../utils/arrays'
+import { arrayDif, sortByValue } from '../../../utils/arrays'
 import useFilterItems from './useFilterItems'
 import useTaxonomies from './useTaxonomies'
 
 const filterSetsConfig = [
+  { key: 'otherLanguages', name: 'Languages' },
   { key: 'country', name: 'Country' },
+  { key: 'ethnicity', name: 'Ethnicity' },
+  { key: 'faction', name: 'Faction' },
+  { key: 'gender', name: 'Gender' },
   { key: 'causeOfDeath', name: 'Cause of Death' },
   { key: 'mannerOfDeath', name: 'Manner of Death' },
   { key: 'occupation', name: 'Occupation' },
-  { key: 'faction', name: 'Faction' },
-  { key: 'otherLanguages', name: 'Languages' },
-  { key: 'ethnicity', name: 'Ethnicity' },
-  { key: 'gender', name: 'Gender' },
 ]
 
 const getFilterSets = (items: DataItems) => {
@@ -49,7 +49,9 @@ const getChildren = (items, id) => {
       }
     })
 
-  return Object.entries(newChildren).map((child) => child[1])
+  return Object.entries(newChildren)
+    .map((child) => child[1])
+    .sort((a, b) => sortByValue('reach', b, a))
 }
 
 export default function useFilterSets(items: DataItems): [DataItems, any[], any[], any, any[], any[], any] {
@@ -90,9 +92,15 @@ export default function useFilterSets(items: DataItems): [DataItems, any[], any[
 
   const changeUserInput = (id, key) => {
     return setUserInput((userInput) =>
-      userInput.map((set, i) =>
-        i !== id ? set : Array.isArray(key) ? key : set.includes(key) ? set.splice(set.indexOf(key), 1) : [...set, key]
-      )
+      userInput.map((set, i) => {
+        return i !== id
+          ? set
+          : Array.isArray(key)
+          ? key
+          : set.includes(key)
+          ? [...set].filter((it) => it !== key)
+          : [...set, key]
+      })
     )
   }
 
