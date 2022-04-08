@@ -51,7 +51,7 @@ export default function Board({ items }: BoardProps) {
               const count = userInput[i].length
               const countTotal = set.children.length
               const title = `${set.name} [${count ? count + '/' : ''}${countTotal}]`
-              return countTotal ? (
+              return (
                 <Panel title={title} key={set.name} className={style.asidePanel}>
                   <Selector
                     tax={set.children}
@@ -60,7 +60,7 @@ export default function Board({ items }: BoardProps) {
                     id={i}
                   />
                 </Panel>
-              ) : null
+              )
             })}
           </footer>
         </div>

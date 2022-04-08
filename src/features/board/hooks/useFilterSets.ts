@@ -5,14 +5,14 @@ import useFilterItems from './useFilterItems'
 import useTaxonomies from './useTaxonomies'
 
 const filterSetsConfig = [
-  { key: 'otherLanguages', name: 'Languages' },
-  { key: 'country', name: 'Country' },
-  { key: 'ethnicity', name: 'Ethnicity' },
-  { key: 'faction', name: 'Faction' },
-  { key: 'gender', name: 'Gender' },
-  { key: 'causeOfDeath', name: 'Cause of Death' },
-  { key: 'mannerOfDeath', name: 'Manner of Death' },
+  { key: 'languages', name: 'Languages' },
+  { key: 'places', name: 'Places' },
+  //{ key: 'ethnicity', name: 'Ethnicity' },
+  //{ key: 'faction', name: 'Faction' },
+  //{ key: 'causeOfDeath', name: 'Cause of Death' },
+  { key: 'death', name: 'Manner of Death' },
   { key: 'occupation', name: 'Occupation' },
+  { key: 'gender', name: 'Gender' },
 ]
 
 const getFilterSets = (items: DataItems) => {

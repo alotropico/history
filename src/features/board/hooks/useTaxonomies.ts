@@ -4,7 +4,7 @@ import { arrayDif } from '../../../utils/arrays'
 import { placeType } from '../types'
 
 export default function useTaxonomies(items, id): placeType[] {
-  const [childs, setChilds] = useState<any>([])
+  const [children, setChildren] = useState<any>([])
 
   useEffect(() => {
     const newChildren: any = {}
@@ -33,8 +33,8 @@ export default function useTaxonomies(items, id): placeType[] {
         }
       })
 
-    setChilds(Object.entries(newChildren).map((child) => child[1]))
+    setChildren(Object.entries(newChildren).map((child) => child[1]))
   }, [arrayDif(items)])
 
-  return childs
+  return children
 }
