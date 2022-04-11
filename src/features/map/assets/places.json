@@ -113,5 +113,6 @@
   { "wikidataId": "Q767089", "label": "Salamis", "coordinates": [33.9, 35.183333333333] },
   { "wikidataId": "Q187027", "label": "Kos", "coordinates": [27.110277777778, 36.815277777778] },
   { "wikidataId": "Q178405", "label": "Larissa", "coordinates": [22.413061, 39.638493] },
-  { "wikidataId": "Q188615", "label": "Abdera", "coordinates": [24.98305556, 40.95] }
+  { "wikidataId": "Q188615", "label": "Abdera", "coordinates": [24.98305556, 40.95] },
+  { "wikidataId": "Q1141295", "label": "Thespiae", "coordinates": [23.1549, 38.2935] }
 ]

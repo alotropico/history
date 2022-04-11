@@ -89,6 +89,11 @@ footer {
 
   & > * {
     flex: 0 1 500px;
+    border-right: 1px solid rgba(white, 0.1);
+
+    &:last-of-type {
+      border-right: none;
+    }
   }
 }
 

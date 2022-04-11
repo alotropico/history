@@ -9,6 +9,8 @@ import { DbItem, DataItem } from '../../../types'
 export default function useParseData(data: DbItem[]): DataItem[] {
   const [items, setItems] = useState<DataItem[]>([])
 
+  console.log(data && data.map((i: any) => i?.wikidataId).join(', '))
+
   useEffect(() => {
     if (data) {
       const parsedItems = data
