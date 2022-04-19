@@ -37,7 +37,7 @@ export default function taxItems(items: DataItem[]): DataItem[] {
       const itemStr = stringifyProperties(item?.properties?.claims, placeProperties)
       const found = colors.find((color) => itemStr.indexOf(color.key) > -1)
       const color = found?.color || '999999'
-      const set = found?.key || 'undefined'
+      const set = found?.key || ''
       return {
         ...item,
         color,

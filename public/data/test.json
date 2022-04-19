@@ -1,5 +1,203 @@
 [
   {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/93px-Christine_de_Pisan_-_cathedra.jpg",
+    "id": "Christine de Pizan",
+    "title": "Christine de Pizan",
+    "pageid": 7628,
+    "extract": "Christine de Pizan or Pisan (French pronunciation: [kʁistin də pizɑ̃] (listen)), born Cristina da Pizzano (September 1364 – c. 1430), was an Italian poet and author at the court of King Charles VI of France and several French dukes. \nVenetian by birth, Christine served as a court writer in medieval France after the death of her husband. Christine's patrons included dukes Louis I of Orleans, Philip the Bold of Burgundy, and his son John the Fearless. Considered to be some of the earliest feminist writings, her work includes novels, poetry, and biography, and she also penned literary, historical, philosophical, political, and religious reviews and analysis. Her best known works include The Book of the City of Ladies and The Treasure of the City of Ladies, both written when she worked for John the Fearless of Burgundy. Her books of advice to princesses, princes, and knights remained in print until the 16th century.\nIn recent decades, Christine's work has been returned to prominence by the efforts of scholars Charity Cannon Willard, Earl Jeffrey Richards, Suzanne Solente, Mathilde Laigle and Marie-Josephe Pinet.",
+    "wikidataId": "Q234816",
+    "claims": {
+      "type": ["human"],
+      "birth": ["Venice"],
+      "death": ["Poissy"],
+      "country": ["France"],
+      "end": { "time": 1430, "precision": 9 },
+      "gender": "female",
+      "otherLanguages": ["Middle French", "Latin", "Italian"],
+      "occupation": ["writer", "poet", "amanuensis", "translator"]
+    }
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IsabellaofCastile03.jpg/81px-IsabellaofCastile03.jpg",
+    "id": "Isabella I of Castile",
+    "title": "Isabella I of Castile",
+    "pageid": 23909513,
+    "extract": "Isabella I (Spanish: Isabel I; 22 April 1451 – 26 November 1504) was Queen of Castile from 1474 until her death in 1504, reigning over a dynastically unified Spain together with her husband, King Ferdinand II of Aragon. She was Queen of Aragon after Ferdinand II ascended to that throne in 1479. Together, Isabella and Ferdinand are known as the Catholic Monarchs.After a struggle to claim the throne, Isabella reorganized the governmental system, brought the crime rate to the lowest it had been in years, and unburdened the kingdom of the enormous debt her half-brother King Henry IV had left behind. Isabella's marriage to Ferdinand in 1469 created the basis of the de facto unification of Spain. Her reforms and those she made with her husband had an influence that extended well beyond the borders of their united kingdoms.\nIsabella I of Castile and Ferdinand II of Aragon are known for being the first monarchs to be referred to as \"Queen of Spain\" and \"King of Spain\" respectively, labeled such for completing the Reconquista, for issuing the Alhambra Decree which ordered the mass expulsion of Jews and Muslims from Spain, for establishing the Spanish Inquisition, for supporting and financing Christopher Columbus's 1492 voyage that led to the discovery of the New World by Europeans and established the Spanish empire, for making Spain a major power in Europe and much of the world, and for ushering in the Spanish Golden Age. Isabella was granted, together with her husband, the title of \"Catholic monarch\" by Pope Alexander VI, and was recognized in 1974 as a Servant of God by the Catholic Church.",
+    "wikidataId": "Q45859",
+    "claims": {
+      "type": ["human"],
+      "birth": ["Monasterio de Nuestra Señora de Gracia"],
+      "death": ["Palacio Testamentario"],
+      "country": ["Crown of Castile"],
+      "set": ["Catholic Monarchs"],
+      "start": { "time": 1451, "precision": 11 },
+      "end": { "time": 1504, "precision": 11 },
+      "gender": "female",
+      "causeOfDeath": "water retention",
+      "otherLanguages": ["Spanish"],
+      "occupation": ["ruler"],
+      "events": [
+        { "name": "Monarch of Castile and Leon", "start": 1474, "end": 1504, "startPrecision": 11, "endPrecision": 11 },
+        { "name": "royal Consort of Aragon", "start": 1479, "end": 1504, "startPrecision": 11, "endPrecision": 11 },
+        { "name": "dynastic union of Aragon and Castile" }
+      ]
+    }
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/LauraCereta.jpg/72px-LauraCereta.jpg",
+    "id": "Laura Cereta",
+    "title": "Laura Cereta",
+    "pageid": 2469532,
+    "extract": "Laura Cereta (September 1469 – 1499), was one of the most notable humanist and feminist writers of fifteenth-century Italy. Cereta was the first to put women’s issues and her friendships with women front and center in her work. Cereta was one of the best scholars in Brescia, Verona, and Venice in 1488–92, known for her writing in the form of letters to other intellectuals. Her letters contained her personal matters and childhood memories, and discussed themes such as women’s education, war, and marriage. Like the first great humanist Petrarch, Cereta claimed to seek fame and immortality through her writing. It appeared that her letters were intended for a general audience.\n\n",
+    "wikidataId": "Q3778073",
+    "claims": {
+      "type": ["human"],
+      "birth": ["Brescia"],
+      "death": ["Brescia"],
+      "start": { "time": 1469, "precision": 9 },
+      "end": { "time": 1499, "precision": 9 },
+      "gender": "female",
+      "otherLanguages": ["Italian"],
+      "occupation": ["writer", "feminist"]
+    }
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Joan_of_Arc_miniature_graded.jpg/67px-Joan_of_Arc_miniature_graded.jpg",
+    "id": "Joan of Arc",
+    "title": "Joan of Arc",
+    "pageid": 16509,
+    "extract": "Joan of Arc (French: Jeanne d'Arc pronounced [ʒan daʁk]; c. 1412 – 30 May 1431), who called herself \"Joan the Maiden\" (\"Jehanne la Pucelle\" in 15th-century French) and is now nicknamed \"The Maid of Orléans\" (French: La Pucelle d'Orléans), is considered a heroine of France for her role during the Lancastrian phase of the Hundred Years' War. She was convicted and burnt at the stake as a heretic, her conviction was later overturned.  Since 1920 she is a saint in the Roman Catholic Church.\nJoan was born to a peasant family at Domrémy in the Vosges of northeast France. In 1428, she traveled to Vaucouleurs and requested to be taken to Charles VII of France, later testifying that she had received visions from the archangel Michael, Saint Margaret, and Saint Catherine instructing her to support Charles and recover France from English domination. Her request to see the king was rejected twice, but eventually the garrison commander Robert de Baudricourt relented and gave her an escort to meet Charles at Chinon. After their interview, Charles sent Joan, who was about 17 years old, to the siege of Orléans as part of a relief army. She arrived at the city on 29 April 1429, and quickly gained prominence for her role in the fighting.  The siege was lifted nine days after her arrival. In June, Joan played a key role in the Loire Campaign, which culminated in the decisive defeat of the English at the Battle of Patay. After the battle, the French army advanced on Reims and entered the city on 16 July. The next day, Charles was consecrated as the King of France in Reims Cathedral with Joan at his side. These victories boosted French morale and paved the way for the final French victory in the Hundred Years' War at Castillon in 1453.\nAfter Charles' consecration, Joan and John II, Duke of Alençon's army besieged Paris. An assault on the city was launched on 8 September. It failed, and Joan was wounded. The French army withdrew and was disbanded. In October, Joan was participating in an attack on the territory of Perrinet Gressart, a mercenary who had been in the service of the English and their French allies, the Burgundians. After some initial successes, the campaign ended in a failed attempt to take Gressart's stronghold at La-Charité-sur-Loire. Joan was back at the French court at the end of the year, where she learned that she and her family had been ennobled by Charles.\nIn May 1430, Joan organized a company of volunteers to relieve Compiègne, which had been besieged by the Burgundians. She was captured by Burgundians troops on 23 May and afterwards exchanged to the English. She was put on trial by the pro-English bishop, Pierre Cauchon, on a charge of heresy. She was declared guilty and burned at the stake on 30 May 1431, dying at about 19 years of age.\nIn 1456, an inquisitorial court authorized by Pope Callixtus III investigated the original trial, declaring that it was tainted by deceit and procedural errors. The trial's verdict was nullified and the stain on Joan's name declared to be erased. Joan has been popularly revered as a martyr since her death. After the French Revolution she became a national symbol of France. She was beatified in 1909, canonized in 1920, and declared a secondary patron saint of France in 1922. Joan of Arc remains a popular figure in literature, painting, sculpture and music, and cultural depictions of her continue to be created to this day.\n\n",
+    "wikidataId": "Q7226",
+    "claims": {
+      "type": ["human"],
+      "birth": ["Domrémy-la-Pucelle"],
+      "death": ["Rouen"],
+      "country": ["Kingdom of France"],
+      "start": { "time": 1412, "precision": 9 },
+      "end": { "time": 1431, "precision": 11 },
+      "gender": "female",
+      "mannerOfDeath": "capital punishment",
+      "causeOfDeath": "death by burning",
+      "language": ["Middle French"],
+      "otherLanguages": ["Middle French"],
+      "occupation": ["military personnel"],
+      "events": [
+        { "name": "interrogation", "start": 1431, "startPrecision": 11 },
+        { "name": "interrogation", "start": 1431, "startPrecision": 11 },
+        { "name": "Trial of Joan of Arc" },
+        { "name": "Hundred Years' War" },
+        { "name": "Siege of Orléans" },
+        { "name": "Battle of Jargeau" },
+        { "name": "Battle of Meung-sur-Loire" },
+        { "name": "Battle of Beaugency" },
+        { "name": "Battle of Patay" },
+        { "name": "March to Reims" },
+        { "name": "Siege of Paris" },
+        { "name": "Siege of Saint-Pierre-le-Moûtier" },
+        { "name": "Siege of La Charité" },
+        { "name": "Siege of Compiègne" }
+      ]
+    }
+  },
+  {
+    "title": "Jefimija",
+    "pageid": 24720720,
+    "extract": "Jefimija (Serbian Cyrillic: Јефимија, Serbian pronunciation: [jěfiːmija]; 1349–1405), secular name Jelena Mrnjavčević (Serbian Cyrillic: Јелена Мрњавчевић, Serbian pronunciation: [jělena mr̩̂ɲaːʋtʃeʋitɕ] or [mr̩ɲǎːʋ-]), daughter of Vojihna and widow of Jovan Uglješa Mrnjavčević, is considered the first female Serbian poet. Her Lament for a Dead Son and Encomium of Prince Lazar are famous in the canon of medieval Serbian literature.\n\n",
+    "id": "Jefimija",
+    "wikidataId": "Q457889",
+    "claims": {
+      "type": ["human"],
+      "country": ["Serbian Empire", "Moravian Serbia"],
+      "ethnicity": ["Serbs"],
+      "start": { "time": 1349, "precision": 9 },
+      "end": { "time": 1405, "precision": 9 },
+      "gender": "female",
+      "occupation": ["poet", "author", "writer"],
+      "events": [{ "name": "abbess" }]
+    }
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Portrait_of_Murasaki_Shikibu.jpg/61px-Portrait_of_Murasaki_Shikibu.jpg",
+    "id": "Murasaki Shikibu",
+    "title": "Murasaki Shikibu",
+    "pageid": 42758,
+    "extract": "Murasaki Shikibu (紫 式部, English: \"Lady Murasaki\"; c. 973 or 978 – c. 1014 or 1031) was a Japanese novelist, poet and lady-in-waiting at the Imperial court in the Heian period. She is best known as the author of The Tale of Genji, widely considered to be one of the world's first novels, written in Japanese between about 1000 and 1012. Murasaki Shikibu is a descriptive name; her personal name is unknown, but she may have been Fujiwara no Kaoriko (藤原 香子), who was mentioned in a 1007 court diary as an imperial lady-in-waiting.\nHeian women were traditionally excluded from learning Chinese, the written language of government, but Murasaki, raised in her erudite father's household, showed a precocious aptitude for the Chinese classics and managed to acquire fluency. She married in her mid-to late twenties and gave birth to a daughter before her husband died, two years after they were married. It is uncertain when she began to write The Tale of Genji, but it was probably while she was married or shortly after she was widowed. In about 1005, she was invited to serve as a lady-in-waiting to Empress Shōshi at the Imperial court by Fujiwara no Michinaga, probably because of her reputation as a writer. She continued to write during her service, adding scenes from court life to her work. After five or six years, she left court and retired with Shōshi to the Lake Biwa region. Scholars differ on the year of her death; although most agree on 1014, others have suggested she was alive in 1031.\nMurasaki wrote The Diary of Lady Murasaki, a volume of poetry, and The Tale of Genji. Within a decade of its completion, Genji was distributed throughout the provinces; within a century it was recognized as a classic of Japanese literature and had become a subject of scholarly criticism. Early in the 20th century her work was translated; a six-volume English translation was completed in 1933. Scholars continue to recognize the importance of her work, which reflects Heian court society at its peak. Since the 13th century her works have been illustrated by Japanese artists and well-known ukiyo-e woodblock masters.",
+    "wikidataId": "Q81731",
+    "claims": {
+      "type": ["human"],
+      "birth": ["Kyoto"],
+      "death": ["Kyoto"],
+      "country": ["Japan"],
+      "set": ["Thirty Six Elder Poetic Sages", "Thirty-Six Immortal Women Poets"],
+      "start": { "time": 973, "precision": 9 },
+      "end": { "time": 1014, "precision": 9 },
+      "gender": "female",
+      "otherLanguages": ["Japanese"],
+      "occupation": ["lady-in-waiting", "novelist", "poet", "writer", "diarist"]
+    }
+  },
+  {
+    "title": "Olga of Kiev",
+    "pageid": 22817,
+    "extract": "Olga (Old East Slavic: Вольга, romanized: Volĭga;  Old Norse: Helga; Lith: Alge; Christian name: Elena; c. 890–925 – 969) was a regent of Kievan Rus' for her son Sviatoslav from 945 until 960. Following her baptism, Olga took the name Elenа (Old East Slavic: Ѡлена, romanized: Olena). She is known for her subjugation of the Drevlians, a tribe that had killed her husband Igor of Kiev. Even though it would be her grandson Vladimir that would convert the entire nation to Christianity, because of her efforts to spread Christianity through Rus', Olga is venerated as a saint in the Eastern Orthodox Church with the epithet \"Equal to the Apostles\" and her feast day is 11 July.",
+    "id": "Olga of Kiev",
+    "wikidataId": "Q193198",
+    "claims": {
+      "type": ["human"],
+      "birth": ["Pskov"],
+      "death": ["Kyiv"],
+      "country": ["Kievan Rus'"],
+      "start": { "time": 890, "precision": 9 },
+      "end": { "time": 969, "precision": 9 },
+      "gender": "female",
+      "otherLanguages": ["Old East Slavic"],
+      "occupation": ["politician"],
+      "events": [{ "name": "Grand Prince of Kiev", "start": 945, "end": 960, "startPrecision": 9, "endPrecision": 9 }]
+    }
+  },
+  {
+    "title": "Hypatia",
+    "pageid": 38375,
+    "extract": "Hypatia (born c. 350–370; died 415 AD) was a neoplatonist philosopher, astronomer, and mathematician, who lived in Alexandria, Egypt, then part of the Eastern Roman Empire. She was a prominent thinker in Alexandria where she taught philosophy and astronomy. Although preceded by Pandrosion, another Alexandrine female mathematician, she is the first female mathematician whose life is reasonably well recorded. Hypatia was renowned in her own lifetime as a great teacher and a wise counselor. She wrote a commentary on Diophantus's thirteen-volume Arithmetica, which may survive in part, having been interpolated into Diophantus's original text, and another commentary on Apollonius of Perga's treatise on conic sections, which has not survived. Many modern scholars also believe that Hypatia may have edited the surviving text of Ptolemy's Almagest, based on the title of her father Theon's commentary on Book III of the Almagest.\nHypatia constructed astrolabes and hydrometers, but did not invent either of these, which were both in use long before she was born. Although she herself was a pagan, she was tolerant towards Christians and taught many Christian students, including Synesius, the future bishop of Ptolemais. Ancient sources record that Hypatia was widely beloved by pagans and Christians alike and that she established great influence with the political elite in Alexandria. Towards the end of her life, Hypatia advised Orestes, the Roman prefect of Alexandria, who was in the midst of a political feud with Cyril, the bishop of Alexandria. Rumors spread accusing her of preventing Orestes from reconciling with Cyril and, in March 415 AD, she was murdered by a mob of Christians led by a lector named Peter.Hypatia's murder shocked the empire and transformed her into a \"martyr for philosophy\", leading future Neoplatonists such as Damascius to become increasingly fervent in their opposition to Christianity. During the Middle Ages, Hypatia was co-opted as a symbol of Christian virtue and scholars believe she was part of the basis for the legend of Saint Catherine of Alexandria. During the Age of Enlightenment, she became a symbol of opposition to Catholicism. In the nineteenth century, European literature, especially Charles Kingsley's 1853 novel Hypatia, romanticized her as \"the last of the Hellenes\". In the twentieth century, Hypatia became seen as an icon for women's rights and a precursor to the feminist movement. Since the late twentieth century, some portrayals have associated Hypatia's death with the destruction of the Library of Alexandria, despite the historical fact that the library no longer existed during Hypatia's lifetime.\n\n",
+    "id": "Hypatia",
+    "wikidataId": "Q11903",
+    "claims": {
+      "type": ["human"],
+      "birth": ["Alexandria"],
+      "death": ["Alexandria"],
+      "country": ["Ancient Rome"],
+      "start": { "time": 360, "precision": 9 },
+      "end": { "time": 415, "precision": 10 },
+      "gender": "female",
+      "mannerOfDeath": "homicide",
+      "causeOfDeath": "flaying",
+      "otherLanguages": ["Ancient Greek"],
+      "occupation": ["mathematician", "philosopher", "astronomer", "writer", "inventor"],
+      "events": [{ "name": "martyrdom" }]
+    }
+  },
+  {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Caravaggio_-_Saint_Catherine_of_Alexandria_%28post-restoration_image%29.jpg/77px-Caravaggio_-_Saint_Catherine_of_Alexandria_%28post-restoration_image%29.jpg",
+    "id": "Catherine of Alexandria",
+    "title": "Catherine of Alexandria",
+    "pageid": 85731,
+    "extract": "Catherine of Alexandria, or Katherine of Alexandria, also known as Saint Catherine of Alexandria, Saint Catherine of the Wheel and The Great Martyr Saint Catherine (Coptic: Ϯⲁⲅⲓⲁ Ⲕⲁⲧⲧⲣⲓⲛ; Greek: ἡ Ἁγία Αἰκατερίνη ἡ Μεγαλομάρτυς \"Holy Catherine the Great Martyr\"; Arabic: سانت كاترين; Latin: Catharina Alexandrina), is, according to tradition, a Christian saint and virgin, who was martyred in the early 4th century at the hands of the emperor Maxentius. According to her hagiography, she was both a princess and a noted scholar who became a Christian around the age of 14, converted hundreds of people to Christianity and was martyred around the age of 18. More than 1,100 years after Catherine's martyrdom, Joan of Arc identified her as one of the saints who appeared to and counselled her.The Eastern Orthodox Church venerates her as a Great Martyr and celebrates her feast day on 24 or 25 November, depending on the regional tradition. In Catholicism, Catherine is traditionally revered as one of the Fourteen Holy Helpers and she is commemorated in the Roman Martyrology on 25 November. Her feast was removed from the General Roman Calendar in 1969, but restored in 2002 as an optional memorial.\nSome modern scholars consider that the legend of Catherine was probably based on the life and murder of the virgin Saint Dorothea of Alexandria and the Greek philosopher Hypatia, with reversed role of a Christian and Neo-Platonist in the case of the latter.\n\n",
+    "wikidataId": "Q179718",
+    "claims": {
+      "type": ["human"],
+      "birth": ["Alexandria"],
+      "death": ["Alexandria"],
+      "country": ["Ancient Rome"],
+      "set": ["primary saints"],
+      "start": { "time": 287, "precision": 9 },
+      "end": { "time": 305, "precision": 9 },
+      "gender": "female",
+      "causeOfDeath": "decapitation",
+      "occupation": ["missionary"],
+      "events": [{ "name": "Saint Catherine of Alexandria and the wheel" }]
+    }
+  },
+  {
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/80px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
     "id": "Q1048",
     "title": "Julius Caesar",
@@ -87,7 +285,7 @@
     "id": "Q483783",
     "title": "Sulla",
     "pageid": 239672,
-    "extract": "Lucius Cornelius Sulla Felix (; 138–78 BC), commonly known as Sulla, was a Roman general and statesman. He won the first large-scale civil war in Roman history and became the first man of the Republic to seize power through force.\nSulla had the distinction of holding the office of consul twice, as well as reviving the dictatorship. A gifted and innovative general, he achieved numerous successes in wars against foreign and domestic opponents. Sulla rose to prominence during the war against the Numidian king Jugurtha, whom he captured as a result of Jugurtha's betrayal by the king's allies, although his superior Gaius Marius took credit for ending the war. He then fought successfully against Germanic tribes during the Cimbrian War, and Italic tribes during the Social War. He was awarded the Grass Crown for his command in the latter war.\nSulla played an important role in the long political struggle between the optimates and populares factions at Rome. He was a leader of the former, which sought to maintain senatorial supremacy against the populist reforms advocated by the latter, headed by Marius. In a dispute over the command of the war against Mithridates, initially awarded to Sulla by the Senate, but withdrawn as a result of Marius' intrigues, Sulla marched on Rome in an unprecedented act and defeated Marian forces in battle. The populares nonetheless seized power once he left with his army to Asia. He returned victorious from the east in 82 BC, marched a second time on Rome, and crushed the populares and their Italian allies at the Battle of the Colline Gate. He then revived the office of dictator, which had been inactive since the Second Punic War, over a century before. He used his powers to purge his opponents, and reform Roman constitutional laws,  to restore the primacy of the Senate and limit the power of the tribunes of the plebs. Resigning his dictatorship in 79 BC, Sulla retired to private life and died the following year.\nSulla's military coup was ironically enabled by Marius' military reforms that bound the army's loyalty with the general rather than to the republic and permanently destabilized the Roman power structure. Later political leaders such as Julius Caesar would follow his precedent in attaining political power through force.\n\n",
+    "extract": "Lucius Cornelius Sulla Felix (; 138–78 BC), commonly known as Sulla, was a Roman general and statesman. He won the first large-scale civil war in Roman history and became the first man of the Republic to seize power through force.\nSulla had the distinction of holding the office of consul twice, as well as reviving the dictatorship. A gifted and innovative general, he achieved numerous successes in wars against foreign and domestic opponents. Sulla rose to prominence during the war against the Numidian king Jugurtha, whom he captured as a result of Jugurtha's betrayal by the king's allies, although his superior Gaius Marius took credit for ending the war. He then fought successfully against Germanic tribes during the Cimbrian War, and Italic tribes during the Social War. He was awarded the Grass Crown for his command in the latter war.\nSulla played an important role in the long political struggle between the optimates and populares factions at Rome. He was a leader of the former, which sought to maintain senatorial supremacy against the populist reforms advocated by the latter, headed by Marius. In a dispute over the command of the war against Mithridates, initially awarded to Sulla by the Senate, but withdrawn as a result of Marius' intrigues, Sulla marched on Rome in an unprecedented act and defeated Marian forces in battle. The populares nonetheless seized power once he left with his army to Asia. He returned victorious from the east in 82 BC, marched a second time on Rome, and crushed the populares and their Italian allies at the Battle of the Colline Gate. He then revived the office of dictator, which had been inactive since the Second Punic War, over a century before. He used his powers to purge his opponents, and reform Roman constitutional laws,  to restore the primacy of the Senate and limit the power of the tribunes of the plebs. Resigning his dictatorship in 79 BC, Sulla retired to private life and died the following year.\nSulla's military coup was ironically enabled by Marius' military reforms that bound the army's loyalty with the general rather than to the republic and permanently destabilized the Roman power structure. Later political leaders such as Julius Caesar would follow his precedent in attaining political power through force.",
     "wikidataId": "Q483783",
     "claims": {
       "type": ["human"],
@@ -178,7 +376,7 @@
     "id": "Q80398",
     "title": "Pericles",
     "pageid": 36812,
-    "extract": "Pericles (; Greek: Περικλῆς; c. 495 – 429 BC) was a Greek politician  and general during the Golden Age of Athens. He was prominent and influential in Athenian politics, particularly between the Greco-Persian Wars and the Peloponnesian War, and was acclaimed by Thucydides, a contemporary historian, as \"the first citizen of Athens\". Pericles turned the Delian League into an Athenian empire and led his countrymen during the first two years of the Peloponnesian War. The period during which he led Athens, roughly from 461 to 429 BC, is sometimes known as the \"Age of Pericles\", but the period thus denoted can include times as early as the Persian Wars or as late as the following century.\nPericles promoted the arts and literature, and it is principally through his efforts that Athens acquired the reputation of being the educational and cultural center of the ancient Greek world. He started an ambitious project that generated most of the surviving structures on the Acropolis, including the Parthenon. This project beautified and protected the city, exhibited its glory and gave work to its people. Pericles also fostered Athenian democracy to such an extent that critics called him a populist. Pericles was descended, through his mother, from the powerful and historically-influential Alcmaeonid family. He, along with several members of his family, succumbed to the Plague of Athens in 429 BC, which weakened the city-state during a protracted conflict with Sparta.\n\n",
+    "extract": "Pericles (; Greek: Περικλῆς; c. 495 – 429 BC) was a Greek politician  and general during the Golden Age of Athens. He was prominent and influential in Athenian politics, particularly between the Greco-Persian Wars and the Peloponnesian War, and was acclaimed by Thucydides, a contemporary historian, as \"the first citizen of Athens\". Pericles turned the Delian League into an Athenian empire and led his countrymen during the first two years of the Peloponnesian War. The period during which he led Athens, roughly from 461 to 429 BC, is sometimes known as the \"Age of Pericles\", but the period thus denoted can include times as early as the Persian Wars or as late as the following century.\nPericles promoted the arts and literature, and it is principally through his efforts that Athens acquired the reputation of being the educational and cultural center of the ancient Greek world. He started an ambitious project that generated most of the surviving structures on the Acropolis, including the Parthenon. This project beautified and protected the city, exhibited its glory and gave work to its people. Pericles also fostered Athenian democracy to such an extent that critics called him a populist. Pericles was descended, through his mother, from the powerful and historically-influential Alcmaeonid family. He, along with several members of his family, succumbed to the Plague of Athens in 429 BC, which weakened the city-state during a protracted conflict with Sparta.",
     "wikidataId": "Q80398",
     "claims": {
       "type": ["human"],
@@ -838,7 +1036,7 @@
   {
     "title": "Thales of Miletus",
     "pageid": 30072,
-    "extract": "Thales of Miletus ( THAY-leez; Greek: Θαλῆς (ὁ Μιλήσιος), Thalēs; c. 624/623  – c. 548/545 BC) was a Greek mathematician, astronomer and pre-Socratic philosopher from Miletus in Ionia, Asia Minor. He was one of the Seven Sages of Greece. Many, most notably Aristotle, regarded him as the first philosopher in the Greek tradition, and he is otherwise historically recognized as the first individual known to have entertained and engaged in scientific philosophy. He is often referred to as the Father of Science.Thales is recognized for breaking from the use of mythology to explain the world and the universe, instead explaining natural objects and phenomena by offering naturalistic theories and hypotheses. Almost all the other pre-Socratic philosophers followed him in explaining nature as deriving from a unity of everything based on the existence of a single ultimate substance instead of using mythological explanations. Aristotle regarded him as the founder of the Ionian School of philosphy, and reported Thales' hypothesis that the originating principle of nature and the nature of matter was a single material substance: water.In mathematics, Thales used geometry to calculate the heights of pyramids and the distance of ships from the shore. He is the first known individual to use deductive reasoning applied to geometry by deriving four corollaries to Thales' theorem. He is also the first known to whom a mathematical discovery has been attributed.\n\n",
+    "extract": "Thales of Miletus ( THAY-leez; Greek: Θαλῆς (ὁ Μιλήσιος), Thalēs; c. 624/623  – c. 548/545 BC) was a Greek mathematician, astronomer and pre-Socratic philosopher from Miletus in Ionia, Asia Minor. He was one of the Seven Sages of Greece. Many, most notably Aristotle, regarded him as the first philosopher in the Greek tradition, and he is otherwise historically recognized as the first individual known to have entertained and engaged in scientific philosophy. He is often referred to as the Father of Science.Thales is recognized for breaking from the use of mythology to explain the world and the universe, instead explaining natural objects and phenomena by offering naturalistic theories and hypotheses. Almost all the other pre-Socratic philosophers followed him in explaining nature as deriving from a unity of everything based on the existence of a single ultimate substance instead of using mythological explanations. Aristotle regarded him as the founder of the Ionian School of philosphy, and reported Thales' hypothesis that the originating principle of nature and the nature of matter was a single material substance: water.In mathematics, Thales used geometry to calculate the heights of pyramids and the distance of ships from the shore. He is the first known individual to use deductive reasoning applied to geometry by deriving four corollaries to Thales' theorem. He is also the first known to whom a mathematical discovery has been attributed.",
     "id": "Q36303",
     "wikidataId": "Q36303",
     "claims": {
@@ -860,7 +1058,7 @@
     "id": "Q26825",
     "title": "Herodotus",
     "pageid": 13574,
-    "extract": "Herodotus ( hirr-OD-ə-təs; Greek: Ἡρόδοτος Hēródotos; c. 484 – c. 425 BC) was an ancient Greek historian and geographer from the Greek city of Halicarnassus, part of the Persian Empire (now Bodrum, Turkey). He is known for having written the Histories – a detailed account of the Greco-Persian Wars. Herodotus was the first writer to do systematic investigation of historical events. He is referred to as \"The Father of History\", a title conferred on him by the ancient Roman orator Cicero.The Histories primarily covers the lives of prominent kings and famous battles such as Marathon, Thermopylae, Artemisium, Salamis, Plataea, and Mycale. His work deviates from the main topics to provide cultural, ethnographical, geographical, and historiographical background that forms an essential part of the narrative and provides readers with a wellspring of additional information. \nHerodotus has been criticized for his inclusion of \"legends and fanciful accounts\" in his work. Fellow historian Thucydides accused him of making up stories for entertainment. However, Herodotus explained that he reported what he \"saw and [what was] told to him.\" A sizable portion of the Histories has since been confirmed by modern historians and archaeologists.",
+    "extract": "Herodotus ( hirr-OD-ə-təs; Greek: Ἡρόδοτος Hēródotos; c. 484 – c. 425 BC) was an ancient Greek historian and geographer from the Greek city of Halicarnassus, part of the Persian Empire (now Bodrum, Turkey). He is known for having written the Histories – a detailed account of the Greco-Persian Wars. Herodotus was the first writer to do systematic investigation of historical events. He is referred to as \"The Father of History\", a title conferred on him by the ancient Roman orator Cicero.The Histories primarily cover the lives of prominent kings and famous battles such as Marathon, Thermopylae, Artemisium, Salamis, Plataea, and Mycale. His work deviates from the main topics to provide a cultural, ethnographical, geographical, and historiographical background that forms an essential part of the narrative and provides readers with a wellspring of additional information. \nHerodotus has been criticized for his inclusion of \"legends and fanciful accounts\" in his work. The fellow historian Thucydides accused him of making up stories for entertainment. However, Herodotus explained that he reported what he \"saw and [what was] told to him.\" A sizable portion of the Histories has since been confirmed by modern historians and archaeologists.\n\n",
     "wikidataId": "Q26825",
     "claims": {
       "type": ["human"],
@@ -1069,7 +1267,7 @@
     "id": "Q41523",
     "title": "Plutarch",
     "pageid": 24517,
-    "extract": "Plutarch (; Greek: Πλούταρχος, Ploútarchos; Koine Greek: [ˈplutarkʰos]; c. AD 46 – after AD 119) was a Greek Middle Platonist philosopher, historian, biographer, essayist, and priest at the Temple of Apollo in Delphi. He is known primarily for his Parallel Lives, a series of biographies of illustrious Greeks and Romans, and Moralia, a collection of essays and speeches. Upon becoming a Roman citizen, he was possibly named Lucius Mestrius Plutarchus (Λούκιος Μέστριος Πλούταρχος).\n\n",
+    "extract": "Plutarch (; Greek: Πλούταρχος, Ploútarchos; Koine Greek: [ˈplutarkʰos]; c. AD 46 – after AD 119) was a Greek Middle Platonist philosopher, historian, biographer, essayist, and priest at the Temple of Apollo in Delphi. He is known primarily for his Parallel Lives, a series of biographies of illustrious Greeks and Romans, and Moralia, a collection of essays and speeches. Upon becoming a Roman citizen, he was possibly named Lucius Mestrius Plutarchus (Λούκιος Μέστριος Πλούταρχος).",
     "wikidataId": "Q41523",
     "claims": {
       "type": ["human"],
@@ -1090,7 +1288,7 @@
     "id": "Q1541",
     "title": "Cicero",
     "pageid": 6046,
-    "extract": "Marcus Tullius Cicero ( SISS-ə-roh; Latin: [ˈmaːrkʊs ˈtʊlːijʊs ˈkɪkɛroː]; 3 January 106 BC – 7 December 43 BC) was a Roman statesman, lawyer, scholar, philosopher and Academic skeptic, who tried to uphold optimate principles during the political crises that led to the establishment of the Roman Empire. His extensive writings include treatises on rhetoric, philosophy and politics, and he is considered one of Rome's greatest orators and prose stylists. He came from a wealthy municipal family of the Roman equestrian order, and served as consul in 63 BC.\nHis influence on the Latin language was immense. He wrote more than three-quarters of extant Latin literature that is known to have existed in his lifetime, and it has been said that subsequent prose was either a reaction against or a return to his style, not only in Latin but in European languages up to the 19th century. Cicero introduced into Latin the arguments of the chief schools of Hellenistic philosophy and created a Latin philosophical vocabulary with neologisms such as evidentia, humanitas, qualitas, quantitas, and essentia, distinguishing himself as a translator and philosopher.\nThough he was an accomplished orator and successful lawyer, Cicero believed his political career was his most important achievement. It was during his consulship that the second Catilinarian conspiracy attempted to overthrow the government through an attack on the city by outside forces, and Cicero suppressed the revolt by summarily and controversially executing five conspirators without trial. During the chaotic middle period of the 1st century BC, marked by civil wars and the dictatorship of Julius Caesar, Cicero championed a return to the traditional republican government. Following Caesar's death, Cicero became an enemy of Mark Antony in the ensuing power struggle, attacking him in a series of speeches. He was proscribed as an enemy of the state by the Second Triumvirate and consequently executed by soldiers operating on their behalf in 43 BC having been intercepted during an attempted flight from the Italian peninsula. His severed hands and head were then, as a final revenge of Mark Antony, displayed on the Rostra.\nPetrarch's rediscovery of Cicero's letters is often credited for initiating the 14th-century Renaissance in public affairs, humanism, and classical Roman culture. According to Polish historian Tadeusz Zieliński, \"the Renaissance was above all things a revival of Cicero, and only after him and through him of the rest of Classical antiquity.\" The peak of Cicero's authority and prestige came during the 18th-century Enlightenment, and his impact on leading Enlightenment thinkers and political theorists such as John Locke, David Hume, Montesquieu and Edmund Burke was substantial. His works rank among the most influential in European culture, and today still constitute one of the most important bodies of primary material for the writing and revision of Roman history, especially the last days of the Roman Republic.",
+    "extract": "Marcus Tullius Cicero ( SISS-ə-roh; Latin: [ˈmaːrkʊs ˈtʊlːijʊs ˈkɪkɛroː]; 3 January 106 BC – 7 December 43 BC) was a Roman statesman, lawyer, scholar, philosopher and Academic skeptic, who tried to uphold optimate principles during the political crises that led to the establishment of the Roman Empire. His extensive writings include treatises on rhetoric, philosophy and politics, and he is considered one of Rome's greatest orators and prose stylists. He came from a wealthy municipal family of the Roman equestrian order, and served as consul in 63 BC.\nHis influence on the Latin language was immense. He wrote more than three-quarters of extant Latin literature that is known to have existed in his lifetime, and it has been said that subsequent prose was either a reaction against or a return to his style, not only in Latin but in European languages up to the 19th century. Cicero introduced into Latin the arguments of the chief schools of Hellenistic philosophy and created a Latin philosophical vocabulary with neologisms such as evidentia, humanitas, qualitas, quantitas, and essentia, distinguishing himself as a translator and philosopher.\nThough he was an accomplished orator and successful lawyer, Cicero believed his political career was his most important achievement. It was during his consulship that the second Catilinarian conspiracy attempted to overthrow the government through an attack on the city by outside forces, and Cicero suppressed the revolt by summarily and controversially executing five conspirators without trial. During the chaotic middle period of the 1st century BC, marked by civil wars and the dictatorship of Julius Caesar, Cicero championed a return to the traditional republican government. Following Caesar's death, Cicero became an enemy of Mark Antony in the ensuing power struggle, attacking him in a series of speeches. He was proscribed as an enemy of the state by the Second Triumvirate and consequently executed by soldiers operating on their behalf in 43 BC having been intercepted during an attempted flight from the Italian peninsula. His severed hands and head were then, as a final revenge of Mark Antony, displayed on the Rostra.\nPetrarch's rediscovery of Cicero's letters is often credited for initiating the 14th-century Renaissance in public affairs, humanism, and classical Roman culture. According to Polish historian Tadeusz Zieliński, \"the Renaissance was above all things a revival of Cicero, and only after him and through him of the rest of Classical antiquity.\" The peak of Cicero's authority and prestige came during the 18th-century Enlightenment, and his impact on leading Enlightenment thinkers and political theorists such as John Locke, David Hume, Montesquieu and Edmund Burke was substantial. His works rank among the most influential in European culture, and today still constitute one of the most important bodies of primary material for the writing and revision of Roman history, especially the last days of the Roman Republic.\n\n",
     "wikidataId": "Q1541",
     "claims": {
       "type": ["human"],
@@ -1179,7 +1377,7 @@
     "id": "Q41155",
     "title": "Heraclitus",
     "pageid": 13792,
-    "extract": "Heraclitus of Ephesus (; Greek: Ἡράκλειτος Herakleitos, \"Glory of Hera\"; c. 535 – c. 475 BC, fl. 500 BC) was an ancient Greek, pre-Socratic, Ionian philosopher and a native of the city of Ephesus, which was then part of the Persian Empire.\nLittle is known of Heraclitus' life. Most of the ancient stories about him are later fabrications.  It is generally believed that Heraclitus was of distinguished parentage, but he eschewed his privileged life for a lonely one as a philosopher. Little else is known about his early life and education. He regarded himself as self-taught and a pioneer of wisdom.  His paradoxical philosophy and appreciation for wordplay and cryptic utterances has earned him the epithet \"the obscure\" since antiquity. He was considered a misanthrope who was subject to depression. Consequently, he became known as \"the weeping philosopher\" in contrast to the ancient philosopher Democritus, who was known as \"the laughing philosopher\". \nHe wrote a single work, only fragments of which have survived, increasing the obscurity already associated with him. Heraclitus has thus been the subject of numerous interpretations. According to the Stanford Encyclopedia of Philosophy, Heraclitus has been seen as a \"material monist or a process philosopher; a scientific cosmologist, a metaphysician and a religious thinker; an empiricist, a rationalist, a mystic; a conventional thinker and a revolutionary; a developer of logic — one who denied the law of non-contradiction; the first genuine philosopher and an anti-intellectual obscurantist.\"Heraclitus believed the world is ultimately made of fire. He also believed in a unity of opposites and harmony in the world. He was most famous for his insistence on ever-present change — known in philosophy as \"flux\" or \"becoming\" or impermanence — as the characteristic feature of the world; an idea expressed in the sayings, \"No man ever steps in the same river twice\", and panta rhei (\"everything flows\"). His use of fire may have been a metaphor for change. This changing aspect of his philosophy is contrasted with that of the ancient philosopher Parmenides, who believed in \"being\" and in the static nature of the universe. Both Heraclitus and Parmenides had an influence on Plato, who went on to influence all of Western philosophy.",
+    "extract": "Heraclitus of Ephesus (; Greek: Ἡράκλειτος Herakleitos, \"Glory of Hera\"; c. 535 – c. 475 BC, fl. 500 BC) was an ancient Greek, pre-Socratic, Ionian philosopher and a native of the city of Ephesus, which was then part of the Persian Empire.\nLittle is known of Heraclitus' life. Most of the ancient stories about him are later fabrications.  It is generally believed that Heraclitus was of distinguished parentage, but he eschewed his privileged life for a lonely one as a philosopher. Little else is known about his early life and education. He regarded himself as self-taught and a pioneer of wisdom.  His paradoxical philosophy and appreciation for wordplay and cryptic utterances has earned him the epithet \"the obscure\" since antiquity. He was considered a misanthrope who was subject to depression. Consequently, he became known as \"the weeping philosopher\" in contrast to the ancient philosopher Democritus, who was known as \"the laughing philosopher\". \nHe wrote a single work, only fragments of which have survived, increasing the obscurity already associated with him. Heraclitus has thus been the subject of numerous interpretations. According to the Stanford Encyclopedia of Philosophy, Heraclitus has been seen as a \"material monist or a process philosopher; a scientific cosmologist, a metaphysician and a religious thinker; an empiricist, a rationalist, a mystic; a conventional thinker and a revolutionary; a developer of logic — one who denied the law of non-contradiction; the first genuine philosopher and an anti-intellectual obscurantist.\"Heraclitus believed the world is ultimately made of fire. He also believed in a unity of opposites and harmony in the world. He was most famous for his insistence on ever-present change — known in philosophy as \"flux\" or \"becoming\" or impermanence — as the characteristic feature of the world; an idea expressed in the sayings, \"No man ever steps in the same river twice\", and panta rhei (\"everything flows\"). His use of fire may have been a metaphor for change. This changing aspect of his philosophy is contrasted with that of the ancient philosopher Parmenides, who believed in \"being\" and in the static nature of the universe. Both Heraclitus and Parmenides had an influence on Plato, who went on to influence all of Western philosophy.\n\n",
     "wikidataId": "Q41155",
     "claims": {
       "type": ["human"],
@@ -1202,7 +1400,7 @@
     "id": "Q171303",
     "title": "Zeno of Citium",
     "pageid": 37142,
-    "extract": "Zeno of Citium (; Koinē Greek: Ζήνων ὁ Κιτιεύς, Zēnōn ho Kitieus; c. 334 – c. 262 BC) was a Hellenistic philosopher   from Citium (Κίτιον, Kition), Cyprus. Zeno was the founder of the Stoic school of philosophy, which he taught in Athens from about 300 BC. Based on the moral ideas of the Cynics, Stoicism laid great emphasis on goodness and peace of mind gained from living a life of virtue in accordance with nature. It proved very popular, and flourished as one of the major schools of philosophy from the Hellenistic period through to the Roman era, and enjoyed revivals in the Renaissance as Neostoicism and in the current era as Modern Stoicism.",
+    "extract": "Zeno of Citium (; Koinē Greek: Ζήνων ὁ Κιτιεύς, Zēnōn ho Kitieus; c. 334 – c. 262 BC) was a Hellenistic philosopher   from Citium (Κίτιον, Kition), Cyprus. Zeno was the founder of the Stoic school of philosophy, which he taught in Athens from about 300 BC. Based on the moral ideas of the Cynics, Stoicism laid great emphasis on goodness and peace of mind gained from living a life of virtue in accordance with nature. It proved very popular, and flourished as one of the major schools of philosophy from the Hellenistic period through to the Roman era, and enjoyed revivals in the Renaissance as Neostoicism and in the current era as Modern Stoicism.\n\n",
     "wikidataId": "Q171303",
     "claims": {
       "type": ["human"],
@@ -1367,7 +1565,7 @@
     "id": "Q2039",
     "title": "Livy",
     "pageid": 18049,
-    "extract": "Titus Livius (Latin: [ˈtɪtʊs ˈliːwiʊs]; 59 BC – AD 17), known in English as Livy ( LIV-ee), was a Roman historian. He wrote a monumental history of Rome and the Roman people, titled Ab Urbe Condita, ''From the Founding of the City'', covering the period from the earliest legends of Rome before the traditional founding in 753 BC through the reign of Augustus in Livy's own lifetime. He was on familiar terms with members of the Julio-Claudian dynasty and a friend of Augustus, whose young grandnephew, the future emperor Claudius, he exhorted to take up the writing of history.",
+    "extract": "Titus Livius (Latin: [ˈtɪtʊs ˈliːwiʊs]; 59 BC – AD 17), known in English as Livy ( LIV-ee), was a Roman historian. He wrote a monumental history of Rome and the Roman people, titled Ab Urbe Condita, ''From the Founding of the City'', covering the period from the earliest legends of Rome before the traditional founding in 753 BC through the reign of Augustus in Livy's own lifetime. He was on familiar terms with members of the Julio-Claudian dynasty and a friend of Augustus, whose young grandnephew, the future emperor Claudius, he exhorted to take up the writing of history.\n\n",
     "wikidataId": "Q2039",
     "claims": {
       "type": ["human"],
@@ -1569,22 +1767,6 @@
     }
   },
   {
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Egypt_-_king_Ptolemaios_V_-_204-203_BC_-_gold_oktadrachm_-_bust_of_Ptolemaios_V_-_cornucopiae_-_Berlin_MK_AM_18203067.jpg/100px-Egypt_-_king_Ptolemaios_V_-_204-203_BC_-_gold_oktadrachm_-_bust_of_Ptolemaios_V_-_cornucopiae_-_Berlin_MK_AM_18203067.jpg",
-    "id": "Q39957",
-    "title": "Ptolemy V Epiphanes",
-    "pageid": 84102,
-    "extract": "Ptolemy V Epiphanes Eucharistos (Greek: Πτολεμαῖος Ἐπιφανής Εὐχάριστος, Ptolemaĩos Epiphanḗs Eucharistos \"Ptolemy the Manifest, the Beneficent\"; 9 October 210–September 180 BC) was the King of Ptolemaic Egypt from July or August 204 BC until his death in 180 BC.\nPtolemy V, the son of Ptolemy IV and Arsinoe III, inherited the throne at the age of five when his parents died in suspicious circumstances. The new regent, Agathocles, was widely reviled and was toppled by a revolution in 202 BC, but the series of regents who followed proved incompetent and the kingdom was paralysed. The Seleucid king Antiochus III and the Antigonid king Philip V took advantage of the kingdom's weakness to begin the Fifth Syrian War (202–196 BC), in which the Ptolemies lost all their territories in Asia Minor and the Levant, as well as most of their influence in the Aegean Sea. Simultaneously, Ptolemy V faced a widespread Egyptian revolt (206–185 BC) led by the self-proclaimed pharaohs Horwennefer and Ankhwennefer, which resulted in the loss of most of Upper Egypt and parts of Lower Egypt as well.\nPtolemy V came of age in 196 BC and was crowned as pharaoh in Memphis, an occasion commemorated by the creation of the Rosetta Stone. After this, he made peace with Antiochus III and married his daughter Cleopatra I in 194/3 BC. This disgusted the Romans, who had entered into hostilities with Antiochus III partially on Ptolemy V's behalf, and after their victory they distributed the old Ptolemaic territories in Asia Minor to Pergamum and Rhodes rather than returning them to Egypt. However, Ptolemaic forces steadily reconquered the south of the country, bringing all of Upper Egypt back under Ptolemaic control in 186 BC. In his last years, Ptolemy V began manoeuvring for renewed warfare with the Seleucid empire, but these plans were cut short by his sudden death in 180 BC, allegedly poisoned by courtiers worried about the cost of the war.\nPtolemy V's reign saw greatly increased prominence of courtiers and the Egyptian priestly elite in Ptolemaic political life, a pattern that would continue for most of the rest of the kingdom's existence. It also marked the collapse of Ptolemaic power in the wider Mediterranean region. Arthur Eckstein has argued that this collapse sparked the \"power transition crisis\" that led to the Roman conquest of the eastern Mediterranean.",
-    "wikidataId": "Q39957",
-    "claims": {
-      "type": ["human"],
-      "start": { "time": -210, "precision": 11 },
-      "end": { "time": -180, "precision": 9 },
-      "gender": "male",
-      "occupation": ["sovereign"],
-      "events": [{ "name": "pharaoh" }]
-    }
-  },
-  {
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/%E6%BC%A2%E6%AD%A6%E5%B8%9D.jpg/73px-%E6%BC%A2%E6%AD%A6%E5%B8%9D.jpg",
     "id": "Q7225",
     "title": "Emperor Wu of Han",
@@ -1748,7 +1930,7 @@
     "id": "Q9200",
     "title": "Paul the Apostle",
     "pageid": 24140,
-    "extract": "Paul (born Saul of Tarsus; c. 5 – c. 64/65 AD), commonly known as Paul the Apostle and Saint Paul, was a Christian apostle (although not one of the original Twelve Apostles) who spread the teachings of Jesus in the first-century world. Generally regarded as one of the most important figures of the Apostolic Age, he founded several Christian communities in Asia Minor and Europe from the mid-40s to the mid-50s AD.According to the New Testament book Acts of the Apostles, Paul was a Pharisee; he participated in the persecution of early disciples of Jesus, possibly Hellenised diaspora Jews converted to Christianity, in the area of Jerusalem, prior to his conversion. In the narrative of Acts, some time after having approved of the execution of Stephen, Paul was traveling on the road from Jerusalem to Damascus. On a mission that \"he might bring [them] bound to Jerusalem\" (ESV), a bright light suddenly shone around him, with the risen Christ verbally addressing his persecution. Having been made blind, along with being commanded to enter the city, his sight was restored three days later by Ananias of Damascus. After these events, Paul was baptized, beginning immediately to proclaim that Jesus of Nazareth was the Jewish messiah and the Son of God. Approximately half of the Acts of the Apostles deals with Paul's life and works.\nFourteen of the 27 books in the New Testament have traditionally been attributed to Paul. Seven of the Pauline epistles are undisputed by scholars as being authentic, with varying degrees of argument about the remainder. Pauline authorship of the Epistle to the Hebrews is not asserted in the Epistle itself and was already doubted in the 2nd and 3rd centuries. It was almost unquestioningly accepted from the 5th to the 16th centuries that Paul was the author of Hebrews, but that view is now almost universally rejected by scholars. The other six are believed by some scholars to have come from followers writing in his name, using material from Paul's surviving letters and letters written by him that no longer survive. Other scholars argue that the idea of a pseudonymous author for the disputed epistles raises many problems.Today, Paul's epistles continue to be vital roots of the theology, worship and pastoral life in the Latin and Protestant traditions of the West, as well as the Eastern Catholic and Orthodox traditions of the East. Paul's influence on Christian thought and practice has been characterized as being as \"profound as it is pervasive\", among that of many other apostles and missionaries involved in the spread of the Christian faith.",
+    "extract": "Paul (born Saul of Tarsus; c. 5 – c. 64/65 AD), commonly known as Paul the Apostle and Saint Paul, was a Christian apostle (although not one of the original Twelve Apostles) who spread the teachings of Jesus in the first-century world. Generally regarded as one of the most important figures of the Apostolic Age, he founded several Christian communities in Asia Minor and Europe from the mid-40s to the mid-50s AD.According to the New Testament book Acts of the Apostles, Paul was a Pharisee; he participated in the persecution of early disciples of Jesus, possibly Hellenised diaspora Jews converted to Christianity, in the area of Jerusalem, prior to his conversion. In the narrative of Acts, some time after having approved of the execution of Stephen, Paul was traveling on the road from Jerusalem to Damascus. On a mission that \"he might bring [them] bound to Jerusalem\" (ESV), a bright light suddenly shone around him, with the risen Christ verbally addressing his persecution. Having been made blind, along with being commanded to enter the city, his sight was restored three days later by Ananias of Damascus. After these events, Paul was baptized, beginning immediately to proclaim that Jesus of Nazareth was the Jewish messiah and the Son of God. Approximately half of the Acts of the Apostles deals with Paul's life and works.\nFourteen of the 27 books in the New Testament have traditionally been attributed to Paul. Seven of the Pauline epistles are undisputed by scholars as being authentic, with varying degrees of argument about the remainder. Pauline authorship of the Epistle to the Hebrews is not asserted in the Epistle itself and was already doubted in the 2nd and 3rd centuries. It was almost unquestioningly accepted from the 5th to the 16th centuries that Paul was the author of Hebrews, but that view is now almost universally rejected by scholars. The other six are believed by some scholars to have come from followers writing in his name, using material from Paul's surviving letters and letters written by him that no longer survive. Other scholars argue that the idea of a pseudonymous author for the disputed epistles raises many problems.Today, Paul's epistles continue to be vital roots of the theology, worship and pastoral life in the Latin and Protestant traditions of the West, as well as the Eastern Catholic and Orthodox traditions of the East. Paul's influence on Christian thought and practice has been characterized as being as \"profound as it is pervasive\", among that of many other apostles and missionaries involved in the spread of the Christian faith.\n\n",
     "wikidataId": "Q9200",
     "claims": {
       "type": ["human", "human biblical figure"],
@@ -2163,7 +2345,7 @@
     "id": "Q233677",
     "title": "Xanthippe",
     "pageid": 175803,
-    "extract": "Xanthippe (; Greek: Ξανθίππη, Ancient: [ksantʰípɛː], Modern: [ksanˈθipi]; 5th–4th century BCE) was an ancient Athenian, the wife of Socrates and mother of their three sons: Lamprocles, Sophroniscus, and Menexenus. She was likely much younger than Socrates, perhaps by as much as 40 years.\n\n",
+    "extract": "Xanthippe (; Greek: Ξανθίππη, Ancient: [ksantʰípɛː], Modern: [ksanˈθipi]; 5th–4th century BCE) was an ancient Athenian, the wife of Socrates and mother of their three sons: Lamprocles, Sophroniscus, and Menexenus. She was likely much younger than Socrates, perhaps by as much as 40 years.",
     "wikidataId": "Q233677",
     "claims": {
       "type": ["human"],
@@ -2312,7 +2494,7 @@
     "id": "Q8589",
     "title": "Ashoka",
     "pageid": 1239,
-    "extract": "Ashoka (; Brāhmi: 𑀅𑀲𑁄𑀓, Asoka, IAST: Aśoka), also known as Ashoka the Great, was an Indian emperor of the Maurya Dynasty, son of Bindusara, who ruled almost all of the Indian subcontinent from c. 268 to 232 BCE. Ashoka promoted the spread of Buddhism across ancient Asia. Considered by many to be one of India's greatest emperors, Ashoka expanded Chandragupta's empire to reign over territory stretching from present-day Afghanistan in the west to present-day Bangladesh in the east. It covered the entire Indian subcontinent except for parts of present-day Tamil Nadu. The empire's capital was Pataliputra (in Magadha, present-day Patna), with provincial capitals at Takshashila (later Taxila) and Ujjain. Ashoka, after the war of Kalinga, got upset with the bloodshed and vowed to never fight again. He patronized Buddhism during his reign.\nAshoka waged a particularly destructive war against the state of Kalinga (modern Odisha), which he conquered in about 260 BCE. According to an interpretation of his Edicts, he converted to Buddhism after witnessing the mass deaths of the Kalinga War, which he had waged out of a desire for conquest and which reportedly directly resulted in more than 100,000 deaths and 150,000 deportations. He is remembered for erecting the Ashoka pillars and spreading his Edicts, for sending Buddhist monks to Sri Lanka and Central Asia, and for establishing monuments marking several significant sites in the life of Gautama Buddha.Beyond the Edicts of Ashoka, biographical information about him relies on legends written centuries later, such as the 2nd-century CE Ashokavadana (\"Narrative of Ashoka\", a part of the Divyavadana), and in the Sri Lankan text Mahavamsa (\"Great Chronicle\"). The emblem of the modern Republic of India is an adaptation of the Lion Capital of Ashoka. His Sanskrit name \"Aśoka\" means \"painless, without sorrow\" (the a privativum and śoka, \"pain, distress\"). In his edicts, he is referred to as Devānāmpriya (Pali Devānaṃpiya or \"the Beloved of the Gods\"), and Priyadarśin or Priyadarshi (Pali Piyadasī or \"He who regards everyone with affection\"). His fondness for a tree is the reason for his name being connected to the \"Ashoka tree\" or Saraca asoca, and this is referenced in the Ashokavadana.\nIn The Outline of History (1920), H.G. Wells wrote, \"Amidst the tens of thousands of names of monarchs that crowd the columns of history, their majesties and graciousnesses and serenities and royal highnesses and the like, the name of Ashoka shines, and shines, almost alone, a star.\"",
+    "extract": "Ashoka (; Brāhmi: 𑀅𑀲𑁄𑀓, Asoka, IAST: Aśoka), also known as Ashoka the Great, was an Indian emperor of the Maurya Dynasty, son of Bindusara, who ruled almost all of the Indian subcontinent from c. 268 to 232 BCE. Ashoka promoted the spread of the teachings of the Buddha across ancient Asia. Considered by many to be one of India's greatest emperors, Ashoka expanded Chandragupta's empire to reign over territory stretching from present-day Afghanistan in the west to present-day Bangladesh in the east. It covered the entire Indian subcontinent except for parts of present-day Tamil Nadu. The empire's capital was Pataliputra (in Magadha, present-day Patna), with provincial capitals at Takshashila (later Taxila) and Ujjain. Ashoka, after the war of Kalinga, got upset with the bloodshed and vowed to never fight again. He patronized Buddhism during his reign.\nAshoka waged a particularly destructive war against the state of Kalinga (modern Odisha), which he conquered in about 260 BCE. According to an interpretation of his Edicts, he converted to Buddhism after witnessing the mass deaths of the Kalinga War, which he had waged out of a desire for conquest and which reportedly directly resulted in more than 100,000 deaths and 150,000 deportations. He is remembered for erecting the Ashoka pillars and spreading his Edicts, for sending Buddhist monks to Sri Lanka and Central Asia, and for establishing monuments marking several significant sites in the life of Gautama Buddha.Beyond the Edicts of Ashoka, biographical information about him relies on legends written centuries later, such as the 2nd-century CE Ashokavadana (\"Narrative of Ashoka\", a part of the Divyavadana), and in the Sri Lankan text Mahavamsa (\"Great Chronicle\"). The emblem of the modern Republic of India is an adaptation of the Lion Capital of Ashoka. His Sanskrit name \"Aśoka\" means \"painless, without sorrow\" (the a privativum and śoka, \"pain, distress\"). In his edicts, he is referred to as Devānāmpriya (Pali Devānaṃpiya or \"the Beloved of the Gods\"), and Priyadarśin or Priyadarshi (Pali Piyadasī or \"He who regards everyone with affection\"). His fondness for a tree is the reason for his name being connected to the \"Ashoka tree\" or Saraca asoca, and this is referenced in the Ashokavadana.\nIn The Outline of History (1920), H.G. Wells wrote, \"Amidst the tens of thousands of names of monarchs that crowd the columns of history, their majesties and graciousnesses and serenities and royal highnesses and the like, the name of Ashoka shines, and shines, almost alone, a star.\"",
     "wikidataId": "Q8589",
     "claims": {
       "type": ["human"],
@@ -2374,15 +2556,6 @@
       "gender": "male",
       "occupation": ["sovereign"]
     }
-  },
-  {
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Simuka_inscription_at_Naneghat_Caves.jpg/100px-Simuka_inscription_at_Naneghat_Caves.jpg",
-    "id": "Q1568644",
-    "title": "Simuka",
-    "pageid": 9597474,
-    "extract": "Simuka (Dhamma lipi𑀲𑀺𑀫𑀼𑀓, Si-mu-ka) was an Indian king belonging to the Satavahana dynasty. He is mentioned as the first king in a list of royals in a Satavahana inscription at Nanaghat. In the Puranas, the name of the first Andhra (Satavahana) king is variously spelt as Shivmukha, Sishuka, Sindhuka, Chhismaka, Shipraka, Srimukha, etc. These are believed to be corrupted spellings of \"Simuka\", resulting from copying and re-copying of manuscripts.Based on available evidence, Simuka cannot be dated with certainty. According to one theory, he lived in 3rd century BCE; but he is generally thought to have lived in the 1st century BCE. Epigraphical evidence strongly suggests a 1st century BCE date for Simuka: Simuka seems to be mentioned as the father the acting king Satakarni in the Naneghat inscription dated to 70-60 BCE, itself considered on palaeographical grounds to be posterior to the Nasik Caves inscription of Kanha (probably Simuka's brother) in Cave 19, dated to 100-70 BCE. Recent analysis of sources puts Simuka´s reign possibly around 120 - 96 BCE.According to the Puranic lists of future kings, \"137 years after the accession of Chandragupta Maurya, the Sungas will rule for 112 years and then the Kanvayanas for 45 years whose last king Susharman will be killed by the Andhra Simuka\". If the accession of Chandragupta Maurya is dated to 324 BCE, then Simuka started to rule 294 years later, in 30 BCE.",
-    "wikidataId": "Q1568644",
-    "claims": { "type": ["human"], "start": { "time": -230, "precision": 9 }, "gender": "male" }
   },
   {
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/QinShiHuang19century.jpg/66px-QinShiHuang19century.jpg",
@@ -2668,7 +2841,7 @@
     "id": "Q47160",
     "title": "Plautus",
     "pageid": 24171,
-    "extract": "Titus Maccius Plautus (; c. 254 – 184 BC), commonly known as Plautus, was a Roman playwright of the Old Latin period. His comedies are the earliest Latin literary works to have survived in their entirety. He wrote Palliata comoedia, the genre devised by the innovator of Latin literature, Livius Andronicus. The word Plautine  refers to both Plautus's own works and works similar to or influenced by his.\n\n",
+    "extract": "Titus Maccius Plautus (; c. 254 – 184 BC), commonly known as Plautus, was a Roman playwright of the Old Latin period. His comedies are the earliest Latin literary works to have survived in their entirety. He wrote Palliata comoedia, the genre devised by the innovator of Latin literature, Livius Andronicus. The word Plautine  refers to both Plautus's own works and works similar to or influenced by his.",
     "wikidataId": "Q47160",
     "claims": {
       "type": ["human"],

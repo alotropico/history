@@ -16,7 +16,7 @@ export default function useParseData(data: DbItem[]): DataItem[] {
       const parsedItems = data
         .map((item) => parseRawItem(item))
         .map((item) => parseItem(item))
-        .filter((item) => item?.s && item?.e)
+        .filter((item) => item?.s && item?.e && item.e < 100)
         .sort((a, b) => sortByNumericValue('e', a, b))
         .sort((a, b) => sortByNumericValue('s', a, b))
 
